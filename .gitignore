@@ -1,0 +1,16 @@
+###########
+## Warcraft
+###########
+Cache/*
+Data/*
+Logs/*
+Interface/Addons/Blizzard_*
+Updates/*
+*.Exe
+*.dll
+*.*fil
+*.db
+*cache*.*
+*.manifest
+*.mpq
+Screenshots/*
