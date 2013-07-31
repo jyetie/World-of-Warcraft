@@ -1,0 +1,436 @@
+<!-- ************************************
+**** ArchIndiana.xml
+****
+**** Author: Rahldarken (Madoran)
+**** Date:   1/10/2010
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+ ..\..\FrameXML\UI.xsd">
+  <Script File="ArchIndiana.lua"/>
+
+    <!-- Base Template for all the status bars in this mod --> 
+	<StatusBar name="ArchIndiana_StatusBar" enableMouse="false" virtual="true">
+		<Size>
+			<AbsDimension x="150" y="13"/>
+		</Size>
+		<Anchors />
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="$parentSkillRank" inherits="GameFontHighlightSmall" justifyH="CENTER" parentKey="text">
+					<Size>
+						<AbsDimension x="0" y="9"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<Texture name="$parentBorder" urgency="5" file="Interface\PaperDollInfoFrame\UI-Character-Skills-BarBorder">
+					<Size>
+						<AbsDimension x="153" y="27"/>
+					</Size>
+					<Anchors>
+						<Anchor point="LEFT" x="-2" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentBackground">
+					<Anchors>
+						<Anchor point="TOPLEFT" x="1" y="-1"/>
+						<Anchor point="BOTTOMRIGHT" x="-1" y="3"/>
+					</Anchors>
+					<Color r="0.0" g="0.0" b="0.0" a="1.0"/>
+				</Texture>
+			</Layer>
+		</Layers>
+		<BarTexture name="$parentBar" urgency="5" file="Interface\PaperDollInfoFrame\UI-Character-Skills-Bar"/>
+		<BarColor r="0.03125" g="0.85" b="0.0" />
+	</StatusBar>
+		
+	<!-- Adapted from Blizzard's KeystoneTemplate -->
+	<Button name="ArchIndiana_KeystoneTemplate" virtual="true">
+		<Size x="25" y="28"/>
+		<Layers>
+			<Layer level="OVERLAY">
+				<Texture name="$parentIcon" parentKey="icon" mask="Interface\Archeology\Arch-Keystone-Mask">
+					<Size x="18" y="18"/>
+					<Anchors>
+						<Anchor point="CENTER" x="0" y="0"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<NormalTexture file="Interface\Archeology\ArchaeologyParts">
+			<Size x="25" y="28"/>	
+			<TexCoords left="0.11132813" right="0.21093750" top="0.56250000" bottom="0.78125000"/>
+		</NormalTexture>
+		<HighlightTexture file="Interface\Archeology\ArchaeologyParts" alphaMode="ADD">
+			<Size x="25" y="28"/>	
+			<TexCoords left="0.11132813" right="0.21093750" top="0.56250000" bottom="0.78125000"/>
+			<Color r="0.8" g="0.8" b="0.8" a="0.4"/>
+		</HighlightTexture>
+		<Scripts>
+			<OnClick>
+				ArchIndianaFrame_KeyStoneClick(self);
+				GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+				GameTooltip:SetText(self.tooltip, NORMAL_FONT_COLOR[1], NORMAL_FONT_COLOR[2], NORMAL_FONT_COLOR[3], 1, true);
+			</OnClick>
+			<OnEnter>
+				GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+				GameTooltip:SetText(self.tooltip, NORMAL_FONT_COLOR[1], NORMAL_FONT_COLOR[2], NORMAL_FONT_COLOR[3], 1, true);
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+			<OnEnable>
+				self:SetAlpha(1.0);
+			</OnEnable>
+			<OnDisable>
+				self:SetAlpha(0.3);
+			</OnDisable>
+		</Scripts>
+	</Button>
+  
+    <!-- Template for each race displayed in the main window -->
+	<Frame name="ArchIndiana_RaceStatusTemplate" virtual="true">
+	  <Size>
+		<AbsDimension x="450" y="31"/>
+	  </Size>
+	  <Frames>
+		<Frame name="$parentRaceTitle" parentKey="race">
+			<Size x="100" y="30" />
+			<Anchors>
+				<Anchor point="LEFT" />
+			</Anchors>
+			<Layers>
+				<Layer>
+					<Texture name="$parentRaceLogo" file="Interface\Archeology\ArchaeologyParts" parentKey="logo">
+						<Anchors>
+							<Anchor point="LEFT"/>
+						</Anchors>
+						<Size x="27" y="31"/>
+						<TexCoords left="0.0" right="0.5703" top="0.0" bottom="0.6484"/>
+					</Texture>
+					<FontString name="$parentRaceName" inherits="SystemFont_Small" justifyH="CENTER" text="RACES" parentKey="name">
+						<Anchors>
+							<Anchor point="LEFT" relativeTo="$parentRaceLogo" relativePoint="RIGHT"/>
+						</Anchors>
+					</FontString>
+				</Layer>
+			</Layers>
+			<Scripts>
+				<OnEnter function='ArchIndiana_ZoneHistoryTooltip' />
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+			</Scripts>
+		</Frame>
+		<Button name="$parentSolveButton" inherits="UIPanelButtonTemplate" text="SOLVE" parentKey="solveButton">
+			<Size x="90" y="22"/>
+			<Anchors>
+				<Anchor point="RIGHT" />
+			</Anchors>
+			<Scripts>
+				<OnClick function="ArchIndiana_Solve" />
+			</Scripts>
+		</Button>
+		<StatusBar name="$parentStatusBar" inherits="ArchIndiana_StatusBar" parentKey="statusBar">
+			<Anchors>
+				<Anchor point="RIGHT" relativeTo="$parentSolveButton" relativePoint="LEFT" x="-10" />
+			</Anchors>
+			<BarTexture file="Interface\Archeology\Arch-Progress-Fill">
+				<TexCoords left="0" right="0.810546875" top="0" bottom="0.77525"/>
+			</BarTexture>
+			<Scripts>
+				<OnEnter function='ArchIndiana_RaceTooltip' />
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+			</Scripts>
+		</StatusBar>
+		<Button name="$parentKeystone4" inherits="ArchIndiana_KeystoneTemplate" id="4" parentKey="keystone4">
+			<Anchors>
+				<Anchor point="RIGHT" relativeTo="$parentStatusBar" relativePoint="LEFT" x="-2" />
+			</Anchors>
+		</Button>
+		<Button name="$parentKeystone3" inherits="ArchIndiana_KeystoneTemplate" id="3" parentKey="keystone3">
+			<Anchors>
+				<Anchor point="RIGHT" relativeTo="$parentKeystone4" relativePoint="LEFT" x="-2" />
+			</Anchors>
+		</Button>
+		<Button name="$parentKeystone2" inherits="ArchIndiana_KeystoneTemplate" id="2" parentKey="keystone2">
+			<Anchors>
+				<Anchor point="RIGHT" relativeTo="$parentKeystone3" relativePoint="LEFT" x="-2" />
+			</Anchors>
+		</Button>
+		<Button name="$parentKeystone1" inherits="ArchIndiana_KeystoneTemplate" id="1" parentKey="keystone1">
+			<Anchors>
+				<Anchor point="RIGHT" relativeTo="$parentKeystone2" relativePoint="LEFT" x="-2" />
+			</Anchors>
+		</Button>
+	 </Frames>
+	</Frame>
+  
+  <!-- Main Window of the add-on -->
+  <Frame name="ArchIndianaFrame" parent="UIParent" enableMouse="true" movable="true" hidden="true">
+	<Scripts>
+		<OnLoad function="ArchIndianaFrame_OnLoad"/>
+		<OnEvent function="ArchIndianaFrame_OnEvent"/>
+		<OnDragStart function="ArchIndianaFrame_StartMoving" />
+		<OnDragStop>self:StopMovingOrSizing();</OnDragStop>
+	</Scripts>
+	<Size x="467" y="360"/>
+	<Anchors>
+		<Anchor point="TOP">
+			<Offset>
+				<AbsDimension x="0" y="-16"/>
+			</Offset>
+		</Anchor>
+	</Anchors>
+	<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+		<EdgeSize>
+			<AbsValue val="16"/>
+		</EdgeSize>
+		<TileSize>
+			<AbsValue val="16"/>
+		</TileSize>
+		<BackgroundInsets>
+			<AbsInset left="5" right="5" top="5" bottom="5"/>
+		</BackgroundInsets>
+	</Backdrop>
+	<Layers>
+		<Layer>
+			<FontString name="$parentHelpText" inherits="SystemFont_Small" justifyH="CENTER" parentKey="help">
+				<Size x="447" y="30"/>
+				<Anchors>
+					<Anchor point="TOP" y="-55"/>
+				</Anchors>
+			</FontString>
+		</Layer>
+	</Layers>
+	<Frames>
+		<Frame name="$parentTitleFrame" parentKey="titleFrame" enableMouse="true" movable="true">
+			<Scripts>
+				<OnDragStart function="ArchIndianaFrame_StartMoving" />
+				<OnDragStop>self:GetParent():StopMovingOrSizing();</OnDragStop>
+			</Scripts>
+			<Anchors>
+				<Anchor point="TOP" y="30" />
+			</Anchors>
+			<Size x="200" y="30"/>
+			<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+				<EdgeSize>
+					<AbsValue val="16"/>
+				</EdgeSize>
+				<TileSize>
+					<AbsValue val="16"/>
+				</TileSize>
+				<BackgroundInsets>
+					<AbsInset left="5" right="5" top="5" bottom="5"/>
+				</BackgroundInsets>
+			</Backdrop>
+			<Layers>
+				<Layer>
+					<FontString name="$parentTitle" inherits="SystemFont_Med1" justifyH="CENTER" text="RACES" parentKey="title">
+						<Anchors>
+							<Anchor point="CENTER"/>
+						</Anchors>
+					</FontString>
+				</Layer>
+			</Layers>
+		</Frame>
+		<StatusBar name="$parentRankBar" inherits="ArchIndiana_StatusBar" parentKey="rankBar">
+			<Anchors>
+				<Anchor point="TOP" y="-20" />
+			</Anchors>
+			<Scripts>
+				<OnEnter>
+					GameTooltip:SetOwner(self, "ANCHOR_BOTTOMRIGHT");
+					GameTooltip:AddLine(ARCHAEOLOGY_RANK_TOOLTIP, HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b, 1);
+					GameTooltip:Show();
+				</OnEnter>
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+			</Scripts>
+		</StatusBar>
+		
+		<Button name="$parent_SurveyButton" inherits="SecureActionButtonTemplate" parentKey="surveyButton">
+			<Size x="32" y="32"/>
+			<Layers>
+				<Layer level="OVERLAY">
+					<Texture name="$parentIcon" file="Interface\Icons\Spell_Nature_Thorns" setAllPoints="true" parentKey='icon'/>
+				</Layer>
+			</Layers>
+			<Anchors><Anchor point="RIGHT" relativeTo="$parentRankBar" relativePoint="LEFT" x="-5" /></Anchors>
+			<Scripts>
+				<OnEnter function="ArchIndiana_SpellTooltip" />
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+				<OnEnable>
+					self:SetAlpha(1.0);
+				</OnEnable>
+				<OnDisable>
+					self:SetAlpha(0.3);
+				</OnDisable>
+			</Scripts>
+		</Button>
+		
+		<Button name="$parent_TradeButton" inherits="SecureActionButtonTemplate" parentKey="tradeButton">
+			<Size x="32" y="32"/>
+			<Layers>
+				<Layer level="OVERLAY">
+					<Texture name="$parentIcon" file="Interface\Icons\Spell_Nature_Thorns" setAllPoints="true" parentKey='icon'/>
+				</Layer>
+			</Layers>
+			<Anchors><Anchor point="LEFT" relativeTo="$parentRankBar" relativePoint="RIGHT" x="5" /></Anchors>
+			<Scripts>
+				<OnEnter function="ArchIndiana_SpellTooltip" />
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+			</Scripts>
+		</Button>
+		
+		<Frame name="$parentRace1" inherits="ArchIndiana_RaceStatusTemplate" id="1" parentKey="race1">
+			<Anchors>
+				<Anchor point="TOP" x="0" y="-45"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace2" inherits="ArchIndiana_RaceStatusTemplate" id="2" parentKey="race2">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace1" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace3" inherits="ArchIndiana_RaceStatusTemplate" id="3" parentKey="race3">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace2" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace4" inherits="ArchIndiana_RaceStatusTemplate" id="4" parentKey="race4">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace3" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace5" inherits="ArchIndiana_RaceStatusTemplate" id="5" parentKey="race5">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace4" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace6" inherits="ArchIndiana_RaceStatusTemplate" id="6" parentKey="race6">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace5" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace7" inherits="ArchIndiana_RaceStatusTemplate" id="7" parentKey="race7">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace6" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace8" inherits="ArchIndiana_RaceStatusTemplate" id="8" parentKey="race8">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace7" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace9" inherits="ArchIndiana_RaceStatusTemplate" id="9" parentKey="race9">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace8" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace10" inherits="ArchIndiana_RaceStatusTemplate" id="10" parentKey="race10">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace9" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace11" inherits="ArchIndiana_RaceStatusTemplate" id="11" parentKey="race11">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace10" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		<Frame name="$parentRace12" inherits="ArchIndiana_RaceStatusTemplate" id="12" parentKey="race12">
+			<Anchors>
+				<Anchor point="TOPLEFT" relativeTo="$parentRace11" relativePoint="BOTTOMLEFT"/>
+			</Anchors>
+		</Frame>
+		
+		<!-- Minimap Button -->
+		<Button name="ArchIndiana_MinimapButton" parent="Minimap" enableMouse="true" movable="true" hidden="false">
+			<Size>
+				<AbsDimension x="33" y="33"/>
+			</Size>
+			<Anchors>
+				<Anchor point="TOPLEFT"/>
+			</Anchors>
+			<Layers>
+				<Layer level="BACKGROUND">
+					<Texture name="ArchIndiana_MinimapButton_Icon" parentKey="icon" file="Interface\Icons\INV_Misc_QuestionMark">
+						<Size>
+							<AbsDimension x="21" y="21"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="7" y="-6"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Texture>
+				</Layer>
+				<Layer level="OVERLAY">
+					<Texture file="Interface\Minimap\MiniMap-TrackingBorder">
+						<Size>
+							<AbsDimension x="56" y="56"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT"/>
+						</Anchors>
+					</Texture>
+				</Layer>
+			</Layers>
+			<Frames>
+				<Frame name="ArchIndiana_MinimapButton_DraggingFrame" hidden="true">
+					<Scripts>
+						<OnUpdate>
+							ArchIndiana_MinimapButton_DraggingFrame_OnUpdate()
+						</OnUpdate>
+					</Scripts>
+				</Frame>
+			</Frames>
+			<HighlightTexture alphaMode="ADD" file="Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
+			<Scripts>
+				<OnLoad>
+					self:RegisterForClicks("LeftButtonUp","RightButtonUp")
+					self:RegisterForDrag("LeftButton","RightButton")
+				</OnLoad>
+				<OnDragStart>
+					self.dragging = true;
+					self:LockHighlight()
+					ArchIndiana_MinimapButton_DraggingFrame:Show()
+				</OnDragStart>
+				<OnDragStop>
+					self.dragging = false;
+					self:UnlockHighlight()
+					ArchIndiana_MinimapButton_DraggingFrame:Hide()
+				</OnDragStop>
+				<OnEnter>
+					if not self.dragging then
+						ArchIndiana_MinimapButtonTooltip(self);
+					end
+				</OnEnter>
+				<OnLeave>
+					GameTooltip:Hide();
+				</OnLeave>
+				<OnClick function="ArchIndiana_MinimapButton_OnClick" />
+			</Scripts>
+		</Button>
+		
+	</Frames>
+  </Frame>
+</Ui> 

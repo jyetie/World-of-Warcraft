@@ -1,0 +1,15 @@
+## Interface: 50200
+## Title: ArchIndiana
+## Notes: Minimal Archaeology Display
+## Author: Rahldarken (Madoran)
+## Version: 1.1.10
+## X-Curse-Packaged-Version: v1.1.11
+## X-Curse-Project-Name: ArchIndiana - Archaeology Addon
+## X-Curse-Project-ID: archindiana
+## X-Curse-Repository-ID: wow/archindiana/mainline
+
+##SavedVariablesPerCharacter: ArchIndiana_Settings
+
+ArchIndiana.lua
+ArchIndiana.xml
+

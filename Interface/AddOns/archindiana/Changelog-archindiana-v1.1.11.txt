@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r38 | yammosk | 2013-03-06 03:31:19 +0000 (Wed, 06 Mar 2013) | 1 line
+Changed paths:
+   A /tags/v1.1.11 (from /trunk:37)
+
+Updated version number for Patch 5.2
+------------------------------------------------------------------------
+r37 | yammosk | 2013-03-06 03:30:58 +0000 (Wed, 06 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/ArchIndiana.toc
+
+Updated version number for Patch 5.2
+------------------------------------------------------------------------
