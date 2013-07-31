@@ -1,0 +1,9 @@
+## Interface: 50300
+## Title: PetTracker Alerts
+## Notes: Warns you when wild pets you might want appear in combat.
+## Author: Jaliborc (João Cardoso)
+
+## Dependencies: PetTracker
+## X-Category: Battle Pets
+
+Alerts.lua

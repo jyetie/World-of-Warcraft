@@ -1,0 +1,27 @@
+tag v4.0.0-beta46
+09cb6e05a89d375ccc33ecde3a37a55066af0772
+Shefki <shefki@shefki.org>
+2013-07-21 23:58:31 -0700
+
+Tagging as v4.0.0-beta46
+
+
+--------------------
+
+Shefki:
+	- Fix a long standing bug in ComboPoints where the icons changed size based on other settings.  Without the new support for a background this never showed up except in vertical mode, however in vertical mode the icons would get smaller as more points were earned.  With the new background horizontal mode icons would be smaller when the background was enabled.
+	Players using vertical mode may need to adjust the size of the
+	ComboPoints smaller, now that the bug has been fixed and the icons are
+	displaying at the configured size.
+	- Fix issue with Eridius' patch that breaks vertical mode without backgrounds.
+	- Apply Eridius' background for Combo Points patch.
+	- Missed adding BattlePet to the embeded modules list.
+	- Fix missing modules from the embedded module list.
+	- Fix the PvPIcon module when used with an unaligned Pandaren.  This was breaking config mode for those characters.
+Benjamin Staneck:
+	- lets let the checkout copy load modules, too.
+Shefki:
+	- Revert "apply combopoint patch by Eridius (ticket 1046)"  See my reasoning on the ticket.
+	This reverts commit 267d2d9b7734d4c6aa7f2113c5782d6e115276eb.
+Benjamin Staneck:
+	- apply combopoint patch by Eridius (ticket 1046)

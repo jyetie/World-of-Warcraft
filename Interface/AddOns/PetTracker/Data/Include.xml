@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Species.lua"/>
+	<Script file="Stables.lua"/>
+	<Script file="Tamers.lua"/>
+	<Script file="Rares.lua"/>
+</Ui>
