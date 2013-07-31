@@ -1,0 +1,18 @@
+## Interface: 50300
+## Title: StatBlock_Latency
+## Notes: A Latency Data Broker plugin.
+## Author: Funkydude
+## X-Category: Interface Enhancements
+## X-Credits: Suran
+## Version: 5.3.0
+## X-Curse-Packaged-Version: v5.3.0
+## X-Curse-Project-Name: StatBlock_Latency
+## X-Curse-Project-ID: stat-block_latency
+## X-Curse-Repository-ID: wow/stat-block_latency/mainline
+
+LibStub.lua
+CallbackHandler-1.0.lua
+LibDataBroker-1.1.lua
+
+StatBlock_Latency.lua
+

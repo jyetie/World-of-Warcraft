@@ -1,0 +1,18 @@
+## Interface: 50300
+## Version: 5.3.001
+## Title: TipTacMSP
+## Author: Zwixx
+## Notes: Shows fields of MSP-compatible plugins (like MyRolePlay) in TipTac
+## Deps: TipTac, TipTacOptions
+## SavedVariables: TipTacMSP_Config
+## X-Curse-Packaged-Version: v1.0.2release
+## X-Curse-Project-Name: TipTacMSP
+## X-Curse-Project-ID: tiptacmsp
+## X-Curse-Repository-ID: wow/tiptacmsp/mainline
+
+localization\enUS.lua
+localization\deDE.lua
+
+constants.lua
+
+core.lua

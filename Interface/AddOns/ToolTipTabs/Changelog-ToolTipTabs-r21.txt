@@ -1,0 +1,37 @@
+------------------------------------------------------------------------
+r21 | ali1331 | 2013-03-11 19:40:23 +0000 (Mon, 11 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/ToolTipTabs.toc
+
+r20
+  Added missing libs
+------------------------------------------------------------------------
+r20 | ali1331 | 2013-03-11 19:37:32 +0000 (Mon, 11 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/ToolTipTabs.lua
+   A /trunk/libs/AceConsole-3.0
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.lua
+   A /trunk/libs/AceConsole-3.0/AceConsole-3.0.xml
+   M /trunk/libs.xml
+
+r20
+  Added missing libs
+------------------------------------------------------------------------
+r19 | ali1331 | 2013-03-08 22:25:59 +0000 (Fri, 08 Mar 2013) | 3 lines
+Changed paths:
+   M /trunk/ToolTipTabs.lua
+   M /trunk/ToolTipTabs.toc
+
+r19
+  Updated TOC to 5.2
+  Added rarity colour preset for currency (added in 5.2)
+------------------------------------------------------------------------
+r18 | ali1331 | 2012-12-31 22:12:23 +0000 (Mon, 31 Dec 2012) | 3 lines
+Changed paths:
+   M /trunk/ToolTipTabs.lua
+   M /trunk/ToolTipTabs.toc
+
+r18
+ - Updated TOC to MoP
+ - Fixed Masque issues
+------------------------------------------------------------------------

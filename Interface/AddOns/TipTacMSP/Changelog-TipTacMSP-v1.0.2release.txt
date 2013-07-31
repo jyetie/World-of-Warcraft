@@ -1,0 +1,11 @@
+tag v1.0.2release
+f38eaa516c52c4c7dddea2b64cc4dcd8f96eebc9
+Zwixx <zwiixx@googlemail.com>
+2013-05-22 22:09:33 +0200
+
+
+
+--------------------
+
+Zwixx:
+	- * TOC bump

@@ -1,0 +1,29 @@
+## Interface: 50100
+## Title: SpamageMeters
+## Notes: Suppresses chat messages from damage meters and provides single chat-link damage statistics in a popup.
+## Author: Wrug and Cybey
+## Version: 1.6.8
+## SavedVariables: SpamageMetersDB
+## OptionalDeps: Ace3, Prat-3.0, Chatter
+## X-Embeds: Ace3
+## X-Category: Miscellaneous
+## X-Curse-Packaged-Version: 1.6.8
+## X-Curse-Project-Name: SpamageMeters
+## X-Curse-Project-ID: spamagemeters
+## X-Curse-Repository-ID: wow/spamagemeters/mainline
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Locale-enUS.lua
+Locale-deDE.lua
+Locale-frFR.lua
+Locale-esES.lua
+Locale-esMX.lua
+Locale-koKR.lua
+Locale-ruRU.lua
+Locale-zhCN.lua
+Locale-zhTW.lua
+
+SpamageMeters.lua
