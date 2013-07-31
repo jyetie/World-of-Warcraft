@@ -1,0 +1,26 @@
+﻿## Interface: 40000
+## Title: Every|cffffffffQuest|r2 Quest Givers
+## Notes: Provides database of quest giving npcs/mobs/objects for display on the World Map/Minimap
+## Author: kandarz
+## Version: 52
+## DefaultState: Enabled
+## X-Category: Map, Quest
+## X-eMail: kandarz at gmail dot com
+## RequiredDeps: EveryQuest
+## X-Credits: kergoth
+## X-License: GPL v2 or later
+## X-Curse-Packaged-Version: r53-beta
+## X-Curse-Project-Name: EveryQuest QuestGivers
+## X-Curse-Project-ID: everyquest-questgivers
+## X-Curse-Repository-ID: wow/everyquest-questgivers/mainline
+
+#@no-lib-strip@
+libs\LibMapData-1.0\library.lua
+#@end-no-lib-strip@
+
+Locales\locales.xml
+
+# Core files
+QuestGivers_Data.lua
+addon.lua
+display.lua

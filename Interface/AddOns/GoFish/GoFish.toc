@@ -1,0 +1,31 @@
+## Interface: 50300
+## Version: 5.3.0.22
+
+## Title: GoFish
+## Notes: Click-cast fishing and enhanced fishing sounds.
+
+## Author: Phanx
+## X-Email: addons@phanx.net
+## X-Copyright: Copyright (c) 2013 Phanx. All rights reserved.
+## X-License: See accompanying LICENSE file for details.
+## X-CompatibleLocales: deDE, enUS, esES, esMX, frFR, itIT, koKR, ptBR, ptPT, ruRU, zhCN, zhTW
+## X-Localizations: deDE, enUS, esES, esMX, frFR, itIT, koKR, ptBR, ptPT, ruRU, zhCN, zhTW
+## X-Website: http://www.wowinterface.com/downloads/info22270-GoFish.html
+## X-Curse-Project-ID: gofish
+## X-WoWI-ID: 22270
+
+## SavedVariables: GoFishDB
+
+Localization\Locale.lua
+Localization\Locale-de.lua
+Localization\Locale-es.lua
+Localization\Locale-fr.lua
+Localization\Locale-it.lua
+Localization\Locale-pt.lua
+Localization\Locale-ru.lua
+Localization\Locale-ko.lua
+Localization\Locale-zhCN.lua
+Localization\Locale-zhTW.lua
+
+Addon.lua
+Options.lua

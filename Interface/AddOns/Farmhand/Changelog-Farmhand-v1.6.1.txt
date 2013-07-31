@@ -1,0 +1,12 @@
+tag v1.6.1
+d0f7957754a409839345436ce2c979be1e29a90d
+JC Ford <johncford@gmail.com>
+2013-05-24 21:15:05 -0400
+
+TOC Update
+
+
+--------------------
+
+JC Ford:
+	- TOC Update

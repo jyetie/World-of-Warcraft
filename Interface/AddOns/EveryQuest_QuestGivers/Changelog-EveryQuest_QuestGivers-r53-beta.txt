@@ -1,0 +1,134 @@
+------------------------------------------------------------------------
+r53 | kandarz | 2011-02-07 01:23:03 +0000 (Mon, 07 Feb 2011) | 1 line
+Changed paths:
+   A /tags/r53-beta (from /trunk:52)
+
+Created tag r53-beta.
+------------------------------------------------------------------------
+r52 | kandarz | 2011-02-07 01:20:49 +0000 (Mon, 07 Feb 2011) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+
+Fix category options
+------------------------------------------------------------------------
+r50 | kandarz | 2011-02-06 12:30:25 +0000 (Sun, 06 Feb 2011) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+
+Naming changes to work with EveryQuest r211
+------------------------------------------------------------------------
+r48 | kandarz | 2011-02-05 09:01:01 +0000 (Sat, 05 Feb 2011) | 3 lines
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/addon.lua
+   M /trunk/display.lua
+
+Fix locale issue
+Use new zone menu in config
+Fix TomTom waypoint naming
+------------------------------------------------------------------------
+r47 | kandarz | 2011-02-04 13:18:37 +0000 (Fri, 04 Feb 2011) | 1 line
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/addon.lua
+
+Add level requirement filter, fix bugs hopefully
+------------------------------------------------------------------------
+r44 | kandarz | 2011-02-01 01:24:50 +0000 (Tue, 01 Feb 2011) | 1 line
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/display.lua
+
+Fix ignoring quests by quest giver
+------------------------------------------------------------------------
+r42 | kandarz | 2011-01-31 10:29:54 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/Locales/enUS.lua
+   M /trunk/addon.lua
+
+Add descriptions to category filters
+------------------------------------------------------------------------
+r41 | kandarz | 2011-01-31 10:02:01 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+   M /trunk/display.lua
+
+Fix Dropdown menu
+------------------------------------------------------------------------
+r39 | kandarz | 2011-01-31 09:23:21 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+   M /trunk/display.lua
+
+Change the filtering code to be more efficient (cpu and memory)
+------------------------------------------------------------------------
+r37 | kandarz | 2011-01-31 07:45:20 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+
+Change some stuff
+------------------------------------------------------------------------
+r36 | kandarz | 2011-01-31 04:20:23 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/QuestGivers_Data.lua
+   M /trunk/addon.lua
+   M /trunk/display.lua
+
+Hopefully fix memory leak
+------------------------------------------------------------------------
+r35 | kandarz | 2011-01-31 03:10:19 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/display.lua
+
+Fix hiding quest givers again
+------------------------------------------------------------------------
+r34 | kandarz | 2011-01-31 03:08:38 +0000 (Mon, 31 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/display.lua
+
+Fix hiding quest givers by ignoring all their quests in EQ
+------------------------------------------------------------------------
+r33 | kandarz | 2011-01-30 13:55:38 +0000 (Sun, 30 Jan 2011) | 1 line
+Changed paths:
+   M /trunk/EveryQuest_QuestGivers.toc
+
+Fix externals
+------------------------------------------------------------------------
+r31 | kandarz | 2011-01-30 13:49:54 +0000 (Sun, 30 Jan 2011) | 1 line
+Changed paths:
+   M /trunk
+   M /trunk/Locales/enUS.lua
+   M /trunk/addon.lua
+   M /trunk/display.lua
+
+Locales, menu reference error
+------------------------------------------------------------------------
+r30 | kandarz | 2011-01-30 13:31:45 +0000 (Sun, 30 Jan 2011) | 3 lines
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   D /trunk/Artwork
+   M /trunk/EveryQuest_QuestGivers.toc
+   A /trunk/Libs
+   M /trunk/Locales/enUS.lua
+   A /trunk/QuestGivers_Data.lua
+   M /trunk/addon.lua
+   D /trunk/builddata.php
+   A /trunk/daily.tga
+   D /trunk/data.lua
+   A /trunk/display.lua
+   A /trunk/quest.tga
+   A /trunk/quest_off.tga
+   A /trunk/skull.tga
+   A /trunk/track_circle.tga
+
+Cataclysm update
+Small memory leak on minimap icons, don't know how to fix
+Locales not updated
+------------------------------------------------------------------------
+r29 | kandarz | 2010-10-16 02:31:30 +0000 (Sat, 16 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/addon.lua
+
+Will now not show quests you've ignored in EveryQuest
+------------------------------------------------------------------------

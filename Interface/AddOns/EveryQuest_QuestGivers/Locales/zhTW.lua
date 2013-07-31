@@ -1,0 +1,38 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("EveryQuest", "zhTW")
+if not L then return end
+
+L["Add this location to TomTom waypoints"] = "新增地區到TomTom航點" -- Needs review
+L["Always show"] = "總是顯示"
+L["Color of the tracking circle."] = "追蹤環顏色"
+L["Enable: %s"] = "啟用: %s"
+-- L["Hide %s quests except for categories checked below."] = ""
+L["Icon Alpha"] = "圖示透明度"
+L["Icon Scale"] = "圖示大小"
+-- L["Ignore quests given by %s"] = ""
+-- L["Ignore the main status filter and don't show completed quests."] = ""
+-- L["Ignored %d quests"] = ""
+-- L["Meet level requirement"] = ""
+L["Minimap Icon Tooltips"] = "小地圖圖示工具提示"
+L["Never show"] = "從不顯示"
+-- L["Only show quests that you meet the level requirement for"] = ""
+L["Only while tracking"] = "僅在追蹤時"
+-- L["Override Main Status Filter"] = ""
+L["Quest Givers"] = "任務給予者"
+-- L["QuestGivers Pin Options"] = ""
+-- L["Show %s quests"] = ""
+L["Show Minimap Icons"] = "顯示小地圖圖示"
+L["Show Nodes on Minimap Border"] = "在小地圖邊框顯示節點" -- Needs review
+L["Show Tracking Circle"] = "顯示追蹤環"
+L["Show World Map Icons"] = "顯示世界地圖圖示"
+-- L["Shows more Nodes that are currently out of range on the minimap's border."] = ""
+L["The alpha transparency of the icons"] = "圖示的透明程度"
+-- L["The distance in yards to a node before it turns into a tracking circle"] = ""
+L["The scale of the icons"] = "圖示的大小"
+L["Toggle Showing of Categories"] = "切換顯示類別"
+-- L["Toggle showing Minimap icon tooltips."] = ""
+-- L["Toggle showing Minimap icons."] = ""
+L["Toggle showing World Map icons."] = "切換顯示世界地圖圖示。"
+-- L["Toggle showing the tracking circle."] = ""
+-- L["Tracking Circle Color"] = ""
+L["Tracking Distance"] = "追蹤距離"
+
