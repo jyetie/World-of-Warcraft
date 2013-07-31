@@ -1,0 +1,8 @@
+## Interface: 50300
+## Title: RestedAlert
+## Version: 1.0.5
+## Notes: Sends a message when you start or finish resting
+## Author: Nik-W
+## eMail: nik-w@nik-w.co.uk
+
+RestedAlert.lua

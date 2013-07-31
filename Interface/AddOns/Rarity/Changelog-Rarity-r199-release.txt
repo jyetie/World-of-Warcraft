@@ -1,0 +1,69 @@
+------------------------------------------------------------------------
+r200 | allara | 2013-07-22 21:33:15 +0000 (Mon, 22 Jul 2013) | 1 line
+Changed paths:
+   A /tags/r199-release (from /trunk:199)
+
+Tagging as r199-release
+------------------------------------------------------------------------
+r199 | allara | 2013-07-22 21:33:01 +0000 (Mon, 22 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Locales.lua
+   M /trunk/Modules/Options/Options.lua
+   M /trunk/Options_Defaults.lua
+
+- Rarity now knows about account-wide battle pets, automatically marking them as completed based on your battle pet list
+------------------------------------------------------------------------
+r197 | allara | 2013-07-22 16:53:40 +0000 (Mon, 22 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Options_Defaults.lua
+
+- Flametalon of Alysrazor, Invincible's Reins: No longer double trigger when killing then looting the boss
+------------------------------------------------------------------------
+r195 | allara | 2013-07-20 18:47:21 +0000 (Sat, 20 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+
+- Rarity will no longer perform detection while your mailbox is open
+------------------------------------------------------------------------
+r193 | allara | 2013-07-08 15:56:33 +0000 (Mon, 08 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Locales.lua
+   M /trunk/Options_Defaults.lua
+
+- Add Darkmoon Eye
+------------------------------------------------------------------------
+r191 | allara | 2013-06-27 19:19:58 +0000 (Thu, 27 Jun 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Locales.lua
+   M /trunk/Options_Defaults.lua
+
+- Added the mounts: Clutch of Ji-Kun, Spawn of Horridon
+------------------------------------------------------------------------
+r189 | allara | 2013-06-26 21:36:44 +0000 (Wed, 26 Jun 2013) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Options_Defaults.lua
+
+- Fix item ID and statistic ID for Pygmy Direhorn
+------------------------------------------------------------------------
+r187 | allara | 2013-06-26 19:45:05 +0000 (Wed, 26 Jun 2013) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Locales.lua
+   M /trunk/Options_Defaults.lua
+
+- Added: Porcupette, Direhorn Runt, Brilliant Phoenix Hawk Feather, Crystal of the Void, Dark Quivering Blob, Dripping Strider Egg, Half-Empty Food Container, Instant Arcane Sanctum Security Kit, Netherspace Portal-Stone, Pygmy Direhorn, Quivering Blob, Satyr Charm, Shell of Tide-Calling, Spiky Collar, Tainted Core, Tiny Fel Engine Key
+
+------------------------------------------------------------------------
+r186 | allara | 2013-06-26 18:15:01 +0000 (Wed, 26 Jun 2013) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Modules/Options/Options.lua
+
+- Move Debug Mode toggle above Announcements
+- Repeatable can now always be turned on for any item; this allows you to track mounts and archeology projects that you already have, in order to view their statistics or test attempt tracking
+------------------------------------------------------------------------
