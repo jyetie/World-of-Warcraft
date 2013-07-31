@@ -1,0 +1,16 @@
+## Interface: 50300
+## Title: Random Mount Continued
+## Original Author: hendew(AttilaTheFun[Trollbane])
+## Continued Author: t4t3rt0t
+## Branch Author: The Curse Community
+## Version: 1.07.08
+## Notes: This mod will randomly summon a mount based on area and riding skill. /mnt, /rmount, /mnt riding, /mnt help, /mnt r or f mountName, /mnt [mod:alt, no combat, help] flying;
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: rMountGVars
+## SavedVariablesPerCharacter: debug,removeMount,notWanted,locationChk,rndTitle,safeFly,macroIcon,zones
+## X-Curse-Packaged-Version: v1.07.08
+## X-Curse-Project-Name: Random Mount
+## X-Curse-Project-ID: random-mount
+## X-Curse-Repository-ID: wow/random-mount/mainline
+RandomMountContinued.lua

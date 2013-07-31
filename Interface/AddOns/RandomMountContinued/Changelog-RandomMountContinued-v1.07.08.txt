@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r36 | phuzi0n | 2013-07-23 06:52:58 +0000 (Tue, 23 Jul 2013) | 1 line
+Changed paths:
+   A /tags/v1.07.08 (from /trunk:35)
+
+tag as v1.07.08
+------------------------------------------------------------------------
+r35 | phuzi0n | 2013-07-23 06:52:11 +0000 (Tue, 23 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/RandomMountContinued.lua
+   M /trunk/RandomMountContinued.toc
+
+1.07.08
+------------------------------------------------------------------------
+r34 | phuzi0n | 2013-07-22 19:55:11 +0000 (Mon, 22 Jul 2013) | 1 line
+Changed paths:
+   M /trunk/RandomMountContinued.lua
+
+Fix bug 32 - error when no macro conditions matched
+------------------------------------------------------------------------
