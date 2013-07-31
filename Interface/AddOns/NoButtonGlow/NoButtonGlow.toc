@@ -1,0 +1,7 @@
+## Interface: 40000
+## Title: NoButtonGlow
+## Author: ubermike
+## Notes: Removes the glow around buttons when certain abilities proc (i.e. Sword and Board). Use /nbg to enable/disable the glow.
+## Version: 1.1
+## SavedVariables: GlowEnabled
+NoButtonGlow.lua
