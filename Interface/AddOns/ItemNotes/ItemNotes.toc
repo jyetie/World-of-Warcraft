@@ -1,0 +1,13 @@
+## Interface: 40100
+## Version: 1.0
+## Title: ItemNotes
+## Notes: Augments GameTooltip for items to show user-made item notes. Also offers a framework for plugins to add their own notes.
+## SavedVariables: INOTE_Notes INOTE_Settings ILVL_Settings
+## Author: Aierre
+locale.lua
+UpdateSave.lua
+ItemNotes.lua
+NoteAPI.lua
+ItemLevel.lua
+ItemNotes.xml
+ItemLevel.xml

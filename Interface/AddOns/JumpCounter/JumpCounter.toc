@@ -1,0 +1,24 @@
+## Interface: 50100
+## Title: Jump Counter
+## Notes: Displays how many times you have jumped.
+## Notes-frFR: Affiche combien de sauts vous avez fait.
+## Notes-koKR: 당신이 얼마나 많이 점프했는지 보여줍니다.
+## Author: renchap, durcyn
+## Version: 3.0
+## OptionalDeps: Ace3, LibDataBroker-1.1
+## SavedVariables: JumpCounterDB
+## X-Category: Miscellaneous
+## X-Curse-Packaged-Version: 50100-01
+## X-Curse-Project-Name: JumpCounter
+## X-Curse-Project-ID: jump-counter
+## X-Curse-Repository-ID: wow/jump-counter/mainline
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceHook-3.0\AceHook-3.0.xml
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+#@end-no-lib-strip@
+locale.lua
+JumpCounter.lua

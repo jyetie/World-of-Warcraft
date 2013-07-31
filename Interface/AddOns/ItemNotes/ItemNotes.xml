@@ -1,0 +1,270 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+	<Frame name="INOTE_Console" hidden="true">
+		<Scripts>
+			<OnLoad>
+				self:RegisterEvent("ADDON_LOADED");
+			</OnLoad>
+			<OnEvent>
+				local x = ...;
+				if x == "ItemNotes" then
+					ItemNote_Load();
+				end
+			</OnEvent>
+		</Scripts>
+	</Frame>
+	
+	<GameTooltip name="INOTE_GameTooltip" inherits="GameTooltipTemplate" hidden="true">
+		<Scripts>
+			<OnLoad>self:SetOwner(UIParent, "ANCHOR_NONE");</OnLoad>
+		</Scripts>
+	</GameTooltip>
+	
+	<Frame name="INOTE_Options" hidden="true">
+		<Layers><Layer>
+			<FontString name="$parentTitle" inherits="GameFontNormalLarge" justifyH="center">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset><AbsDimension x="0" y="-5"/></Offset>
+					</Anchor>
+					<Anchor point="TOPRIGHT">
+						<Offset><AbsDimension x="0" y="-5"/></Offset>
+					</Anchor>
+				</Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames>
+			<ColorSelect name="$parentColorSelect" enableMouse="true">
+				<Size>
+					<AbsDimension x="100" y="100"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentTitle" relativePoint="BOTTOM"/>
+				</Anchors>
+				<ColorWheelTexture></ColorWheelTexture>
+				<Scripts>
+					<OnColorSelect>
+						ItemNote_UpdateColor();
+					</OnColorSelect>
+				</Scripts>
+			</ColorSelect>
+			<ScrollFrame name="$parentOrder" inherits="UIPanelScrollFrameTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentColorSelect" relativePoint="BOTTOM"/>
+					<Anchor point="LEFT">
+						<Offset><AbsDimension x="4" y="0"/></Offset>
+					</Anchor>
+					<Anchor point="RIGHT">
+						<Offset><AbsDimension x="-26" y="0"/></Offset>
+					</Anchor>
+					<Anchor point="BOTTOM">
+						<Offset><AbsDimension x="0" y="4"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+					<EdgeSize><AbsValue val="16"/></EdgeSize>
+					<TileSize><AbsValue val="16"/></TileSize>
+					<BackgroundInsets>
+						<AbsInset left="3" right="3" top="5" bottom="3"/>
+					</BackgroundInsets>
+				</Backdrop>
+				<ScrollChild>
+					<Frame name="$parentChild">
+						<!--Why can't I anchor? ;~;-->
+						<Size>
+							<AbsDimension x="374" y="100"/>
+						</Size>
+						<!--Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset><AbsDimension x="6" y="-6"/></Offset>
+							</Anchor>
+							<Anchor point="TOPRIGHT">
+								<Offset><AbsDimension x="-36" y="-6"/></Offset>
+							</Anchor>
+						</Anchors-->
+						<Scripts>
+							<OnShow>ItemNote_ShowOrderUI(self);</OnShow>
+						</Scripts>
+					</Frame>
+				</ScrollChild>
+			</ScrollFrame>
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				self.name = INOTE_Locale["gui.name"];
+				self.okay = ItemNote_SaveOptions;
+				self.cancel = ItemNote_ResetOptions;
+				self.default = ItemNote_DefaultOptions;
+				InterfaceOptions_AddCategory(self);
+				INOTE_OptionsTitle:SetText(format(INOTE_Locale["gui.ver"],
+					INOTE_Locale["gui.name"],GetAddOnMetadata("ItemNotes", "Version"))
+				);
+			</OnLoad>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="INOTE_EditPopup" parent="UIParent" movable="true" enableMouse="true" hidden="true">
+		<Size><AbsDimension x="500" y="80"/></Size>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<TileSize><AbsValue val="16"/></TileSize>
+			<EdgeSize><AbsValue val="16"/></EdgeSize>
+			<BackgroundInsets>
+				<AbsInset left="5" right="5" top="5" bottom="5"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Layers><Layer>
+			<FontString name="$parentTitle" inherits="GameFontNormalLarge" justifyH="CENTER">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset><AbsDimension x="0" y="-5"/></Offset>
+					</Anchor>
+					<Anchor point="TOPRIGHT">
+						<Offset><AbsDimension x="0" y="-5"/></Offset>
+					</Anchor>
+				</Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames>
+			<EditBox name="$parentBox" parentKey="box" letters="99999" multiLine="false" autoFocus="true" enableMouse="true" inherits="InputBoxTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentTitle" relativePoint="BOTTOMLEFT">
+						<Offset><AbsDimension x="10" y="-5"/></Offset>
+					</Anchor>
+					<Anchor point="TOPRIGHT" relativeTo="$parentTitle" relativePoint="BOTTOMRIGHT">
+						<Offset><AbsDimension x="-10" y="-5"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Size><AbsDimension x="480" y="20"/></Size>
+				<FontString inherits="ChatFontNormal"/>
+				<Scripts>
+					<OnEnterPressed>ItemNote_EditSave(self:GetParent());</OnEnterPressed>
+					<OnEscapePressed>ItemNote_EditCancel(self:GetParent());</OnEscapePressed>
+				</Scripts>
+			</EditBox>
+			<Button name="$parentSave" text="Save" inherits="OptionsButtonTemplate">
+				<Anchors>
+					<Anchor point="BOTTOM">
+						<Offset><AbsDimension x="0" y="10"/></Offset>
+					</Anchor>
+					<Anchor point="RIGHT" relativePoint="CENTER">
+						<Offset><AbsDimension x="-5" y="0"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts><OnClick>ItemNote_EditSave(self:GetParent());</OnClick></Scripts>
+			</Button>
+			<Button name="$parentCancel" text="Cancel" inherits="OptionsButtonTemplate">
+				<Anchors>
+					<Anchor point="LEFT" relativeTo="$parentSave" relativePoint="RIGHT">
+						<Offset><AbsDimension x="10" y="0"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts><OnClick>ItemNote_EditCancel(self:GetParent());</OnClick></Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<OnMouseDown>if button == "LeftButton" then self:StartMoving(); end</OnMouseDown>
+			<OnMouseUp>self:StopMovingOrSizing()</OnMouseUp>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="INOTE_Plugin" virtual="true" enableMouse="true">
+		<Size><AbsDimension y="24"/></Size>
+		<Anchors>
+			<Anchor point="TOPLEFT"/>
+			<Anchor point="TOPRIGHT"/>
+		</Anchors>
+		<Layers>
+			<Layer>
+				<FontString inherits="GameFontNormal" parentKey="text" justifyH="LEFT"></FontString>
+			</Layer>
+			<Layer level="BACKGROUND">
+				<Texture parentKey="bg">
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+						<Anchor point="TOPRIGHT"/>
+						<Anchor point="BOTTOMLEFT"/>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Frame parentKey="color">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture parentKey="c">
+							<Anchors>
+								<Anchor point="TOPLEFT"/>
+								<Anchor point="TOPRIGHT"/>
+								<Anchor point="BOTTOMLEFT"/>
+								<Anchor point="BOTTOMRIGHT"/>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+			</Frame>
+			<CheckButton parentKey="shown" enableMouse="true">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<NormalTexture file="Interface\AddOns\ItemNotes\tga\eye-closed">
+					<TexCoords left="0" top="0" right="0.625" bottom="0.625" />
+				</NormalTexture>
+				<CheckedTexture file="Interface\AddOns\ItemNotes\tga\eye-open">
+					<TexCoords left="0" top="0" right="0.625" bottom="0.625" />
+				</CheckedTexture>
+				<DisabledTexture file="Interface\AddOns\ItemNotes\tga\eye-closed-gray">
+					<TexCoords left="0" top="0" right="0.625" bottom="0.625" />
+				</DisabledTexture>
+			</CheckButton>
+			<Button parentKey="down">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<NormalTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Up">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</NormalTexture>
+				<PushedTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Down">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</PushedTexture>
+				<DisabledTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollDown-Disabled">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</DisabledTexture>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</HighlightTexture>
+				<Scripts>
+					<OnClick>ItemNote_OrderDown(self:GetParent());</OnClick>
+				</Scripts>
+			</Button>
+			<Button parentKey="up">
+				<Size><AbsDimension x="20" y="20"/></Size>
+				<NormalTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollUp-Up">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</NormalTexture>
+				<PushedTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollUp-Down">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</PushedTexture>
+				<DisabledTexture file="Interface\ChatFrame\UI-ChatIcon-ScrollUp-Disabled">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</DisabledTexture>
+				<HighlightTexture file="Interface\Buttons\UI-Common-MouseHilight" alphaMode="ADD">
+					<Size><AbsDimension x="20" y="20"/></Size>
+				</HighlightTexture>
+				<Scripts>
+					<OnClick>ItemNote_OrderUp(self:GetParent());</OnClick>
+				</Scripts>
+			</Button>
+		</Frames>
+		<Scripts>
+			<!-- Right to left, as it's basically right anchored. -->
+			<OnLoad>
+				self.up:SetPoint("RIGHT");
+				self.down:SetPoint("RIGHT",self.up,"LEFT");
+				self.shown:SetPoint("RIGHT",self.down,"LEFT");
+				self.color:SetPoint("RIGHT",self.shown,"LEFT");
+				self.text:SetPoint("TOPLEFT",4,0);
+				self.text:SetPoint("BOTTOMLEFT",4,0);
+				self.text:SetPoint("RIGHT",self.color,"LEFT");
+			</OnLoad>
+			<OnMouseUp>ItemNote_Select(self);</OnMouseUp>
+		</Scripts>
+	</Frame>
+</Ui>

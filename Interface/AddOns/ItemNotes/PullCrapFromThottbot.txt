@@ -1,0 +1,7 @@
+View source, search for "data:" without quotes. Look for the one you need.
+Copy everything from the following left bracket to the matching right-bracket. (Looks like "}]});")
+Use regex replace to nab the data you want, example:
+Search for:
+\[?\{.*?"id":([0-9]+).*?"name":"[0-9]([^"]+)".*?stack:\[([0-9]+),([0-9]+)\]\}(?:,|\])
+Replace with:
+\t\t[\1]={,\3,\4}, --\2\n

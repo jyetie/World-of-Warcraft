@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="INOTE" description="Edit item's note." header="INOTE" runOnUp="true">
+		ItemNote_EditNote();
+	</Binding>
+</Bindings>

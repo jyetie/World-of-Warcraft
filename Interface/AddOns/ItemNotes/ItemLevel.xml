@@ -1,0 +1,53 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+	<Frame name="ILVL_Options" hidden="true">
+		<Layers><Layer>
+			<FontString name="$parentTitle" inherits="GameFontNormalLarge" justifyH="center" parentKey="title">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset><AbsDimension x="0" y="-5"></AbsDimension></Offset>
+					</Anchor>
+					<Anchor point="TOPRIGHT">
+						<Offset><AbsDimension x="0" y="-5"></AbsDimension></Offset>
+					</Anchor>
+				</Anchors>
+			</FontString>
+		</Layer></Layers>
+		<Frames>
+			<CheckButton name="$parentEquips" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentTitle" relativePoint="BOTTOM">
+						<Offset><AbsDimension x="0" y="-10"/></Offset>
+					</Anchor>
+					<Anchor point="LEFT">
+						<Offset><AbsDimension x="10" y="0"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>ILVL_OptionsEquipsText:SetText(INOTE_Locale["ilvl.equips"]);</OnLoad>
+					<OnClick>ILVL_Settings[1] = self:GetChecked();</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentNoOnes" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentEquips" relativePoint="BOTTOMLEFT">
+						<Offset><AbsDimension x="0" y="-10"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>ILVL_OptionsNoOnesText:SetText(INOTE_Locale["ilvl.no1"]);</OnLoad>
+					<OnClick>ILVL_Settings[2] = self:GetChecked();</OnClick>
+				</Scripts>
+			</CheckButton>
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				INA_RegisterOptionsPanel(self,"ItemLevel","ItemNotes");
+			</OnLoad>
+			<OnShow>
+				ILVL_OptionsEquips:SetChecked(ILVL_Settings[1]);
+				ILVL_OptionsNoOnes:SetChecked(ILVL_Settings[2]);
+			</OnShow>
+		</Scripts>
+	</Frame>
+</Ui>
