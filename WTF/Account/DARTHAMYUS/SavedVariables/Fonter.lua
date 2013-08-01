@@ -1,0 +1,38 @@
+
+FonterDB = {
+	["profileKeys"] = {
+		["Flora - Bloodhoof"] = "Default",
+		["Avelaine - Bloodhoof"] = "Default",
+		["Roslyn - Wyrmrest Accord"] = "Default",
+		["Margot - Crushridge"] = "Default",
+		["Renevie - Moon Guard"] = "Default",
+		["Tarley - Bloodhoof"] = "Default",
+		["Alythe - Bloodhoof"] = "Default",
+		["Vezeri - Bloodhoof"] = "Default",
+		["Avessia - Bloodhoof"] = "Default",
+		["Cyralie - Bloodhoof"] = "Default",
+		["Amazy - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
+		["Cyralie - Bronzebeard"] = "Default",
+		["Greyjoy - Crushridge"] = "Default",
+		["Sparkler - Bloodhoof"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["FontQuest"] = "Arial Narrow",
+			["QuestMedium"] = 12,
+			["QuestSmall"] = 10,
+			["FontHealth"] = "Arial Narrow",
+			["FontDamage"] = "Arial Narrow",
+			["FontScrolling"] = "Arial Narrow",
+			["FontNamePlate"] = "Arial Narrow",
+			["FontChat"] = "Arial Narrow",
+			["FontStacks"] = "Arial Narrow",
+			["QuestLarge"] = 12,
+			["FontRaid"] = "Arial Narrow",
+			["FontCenter"] = "Arial Narrow",
+		},
+	},
+}

@@ -1,0 +1,43 @@
+
+ErrorFilterDB = {
+	["profileKeys"] = {
+		["Flora - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
+		["Tarley - Bloodhoof"] = "Default",
+		["Avessia - Bloodhoof"] = "Default",
+		["Sparkler - Bloodhoof"] = "Default",
+		["Roslyn - Wyrmrest Accord"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
+		["Amazy - Bloodhoof"] = "Default",
+		["Renevie - Moon Guard"] = "Default",
+		["Vezeri - Bloodhoof"] = "Default",
+		["Cyralie - Bronzebeard"] = "Default",
+		["Avelaine - Bloodhoof"] = "Default",
+		["Cyralie - Bloodhoof"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
+		["Alythe - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["filters"] = {
+				["You can't do that while jumping or falling"] = true,
+				["Can't attack while channeling."] = true,
+				["Can't attack while charmed."] = true,
+				["Target is too far away."] = true,
+				["Can't attack while dead."] = true,
+				["You can't do that while in combat"] = true,
+				["You can't do that while moving!"] = true,
+				["Can't attack while stunned."] = true,
+				["Can't attack while pacified."] = true,
+				["Out of range."] = true,
+				["You are too far away!"] = true,
+				["You can't do that while disarmed"] = true,
+				["Can't attack while fleeing."] = true,
+				["You need to be closer to interact with that target."] = true,
+				["You can't do that while you are immune."] = true,
+				["Can't attack while confused."] = true,
+				["You are too far away."] = true,
+			},
+		},
+	},
+}
