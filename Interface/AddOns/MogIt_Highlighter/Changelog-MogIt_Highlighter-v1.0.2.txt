@@ -1,0 +1,12 @@
+tag v1.0.2
+b955656ac7649270f99b842d4f3adda34f883821
+Ethan Centaurai <stevenblanchard86@gmail.com>
+2012-12-05 13:20:10 +0000
+
+Created tag v1.0.2.
+
+
+--------------------
+
+Ethan Centaurai:
+	- Bump Interface number to 50100.

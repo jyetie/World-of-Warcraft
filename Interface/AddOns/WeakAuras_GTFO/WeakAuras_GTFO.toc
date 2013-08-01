@@ -1,0 +1,9 @@
+## Interface: 50001
+## Title: WeakAuras_GTFO
+## Notes: WeakAuras for GTFO
+## Author: Kodewulf
+## Version: 50001.1-0542782
+## DefaultState: Enabled
+## RequiredDeps: WeakAuras, GTFO
+
+core.lua
