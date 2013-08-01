@@ -1,0 +1,11 @@
+
+TradeSkillMasterDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["infoMessage"] = 10,
+		},
+	},
+}

@@ -1,0 +1,20 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = nil
+TomTomWaypointsMF = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+		},
+	},
+}

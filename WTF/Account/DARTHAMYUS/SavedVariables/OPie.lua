@@ -10,12 +10,12 @@ OneRing_Config = {
 			["Bindings"] = {
 				["hapeshifts"] = "F1",
 				["hel"] = "F1",
-				["poisons"] = "F2",
+				["Fire"] = "F2",
 				["MageCombat"] = false,
 				["TRAPS"] = "F2",
 				["WorldMarkers"] = "PAGEUP",
-				["Fire"] = "F2",
-				["Earth"] = false,
+				["poisons"] = "F2",
+				["Water"] = false,
 				["OTHERSHIT"] = "F1",
 				["therfucker"] = "F4",
 				["OPieTracking"] = false,
@@ -27,18 +27,18 @@ OneRing_Config = {
 				["WarlockDemons"] = "F2",
 				["FOOD"] = "F3",
 				["PETS"] = "F1",
-				["CommonTrades"] = "F11",
+				["MageTools"] = false,
 				["utilities"] = "F1",
 				["buffs1"] = "F1",
 				["portals"] = "F3",
 				["cialmounts"] = "I",
-				["MageTools"] = false,
+				["CommonTrades"] = "F11",
 				["SLIKEAFAIL"] = "F3",
 				["micromenu"] = "F12",
 				["profs2"] = "F1",
 				["buffs"] = "F1",
 				["OPieTrinkets"] = false,
-				["Water"] = false,
+				["Earth"] = false,
 			},
 			["CenterAction"] = true,
 			["RingAtMouse"] = true,
@@ -124,15 +124,26 @@ OneRing_Config = {
 				["limit"] = "Tarley",
 				["name"] = "TRAPS!",
 			},
-			["FOOD"] = {
+			["profs2"] = {
 				{
-					"item", -- [1]
-					81400, -- [2]
-					["sliceToken"] = "ABuwMWAtXPt",
+					["id"] = 31252,
+					["sliceToken"] = "ABuwMzoEf11",
 				}, -- [1]
+				{
+					["id"] = 131474,
+					["sliceToken"] = "ABuwMzoEf1t",
+				}, -- [2]
+				{
+					["id"] = 25230,
+					["sliceToken"] = "ABuwM54WDa1",
+				}, -- [3]
+				{
+					["id"] = 110396,
+					["sliceToken"] = "ABuwM54WDat",
+				}, -- [4]
 				["save"] = true,
-				["limit"] = "Amazy",
-				["name"] = "FOOD",
+				["limit"] = "Alythe",
+				["name"] = "profs",
 			},
 			["PROFS"] = {
 				{
@@ -452,26 +463,30 @@ OneRing_Config = {
 				["hotkey"] = "F1",
 				["limit"] = "WARLOCK",
 			},
-			["profs2"] = {
+			["therfucker"] = {
 				{
-					["id"] = 31252,
-					["sliceToken"] = "ABuwMzoEf11",
+					["id"] = 1462,
+					["sliceToken"] = "ABuwM7p=wHI",
 				}, -- [1]
 				{
-					["id"] = 131474,
-					["sliceToken"] = "ABuwMzoEf1t",
+					["id"] = 2641,
+					["sliceToken"] = "ABuwM7p=wHO",
 				}, -- [2]
 				{
-					["id"] = 25230,
-					["sliceToken"] = "ABuwM54WDa1",
+					["id"] = 136,
+					["sliceToken"] = "ABuwM7p=wHP",
 				}, -- [3]
 				{
-					["id"] = 110396,
-					["sliceToken"] = "ABuwM54WDat",
+					["id"] = 982,
+					["sliceToken"] = "ABuwM7p=wHA",
 				}, -- [4]
+				{
+					["id"] = 1515,
+					["sliceToken"] = "ABuwM7p=wH9",
+				}, -- [5]
 				["save"] = true,
-				["limit"] = "Alythe",
-				["name"] = "profs",
+				["name"] = "fucking pet control mother fucker.",
+				["limit"] = "Tarley",
 			},
 			["PETS"] = {
 				{
@@ -783,30 +798,15 @@ OneRing_Config = {
 				["save"] = true,
 				["hotkey"] = "F12",
 			},
-			["therfucker"] = {
+			["FOOD"] = {
 				{
-					["id"] = 1462,
-					["sliceToken"] = "ABuwM7p=wHI",
+					"item", -- [1]
+					81400, -- [2]
+					["sliceToken"] = "ABuwMWAtXPt",
 				}, -- [1]
-				{
-					["id"] = 2641,
-					["sliceToken"] = "ABuwM7p=wHO",
-				}, -- [2]
-				{
-					["id"] = 136,
-					["sliceToken"] = "ABuwM7p=wHP",
-				}, -- [3]
-				{
-					["id"] = 982,
-					["sliceToken"] = "ABuwM7p=wHA",
-				}, -- [4]
-				{
-					["id"] = 1515,
-					["sliceToken"] = "ABuwM7p=wH9",
-				}, -- [5]
 				["save"] = true,
-				["name"] = "fucking pet control mother fucker.",
-				["limit"] = "Tarley",
+				["limit"] = "Amazy",
+				["name"] = "FOOD",
 			},
 			["Fire"] = {
 				{

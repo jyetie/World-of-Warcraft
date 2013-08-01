@@ -129,7 +129,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 2,
 				["lastUpdate"] = 1369739279,
-				["Class"] = "PRIEST",
 				["GlyphList"] = {
 					11, -- [1]
 					4314, -- [2]
@@ -177,6 +176,7 @@ DataStore_TalentsDB = {
 					7380, -- [44]
 					16788, -- [45]
 				},
+				["Class"] = "PRIEST",
 			},
 			["Default.Bloodhoof.Amazy"] = {
 				["Talents2"] = 29393409,
@@ -195,6 +195,8 @@ DataStore_TalentsDB = {
 					3299274501, -- [11]
 					3450269531, -- [12]
 				},
+				["Class"] = "ROGUE",
+				["lastUpdate"] = 1373181401,
 				["GlyphList"] = {
 					11, -- [1]
 					11706, -- [2]
@@ -235,8 +237,6 @@ DataStore_TalentsDB = {
 					7476, -- [37]
 					11716, -- [38]
 				},
-				["lastUpdate"] = 1373181401,
-				["Class"] = "ROGUE",
 				["ActiveTalents"] = 2,
 			},
 			["Default.Crushridge.Greyjoy"] = {
@@ -252,7 +252,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1367216682,
-				["Class"] = "DEATHKNIGHT",
 				["GlyphList"] = {
 					11, -- [1]
 					8194, -- [2]
@@ -287,11 +286,14 @@ DataStore_TalentsDB = {
 					8852, -- [31]
 					12372, -- [32]
 				},
+				["Class"] = "DEATHKNIGHT",
 			},
 			["Default.Bloodhoof.Rhosie"] = {
 				["Talents2"] = 0,
 				["Talents1"] = 1,
 				["ActiveTalents"] = 1,
+				["Class"] = "MONK",
+				["lastUpdate"] = 1370566252,
 				["GlyphList"] = {
 					11, -- [1]
 					16594, -- [2]
@@ -331,8 +333,6 @@ DataStore_TalentsDB = {
 					16708, -- [36]
 					16676, -- [37]
 				},
-				["lastUpdate"] = 1370566252,
-				["Class"] = "MONK",
 				["Glyphs"] = {
 					4, -- [1]
 					2, -- [2]
@@ -361,6 +361,7 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 2,
 				["lastUpdate"] = 1372989310,
+				["Class"] = "PRIEST",
 				["GlyphList"] = {
 					11, -- [1]
 					4186, -- [2]
@@ -408,7 +409,6 @@ DataStore_TalentsDB = {
 					7332, -- [44]
 					16788, -- [45]
 				},
-				["Class"] = "PRIEST",
 			},
 			["Default.Earthen Ring.Vendrelia"] = {
 				["Talents2"] = 0,
@@ -421,8 +421,6 @@ DataStore_TalentsDB = {
 					2097156, -- [5]
 					2097154, -- [6]
 				},
-				["Class"] = "WARLOCK",
-				["lastUpdate"] = 1363196056,
 				["GlyphList"] = {
 					11, -- [1]
 					4370, -- [2]
@@ -461,6 +459,8 @@ DataStore_TalentsDB = {
 					7636, -- [35]
 					4404, -- [36]
 				},
+				["lastUpdate"] = 1363196056,
+				["Class"] = "WARLOCK",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Bloodhoof.Jyetie"] = {
@@ -480,8 +480,6 @@ DataStore_TalentsDB = {
 					3785822765, -- [11]
 					2628657203, -- [12]
 				},
-				["Class"] = "MAGE",
-				["lastUpdate"] = 1375250250,
 				["GlyphList"] = {
 					11, -- [1]
 					5018, -- [2]
@@ -520,6 +518,8 @@ DataStore_TalentsDB = {
 					11172, -- [35]
 					7156, -- [36]
 				},
+				["lastUpdate"] = 1375317589,
+				["Class"] = "MAGE",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Bloodhoof.Tarley"] = {
@@ -541,7 +541,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1375249860,
-				["Class"] = "HUNTER",
 				["GlyphList"] = {
 					11, -- [1]
 					5818, -- [2]
@@ -582,6 +581,7 @@ DataStore_TalentsDB = {
 					7028, -- [37]
 					7076, -- [38]
 				},
+				["Class"] = "HUNTER",
 			},
 			["Default.Crushridge.Margot"] = {
 				["GlyphList"] = {
@@ -642,8 +642,6 @@ DataStore_TalentsDB = {
 					3995539021, -- [11]
 					2097155, -- [12]
 				},
-				["Class"] = "SHAMAN",
-				["lastUpdate"] = 1375249022,
 				["GlyphList"] = {
 					11, -- [1]
 					3418, -- [2]
@@ -684,6 +682,8 @@ DataStore_TalentsDB = {
 					7524, -- [37]
 					7572, -- [38]
 				},
+				["lastUpdate"] = 1375249022,
+				["Class"] = "SHAMAN",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Wyrmrest Accord.Roslyn"] = {
@@ -699,7 +699,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1366897503,
-				["Class"] = "HUNTER",
 				["GlyphList"] = {
 					11, -- [1]
 					5890, -- [2]
@@ -740,6 +739,7 @@ DataStore_TalentsDB = {
 					7076, -- [37]
 					5860, -- [38]
 				},
+				["Class"] = "HUNTER",
 			},
 			["Default.Wyrmrest Accord.Venerie"] = {
 				["GlyphList"] = {
@@ -802,7 +802,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1365734932,
-				["Class"] = "PALADIN",
 				["GlyphList"] = {
 					11, -- [1]
 					11266, -- [2]
@@ -848,6 +847,7 @@ DataStore_TalentsDB = {
 					7252, -- [42]
 					7268, -- [43]
 				},
+				["Class"] = "PALADIN",
 			},
 			["Default.Bronzebeard.Karielle"] = {
 				["Talents2"] = 18879024,
@@ -866,8 +866,6 @@ DataStore_TalentsDB = {
 					2097157, -- [11]
 					2097155, -- [12]
 				},
-				["Class"] = "PALADIN",
-				["lastUpdate"] = 1366112431,
 				["GlyphList"] = {
 					11, -- [1]
 					3210, -- [2]
@@ -913,6 +911,8 @@ DataStore_TalentsDB = {
 					7252, -- [42]
 					7268, -- [43]
 				},
+				["lastUpdate"] = 1366112431,
+				["Class"] = "PALADIN",
 				["ActiveTalents"] = 2,
 			},
 			["Default.Bronzebeard.Cyralie"] = {
@@ -934,6 +934,7 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 2,
 				["lastUpdate"] = 1369739091,
+				["Class"] = "HUNTER",
 				["GlyphList"] = {
 					11, -- [1]
 					11066, -- [2]
@@ -974,7 +975,6 @@ DataStore_TalentsDB = {
 					7028, -- [37]
 					7076, -- [38]
 				},
-				["Class"] = "HUNTER",
 			},
 			["Default.Bloodhoof.Sparkler"] = {
 				["Talents2"] = 0,
@@ -989,7 +989,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1365734826,
-				["Class"] = "WARLOCK",
 				["GlyphList"] = {
 					11, -- [1]
 					4370, -- [2]
@@ -1028,6 +1027,7 @@ DataStore_TalentsDB = {
 					7636, -- [35]
 					4404, -- [36]
 				},
+				["Class"] = "WARLOCK",
 			},
 			["Default.Bloodhoof.Vezeri"] = {
 				["Talents2"] = 0,
@@ -1040,8 +1040,6 @@ DataStore_TalentsDB = {
 					2097156, -- [5]
 					2097154, -- [6]
 				},
-				["Class"] = "DEATHKNIGHT",
-				["lastUpdate"] = 1374891059,
 				["GlyphList"] = {
 					11, -- [1]
 					8194, -- [2]
@@ -1076,6 +1074,8 @@ DataStore_TalentsDB = {
 					8852, -- [31]
 					12372, -- [32]
 				},
+				["lastUpdate"] = 1374891059,
+				["Class"] = "DEATHKNIGHT",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Bloodhoof.Alythe"] = {
@@ -1097,7 +1097,6 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 1,
 				["lastUpdate"] = 1375249613,
-				["Class"] = "WARRIOR",
 				["GlyphList"] = {
 					11, -- [1]
 					7994, -- [2]
@@ -1140,6 +1139,7 @@ DataStore_TalentsDB = {
 					7732, -- [39]
 					13620, -- [40]
 				},
+				["Class"] = "WARRIOR",
 			},
 			["Default.Bloodhoof.Eloisa"] = {
 				["Talents2"] = 0,
@@ -1152,8 +1152,6 @@ DataStore_TalentsDB = {
 					2097156, -- [5]
 					2097154, -- [6]
 				},
-				["Class"] = "WARLOCK",
-				["lastUpdate"] = 1362711659,
 				["GlyphList"] = {
 					11, -- [1]
 					4370, -- [2]
@@ -1192,6 +1190,8 @@ DataStore_TalentsDB = {
 					7636, -- [35]
 					4404, -- [36]
 				},
+				["lastUpdate"] = 1362711659,
+				["Class"] = "WARLOCK",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Bloodhoof.Flora"] = {
@@ -1211,8 +1211,6 @@ DataStore_TalentsDB = {
 					3626832285, -- [11]
 					1471033227, -- [12]
 				},
-				["Class"] = "DRUID",
-				["lastUpdate"] = 1373617798,
 				["GlyphList"] = {
 					11, -- [1]
 					14986, -- [2]
@@ -1259,6 +1257,8 @@ DataStore_TalentsDB = {
 					2628, -- [43]
 					14996, -- [44]
 				},
+				["lastUpdate"] = 1373617798,
+				["Class"] = "DRUID",
 				["ActiveTalents"] = 2,
 			},
 			["Default.Wyrmrest Accord.Abryn"] = {
@@ -1272,6 +1272,8 @@ DataStore_TalentsDB = {
 					2097156, -- [5]
 					2097154, -- [6]
 				},
+				["Class"] = "ROGUE",
+				["lastUpdate"] = 1363934340,
 				["GlyphList"] = {
 					11, -- [1]
 					6546, -- [2]
@@ -1312,8 +1314,6 @@ DataStore_TalentsDB = {
 					7476, -- [37]
 					11716, -- [38]
 				},
-				["lastUpdate"] = 1363934340,
-				["Class"] = "ROGUE",
 				["ActiveTalents"] = 1,
 			},
 			["Default.Maelstrom.Zalizia"] = {
@@ -1335,6 +1335,7 @@ DataStore_TalentsDB = {
 				},
 				["ActiveTalents"] = 2,
 				["lastUpdate"] = 1366113028,
+				["Class"] = "DRUID",
 				["GlyphList"] = {
 					11, -- [1]
 					10818, -- [2]
@@ -1381,7 +1382,6 @@ DataStore_TalentsDB = {
 					2628, -- [43]
 					14996, -- [44]
 				},
-				["Class"] = "DRUID",
 			},
 			["Default.Moon Guard.Renevie"] = {
 				["Talents2"] = 2130433,
@@ -1402,6 +1402,7 @@ DataStore_TalentsDB = {
 					2097154, -- [12]
 				},
 				["lastUpdate"] = 1374043566,
+				["Class"] = "WARLOCK",
 				["GlyphList"] = {
 					11, -- [1]
 					12106, -- [2]
@@ -1440,7 +1441,6 @@ DataStore_TalentsDB = {
 					7636, -- [35]
 					4404, -- [36]
 				},
-				["Class"] = "WARLOCK",
 			},
 		},
 		["Reference"] = {
@@ -1742,26 +1742,26 @@ DataStore_TalentsDB = {
 				[183] = "Double Jeopardy",
 				[215] = "Capacitor Totem",
 				[986] = "Focused Wrath",
-				[731] = "Deadly Momentum",
 				[366] = "Tame Beast",
+				[731] = "Deadly Momentum",
 				[1001] = "Surging Mist",
 				[987] = "Falling Avenger",
 				[512] = "Anti-Magic Shell",
 				[732] = "Tricks of the Trade",
-				[367] = "Snake Trap",
-				[988] = "Righteous Retreat",
-				[989] = "Bladed Judgment",
 				[733] = "Disguise",
-				[431] = "Aquatic Form",
+				[988] = "Righteous Retreat",
 				[495] = "Rude Interruption",
+				[367] = "Snake Trap",
+				[431] = "Aquatic Form",
+				[989] = "Bladed Judgment",
 				[1017] = "Flying Serpent Kick",
-				[184] = "Rebuke",
+				[734] = "Cloak of Shadows",
 				[216] = "Purge",
 				[990] = "Crow Feast",
-				[368] = "Aimed Shot",
 				[735] = "Thunder",
+				[368] = "Aimed Shot",
 				[432] = "The Chameleon",
-				[991] = "Burning Anger",
+				[496] = "Gag Order",
 				[191] = "Focused Shield",
 				[736] = "Feral Spirit",
 				[281] = "Healthstone",
@@ -1780,12 +1780,12 @@ DataStore_TalentsDB = {
 				[737] = "Riptide",
 				[612] = "Thunderstorm",
 				[316] = "Combustion",
-				[997] = "Expel Harm",
+				[499] = "Die by the Sword",
 				[996] = "Battle Healer",
 				[613] = "Stars",
 				[371] = "Solace",
 				[435] = "Grace",
-				[499] = "Die by the Sword",
+				[997] = "Expel Harm",
 				[357] = "Deterrence",
 				[186] = "Divine Protection",
 				[218] = "Fire Nova",
@@ -1796,8 +1796,8 @@ DataStore_TalentsDB = {
 				[500] = "Hamstring",
 				[326] = "Mana Gem",
 				[481] = "Enslave Demon",
-				[496] = "Gag Order",
-				[734] = "Cloak of Shadows",
+				[991] = "Burning Anger",
+				[184] = "Rebuke",
 				[256] = "Holy Nova",
 				[391] = "Shadow Walk",
 				[494] = "Bloodthirst",

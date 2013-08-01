@@ -1,0 +1,15 @@
+
+EnsidiaFailsDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["announce"] = "SELF",
+		},
+	},
+}
+EnsidiaFails_FailCount = {
+}
+EnsidiaFails_OFailCount = {
+}

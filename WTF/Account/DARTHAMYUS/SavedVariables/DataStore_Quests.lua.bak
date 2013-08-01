@@ -1,0 +1,20 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:31927:-1|h[Battle Pet Tamers: Northrend]|h|r",
+				},
+				["lastUpdate"] = 1360965124,
+				["Quests"] = {
+					"0|Battle Pets", -- [1]
+					"1|Account|0|37000|0", -- [2]
+				},
+			},
+		},
+	},
+}

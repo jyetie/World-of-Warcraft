@@ -1,0 +1,207 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+		"/g thanks! :D", -- [2]
+	},
+	["ChatLog"] = {
+		["1363933369.132"] = {
+			"Dont worry though, I shall be back in about an hour! :-)", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933155.937"] = {
+			"thanks! :D", -- [1]
+			"Venerie", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Venerie", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"0x0680000005A058DD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933192.532"] = {
+			"i hope you will like it here and thnk of it as home! :-)", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933315.123"] = {
+			"Who's GM", -- [1]
+			"Bluëdëath", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Bluëdëath", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"0x0680000005AEF76B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933308.205"] = {
+			"i will be back soon!", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933299.574"] = {
+			"spekaing of home, ive got duties to attend to.", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933371.256"] = {
+			"I see", -- [1]
+			"Bluëdëath", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Bluëdëath", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"0x0680000005AEF76B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933146.41"] = {
+			"thanks for the invite!", -- [1]
+			"Elikag", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Elikag", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"0x0680000005B50EC0", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933180.265"] = {
+			"welcome aboard! :-)", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933360.852"] = {
+			"I am acting GM, and our administrative GM is Codira, who is busy rounding up our members from other games and building our website! :-)", -- [1]
+			"Laveyan", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_GUILD",
+		},
+		["1363933134.867"] = {
+			"Wandering WoW alone? Play other games, and wish othrer friends played them too? Then wander not friend, [AI] is here for you! We are a multigame guild who plays together across multiple games, but above all we are lasting FRIENDS!  :-) PST for details! <3", -- [1]
+			"Laveyan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Laveyan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7, -- [11]
+			"0x0680000001E8D851", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			[20] = "CHAT_MSG_WHISPER",
+		},
+	},
+}

@@ -142,9 +142,9 @@ DataStore_ContainersDB = {
 							[15] = 3,
 							[10] = 19,
 							[2] = 7,
-							[19] = 5,
-							[16] = 2,
 							[4] = 12,
+							[16] = 2,
+							[19] = 5,
 						},
 						["freeslots"] = 4,
 						["ids"] = {
@@ -702,17 +702,17 @@ DataStore_ContainersDB = {
 							81406, -- [16]
 						},
 						["cooldowns"] = {
-							[15] = "608953.836|1|1",
-							[10] = "608953.836|1|1",
 							[9] = "608953.836|1|1",
 							[16] = "608953.836|1|1",
+							[15] = "608953.836|1|1",
+							[10] = "608953.836|1|1",
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
-							[4] = 7,
-							[10] = 4,
 							[9] = 2,
 							[16] = 4,
+							[4] = 7,
+							[10] = 4,
 						},
 						["size"] = 16,
 					},
@@ -1047,9 +1047,9 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedRunecloth",
 						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:1025225088:82:0:0|h[Pit Lord's Satchel]|h|r",
 						["counts"] = {
-							[12] = 7,
 							[17] = 6,
 							[9] = 15,
+							[12] = 7,
 						},
 						["size"] = 20,
 					},
@@ -1214,11 +1214,11 @@ DataStore_ContainersDB = {
 							13, -- [1]
 							[11] = 4,
 							[13] = 12,
-							[5] = 2,
+							[16] = 13,
 							[12] = 4,
 							[14] = 2,
-							[16] = 13,
 							[9] = 5,
+							[5] = 2,
 						},
 						["size"] = 16,
 					},
@@ -1294,7 +1294,7 @@ DataStore_ContainersDB = {
 			["Default.Bloodhoof.Jyetie"] = {
 				["numFreeBankSlots"] = 1,
 				["numBankSlots"] = 172,
-				["lastUpdate"] = 1375250764,
+				["lastUpdate"] = 1375317591,
 				["Containers"] = {
 					["Bag10"] = {
 						["ids"] = {
@@ -1402,6 +1402,7 @@ DataStore_ContainersDB = {
 						["size"] = 20,
 					},
 					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:659553792:90:0:0|h[Grummlepack]|h|r",
 						["ids"] = {
 							72095, -- [1]
 							33447, -- [2]
@@ -1428,12 +1429,10 @@ DataStore_ContainersDB = {
 							95454, -- [23]
 							82441, -- [24]
 						},
-						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:659553792:90:0:0|h[Grummlepack]|h|r",
-						["size"] = 24,
 						["counts"] = {
 							2, -- [1]
 							2, -- [2]
-							[24] = 10,
+							[24] = 12,
 							[13] = 2,
 							[7] = 3,
 							[14] = 9,
@@ -1448,6 +1447,7 @@ DataStore_ContainersDB = {
 							[17] = 4,
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_bag_36",
+						["size"] = 24,
 					},
 					["Bag3"] = {
 						["link"] = "|cffa335ee|Hitem:82446:0:0:0:0:0:0:1629400576:90:0:0|h[Royal Satchel]|h|r",
@@ -1483,14 +1483,14 @@ DataStore_ContainersDB = {
 						},
 						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
 						["counts"] = {
-							[8] = 78,
-							[13] = 84,
 							[28] = 96,
-							[18] = 13,
+							[13] = 84,
+							[8] = 78,
+							[10] = 10,
 							[3] = 39,
 							[19] = 3,
 							[16] = 20,
-							[10] = 10,
+							[18] = 13,
 						},
 						["size"] = 28,
 					},
@@ -1645,9 +1645,9 @@ DataStore_ContainersDB = {
 							64488, -- [24]
 						},
 						["counts"] = {
-							[12] = 11,
 							[7] = 3,
 							[23] = 15,
+							[12] = 11,
 						},
 						["size"] = 24,
 					},
@@ -1728,12 +1728,12 @@ DataStore_ContainersDB = {
 							58268, -- [1]
 							54445, -- [2]
 							6948, -- [3]
-							nil, -- [4]
-							nil, -- [5]
+							72988, -- [4]
+							72988, -- [5]
 							72988, -- [6]
 							72095, -- [7]
-							nil, -- [8]
-							nil, -- [9]
+							72988, -- [8]
+							89815, -- [9]
 							nil, -- [10]
 							34054, -- [11]
 							nil, -- [12]
@@ -1762,13 +1762,16 @@ DataStore_ContainersDB = {
 							[24] = 17,
 							[7] = 16,
 							[27] = 184,
+							[4] = 20,
+							[8] = 14,
 							[16] = 8,
 							[17] = 79,
+							[5] = 20,
 							[11] = 20,
+							[6] = 20,
 							[22] = 3,
-							[6] = 2,
 						},
-						["freeslots"] = 11,
+						["freeslots"] = 7,
 					},
 					["Bag9"] = {
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:438170816:90:0:0|h[Frostweave Bag]|h|r",
@@ -1867,7 +1870,7 @@ DataStore_ContainersDB = {
 					},
 				},
 				["numBagSlots"] = 120,
-				["numFreeBagSlots"] = 11,
+				["numFreeBagSlots"] = 7,
 			},
 			["Default.Bloodhoof.Tarley"] = {
 				["numFreeBankSlots"] = 10,
@@ -2040,8 +2043,8 @@ DataStore_ContainersDB = {
 							[8] = "|cff1eff00|Hitem:10122:0:0:0:0:0:-69:1278672914:90:0:0|h[Ornate Girdle of the Eagle]|h|r",
 							[18] = "|cff1eff00|Hitem:24867:0:0:0:0:0:-12:1361510447:90:0:0|h[Blood Knight Greaves of the Boar]|h|r",
 							[22] = "|cff1eff00|Hitem:7543:0:0:0:0:0:-69:1408892943:90:0:0|h[Champion's Pauldrons of the Eagle]|h|r",
-							[16] = "|cff1eff00|Hitem:6597:0:0:0:0:0:-68:2010710024:90:0:0|h[Battleforge Shoulderguards of the Bear]|h|r",
 							[23] = "|cff1eff00|Hitem:6592:0:0:0:0:0:-20:1514602507:90:0:0|h[Battleforge Armor of Power]|h|r",
+							[16] = "|cff1eff00|Hitem:6597:0:0:0:0:0:-68:2010710024:90:0:0|h[Battleforge Shoulderguards of the Bear]|h|r",
 							[17] = "|cff1eff00|Hitem:24862:0:0:0:0:0:-5:988545059:90:0:0|h[Blood Knight Girdle of the Monkey]|h|r",
 						},
 					},
@@ -2881,9 +2884,9 @@ DataStore_ContainersDB = {
 							[8] = 62768,
 							[15] = 66927,
 							[12] = 62483,
-							[4] = 52723,
-							[9] = 56003,
 							[14] = 6948,
+							[9] = 56003,
+							[4] = 52723,
 						},
 						["size"] = 16,
 						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1131211520:85:0:0|h[Netherweave Bag]|h|r",
@@ -2974,8 +2977,8 @@ DataStore_ContainersDB = {
 							[15] = 4,
 							[13] = 2,
 							[14] = 4,
-							[5] = 18,
 							[16] = 4,
+							[5] = 18,
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
@@ -3376,10 +3379,10 @@ DataStore_ContainersDB = {
 							[6] = 18,
 							[2] = 19,
 							[15] = 20,
-							[5] = 5,
+							[9] = 25,
 							[12] = 19,
 							[4] = 2,
-							[9] = 25,
+							[5] = 5,
 							[13] = 3,
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
@@ -3409,11 +3412,11 @@ DataStore_ContainersDB = {
 						["counts"] = {
 							4, -- [1]
 							[13] = 2,
-							[5] = 6,
-							[12] = 6,
-							[4] = 3,
 							[16] = 7,
+							[12] = 6,
 							[14] = 5,
+							[5] = 6,
+							[4] = 3,
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
@@ -3790,10 +3793,10 @@ DataStore_ContainersDB = {
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
-							[9] = 20,
-							[16] = 5,
 							[7] = 2,
+							[16] = 5,
 							[15] = 20,
+							[9] = 20,
 						},
 						["size"] = 16,
 					},
@@ -4951,14 +4954,14 @@ DataStore_ContainersDB = {
 							[86] = 11084,
 							[83] = 34056,
 							[43] = 71637,
-							[36] = 71637,
-							[44] = 71637,
+							[71] = 22445,
+							[87] = 10998,
 							[91] = 16204,
 							[60] = 52749,
 							[72] = 10940,
 							[88] = 11082,
-							[87] = 10998,
-							[71] = 22445,
+							[44] = 71637,
+							[36] = 71637,
 							[73] = 16202,
 							[89] = 14344,
 							[53] = 52744,
@@ -5453,8 +5456,8 @@ DataStore_ContainersDB = {
 							[88] = 20,
 							[33] = 10,
 							[93] = 2,
-							[45] = 20,
 							[89] = 9,
+							[45] = 20,
 							[53] = 20,
 							[87] = 20,
 							[85] = 20,
@@ -5808,8 +5811,8 @@ DataStore_ContainersDB = {
 							[64] = 88532,
 							[80] = 40211,
 							[96] = 40212,
-							[34] = 82800,
-							[33] = 82800,
+							[67] = 76095,
+							[65] = 59230,
 							[81] = 5997,
 							[49] = 88567,
 							[90] = 76097,
@@ -5817,16 +5820,16 @@ DataStore_ContainersDB = {
 							[82] = 46376,
 							[98] = 22832,
 							[29] = 82800,
-							[67] = 76095,
+							[34] = 82800,
 							[83] = 13443,
 							[50] = 88567,
 							[97] = 22829,
 							[68] = 76098,
 							[84] = 76090,
-							[69] = 858,
-							[86] = 9233,
 							[35] = 82800,
-							[85] = 929,
+							[86] = 9233,
+							[69] = 858,
+							[43] = 88567,
 							[51] = 88567,
 							[45] = 16884,
 							[70] = 58146,
@@ -5844,10 +5847,10 @@ DataStore_ContainersDB = {
 							[73] = 13446,
 							[89] = 2456,
 							[53] = 88165,
-							[43] = 88567,
+							[85] = 929,
 							[74] = 22827,
 							[23] = 39489,
-							[65] = 59230,
+							[33] = 82800,
 						},
 						["ClientTime"] = 1374325696,
 						["visitedBy"] = "Jyetie",
@@ -6172,9 +6175,9 @@ DataStore_ContainersDB = {
 							[98] = 2,
 							[87] = 17,
 							[81] = 20,
-							[95] = 9,
-							[84] = 3,
 							[80] = 20,
+							[84] = 3,
+							[95] = 9,
 						},
 						["ServerMinute"] = 6,
 						["ClientHour"] = 6,

@@ -1310,14 +1310,14 @@ PitBull4DB = {
 									["attach_to"] = "Eclipse",
 								},
 								["Lua:Name"] = {
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "local abbr = Name(unit)\nif abbr:len() > 20 and abbr:find(\" \") then\n  abbr = abbr:gsub(\"([^ ]+) +\",\n    function(text)\n        return text:sub(1,1) .. \". \"\n    end)\nend\nreturn \"%s\", abbr;",
-									["location"] = "in_left",
+									["exists"] = true,
 									["position"] = 1.00001,
+									["location"] = "in_left",
+									["code"] = "local abbr = Name(unit)\nif abbr:len() > 20 and abbr:find(\" \") then\n  abbr = abbr:gsub(\"([^ ]+) +\",\n    function(text)\n        return text:sub(1,1) .. \". \"\n    end)\nend\nreturn \"%s\", abbr;",
 									["size"] = 1.3,
 								},
 								["Lua:Reputation"] = {
@@ -1672,14 +1672,14 @@ PitBull4DB = {
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:Name"] = {
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "local abbr = Name(unit)\nif abbr:len() > 20 and abbr:find(\" \") then\n  abbr = abbr:gsub(\"([^ ]+) +\",\n    function(text)\n        return text:sub(1,1) .. \". \"\n    end)\nend\nreturn \"%s\", abbr;",
-									["location"] = "in_center",
+									["exists"] = true,
 									["position"] = 1.00001,
+									["location"] = "in_center",
+									["code"] = "local abbr = Name(unit)\nif abbr:len() > 20 and abbr:find(\" \") then\n  abbr = abbr:gsub(\"([^ ]+) +\",\n    function(text)\n        return text:sub(1,1) .. \". \"\n    end)\nend\nreturn \"%s\", abbr;",
 									["size"] = 1.3,
 								},
 								["Lua:Threat"] = {
@@ -4554,7 +4554,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Eclipse"] = {
+		["ShadowOrbs"] = {
 		},
 		["CastBar"] = {
 			["profiles"] = {
@@ -4580,58 +4580,26 @@ PitBull4DB = {
 				},
 			},
 		},
-		["RestIcon"] = {
+		["ReputationBar"] = {
 			["profiles"] = {
 				["targetinmiddle"] = {
-					["layouts"] = {
-						["focustarget"] = {
-							["enabled"] = false,
-						},
-						["focus"] = {
-							["enabled"] = false,
-						},
-						["small bars"] = {
-							["enabled"] = false,
-						},
+					["global"] = {
+						["enabled"] = false,
 					},
 				},
 				["tim2"] = {
-					["layouts"] = {
-						["focus"] = {
-							["enabled"] = false,
-						},
-						["focustarget"] = {
-							["enabled"] = false,
-						},
-						["small bars"] = {
-							["enabled"] = false,
-						},
+					["global"] = {
+						["enabled"] = false,
 					},
 				},
 				["Default"] = {
-					["layouts"] = {
-						["focustarget"] = {
-							["enabled"] = false,
-						},
-						["small bars"] = {
-							["enabled"] = false,
-						},
-						["focus"] = {
-							["enabled"] = false,
-						},
+					["global"] = {
+						["enabled"] = false,
 					},
 				},
 				["Ren"] = {
-					["layouts"] = {
-						["focustarget"] = {
-							["enabled"] = false,
-						},
-						["small bars"] = {
-							["enabled"] = false,
-						},
-						["focus"] = {
-							["enabled"] = false,
-						},
+					["global"] = {
+						["enabled"] = false,
 					},
 				},
 			},
@@ -4894,7 +4862,61 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Runes"] = {
+		["RestIcon"] = {
+			["profiles"] = {
+				["targetinmiddle"] = {
+					["layouts"] = {
+						["focustarget"] = {
+							["enabled"] = false,
+						},
+						["focus"] = {
+							["enabled"] = false,
+						},
+						["small bars"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["tim2"] = {
+					["layouts"] = {
+						["focus"] = {
+							["enabled"] = false,
+						},
+						["focustarget"] = {
+							["enabled"] = false,
+						},
+						["small bars"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["focustarget"] = {
+							["enabled"] = false,
+						},
+						["small bars"] = {
+							["enabled"] = false,
+						},
+						["focus"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Ren"] = {
+					["layouts"] = {
+						["focustarget"] = {
+							["enabled"] = false,
+						},
+						["small bars"] = {
+							["enabled"] = false,
+						},
+						["focus"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
 		},
 		["DruidManaBar"] = {
 			["profiles"] = {
@@ -5314,29 +5336,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["ReputationBar"] = {
-			["profiles"] = {
-				["targetinmiddle"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["tim2"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["Default"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["Ren"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-			},
+		["Runes"] = {
 		},
 		["CombatFader"] = {
 			["profiles"] = {
@@ -6686,7 +6686,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["ShadowOrbs"] = {
+		["Eclipse"] = {
 		},
 		["Chi"] = {
 		},
@@ -6741,36 +6741,36 @@ PitBull4DB = {
 			},
 			["layouts"] = {
 				["Normal"] = {
-					["font"] = "Accidental Presidency",
 					["opacity_min"] = 0.45,
-					["exists"] = true,
 					["size_y"] = 55,
+					["exists"] = true,
+					["font"] = "Accidental Presidency",
 				},
 				["focus"] = {
-					["opacity_min"] = 0,
-					["bar_padding"] = 0,
+					["size_y"] = 55,
+					["size_x"] = 150,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.8,
-					["size_y"] = 55,
+					["opacity_min"] = 0,
 					["exists"] = true,
-					["size_x"] = 150,
+					["bar_padding"] = 0,
 				},
 				["target"] = {
 					["strata"] = "LOW",
 					["exists"] = true,
-					["opacity_min"] = 0.45,
 					["size_y"] = 55,
+					["opacity_min"] = 0.45,
 					["font"] = "Tempest",
 					["size_x"] = 325,
 				},
 				["focustarget"] = {
-					["opacity_min"] = 0,
-					["bar_padding"] = 1,
+					["size_y"] = 55,
+					["size_x"] = 150,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.7000000000000001,
-					["size_y"] = 55,
+					["opacity_min"] = 0,
 					["exists"] = true,
-					["size_x"] = 150,
+					["bar_padding"] = 1,
 				},
 				["small bars"] = {
 					["exists"] = true,
@@ -6825,13 +6825,13 @@ PitBull4DB = {
 					["enabled"] = false,
 				},
 				["pet"] = {
-					["size_y"] = 0.5,
+					["layout"] = "small bars",
 					["position_x"] = -265,
 					["position_y"] = -289,
 					["font_multiplier"] = 0.6000000238418579,
-					["layout"] = "small bars",
-					["vehicle_swap"] = false,
 					["tooltip"] = "ooc",
+					["vehicle_swap"] = false,
+					["size_y"] = 0.5,
 				},
 			},
 		},
@@ -6897,12 +6897,12 @@ PitBull4DB = {
 				},
 				["focustarget"] = {
 					["enabled"] = false,
-					["horizontal_mirror"] = true,
-					["scale"] = 0.8,
-					["size_y"] = 0.9,
-					["position_y"] = -29.08327873073171,
-					["layout"] = "focus",
 					["position_x"] = -571.5280886170044,
+					["scale"] = 0.8,
+					["layout"] = "focus",
+					["position_y"] = -29.08327873073171,
+					["size_y"] = 0.9,
+					["horizontal_mirror"] = true,
 				},
 				["targettarget"] = {
 					["horizontal_mirror"] = true,
@@ -6934,12 +6934,12 @@ PitBull4DB = {
 				},
 				["pet"] = {
 					["position_x"] = -224,
-					["layout"] = "small bars",
+					["size_y"] = 0.5,
 					["vehicle_swap"] = false,
 					["position_y"] = -289,
 					["font_multiplier"] = 0.6000000238418579,
+					["layout"] = "small bars",
 					["tooltip"] = "ooc",
-					["size_y"] = 0.5,
 				},
 			},
 			["groups"] = {
@@ -6982,36 +6982,36 @@ PitBull4DB = {
 			},
 			["layouts"] = {
 				["Normal"] = {
-					["opacity_min"] = 0.45,
 					["size_y"] = 55,
-					["exists"] = true,
 					["font"] = "Accidental Presidency",
+					["exists"] = true,
+					["opacity_min"] = 0.45,
 				},
 				["focus"] = {
-					["size_x"] = 150,
 					["bar_padding"] = 0,
+					["size_x"] = 150,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.8,
-					["size_y"] = 55,
-					["exists"] = true,
 					["opacity_min"] = 0,
+					["exists"] = true,
+					["size_y"] = 55,
 				},
 				["target"] = {
 					["strata"] = "LOW",
 					["exists"] = true,
 					["size_x"] = 325,
-					["size_y"] = 55,
-					["font"] = "Accidental Presidency",
 					["opacity_min"] = 0.45,
+					["font"] = "Accidental Presidency",
+					["size_y"] = 55,
 				},
 				["focustarget"] = {
-					["size_x"] = 150,
 					["bar_padding"] = 1,
+					["size_x"] = 150,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.7000000000000001,
-					["size_y"] = 55,
-					["exists"] = true,
 					["opacity_min"] = 0,
+					["exists"] = true,
+					["size_y"] = 55,
 				},
 				["small bars"] = {
 					["exists"] = true,
@@ -7061,13 +7061,13 @@ PitBull4DB = {
 					["position_y"] = -334,
 				},
 				["pet"] = {
-					["size_y"] = 0.5,
+					["layout"] = "small bars",
 					["position_x"] = -257,
 					["position_y"] = -289,
 					["font_multiplier"] = 0.6000000238418579,
-					["layout"] = "small bars",
-					["vehicle_swap"] = false,
 					["tooltip"] = "ooc",
+					["vehicle_swap"] = false,
+					["size_y"] = 0.5,
 				},
 				["focustargettarget"] = {
 					["enabled"] = false,
@@ -7153,43 +7153,43 @@ PitBull4DB = {
 			},
 			["layouts"] = {
 				["Normal"] = {
-					["size_y"] = 55,
 					["opacity_min"] = 0.45,
-					["exists"] = true,
+					["size_y"] = 55,
 					["size_x"] = 175,
+					["exists"] = true,
 				},
 				["focus"] = {
-					["bar_padding"] = 0,
 					["size_x"] = 130,
+					["bar_padding"] = 0,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.8,
-					["opacity_min"] = 0,
-					["exists"] = true,
 					["size_y"] = 55,
+					["exists"] = true,
+					["opacity_min"] = 0,
 				},
 				["target"] = {
-					["size_y"] = 55,
 					["opacity_min"] = 0.45,
-					["exists"] = true,
+					["size_y"] = 55,
 					["size_x"] = 268,
+					["exists"] = true,
 				},
 				["focustarget"] = {
-					["bar_padding"] = 1,
 					["size_x"] = 150,
+					["bar_padding"] = 1,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.7000000000000001,
-					["opacity_min"] = 0,
-					["exists"] = true,
 					["size_y"] = 55,
+					["exists"] = true,
+					["opacity_min"] = 0,
 				},
 				["small bars"] = {
-					["bar_padding"] = 0,
 					["size_x"] = 175,
+					["bar_padding"] = 0,
 					["bar_spacing"] = 0,
 					["opacity_max"] = 0.5,
-					["opacity_min"] = 0.2,
-					["exists"] = true,
 					["size_y"] = 55,
+					["exists"] = true,
+					["opacity_min"] = 0.2,
 				},
 			},
 			["made_groups"] = true,
@@ -7231,13 +7231,13 @@ PitBull4DB = {
 					["position_y"] = -307.3019866943359,
 				},
 				["pet"] = {
-					["size_y"] = 0.5,
+					["layout"] = "small bars",
 					["position_x"] = -223.4392700195313,
 					["position_y"] = -266.052001953125,
 					["font_multiplier"] = 0.6000000238418579,
-					["layout"] = "small bars",
-					["vehicle_swap"] = false,
 					["tooltip"] = "ooc",
+					["vehicle_swap"] = false,
+					["size_y"] = 0.5,
 				},
 				["focustargettarget"] = {
 					["enabled"] = false,

@@ -9,6 +9,6 @@ FarmhandData = {
 	["ShowStockTip"] = true,
 	["ShowVeggieIconsForSeeds"] = false,
 	["HideInCombat"] = true,
-	["PrintScannerMessages"] = true,
 	["ShowVeggieIconsForBags"] = false,
+	["PrintScannerMessages"] = true,
 }

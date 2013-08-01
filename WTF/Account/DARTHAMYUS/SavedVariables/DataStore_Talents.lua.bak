@@ -1,0 +1,146 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["Talents2"] = 19071489,
+				["Talents1"] = 19071489,
+				["Glyphs"] = {
+					5, -- [1]
+					3, -- [2]
+					1048581, -- [3]
+					1048579, -- [4]
+					2097157, -- [5]
+					2097155, -- [6]
+					5, -- [7]
+					3, -- [8]
+					1048581, -- [9]
+					1048579, -- [10]
+					2097157, -- [11]
+					2097155, -- [12]
+				},
+				["Class"] = "WARRIOR",
+				["lastUpdate"] = 1360965124,
+				["GlyphList"] = {
+					11, -- [1]
+					7954, -- [2]
+					7906, -- [3]
+					14898, -- [4]
+					14834, -- [5]
+					12210, -- [6]
+					7858, -- [7]
+					12226, -- [8]
+					7938, -- [9]
+					8002, -- [10]
+					7890, -- [11]
+					7874, -- [12]
+					8066, -- [13]
+					8018, -- [14]
+					16130, -- [15]
+					7762, -- [16]
+					7826, -- [17]
+					7986, -- [18]
+					8146, -- [19]
+					14914, -- [20]
+					8114, -- [21]
+					7922, -- [22]
+					8034, -- [23]
+					12274, -- [24]
+					12258, -- [25]
+					8082, -- [26]
+					7794, -- [27]
+					8130, -- [28]
+					12194, -- [29]
+					13, -- [30]
+					16324, -- [31]
+					7748, -- [32]
+					7844, -- [33]
+					15860, -- [34]
+					15844, -- [35]
+					7780, -- [36]
+					12244, -- [37]
+					7812, -- [38]
+					7732, -- [39]
+					13620, -- [40]
+				},
+				["ActiveTalents"] = 1,
+			},
+		},
+		["Reference"] = {
+			["GlyphNames"] = {
+				[763] = "Death From Above",
+				[765] = "Intimidating Shout",
+				[767] = "Shield Wall",
+				[483] = "Mystic Shout",
+				[484] = "Bloodcurdling Shout",
+				[485] = "Long Charge",
+				[486] = "Gushing Wound",
+				[487] = "Unending Rage",
+				[488] = "Mighty Victory",
+				[489] = "Mortal Strike",
+				[490] = "Bloody Healing",
+				[491] = "Enraged Speed",
+				[492] = "Hindering Strikes",
+				[493] = "Heavy Repercussions",
+				[494] = "Bloodthirst",
+				[495] = "Rude Interruption",
+				[496] = "Gag Order",
+				[497] = "Blitz",
+				[499] = "Overpower",
+				[500] = "Hamstring",
+				[931] = "Bull Rush",
+				[502] = "Shield Slam",
+				[504] = "Hoarse Voice",
+				[505] = "Sweeping Strikes",
+				[507] = "Resonating Power",
+				[508] = "Victory Rush",
+				[509] = "Raging Wind",
+				[762] = "Whirlwind",
+				[764] = "Furious Sundering",
+				[766] = "Spell Reflection",
+				[1020] = "Blazing Trail",
+				[851] = "Thunder Strike",
+				[991] = "Burning Anger",
+				[932] = "Recklessness",
+				[990] = "Crow Feast",
+				[927] = "Colossus Smash",
+				[1008] = "Incite",
+				[501] = "Hold the Line",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["WARRIOR"] = {
+			["Locale"] = "enUS",
+			["Version"] = 16357,
+			["Talents"] = {
+				"15775|Juggernaut|Ability_Warrior_BullRush|1|1", -- [1]
+				"16035|Double Time|INV_Misc_Horn_04|1|2", -- [2]
+				"15774|Warbringer|Ability_Warrior_Warbringer|1|3", -- [3]
+				"16036|Enraged Regeneration|Ability_Warrior_FocusedRage|2|1", -- [4]
+				"15757|Second Wind|Ability_Hunter_Harass|2|2", -- [5]
+				"15758|Impending Victory|spell_impending_victory|2|3", -- [6]
+				"15768|Staggering Shout|Ability_BullRush|3|1", -- [7]
+				"15769|Piercing Howl|Spell_Shadow_DeathScream|3|2", -- [8]
+				"15770|Disrupting Shout|warrior_disruptingshout|3|3", -- [9]
+				"15759|Bladestorm|Ability_Warrior_Bladestorm|4|1", -- [10]
+				"15760|Shockwave|Ability_Warrior_Shockwave|4|2", -- [11]
+				"16037|Dragon Roar|ability_warrior_dragonroar|4|3", -- [12]
+				"15765|Mass Spell Reflection|Ability_Warrior_ShieldBreak|5|1", -- [13]
+				"15766|Safeguard|Ability_Warrior_Safeguard|5|2", -- [14]
+				"19676|Vigilance|Ability_Warrior_Vigilance|5|3", -- [15]
+				"19138|Avatar|warrior_talent_icon_avatar|6|1", -- [16]
+				"19139|Bloodbath|Ability_Warrior_BloodBath|6|2", -- [17]
+				"19140|Storm Bolt|warrior_talent_icon_stormbolt|6|3", -- [18]
+			},
+		},
+	},
+}

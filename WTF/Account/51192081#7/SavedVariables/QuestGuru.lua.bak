@@ -1,0 +1,60 @@
+
+QuestGuru_Items = {
+	["Bloodhoof"] = {
+	},
+}
+QuestGuru_Settings = {
+	["Sounds"] = {
+		["Progress"] = {
+			["Enabled"] = true,
+			["Sound"] = "AuctionWindowOpen",
+		},
+		["Enabled"] = true,
+		["QuestComplete"] = {
+			["Enabled"] = true,
+			["Sound"] = "ReadyCheck",
+		},
+		["ObjComplete"] = {
+			["Enabled"] = true,
+			["Sound"] = "AuctionWindowClose",
+		},
+	},
+	["ShowObjItemIcons"] = true,
+	["AutoComplete"] = false,
+	["HeaderQuests"] = true,
+	["DisableComm"] = false,
+	["Announce"] = {
+		["Enabled"] = false,
+		["guild"] = false,
+		["QuestAccept"] = {
+			["Enabled"] = true,
+			["Text"] = "Started quest $qlink",
+		},
+		["Echo"] = false,
+		["party"] = true,
+		["item"] = {
+			["Enabled"] = true,
+			["Text"] = "Collected $done $name of $needed needed for $questTitle",
+		},
+		["say"] = false,
+		["whisper"] = {
+			["Enabled"] = false,
+			["To"] = "",
+		},
+		["monster"] = {
+			["Enabled"] = true,
+			["Text"] = "$done $name of $needed needed for $questTitle",
+		},
+		["Quest"] = {
+			["Enabled"] = true,
+			["Text"] = "$qlink $complete!",
+		},
+		["event"] = {
+			["Enabled"] = true,
+			["Text"] = "$uitext",
+		},
+	},
+	["ShowLevels"] = {
+		["QuestLog"] = true,
+	},
+}

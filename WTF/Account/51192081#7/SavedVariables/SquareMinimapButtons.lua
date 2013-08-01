@@ -1,0 +1,3 @@
+
+SquareMinimapButtonBarLayout = "Disabled"
+SMBBMouseOver = nil

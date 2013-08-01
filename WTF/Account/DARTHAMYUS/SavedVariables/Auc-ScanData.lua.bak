@@ -1,0 +1,17 @@
+
+AucScanData = {
+	["Version"] = 1.3,
+	["scans"] = {
+		["Bloodhoof"] = {
+			["Alliance"] = {
+				["scanstats"] = {
+					["ImageUpdated"] = 1360965400,
+				},
+				["image"] = "rope",
+				["ropes"] = {
+					"return {}", -- [1]
+				},
+			},
+		},
+	},
+}

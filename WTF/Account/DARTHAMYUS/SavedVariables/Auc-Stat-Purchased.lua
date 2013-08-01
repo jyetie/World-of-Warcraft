@@ -17,21 +17,21 @@ AucAdvancedStatPurchasedData = {
 				[11084] = "0:1;1;5898.0;5898.0;5898.0",
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Bronzebeard-Alliance"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Maelstrom-Horde"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Moon Guard-Alliance"] = {
@@ -40,42 +40,42 @@ AucAdvancedStatPurchasedData = {
 				[42456] = "0:1;4;4499999.0;4499999.0;4499999.0",
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Bloodhoof-Neutral"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Wyrmrest Accord-Alliance"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Moon Guard-Neutral"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Earthen Ring-Horde"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 		["Wyrmrest Accord-Horde"] = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1375250226,
+				["created"] = 1375317287,
 			},
 		},
 	},

@@ -1,0 +1,93 @@
+
+DailyChecklistDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+	},
+	["profiles"] = {
+		["Jyetie - Bloodhoof"] = {
+			["timestamp"] = 20130518000000,
+			["lists"] = {
+				{
+					["completed"] = false,
+					["entries"] = {
+						{
+							["checked"] = true,
+							["text"] = "Jyet Farm",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [1]
+						{
+							["completed"] = false,
+							["checked"] = true,
+							["text"] = "Tarley Farm",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [2]
+						{
+							["completed"] = false,
+							["checked"] = true,
+							["text"] = "Avessia Farm",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [3]
+						{
+							["completed"] = false,
+							["checked"] = true,
+							["text"] = "Alythe Farm",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [4]
+						{
+							["completed"] = false,
+							["checked"] = true,
+							["text"] = "Scroll of Wisdom",
+							["days"] = {
+								true, -- [1]
+								true, -- [2]
+								true, -- [3]
+								true, -- [4]
+								true, -- [5]
+								true, -- [6]
+								true, -- [7]
+							},
+						}, -- [5]
+					},
+				}, -- [1]
+			},
+			["framePosition"] = {
+				["y"] = 147.0000457763672,
+				["x"] = -152,
+				["hidden"] = true,
+				["anchor"] = "RIGHT",
+			},
+		},
+	},
+}

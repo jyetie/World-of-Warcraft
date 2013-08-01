@@ -1,0 +1,49 @@
+
+RarityDB = {
+	["profileKeys"] = {
+		["Tarley - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["trackedGroup"] = "mounts",
+			["minimap"] = {
+				["hide"] = false,
+			},
+			["trackedItem"] = 87771,
+			["groups"] = {
+				["pets"] = {
+					["Mark of Flame"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Toxic Wasteling"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Dusty Clutch of Eggs"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+				},
+				["mounts"] = {
+					["Reins of the Azure Drake"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Great Brewfest Kodo"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+					["Reins of the Heavenly Onyx Cloud Serpent"] = {
+						["attempts"] = 5,
+					},
+					["Swift Brewfest Ram"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
+				},
+			},
+			["lastRevision"] = 182,
+		},
+	},
+}

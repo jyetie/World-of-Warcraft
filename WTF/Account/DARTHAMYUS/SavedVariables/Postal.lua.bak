@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Alythe|Bloodhoof|Alliance|85|WARRIOR", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+		},
+	},
+}

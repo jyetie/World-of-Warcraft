@@ -1,0 +1,2 @@
+EpicMusicPlayer: disabled
+Dominos: disabled

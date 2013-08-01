@@ -1,0 +1,11 @@
+ACP: enabled
+_NPCScan: enabled
+_NPCScan.AutoAdd: enabled
+NPCScanEx: enabled
+_NPCScan.Overlay: enabled
+MikScrollingBattleText: enabled
+PitBull4_Aggro: enabled
+Quartz: enabled
+Recount: enabled
+Raven: enabled
+Raven_Options: enabled

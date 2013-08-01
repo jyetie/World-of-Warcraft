@@ -1,0 +1,29 @@
+
+RatingBusterDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+			["sumHaste"] = true,
+			["profileVersion"] = 1,
+			["sumHit"] = true,
+			["sumIgnorePlate"] = false,
+			["sumAP"] = true,
+			["sumDodge"] = true,
+			["ratingPhysical"] = true,
+			["showCritFromAgi"] = true,
+			["sumParry"] = true,
+			["showDodgeFromAgi"] = true,
+			["sumBlock"] = true,
+			["sumCrit"] = true,
+			["showParryFromStr"] = true,
+			["showAPFromArmor"] = true,
+			["sumExpertise"] = true,
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+FonterDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

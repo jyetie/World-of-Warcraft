@@ -1,0 +1,51 @@
+
+BeanCounterDB = {
+	["Bloodhoof"] = {
+		["Alythe"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+		},
+	},
+}
+BeanCounterDBSettings = {
+	["configator.left"] = 399.9999694824219,
+	["configator.top"] = 675,
+	["Bloodhoof"] = {
+		["Alythe"] = {
+			["tasks.sortArray"] = 1361339197,
+			["version"] = 3.03,
+			["faction"] = "Alliance",
+			["tasks.compactDB"] = 1361339197,
+			["wealth"] = 65384297,
+			["tasks.prunePostedDB"] = 1361339197,
+			["mailbox"] = {
+			},
+		},
+	},
+	["util.beancounter.ButtonuseDateCheck"] = false,
+}
+BeanCounterDBNames = {
+}
+BeanCounterAccountDB = nil

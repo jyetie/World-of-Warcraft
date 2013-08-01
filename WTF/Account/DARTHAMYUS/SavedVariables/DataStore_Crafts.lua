@@ -550,34 +550,34 @@ DataStore_CraftsDB = {
 					[90432] = true,
 					[113974] = true,
 					[98560] = true,
-					[113991] = true,
-					[91226] = true,
-					[93441] = true,
-					[90988] = true,
-					[113983] = true,
 					[91766] = true,
+					[91226] = true,
+					[91790] = true,
+					[90861] = true,
+					[113983] = true,
+					[113991] = true,
 					[91012] = true,
 					[91782] = true,
-					[91790] = true,
+					[93441] = true,
 					[89893] = true,
 					[89012] = true,
 					[88907] = true,
 					[88909] = true,
 					[90433] = true,
-					[91084] = true,
 					[91211] = true,
-					[89711] = true,
-					[89696] = true,
+					[91084] = true,
 					[113968] = true,
+					[89696] = true,
+					[89711] = true,
 					[113976] = true,
-					[113984] = true,
-					[113992] = true,
+					[90616] = true,
+					[91132] = true,
 					[91775] = true,
 					[88180] = true,
 					[93442] = true,
 					[89894] = true,
 					[113977] = true,
-					[113985] = true,
+					[90617] = true,
 					[90553] = true,
 					[88910] = true,
 					[92145] = true,
@@ -586,81 +586,81 @@ DataStore_CraftsDB = {
 					[90720] = true,
 					[90728] = true,
 					[90609] = true,
-					[90617] = true,
-					[91133] = true,
+					[113985] = true,
+					[113993] = true,
 					[91014] = true,
 					[90732] = true,
 					[91792] = true,
 					[89895] = true,
 					[89014] = true,
 					[90419] = true,
-					[90581] = true,
-					[90832] = true,
 					[91089] = true,
 					[90451] = true,
-					[113978] = true,
-					[88181] = true,
-					[91761] = true,
+					[90581] = true,
+					[90832] = true,
 					[90610] = true,
+					[88181] = true,
 					[90618] = true,
+					[113978] = true,
+					[113986] = true,
 					[91769] = true,
-					[86864] = true,
+					[90420] = true,
 					[91785] = true,
-					[91793] = true,
+					[93444] = true,
 					[89896] = true,
 					[98588] = true,
-					[90420] = true,
+					[86864] = true,
 					[98556] = true,
-					[113971] = true,
+					[90984] = true,
 					[113979] = true,
-					[90452] = true,
+					[91214] = true,
 					[90968] = true,
 					[113987] = true,
-					[90984] = true,
+					[113971] = true,
 					[90611] = true,
-					[91762] = true,
+					[90619] = true,
 					[91008] = true,
 					[90730] = true,
 					[90509] = true,
-					[86865] = true,
+					[88262] = true,
 					[139781] = true,
 					[86857] = true,
-					[88262] = true,
+					[86865] = true,
 					[90429] = true,
 					[90493] = true,
 					[113980] = true,
-					[88929] = true,
+					[90453] = true,
 					[90421] = true,
 					[90464] = true,
 					[113972] = true,
 					[90612] = true,
 					[113988] = true,
-					[90453] = true,
+					[88929] = true,
 					[91779] = true,
 					[92168] = true,
 					[89890] = true,
 					[89009] = true,
-					[90619] = true,
+					[91762] = true,
 					[86866] = true,
-					[91214] = true,
-					[93444] = true,
-					[113986] = true,
-					[98582] = true,
+					[90452] = true,
+					[91793] = true,
+					[91761] = true,
 					[88930] = true,
+					[98582] = true,
 					[89701] = true,
 					[113973] = true,
 					[113981] = true,
 					[113989] = true,
-					[113993] = true,
+					[91133] = true,
 					[91780] = true,
 					[90518] = true,
 					[89891] = true,
-					[91132] = true,
-					[90616] = true,
+					[113992] = true,
+					[113984] = true,
 					[90423] = true,
 					[90558] = true,
+					[90988] = true,
 					[113975] = true,
-					[90861] = true,
 					[89693] = true,
 					[88908] = true,
 				},
@@ -668,9 +668,6 @@ DataStore_CraftsDB = {
 					["Tailoring"] = {
 						["FullLink"] = "|cffffd000|Htrade:200000006849235:110426:600:600:4//+/64Y6fiv+/vz37/59/PIz33vfznLIGICg+9//PYqAAEE4sIw4LDN8///79xf//z//BDAw+//7fru/PGI+LAQ//9//////D+|h[Tailoring]|h|r",
 						["NumCrafts"] = 389,
-						["Cooldowns"] = {
-							"Imperial Silk|3299.8662109375|1375250755", -- [1]
-						},
 						["Crafts"] = {
 							"Materials", -- [1]
 							521302, -- [2]
@@ -1088,24 +1085,6 @@ DataStore_CraftsDB = {
 					["Alchemy"] = {
 						["FullLink"] = "|cffffd000|Htrade:200000006849235:105206:600:600:2mfB4g/TWRxvDATA5A4JVxgCIi7XHI4v7/Bnww/g39//////6//////9L|h[Alchemy]|h|r",
 						["NumCrafts"] = 204,
-						["Cooldowns"] = {
-							"Transmute: Living Steel|3299.5852050781|1375250764", -- [1]
-							"Transmute: Pyrium Bar|3299.5852050781|1375250764", -- [2]
-							"Transmute: Living Elements|3299.5852050781|1375250764", -- [3]
-							"Transmute: Ametrine|3299.5852050781|1375250764", -- [4]
-							"Transmute: Dreadstone|3299.5852050781|1375250764", -- [5]
-							"Transmute: Eye of Zul|3299.5852050781|1375250764", -- [6]
-							"Transmute: King's Amber|3299.5852050781|1375250764", -- [7]
-							"Transmute: Majestic Zircon|3299.5852050781|1375250764", -- [8]
-							"Transmute: Eternal Air to Earth|3299.5852050781|1375250764", -- [9]
-							"Transmute: Eternal Air to Water|3299.5852050781|1375250764", -- [10]
-							"Transmute: Eternal Earth to Air|3299.5852050781|1375250764", -- [11]
-							"Transmute: Eternal Shadow to Earth|3299.5852050781|1375250764", -- [12]
-							"Transmute: Eternal Shadow to Life|3299.5852050781|1375250764", -- [13]
-							"Transmute: Eternal Water to Air|3299.5852050781|1375250764", -- [14]
-							"Transmute: Primal Fire to Earth|3299.5852050781|1375250764", -- [15]
-							"Transmute: Primal Water to Air|3299.5852050781|1375250764", -- [16]
-						},
 						["MaxRank"] = 600,
 						["Crafts"] = {
 							"Research", -- [1]
@@ -1541,7 +1520,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "Tailoring",
-				["lastUpdate"] = 1375250759,
+				["lastUpdate"] = 1375317589,
 				["Prof1"] = "Alchemy",
 			},
 			["Default.Bloodhoof.Tarley"] = {
@@ -1620,10 +1599,6 @@ DataStore_CraftsDB = {
 					["Inscription"] = {
 						["FullLink"] = "|cffffd000|Htrade:200000006866A0C:110417:600:600:A/////Z//v////B5/Hz/k+/D+/Fw/PA+/V0/Hw/////ft/3f/s7/////Ds+Kg+LBCEaRA9f9/9///Z5/////9////N////lF|h[Inscription]|h|r",
 						["NumCrafts"] = 434,
-						["Cooldowns"] = {
-							"Scroll of Wisdom|4584.0600585938|1375249495", -- [1]
-							"Minor Inscription Research|4589.9711914063|1375249495", -- [2]
-						},
 						["MaxRank"] = 600,
 						["Crafts"] = {
 							"Research", -- [1]
@@ -2093,9 +2068,6 @@ DataStore_CraftsDB = {
 					["Enchanting"] = {
 						["NumCrafts"] = 203,
 						["FullLink"] = "|cffffd000|Htrade:200000006866A0C:110400:600:600:4bl1Tvx/zZtJr++9kcQAAAYADw0FgDrZhn/fzlW7Bw/HAY6//D//HAAx/f6//yL|h[Enchanting]|h|r",
-						["Cooldowns"] = {
-							"Sha Crystal|4559.8774414063|1375249485", -- [1]
-						},
 						["MaxRank"] = 600,
 						["Crafts"] = {
 							"Materials", -- [1]
@@ -2431,9 +2403,6 @@ DataStore_CraftsDB = {
 					["Blacksmithing"] = {
 						["NumCrafts"] = 300,
 						["FullLink"] = "|cffffd000|Htrade:2000000069119D4:110396:600:600:2v22MAjCiMG4vAMBfCQC9bZwGFAoAAwDAAAAACg//3AAACAAQCAACAAAIAoA4///D//J////P////LAAAw/////EAAAAoAAAwEcSxAIYKCEAAABA4JJ5Lv+7CAAAv1/v/B|h[Blacksmithing]|h|r",
-						["Cooldowns"] = {
-							"Lightning Steel Ingot|4199.8930664063|1375249810", -- [1]
-						},
 						["Crafts"] = {
 							"Materials", -- [1]
 							554587, -- [2]

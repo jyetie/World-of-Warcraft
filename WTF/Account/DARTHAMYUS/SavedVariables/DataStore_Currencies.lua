@@ -72,10 +72,10 @@ DataStore_CurrenciesDB = {
 				["Conquest Points"] = 6,
 				["Essence of Corrupted Deathwing"] = 14,
 				["Lesser Charm of Good Fortune"] = 13,
-				["Justice Points"] = 2,
+				["Darkmoon Prize Ticket"] = 4,
 				["Cataclysm"] = 19,
 				["Miscellaneous"] = 3,
-				["Darkmoon Prize Ticket"] = 4,
+				["Justice Points"] = 2,
 				["Champion's Seal"] = 16,
 				["Mogu Rune of Fate"] = 22,
 			},
@@ -252,7 +252,7 @@ DataStore_CurrenciesDB = {
 					12, -- [12]
 					29, -- [13]
 				},
-				["lastUpdate"] = 1375250250,
+				["lastUpdate"] = 1375317589,
 			},
 			["Default.Bloodhoof.Tarley"] = {
 				["Currencies"] = {

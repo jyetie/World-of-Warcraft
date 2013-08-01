@@ -1,0 +1,10 @@
+
+ElvUI_FarmModeDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+		},
+	},
+}

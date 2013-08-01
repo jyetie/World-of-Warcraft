@@ -1,0 +1,182 @@
+
+StatBlockCoreDB = {
+	["profileKeys"] = {
+		["Flora - Bloodhoof"] = "Default",
+		["Avessia - Bloodhoof"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
+		["Tarias - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
+		["Sparkler - Bloodhoof"] = "Default",
+		["Vezeri - Bloodhoof"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
+		["Amazy - Bloodhoof"] = "Default",
+		["Renevie - Moon Guard"] = "Default",
+		["Avelaine - Bloodhoof"] = "Default",
+		["Cyralie - Bronzebeard"] = "Default",
+		["Roslyn - Wyrmrest Accord"] = "Default",
+		["Cyralie - Bloodhoof"] = "Default",
+		["Tarley - Bloodhoof"] = "Default",
+		["Alythe - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["globalBDC"] = {
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["globalScale"] = 0.8500000000000001,
+			["globalFont"] = "Tempest",
+			["launchers"] = false,
+			["plugins"] = {
+				["Durability"] = {
+					["posx"] = 1328.982191960677,
+					["strata"] = "MEDIUM",
+					["align"] = "RIGHT",
+					["width"] = 50.00007629394531,
+					["posy"] = 16.55418437718197,
+					["icon"] = false,
+					["scale"] = 0.8500000000000001,
+				},
+				["Folks_Friends"] = {
+					["posx"] = 110.0800807905216,
+					["posy"] = 519.679960500398,
+				},
+				["PitBull4"] = {
+					["posx"] = 739.840017914772,
+					["enabled"] = false,
+					["posy"] = 349.0133678261445,
+				},
+				["WIM"] = {
+					["posx"] = 214.6987506218011,
+					["enabled"] = false,
+					["posy"] = 496.8533296739224,
+					["scale"] = 0.8500000000000001,
+				},
+				["Altoholic"] = {
+					["posx"] = 698.0267356522891,
+					["enabled"] = false,
+					["posy"] = 325.1200078725815,
+				},
+				["Latency"] = {
+					["posx"] = 1265.878540969425,
+					["strata"] = "MEDIUM",
+					["width"] = 84.99961090087891,
+					["posy"] = 16.55413872288136,
+					["scale"] = 0.8500000000000001,
+				},
+				["Prat"] = {
+					["posx"] = 645.1199635378507,
+					["enabled"] = false,
+					["posy"] = 309.7600075006485,
+				},
+				["Folks_Guild"] = {
+					["posx"] = 62.29328926881044,
+					["posy"] = 640.8533488512039,
+				},
+				["VuhDo"] = {
+					["posx"] = 552.960065472922,
+					["enabled"] = false,
+					["posy"] = 421.5466768741608,
+				},
+				["EveryQuest"] = {
+					["posx"] = 710.8266838788986,
+					["enabled"] = false,
+					["posy"] = 506.0266789197922,
+				},
+				["TradeSkillMasterMinimapIcon"] = {
+					["posx"] = 408.7466765642166,
+					["enabled"] = false,
+					["posy"] = 389.9734469429677,
+				},
+				["AutoTurnIn"] = {
+					["enabled"] = false,
+				},
+				["Raven"] = {
+					["posx"] = 87.89332895119969,
+					["posy"] = 602.4533479213715,
+				},
+				["Rarity"] = {
+					["posx"] = 170.4533694011388,
+					["enabled"] = false,
+					["posy"] = 261.8454211421067,
+					["scale"] = 0.8500000000000001,
+				},
+				["WeakAuras"] = {
+					["posx"] = 252.5866988245653,
+					["enabled"] = false,
+					["posy"] = 517.9732417090709,
+				},
+				["Money"] = {
+					["enabled"] = false,
+					["scale"] = 0.8500000000000001,
+					["width"] = 122.9996643066406,
+					["posy"] = 16.55418437718197,
+					["posx"] = 1137.493556517256,
+				},
+				["FPS"] = {
+					["posx"] = 1230.165433883667,
+					["strata"] = "MEDIUM",
+					["label"] = "",
+					["align"] = "LEFT",
+					["width"] = 50.00168991088867,
+					["posy"] = 16.55418437718197,
+					["scale"] = 0.8500000000000001,
+				},
+				["Bartender4"] = {
+					["posx"] = 672.4266829490662,
+					["enabled"] = false,
+					["posy"] = 330.2400079965591,
+				},
+				["JumpCounter"] = {
+					["posx"] = 1317.803274380276,
+					["strata"] = "MEDIUM",
+					["align"] = "RIGHT",
+					["width"] = 66.00115203857422,
+					["posy"] = 139.4344873084492,
+					["icon"] = false,
+					["scale"] = 0.8500000000000001,
+				},
+				["Informant"] = {
+					["posx"] = 607.5733480453491,
+					["enabled"] = false,
+					["posy"] = 448.853292118707,
+				},
+				["Gatherer"] = {
+					["posx"] = 640.8533488512039,
+					["enabled"] = false,
+					["posy"] = 436.0533438920975,
+				},
+				["ZoneText"] = {
+					["posx"] = 198.8266584602989,
+					["posy"] = 420.6933435201645,
+				},
+				["MogIt"] = {
+					["posx"] = 673.2800163030624,
+					["posy"] = 420.6933174784972,
+				},
+				["Masque"] = {
+					["posx"] = 514.5600645430895,
+					["enabled"] = false,
+					["posy"] = 485.5466784238815,
+				},
+				["Paste"] = {
+					["posx"] = 653.6532970778135,
+					["enabled"] = false,
+					["posy"] = 358.4000086784363,
+				},
+				["RaidAchievement"] = {
+					["posx"] = 682.6666831970215,
+					["enabled"] = false,
+					["posy"] = 366.0800609477374,
+				},
+				["DailyChecklistDO"] = {
+					["posx"] = 704.8534545675939,
+					["enabled"] = false,
+					["posy"] = 485.5466784238815,
+				},
+			},
+			["globalSize"] = 14,
+		},
+	},
+}

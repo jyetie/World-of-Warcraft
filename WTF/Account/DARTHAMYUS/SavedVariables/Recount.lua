@@ -80,11 +80,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 274.9999694824219,
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 		},
 		["Roslyn - Wyrmrest Accord"] = {
 			["GraphWindowY"] = 0,
@@ -603,8 +603,8 @@ RecountDB = {
 						["g"] = 0,
 						["b"] = 0,
 					},
-					["ROGUE"] = {
-						["a"] = 0.6500000059604645,
+					["SHAMAN"] = {
+						["a"] = 0.6299999952316284,
 						["r"] = 0,
 						["g"] = 0,
 						["b"] = 0,
@@ -621,10 +621,11 @@ RecountDB = {
 						["g"] = 0,
 						["b"] = 0,
 					},
-					["DEATHKNIGHT"] = {
-						["r"] = 0.007843137254901961,
-						["g"] = 0.007843137254901961,
-						["b"] = 0.007843137254901961,
+					["ROGUE"] = {
+						["a"] = 0.6500000059604645,
+						["r"] = 0,
+						["g"] = 0,
+						["b"] = 0,
 					},
 					["DRUID"] = {
 						["a"] = 0.6400000154972076,
@@ -638,11 +639,10 @@ RecountDB = {
 						["g"] = 0,
 						["r"] = 0,
 					},
-					["SHAMAN"] = {
-						["a"] = 0.6299999952316284,
-						["r"] = 0,
-						["g"] = 0,
-						["b"] = 0,
+					["DEATHKNIGHT"] = {
+						["r"] = 0.007843137254901961,
+						["g"] = 0.007843137254901961,
+						["b"] = 0.007843137254901961,
 					},
 				},
 				["Window"] = {
@@ -686,7 +686,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["LastInstanceName"] = "Uldaman",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -698,7 +698,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 2,
 			["MainWindowWidth"] = 399.9999694824219,

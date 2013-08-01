@@ -1,0 +1,8 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ACP", -- [1]
+	},
+	["ChatLog"] = {
+	},
+}

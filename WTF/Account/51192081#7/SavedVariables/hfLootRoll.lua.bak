@@ -1,0 +1,141 @@
+
+hfLootRollGlobalOptions = {
+	["modules"] = {
+		["log"] = {
+		},
+		["options"] = {
+			["custom"] = {
+			},
+			["perCharacter"] = {
+				["Jyetie - Bloodhoof"] = {
+					["configMode"] = false,
+					["behavior"] = {
+						["disappearAfterRollFinish"] = true,
+						["maxPanels"] = 8,
+						["disappearManually"] = false,
+						["closeButtonModifier"] = "n/a",
+						["closeButton"] = "RightButton",
+						["disappearAfterSelectDelay"] = 0,
+						["clickthroughInCombat"] = false,
+						["inCombatInteractionModifier"] = "SHIFT",
+						["disappearAfterSelect"] = false,
+						["autoconfirm"] = false,
+						["disappearAfterRollFinishDelay"] = 20,
+					},
+					["rare"] = {
+						["r"] = 0,
+						["g"] = 0.4392156862745098,
+						["b"] = 0.8666666666666667,
+					},
+					["winnerNameColorByClass"] = true,
+					["bgTexture"] = "Interface\\AddOns\\hfLootRoll\\textures\\Smoothv2",
+					["borderColor"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["winnerShow"] = true,
+					["offset"] = 10,
+					["anchorLocked"] = false,
+					["uncom"] = {
+						["r"] = 0.1176470588235294,
+						["g"] = 1,
+						["b"] = 0,
+					},
+					["showILvl"] = false,
+					["nameJustifyH"] = "LEFT",
+					["font"] = "Interface\\AddOns\\Aurora\\media\\font.ttf",
+					["sparkOpacity"] = 1,
+					["borderColorByQuality"] = false,
+					["height"] = 33,
+					["winnerNameJustifyH"] = "CENTER",
+					["showBoP"] = false,
+					["useBgTime"] = true,
+					["iconScale"] = 1,
+					["fontSize"] = 14,
+					["scale"] = 1,
+					["winnerNameOffsetY"] = 1,
+					["combatOpacity"] = 0.5,
+					["direction"] = "DOWN",
+					["nameColor"] = {
+						["a"] = 1,
+						["r"] = 0.8,
+						["g"] = 0.8,
+						["b"] = 0.8,
+					},
+					["borderSize"] = 1,
+					["showWho"] = true,
+					["borderTexture"] = "none",
+					["winnerNameColor"] = {
+						["a"] = 1,
+						["r"] = 0.9,
+						["g"] = 0.8,
+						["b"] = 0.2,
+					},
+					["showWhoColorize"] = true,
+					["showTTOnIconOnly"] = false,
+					["nameFontSize"] = 12,
+					["nameOffsetY"] = 8,
+					["borderOffset"] = 0,
+					["nameColorByQuality"] = true,
+					["winnerNameOffsetX"] = 2,
+					["nameJustifyV"] = "TOP",
+					["showComparisonTT"] = true,
+					["anchorPos"] = {
+						["relativeTo"] = "UIParent",
+						["point"] = "BOTTOMLEFT",
+						["relativePoint"] = "BOTTOMLEFT",
+						["yOfs"] = 369,
+						["xOfs"] = 592.6666870117188,
+					},
+					["width"] = 210,
+					["epic"] = {
+						["r"] = 0.6392156862745098,
+						["g"] = 0.2078431372549019,
+						["b"] = 0.9333333333333334,
+					},
+					["default"] = {
+						["r"] = 0.5,
+						["g"] = 0.5,
+						["b"] = 0.5,
+					},
+					["nameShow"] = true,
+					["nameOffsetX"] = 10,
+					["opacity"] = 1,
+					["lastTime"] = 1367397466,
+					["winnerNameFontSize"] = 19,
+					["winnerNameJustifyV"] = "MIDDLE",
+				},
+			},
+		},
+		["slash"] = {
+		},
+		["log_options"] = {
+			["custom"] = {
+			},
+			["perCharacter"] = {
+				["Jyetie - Bloodhoof"] = {
+					["logMoney"] = false,
+					["logOnlyMine"] = false,
+					["autoDeleteDays"] = 7,
+					["loggingEnabled"] = true,
+					["notLogged"] = {
+					},
+					["logInInstances"] = {
+						["party"] = true,
+						["raid"] = true,
+						["none"] = false,
+					},
+					["lastTime"] = 1367397466,
+					["autoDelete"] = true,
+					["quality"] = 3,
+				},
+			},
+		},
+		["log_gui"] = {
+		},
+		["gui"] = {
+		},
+	},
+}

@@ -1,0 +1,18 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["lastUpdate"] = 1360965133,
+				["Contacts"] = {
+					["Fedalinn"] = {
+						["note"] = "",
+					},
+				},
+			},
+		},
+	},
+}

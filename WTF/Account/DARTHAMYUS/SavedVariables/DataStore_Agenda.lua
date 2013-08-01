@@ -100,13 +100,13 @@ DataStore_AgendaDB = {
 					["Psalm"] = {
 						["note"] = "",
 					},
-					["Fedalinn"] = {
+					["Tarius"] = {
 						["note"] = "",
 					},
 					["Tuladirn"] = {
 						["note"] = "",
 					},
-					["Tarius"] = {
+					["Fedalinn"] = {
 						["note"] = "",
 					},
 				},
@@ -141,7 +141,7 @@ DataStore_AgendaDB = {
 					"2013-08-19|20:00|Heroics|6|8", -- [3]
 					"2013-08-26|20:00|Heroics|6|8", -- [4]
 				},
-				["lastUpdate"] = 1375250253,
+				["lastUpdate"] = 1375317592,
 				["Contacts"] = {
 					["Fluffyfist"] = {
 						["note"] = "",

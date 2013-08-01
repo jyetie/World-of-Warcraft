@@ -1,0 +1,25 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["Professions"] = {
+					["Jewelcrafting"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 13,
+					},
+					["Blacksmithing"] = {
+						["MaxRank"] = 225,
+						["Rank"] = 155,
+					},
+				},
+				["Prof2"] = "Jewelcrafting",
+				["lastUpdate"] = 1360965124,
+				["Prof1"] = "Blacksmithing",
+			},
+		},
+	},
+}

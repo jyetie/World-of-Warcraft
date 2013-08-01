@@ -1,3 +1,0 @@
-
-GHM_OptionsData = {
-}

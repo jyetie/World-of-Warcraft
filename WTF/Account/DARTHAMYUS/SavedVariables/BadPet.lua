@@ -4,10 +4,10 @@ BadPetDB = {
 		["Vezeri - Bloodhoof"] = "Default",
 		["Renevie - Moon Guard"] = "Default",
 		["Flora - Bloodhoof"] = "Default",
-		["Tarley - Bloodhoof"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
 		["Avessia - Bloodhoof"] = "Default",
 		["Amazy - Bloodhoof"] = "Default",
-		["Jyetie - Bloodhoof"] = "Default",
+		["Tarley - Bloodhoof"] = "Default",
 		["Alythe - Bloodhoof"] = "Default",
 	},
 	["profiles"] = {

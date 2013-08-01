@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Alisnse"] = {
+			["GUID"] = "0x06800000058ABEE3",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["Wolf"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140E47E7400044D",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Alisnse",
+			["Pet"] = {
+				"Wolf <Alisnse>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1363294549,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

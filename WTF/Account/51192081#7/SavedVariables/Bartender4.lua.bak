@@ -1,0 +1,196 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -253.4999694824219,
+								["point"] = "BOTTOM",
+								["y"] = 85.35018920898438,
+							},
+						}, -- [1]
+						{
+							["flyoutDirection"] = "RIGHT",
+							["rows"] = 12,
+							["buttons"] = 6,
+							["version"] = 3,
+							["fadeout"] = true,
+							["fadeoutalpha"] = 0,
+							["position"] = {
+								["x"] = -2.999997854232788,
+								["point"] = "TOPLEFT",
+								["y"] = -125.4876708984375,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -248,
+								["point"] = "BOTTOM",
+								["y"] = 43.5,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = 139.5001220703125,
+								["point"] = "CENTER",
+								["y"] = 51.50004577636719,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 279.3466796875,
+								["point"] = "LEFT",
+								["y"] = 201.4790649414063,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.5,
+						["point"] = "BOTTOM",
+						["y"] = 222.9999847412109,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 255.053466796875,
+						["point"] = "CENTER",
+						["scale"] = 1,
+						["y"] = 162.1867065429688,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
+					["artSkin"] = "HUMAN",
+					["leftCap"] = "NONE",
+					["rightCap"] = "NONE",
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.5,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["onebag"] = true,
+					["position"] = {
+						["x"] = -93.6800537109375,
+						["point"] = "RIGHT",
+						["y"] = 19.5,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+						["y"] = -14.99997711181641,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 346.0799560546875,
+						["point"] = "LEFT",
+						["y"] = -145.1666870117188,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profiles"] = {
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 283.5,
+						["point"] = "LEFT",
+						["y"] = 8.000015258789063,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+	},
+	["profiles"] = {
+		["Jyetie - Bloodhoof"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

@@ -1,0 +1,2 @@
+
+NPCScanEx_Auto = nil

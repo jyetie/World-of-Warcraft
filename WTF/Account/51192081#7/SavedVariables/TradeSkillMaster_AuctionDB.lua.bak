@@ -1,0 +1,16 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Bloodhoof"] = {
+			["time"] = 10,
+			["scanData"] = "",
+		},
+	},
+}

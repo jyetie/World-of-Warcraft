@@ -179,10 +179,10 @@ DataStore_InventoryDB = {
 					56724, -- [10]
 					1156, -- [11]
 					24120, -- [12]
-					[17] = 6341,
-					[19] = 5976,
 					[15] = "|cffffffff|Hitem:51994:0:0:0:0:0:-85:696254472:23:0:0|h[]|h|r",
 					[16] = 66028,
+					[17] = 6341,
+					[19] = 5976,
 				},
 				["averageItemLvl"] = 15.3125,
 				["overallAIL"] = 16.5,
@@ -190,27 +190,27 @@ DataStore_InventoryDB = {
 			},
 			["Default.Bloodhoof.Jyetie"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:95891:0:4658:4485:0:0:0:0:90:137:465|h[]|h|r", -- [1]
+					"|cffa335ee|Hitem:95891:0:4658:4485:0:0:0:0:90:137:465|h[Hood of the Chromatic Hydra]|h|r", -- [1]
 					95146, -- [2]
-					"|cffffffff|Hitem:95636:4806:4579:0:0:0:0:1760089344:90:138:465|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:95636:4806:4579:0:0:0:0:1760089344:90:138:465|h[Fissure-Split Shoulderwraps]|h|r", -- [3]
 					42360, -- [4]
-					"|cffffffff|Hitem:90418:4419:4512:4567:0:0:0:1557171712:90:137:447|h[]|h|r", -- [5]
-					"|cffffffff|Hitem:95090:0:4649:0:0:0:0:0:90:0:467|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:95892:4895:4619:4567:0:0:0:0:90:0:465|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:98193:4426:0:0:0:0:-359:1916143650:90:167:465|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:98199:0:0:0:0:0:-359:330958361:90:138:467|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:95690:0:4485:0:0:0:0:1014916352:90:0:465|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:95785:0:4499:0:0:0:0:1942527104:90:167:465|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:90418:4419:4512:4567:0:0:0:1557171712:90:137:447|h[Robes of the Lightning Rider]|h|r", -- [5]
+					"|cffa335ee|Hitem:95090:0:4649:0:0:0:0:0:90:0:467|h[Firestrike Cord]|h|r", -- [6]
+					"|cffa335ee|Hitem:95892:4895:4619:4567:0:0:0:0:90:0:465|h[Leggings of the Chromatic Hydra]|h|r", -- [7]
+					"|cffa335ee|Hitem:98193:4426:0:0:0:0:-359:1916143650:90:167:465|h[Jinyu Seer's Sandals of the Flameblaze]|h|r", -- [8]
+					"|cffa335ee|Hitem:98199:0:0:0:0:0:-359:330958361:90:138:467|h[Jinyu Seer's Wristwraps of the Flameblaze]|h|r", -- [9]
+					"|cffa335ee|Hitem:95690:0:4485:0:0:0:0:1014916352:90:0:465|h[Crystal-Claw Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:95785:0:4499:0:0:0:0:1942527104:90:167:465|h[Ro'shak's Remembrance]|h|r", -- [11]
 					95138, -- [12]
 					94510, -- [13]
 					95669, -- [14]
 					95117, -- [15]
-					"|cffffffff|Hitem:95660:4441:4499:0:0:0:0:1787590912:90:144:465|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:98325:0:0:0:0:0:-360:1605043737:90:0:467|h[]|h|r", -- [17]
+					"|cffa335ee|Hitem:95660:4441:4499:0:0:0:0:1787590912:90:144:465|h[Venomlord's Totemic Wand]|h|r", -- [16]
+					"|cffa335ee|Hitem:98325:0:0:0:0:0:-360:1605043737:90:0:467|h[Immaculate Pandaren Rod of the Fireflash]|h|r", -- [17]
 				},
 				["averageItemLvl"] = 514,
 				["overallAIL"] = 514,
-				["lastUpdate"] = 1375250250,
+				["lastUpdate"] = 1375317589,
 			},
 			["Default.Bloodhoof.Tarley"] = {
 				["Inventory"] = {
@@ -298,9 +298,9 @@ DataStore_InventoryDB = {
 					[7] = 20899,
 					[8] = 20900,
 					[10] = 57198,
-					[5] = 57202,
 					[9] = 66616,
 					[16] = 8182,
+					[5] = 57202,
 				},
 				["averageItemLvl"] = 1.800000071525574,
 				["overallAIL"] = 1.800000071525574,
@@ -384,8 +384,8 @@ DataStore_InventoryDB = {
 					[10] = 65919,
 					[12] = 65971,
 					[6] = "|cff0070dd|Hitem:51968:0:0:0:0:0:-83:377421834:43:0:0|h[Enumerated Wrap of the Sun]|h|r",
-					[16] = 65941,
 					[9] = 4043,
+					[16] = 65941,
 				},
 				["averageItemLvl"] = 18.60000038146973,
 				["overallAIL"] = 22.93333435058594,
@@ -587,14 +587,14 @@ DataStore_InventoryDB = {
 					["Spanktastic"] = {
 						["averageItemLvl"] = 301,
 					},
-					["Renevie"] = {
-						["averageItemLvl"] = 77,
+					["Sulris"] = {
+						["averageItemLvl"] = 106,
 					},
 					["Spanken"] = {
 						["averageItemLvl"] = 91,
 					},
-					["Sulris"] = {
-						["averageItemLvl"] = 106,
+					["Renevie"] = {
+						["averageItemLvl"] = 77,
 					},
 					["Guildthree"] = {
 						["averageItemLvl"] = 20,
@@ -618,6 +618,13 @@ DataStore_InventoryDB = {
 				["Members"] = {
 					["Abryn"] = {
 						["averageItemLvl"] = 10,
+					},
+				},
+			},
+			["Default.Wyrmrest Accord.Bladestorm"] = {
+				["Members"] = {
+					["Roslyn"] = {
+						["averageItemLvl"] = 29,
 					},
 				},
 			},
@@ -868,13 +875,6 @@ DataStore_InventoryDB = {
 					},
 					["Hersoul"] = {
 						["averageItemLvl"] = 80,
-					},
-				},
-			},
-			["Default.Wyrmrest Accord.Bladestorm"] = {
-				["Members"] = {
-					["Roslyn"] = {
-						["averageItemLvl"] = 29,
 					},
 				},
 			},

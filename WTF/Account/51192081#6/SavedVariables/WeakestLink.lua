@@ -1,0 +1,3 @@
+
+WLsavedtable = nil
+WLdebug = nil

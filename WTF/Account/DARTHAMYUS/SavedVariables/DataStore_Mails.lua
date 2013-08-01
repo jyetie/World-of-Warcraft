@@ -1908,9 +1908,9 @@ DataStore_MailsDB = {
 				["lastUpdate"] = 1375250329,
 				["Mails"] = {
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "Brew of the Month Club",
 						["subject"] = "A Dangerous Brew",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "Greetings Jyetie,\n\n   We have an exciting brew for you this month.  Brew of the Month Club members have braved the jungles of Stranglethorn and have returned with this mysterious brew.\n\n   Don't forget that if you enjoyed this brew sample, you can purchase more from our vendors.\n\nEnjoy!\n\n- Brew of the Month Club",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
@@ -1925,99 +1925,99 @@ DataStore_MailsDB = {
 						["daysLeft"] = 1.783923625946045,
 					}, -- [2]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 1.838599562644959,
 					}, -- [3]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 1.853668928146362,
 					}, -- [4]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 1.893020868301392,
 					}, -- [5]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 1.909120321273804,
 					}, -- [6]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "Thaumaturge Vashreen",
 						["subject"] = "Lost Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We discovered this curious item in one of our vaults, and it apparently belongs to you.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 1.909155130386353,
 					}, -- [7]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "Ellia Ravenmane",
 						["subject"] = "Fighting Trainers Now, Huh?",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "I heard you beat Kuo-Na. Impressive stuff... RIVAL. Well, I've been training, too. And I've got a few surprises for you.\n\nSee you soon, Jyetie...",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 4.226469993591309,
 					}, -- [8]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 5.094698905944824,
 					}, -- [9]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 5.094698905944824,
 					}, -- [10]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 5.094757080078125,
 					}, -- [11]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
 						["daysLeft"] = 5.094826221466065,
 					}, -- [12]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
@@ -2032,9 +2032,9 @@ DataStore_MailsDB = {
 						["daysLeft"] = 13.15378475189209,
 					}, -- [14]
 					{
-						["lastCheck"] = 1375250329,
 						["sender"] = "The Postmaster",
 						["subject"] = "Recovered Item",
+						["lastCheck"] = 1375250329,
 						["money"] = 0,
 						["text"] = "We recovered a lost item in the twisting nether and noted that it was yours.\n\nPlease find said object enclosed.",
 						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",

@@ -1,0 +1,34 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["gold"] = {
+		["Bloodhoof"] = {
+			["Alythe"] = 65384297,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+			["install_complete"] = "5.31",
+		},
+	},
+}

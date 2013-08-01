@@ -8,15 +8,15 @@ CombuctorDB2 = {
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 465.9999084472656,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["bags"] = {
 					0, -- [1]
@@ -39,6 +39,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -49,27 +56,20 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Avelaine - Bloodhoof"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 512,
-				["showBags"] = true,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 512,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = true,
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -86,6 +86,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = true,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -95,12 +101,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -112,16 +112,16 @@ CombuctorDB2 = {
 		},
 		["Roslyn - Wyrmrest Accord"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 512,
-				["showBags"] = true,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 512,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = true,
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -138,12 +138,6 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -153,6 +147,12 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -164,15 +164,15 @@ CombuctorDB2 = {
 		},
 		["Margot - Crushridge"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["sets"] = {
 					"All", -- [1]
@@ -190,6 +190,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -199,12 +205,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -216,16 +216,16 @@ CombuctorDB2 = {
 		},
 		["Vendrelia - Earthen Ring"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 400,
-				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 400,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -247,6 +247,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -257,26 +264,19 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Brynnen - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["bags"] = {
 					0, -- [1]
@@ -299,6 +299,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -309,27 +316,20 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Renevie - Moon Guard"] = {
 			["inventory"] = {
+				["showBags"] = true,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = true,
 				["sets"] = {
 					"All", -- [1]
 					"Equipment", -- [2]
@@ -351,12 +351,6 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = true,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -366,6 +360,12 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -377,15 +377,15 @@ CombuctorDB2 = {
 		},
 		["Zaeliana - Bronzebeard"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["bags"] = {
 					0, -- [1]
@@ -408,13 +408,6 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
-				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -424,21 +417,28 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["w"] = 512,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 			},
 		},
 		["Alythe - Bloodhoof"] = {
 			["inventory"] = {
+				["showBags"] = true,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = true,
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -455,12 +455,6 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = true,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -470,6 +464,12 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -481,16 +481,16 @@ CombuctorDB2 = {
 		},
 		["Vezeri - Bloodhoof"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 512,
-				["showBags"] = true,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 512,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = true,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -512,6 +512,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -522,19 +529,19 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Jyetie - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = true,
+				["position"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-3.999614000320435, -- [4]
+					-68.99985504150391, -- [5]
+				},
 				["h"] = 421.9999389648438,
+				["showBags"] = true,
 				["exclude"] = {
 					["Alchemy"] = {
 						"Herb", -- [1]
@@ -542,13 +549,6 @@ CombuctorDB2 = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-3.999614000320435, -- [4]
-					-68.99985504150391, -- [5]
 				},
 				["bags"] = {
 					0, -- [1]
@@ -576,6 +576,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -586,27 +593,20 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Zalizia - Maelstrom"] = {
 			["inventory"] = {
+				["showBags"] = false,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = false,
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -623,6 +623,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -632,12 +638,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -649,15 +649,15 @@ CombuctorDB2 = {
 		},
 		["Venerie - Wyrmrest Accord"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["bags"] = {
 					0, -- [1]
@@ -680,6 +680,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -690,30 +697,23 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Avessia - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = true,
-				["h"] = 516.0001220703125,
-				["exclude"] = {
-					["All"] = {
-						"All", -- [1]
-					},
-				},
 				["position"] = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
 					-45.99944686889648, -- [4]
 					23.50007247924805, -- [5]
+				},
+				["h"] = 516.0001220703125,
+				["showBags"] = true,
+				["exclude"] = {
+					["All"] = {
+						"All", -- [1]
+					},
 				},
 				["bags"] = {
 					0, -- [1]
@@ -736,6 +736,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -746,26 +753,19 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 			},
 		},
 		["Cyralie - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = true,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = true,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["sets"] = {
 					"All", -- [1]
@@ -783,6 +783,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -792,12 +798,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -809,6 +809,12 @@ CombuctorDB2 = {
 		},
 		["Rhosie - Bloodhoof"] = {
 			["inventory"] = {
+				["exclude"] = {
+					["All"] = {
+						"All", -- [1]
+					},
+				},
+				["h"] = 512,
 				["position"] = {
 					"LEFT", -- [1]
 					nil, -- [2]
@@ -816,13 +822,7 @@ CombuctorDB2 = {
 					8, -- [4]
 					10.0000467300415, -- [5]
 				},
-				["h"] = 512,
 				["showBags"] = true,
-				["exclude"] = {
-					["All"] = {
-						"All", -- [1]
-					},
-				},
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -839,6 +839,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -848,12 +854,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -865,6 +865,12 @@ CombuctorDB2 = {
 		},
 		["Tarley - Bloodhoof"] = {
 			["inventory"] = {
+				["exclude"] = {
+					["All"] = {
+						"All", -- [1]
+					},
+				},
+				["h"] = 512,
 				["position"] = {
 					"TOPRIGHT", -- [1]
 					nil, -- [2]
@@ -872,13 +878,7 @@ CombuctorDB2 = {
 					-163.9998168945313, -- [4]
 					-92.99997711181641, -- [5]
 				},
-				["h"] = 512,
 				["showBags"] = true,
-				["exclude"] = {
-					["All"] = {
-						"All", -- [1]
-					},
-				},
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -895,12 +895,6 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = true,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -910,6 +904,12 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -921,12 +921,13 @@ CombuctorDB2 = {
 		},
 		["Amazy - Bloodhoof"] = {
 			["inventory"] = {
+				["showBags"] = true,
+				["h"] = 412,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 412,
 				["position"] = {
 					"RIGHT", -- [1]
 					nil, -- [2]
@@ -934,7 +935,6 @@ CombuctorDB2 = {
 					-158.0002288818359, -- [4]
 					-102.0000839233398, -- [5]
 				},
-				["showBags"] = true,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -956,13 +956,6 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
-				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -973,19 +966,26 @@ CombuctorDB2 = {
 					10, -- [7]
 					11, -- [8]
 				},
+				["w"] = 512,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 			},
 		},
 		["Sparkler - Bloodhoof"] = {
 			["inventory"] = {
-				["showBags"] = false,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
 				["h"] = 512,
+				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
-				},
-				["position"] = {
-					"RIGHT", -- [1]
 				},
 				["sets"] = {
 					"All", -- [1]
@@ -1003,12 +1003,6 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1018,6 +1012,12 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -1029,16 +1029,16 @@ CombuctorDB2 = {
 		},
 		["Abryn - Wyrmrest Accord"] = {
 			["inventory"] = {
+				["showBags"] = false,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -1060,13 +1060,6 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
-				},
-				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1076,21 +1069,28 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
+				},
+				["w"] = 512,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
 				},
 			},
 		},
 		["Cyralie - Bronzebeard"] = {
 			["inventory"] = {
+				["showBags"] = false,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = false,
 				["sets"] = {
 					"All", -- [1]
 				},
@@ -1107,6 +1107,12 @@ CombuctorDB2 = {
 			["bank"] = {
 				["h"] = 512,
 				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1116,12 +1122,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 				["w"] = 512,
 				["exclude"] = {
@@ -1133,16 +1133,16 @@ CombuctorDB2 = {
 		},
 		["Greyjoy - Crushridge"] = {
 			["inventory"] = {
+				["showBags"] = false,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -1164,6 +1164,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1173,28 +1180,21 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 			},
 		},
 		["Eloisa - Bloodhoof"] = {
 			["inventory"] = {
+				["showBags"] = false,
+				["h"] = 512,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
-				["h"] = 512,
 				["position"] = {
 					"RIGHT", -- [1]
 				},
-				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -1216,6 +1216,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1225,28 +1232,21 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 			},
 		},
 		["Glitterglade - Bloodhoof"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 512,
-				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 512,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -1268,6 +1268,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1277,28 +1284,21 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 			},
 		},
 		["Karielle - Bronzebeard"] = {
 			["inventory"] = {
-				["position"] = {
-					"RIGHT", -- [1]
-				},
-				["h"] = 512,
-				["showBags"] = false,
 				["exclude"] = {
 					["All"] = {
 						"All", -- [1]
 					},
 				},
+				["h"] = 512,
+				["position"] = {
+					"RIGHT", -- [1]
+				},
+				["showBags"] = false,
 				["bags"] = {
 					0, -- [1]
 					1, -- [2]
@@ -1320,6 +1320,13 @@ CombuctorDB2 = {
 						"All", -- [1]
 					},
 				},
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+				},
+				["w"] = 512,
 				["bags"] = {
 					-1, -- [1]
 					5, -- [2]
@@ -1329,13 +1336,6 @@ CombuctorDB2 = {
 					9, -- [6]
 					10, -- [7]
 					11, -- [8]
-				},
-				["w"] = 512,
-				["sets"] = {
-					"All", -- [1]
-					"Equipment", -- [2]
-					"Trade Goods", -- [3]
-					"Miscellaneous", -- [4]
 				},
 			},
 		},

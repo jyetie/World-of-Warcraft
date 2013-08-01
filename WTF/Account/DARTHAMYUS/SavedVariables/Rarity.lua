@@ -118,17 +118,17 @@ RarityDB = {
 								["time"] = 2,
 								["attempts"] = 4,
 							},
-							[20130708] = {
+							[20130528] = {
 								["time"] = 1,
-								["attempts"] = 1,
+								["attempts"] = 6,
 							},
 							[20130522] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
-							[20130528] = {
+							[20130708] = {
 								["time"] = 1,
-								["attempts"] = 6,
+								["attempts"] = 1,
 							},
 							[20130510] = {
 								["attempts"] = 1,
@@ -177,19 +177,6 @@ RarityDB = {
 					["Invincible's Reins"] = {
 						["attempts"] = 2,
 					},
-					["Reins of the Astral Cloud Serpent"] = {
-						["attempts"] = 1,
-					},
-					["Reins of the Slate Primordial Direhorn"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20130429] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
-					},
 					["Reins of the Drake of the North Wind"] = {
 						["time"] = 2,
 						["dates"] = {
@@ -203,6 +190,19 @@ RarityDB = {
 							},
 						},
 						["attempts"] = 2,
+					},
+					["Reins of the Slate Primordial Direhorn"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20130429] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Reins of the Astral Cloud Serpent"] = {
+						["attempts"] = 1,
 					},
 					["Experiment 12-B"] = {
 						["attempts"] = 13,
@@ -223,8 +223,8 @@ RarityDB = {
 					["Reins of the Drake of the South Wind"] = {
 						["attempts"] = 1,
 					},
-					["Reins of the Onyxian Drake"] = {
-						["attempts"] = 6,
+					["Reins of the Blue Drake"] = {
+						["attempts"] = 10,
 					},
 					["Sea Turtle"] = {
 						["time"] = 1256.981999999996,
@@ -246,8 +246,8 @@ RarityDB = {
 					["Reins of the Thundering Cobalt Cloud Serpent"] = {
 						["attempts"] = 6,
 					},
-					["Reins of the Blue Drake"] = {
-						["attempts"] = 10,
+					["Reins of the Onyxian Drake"] = {
+						["attempts"] = 6,
 					},
 					["Red Qiraji Resonating Crystal"] = {
 						["lastAttempts"] = 7,
@@ -327,13 +327,13 @@ RarityDB = {
 						["lastTime"] = 1,
 					},
 					["Porcupette"] = {
+						["time"] = 1,
 						["dates"] = {
 							[20130715] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["time"] = 1,
 						["attempts"] = 1,
 					},
 					["Tiny Fel Engine Key"] = {
@@ -442,6 +442,10 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
+					["Whistle of Chromatic Bone"] = {
+						["enabled"] = false,
+						["found"] = true,
+					},
 					["Gundrak Hatchling"] = {
 						["time"] = 174.0299999999988,
 						["dates"] = {
@@ -522,6 +526,7 @@ RarityDB = {
 						["found"] = true,
 					},
 					["Razzashi Hatchling"] = {
+						["time"] = 265,
 						["dates"] = {
 							[20130714] = {
 								["time"] = 3,
@@ -544,7 +549,6 @@ RarityDB = {
 								["attempts"] = 7,
 							},
 						},
-						["time"] = 265,
 						["attempts"] = 267,
 					},
 					["Brilliant Phoenix Hawk Feather"] = {
@@ -590,25 +594,25 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Viscidus Globule"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20130716] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
-					},
 					["Cat Carrier (Black Tabby)"] = {
+						["time"] = 1,
 						["dates"] = {
 							[20130606] = {
 								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
-						["time"] = 1,
 						["attempts"] = 1,
+					},
+					["Fox Kit"] = {
+						["time"] = 451.820000000007,
+						["dates"] = {
+							[20130415] = {
+								["time"] = 451.820000000007,
+								["attempts"] = 13,
+							},
+						},
+						["attempts"] = 13,
 					},
 					["Blighted Spore"] = {
 						["time"] = 2,
@@ -625,6 +629,7 @@ RarityDB = {
 						["attempts"] = 2,
 					},
 					["Parrot Cage (Hyacinth Macaw)"] = {
+						["time"] = 267,
 						["dates"] = {
 							[20130714] = {
 								["time"] = 3,
@@ -647,7 +652,6 @@ RarityDB = {
 								["attempts"] = 7,
 							},
 						},
-						["time"] = 267,
 						["attempts"] = 267,
 					},
 					["Jewel of Maddening Whispers"] = {
@@ -679,15 +683,15 @@ RarityDB = {
 						},
 						["attempts"] = 39,
 					},
-					["Fox Kit"] = {
-						["time"] = 451.820000000007,
+					["Viscidus Globule"] = {
+						["time"] = 1,
 						["dates"] = {
-							[20130415] = {
-								["time"] = 451.820000000007,
-								["attempts"] = 13,
+							[20130716] = {
+								["time"] = 1,
+								["attempts"] = 1,
 							},
 						},
-						["attempts"] = 13,
+						["attempts"] = 1,
 					},
 					["Quivering Blob"] = {
 						["attempts"] = 2,
@@ -757,13 +761,13 @@ RarityDB = {
 								["time"] = 1062.469999999987,
 								["attempts"] = 16,
 							},
-							[20130526] = {
-								["time"] = 545.801999999996,
-								["attempts"] = 6,
-							},
 							[20130420] = {
 								["time"] = 1489.59300000011,
 								["attempts"] = 17,
+							},
+							[20130526] = {
+								["time"] = 545.801999999996,
+								["attempts"] = 6,
 							},
 							[20130628] = {
 								["time"] = 333.2789999999804,
@@ -812,7 +816,7 @@ RarityDB = {
 					},
 				},
 			},
-			["lastRevision"] = 193,
+			["lastRevision"] = 199,
 			["bar"] = {
 				["point"] = "RIGHT",
 				["scale"] = 0.9500000000000001,

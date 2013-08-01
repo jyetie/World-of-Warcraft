@@ -2,79 +2,16 @@
 RecountPerCharDB = {
 	["version"] = "1.3",
 	["combatants"] = {
-		["Bivritt"] = {
-			["GUID"] = "0x0200000003F4BB80",
-			["type"] = "Hostile",
-			["GuardianReverseGUIDs"] = {
-				["Blingtron 4000"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "0xF130AB9900428DA5",
-					},
-				},
-			},
-			["Owner"] = false,
-			["enClass"] = "HOSTILE",
-			["Name"] = "Bivritt",
-			["Pet"] = {
-				"Blingtron 4000 <Bivritt>", -- [1]
-			},
-			["Fights"] = {
-			},
-			["level"] = 1,
-			["UnitLockout"] = 1360976253,
-			["LastFightIn"] = 0,
-		},
 		["Jyetie"] = {
 			["GUID"] = "0x0200000006849235",
 			["LastEventHealth"] = {
-				"366805 (100%)", -- [1]
-				"361098 (98%)", -- [2]
-				"355331 (96%)", -- [3]
-				"355331 (96%)", -- [4]
-				"349659 (95%)", -- [5]
-				"349659 (95%)", -- [6]
-				"349659 (95%)", -- [7]
-				"344328 (93%)", -- [8]
-				"344328 (93%)", -- [9]
-				"344328 (93%)", -- [10]
-				"338320 (92%)", -- [11]
-				"333724 (90%)", -- [12]
-				"333724 (90%)", -- [13]
-				"328747 (89%)", -- [14]
-				"328747 (89%)", -- [15]
-				"312435 (85%)", -- [16]
-				"312435 (85%)", -- [17]
-				"302986 (82%)", -- [18]
-				"302986 (82%)", -- [19]
-				"302986 (82%)", -- [20]
-				"297424 (81%)", -- [21]
-				"297424 (81%)", -- [22]
-				"297424 (81%)", -- [23]
-				"292175 (79%)", -- [24]
-				"292175 (79%)", -- [25]
-				"287494 (78%)", -- [26]
-				"282785 (77%)", -- [27]
-				"282785 (77%)", -- [28]
-				"277919 (75%)", -- [29]
-				"277919 (75%)", -- [30]
-				"277919 (75%)", -- [31]
-				"366805 (100%)", -- [32]
-				"360943 (98%)", -- [33]
-				"356009 (97%)", -- [34]
-				"356009 (97%)", -- [35]
-				"350166 (95%)", -- [36]
-				"350166 (95%)", -- [37]
-				"350166 (95%)", -- [38]
-				"345548 (94%)", -- [39]
-				"345548 (94%)", -- [40]
-				"345548 (94%)", -- [41]
-				"340093 (92%)", -- [42]
-				"340093 (92%)", -- [43]
-				"340093 (92%)", -- [44]
-				"340093 (92%)", -- [45]
-				"335045 (91%)", -- [46]
-				"328629 (89%)", -- [47]
+				"441467 (100%)", -- [1]
+				"441467 (100%)", -- [2]
+				"441467 (100%)", -- [3]
+				"441467 (100%)", -- [4]
+				"441467 (100%)", -- [5]
+				"441467 (100%)", -- [6]
+				"441467 (100%)", -- [7]
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
@@ -84,2000 +21,39 @@ RecountPerCharDB = {
 				"DAMAGE", -- [5]
 				"DAMAGE", -- [6]
 				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
 			},
 			["TimeWindows"] = {
-				["TimeDamage"] = {
-					38.99, -- [1]
-				},
 				["FDamage"] = {
-					947504, -- [1]
+					216733, -- [1]
+				},
+				["TimeDamage"] = {
+					7.100000000000001, -- [1]
+				},
+				["DOT_Time"] = {
+					15, -- [1]
 				},
 				["ActiveTime"] = {
-					38.99, -- [1]
+					7.100000000000001, -- [1]
 				},
 			},
 			["enClass"] = "MAGE",
 			["unit"] = "Jyetie",
 			["level"] = 90,
 			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				1.555867559057265, -- [1]
-				1.572225024195417, -- [2]
-				1.546325704393343, -- [3]
-				nil, -- [4]
-				nil, -- [5]
-				nil, -- [6]
-				1.453360777524843, -- [7]
-				nil, -- [8]
-				nil, -- [9]
-				1.637927509166996, -- [10]
-				1.252981829582476, -- [11]
-				nil, -- [12]
-				1.356851733209744, -- [13]
-				3.200338054279522, -- [14]
-				1.246711467946184, -- [15]
-				1.323318929676531, -- [16]
-				1.252709205163507, -- [17]
-				1.51633701830673, -- [18]
-				nil, -- [19]
-				nil, -- [20]
-				nil, -- [21]
-				nil, -- [22]
-				1.431005575169368, -- [23]
-				nil, -- [24]
-				1.276154905194858, -- [25]
-				1.283788388925996, -- [26]
-				nil, -- [27]
-				1.326590422704162, -- [28]
-				nil, -- [29]
-				nil, -- [30]
-				nil, -- [31]
-				1.598124343997492, -- [32]
-				1.345128883194068, -- [33]
-				nil, -- [34]
-				1.592944480037077, -- [35]
-				nil, -- [36]
-				nil, -- [37]
-				1.258979566799798, -- [38]
-				nil, -- [39]
-				nil, -- [40]
-				1.487166205477025, -- [41]
-				nil, -- [42]
-				nil, -- [43]
-				nil, -- [44]
-				1.376208066956557, -- [45]
-				1.749158272106433, -- [46]
-			},
 			["type"] = "Self",
+			["LastAbility"] = 26599.527,
 			["TimeLast"] = {
-				["TimeDamage"] = 1360977041,
-				["OVERALL"] = 1360977041,
-				["FDamage"] = 1360977041,
-				["ActiveTime"] = 1360977041,
+				["FDamage"] = 1375317537,
+				["ActiveTime"] = 1375317537,
+				["OVERALL"] = 1375317537,
+				["DOT_Time"] = 1375317537,
+				["TimeDamage"] = 1375317537,
 			},
-			["LastAbility"] = 34456.661,
 			["Owner"] = false,
 			["Pet"] = {
-				"Swooping Plainshawk <Jyetie>", -- [1]
-				"Water Elemental <Jyetie>", -- [2]
-				"Voracious Virmen <Jyetie>", -- [3]
+				"Squatting Virmen <Jyetie>", -- [1]
 			},
-			["NextEventNum"] = 48,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				98.44413244094274, -- [2]
-				96.87190741674732, -- [3]
-				96.87190741674732, -- [4]
-				95.32558171235398, -- [5]
-				95.32558171235398, -- [6]
-				95.32558171235398, -- [7]
-				93.87222093482913, -- [8]
-				93.87222093482913, -- [9]
-				93.87222093482913, -- [10]
-				92.23429342566213, -- [11]
-				90.98131159607966, -- [12]
-				90.98131159607966, -- [13]
-				89.62445986286991, -- [14]
-				89.62445986286991, -- [15]
-				85.17741034064422, -- [16]
-				85.17741034064422, -- [17]
-				82.60138220580417, -- [18]
-				82.60138220580417, -- [19]
-				82.60138220580417, -- [20]
-				81.08504518749744, -- [21]
-				81.08504518749744, -- [22]
-				81.08504518749744, -- [23]
-				79.65403961232808, -- [24]
-				79.65403961232808, -- [25]
-				78.37788470713322, -- [26]
-				77.09409631820722, -- [27]
-				77.09409631820722, -- [28]
-				75.76750589550306, -- [29]
-				75.76750589550306, -- [30]
-				75.76750589550306, -- [31]
-				100, -- [32]
-				98.4018756560025, -- [33]
-				97.05674677280844, -- [34]
-				97.05674677280844, -- [35]
-				95.46380229277136, -- [36]
-				95.46380229277136, -- [37]
-				95.46380229277136, -- [38]
-				94.20482272597157, -- [39]
-				94.20482272597157, -- [40]
-				94.20482272597157, -- [41]
-				92.71765652049454, -- [42]
-				92.71765652049454, -- [43]
-				92.71765652049454, -- [44]
-				92.71765652049454, -- [45]
-				91.34144845353798, -- [46]
-				89.59229018143155, -- [47]
-			},
-			["LastEvents"] = {
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5707 (Physical)", -- [1]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5767 (Physical)", -- [2]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5672 (Physical)", -- [3]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -22453 (Frost)", -- [4]
-				"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [5]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Crit -59395 (Frost)", -- [6]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5331 (Physical)", -- [7]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -31152 (Frost)", -- [8]
-				"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Crit -83447 (Frostfire)", -- [9]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6008 (Physical)", -- [10]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4596 (Physical)", -- [11]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -32319 (Frost)", -- [12]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4977 (Physical)", -- [13]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Crit -11739 (Physical)", -- [14]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4573 (Physical)", -- [15]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4854 (Physical)", -- [16]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4595 (Physical)", -- [17]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5562 (Physical)", -- [18]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -2589 (Frost)", -- [19]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55709 (Frost)", -- [20]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55481 (Frost)", -- [21]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -22210 (Frost)", -- [22]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -5249 (Physical)", -- [23]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -4479 (Frost)", -- [24]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4681 (Physical)", -- [25]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4709 (Physical)", -- [26]
-				"Jyetie Frostbolt Voracious Virmen <Jyetie> Crit -50083 (Frost)", -- [27]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4866 (Physical)", -- [28]
-				"Jyetie Frost Bomb Voracious Virmen <Jyetie> Crit -100472 (Frost)", -- [29]
-				"Jyetie Frostbolt Voracious Virmen <Jyetie> Hit -26365 (Frost)", -- [30]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -34044 (Frost)", -- [31]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5862 (Physical)", -- [32]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4934 (Physical)", -- [33]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -22457 (Frost)", -- [34]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5843 (Physical)", -- [35]
-				"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [36]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -23557 (Frost)", -- [37]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4618 (Physical)", -- [38]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -24713 (Frost)", -- [39]
-				"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Hit -33038 (Frostfire)", -- [40]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5455 (Physical)", -- [41]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57094 (Frost)", -- [42]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57150 (Frost)", -- [43]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -28456 (Frost)", -- [44]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5048 (Physical)", -- [45]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6416 (Physical)", -- [46]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -30709 (Frost)", -- [47]
-			},
-			["Name"] = "Jyetie",
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["FDamagedWho"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 116485,
-								},
-								["Frostbolt"] = {
-									["count"] = 246755,
-								},
-								["Frost Bomb"] = {
-									["count"] = 90132,
-								},
-								["Ice Lance"] = {
-									["count"] = 145289,
-								},
-							},
-							["amount"] = 598661,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 171923,
-								},
-								["Frostbolt"] = {
-									["count"] = 76448,
-								},
-								["Frost Bomb"] = {
-									["count"] = 100472,
-								},
-							},
-							["amount"] = 348843,
-						},
-					},
-					["FDamage"] = 947504,
-					["ActiveTime"] = 38.99,
-					["TimeDamaging"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0.41,
-								},
-								["Frostbolt"] = {
-									["count"] = 17.5,
-								},
-								["Frost Bomb"] = {
-									["count"] = 3.14,
-								},
-								["Ice Lance"] = {
-									["count"] = 8.65,
-								},
-							},
-							["amount"] = 29.7,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 3.83,
-								},
-								["Frost Bomb"] = {
-									["count"] = 1.65,
-								},
-							},
-							["amount"] = 9.290000000000001,
-						},
-					},
-					["TimeSpent"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0.41,
-								},
-								["Frostbolt"] = {
-									["count"] = 17.5,
-								},
-								["Frost Bomb"] = {
-									["count"] = 3.14,
-								},
-								["Ice Lance"] = {
-									["count"] = 8.65,
-								},
-							},
-							["amount"] = 29.7,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 3.83,
-								},
-								["Frost Bomb"] = {
-									["count"] = 1.65,
-								},
-							},
-							["amount"] = 9.290000000000001,
-						},
-					},
-					["FAttacks"] = {
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 83447,
-									["min"] = 83447,
-									["count"] = 1,
-									["amount"] = 83447,
-								},
-								["Hit"] = {
-									["max"] = 33038,
-									["min"] = 33038,
-									["count"] = 1,
-									["amount"] = 33038,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 116485,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 59395,
-									["min"] = 50083,
-									["count"] = 2,
-									["amount"] = 109478,
-								},
-								["Hit"] = {
-									["max"] = 32319,
-									["min"] = 22453,
-									["count"] = 8,
-									["amount"] = 213725,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 323203,
-						},
-						["Frost Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 100472,
-									["min"] = 100472,
-									["count"] = 1,
-									["amount"] = 100472,
-								},
-								["Hit"] = {
-									["max"] = 45066,
-									["min"] = 45066,
-									["count"] = 2,
-									["amount"] = 90132,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 190604,
-						},
-						["Ice Lance"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 57150,
-									["min"] = 55481,
-									["count"] = 4,
-									["amount"] = 225434,
-								},
-								["Hit"] = {
-									["max"] = 34044,
-									["min"] = 2589,
-									["count"] = 5,
-									["amount"] = 91778,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 317212,
-						},
-					},
-					["TimeDamage"] = 38.99,
-				},
-				["OverallData"] = {
-					["FDamagedWho"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 116485,
-								},
-								["Frostbolt"] = {
-									["count"] = 246755,
-								},
-								["Frost Bomb"] = {
-									["count"] = 90132,
-								},
-								["Ice Lance"] = {
-									["count"] = 145289,
-								},
-							},
-							["amount"] = 598661,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 171923,
-								},
-								["Frostbolt"] = {
-									["count"] = 76448,
-								},
-								["Frost Bomb"] = {
-									["count"] = 100472,
-								},
-							},
-							["amount"] = 348843,
-						},
-					},
-					["FDamage"] = 947504,
-					["ActiveTime"] = 38.99,
-					["TimeDamaging"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0.41,
-								},
-								["Frostbolt"] = {
-									["count"] = 17.5,
-								},
-								["Frost Bomb"] = {
-									["count"] = 3.14,
-								},
-								["Ice Lance"] = {
-									["count"] = 8.65,
-								},
-							},
-							["amount"] = 29.7,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 3.83,
-								},
-								["Frost Bomb"] = {
-									["count"] = 1.65,
-								},
-							},
-							["amount"] = 9.290000000000001,
-						},
-					},
-					["TimeSpent"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Frostfire Bolt"] = {
-									["count"] = 0.41,
-								},
-								["Frostbolt"] = {
-									["count"] = 17.5,
-								},
-								["Frost Bomb"] = {
-									["count"] = 3.14,
-								},
-								["Ice Lance"] = {
-									["count"] = 8.65,
-								},
-							},
-							["amount"] = 29.7,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Ice Lance"] = {
-									["count"] = 3.81,
-								},
-								["Frostbolt"] = {
-									["count"] = 3.83,
-								},
-								["Frost Bomb"] = {
-									["count"] = 1.65,
-								},
-							},
-							["amount"] = 9.290000000000001,
-						},
-					},
-					["FAttacks"] = {
-						["Frostfire Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 83447,
-									["min"] = 83447,
-									["count"] = 1,
-									["amount"] = 83447,
-								},
-								["Hit"] = {
-									["max"] = 33038,
-									["min"] = 33038,
-									["count"] = 1,
-									["amount"] = 33038,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 116485,
-						},
-						["Frostbolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 59395,
-									["min"] = 50083,
-									["count"] = 2,
-									["amount"] = 109478,
-								},
-								["Hit"] = {
-									["max"] = 32319,
-									["min"] = 22453,
-									["count"] = 8,
-									["amount"] = 213725,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 323203,
-						},
-						["Frost Bomb"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 100472,
-									["min"] = 100472,
-									["count"] = 1,
-									["amount"] = 100472,
-								},
-								["Hit"] = {
-									["max"] = 45066,
-									["min"] = 45066,
-									["count"] = 2,
-									["amount"] = 90132,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 190604,
-						},
-						["Ice Lance"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 57150,
-									["min"] = 55481,
-									["count"] = 4,
-									["amount"] = 225434,
-								},
-								["Hit"] = {
-									["max"] = 34044,
-									["min"] = 2589,
-									["count"] = 5,
-									["amount"] = 91778,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 317212,
-						},
-					},
-					["TimeDamage"] = 38.99,
-				},
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				false, -- [9]
-				true, -- [10]
-				true, -- [11]
-				false, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				true, -- [26]
-				false, -- [27]
-				true, -- [28]
-				false, -- [29]
-				false, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				false, -- [44]
-				true, -- [45]
-				true, -- [46]
-				false, -- [47]
-			},
-			["LastEventTimes"] = {
-				34295.392, -- [1]
-				34297.405, -- [2]
-				34299.453, -- [3]
-				34299.453, -- [4]
-				34301.07, -- [5]
-				34301.341, -- [6]
-				34301.447, -- [7]
-				34303.215, -- [8]
-				34303.215, -- [9]
-				34303.484, -- [10]
-				34305.475, -- [11]
-				34306.386, -- [12]
-				34307.546, -- [13]
-				34309.566, -- [14]
-				34309.566, -- [15]
-				34311.526, -- [16]
-				34311.526, -- [17]
-				34313.546, -- [18]
-				34314.301, -- [19]
-				34314.301, -- [20]
-				34315.548, -- [21]
-				34316.875, -- [22]
-				34317.619, -- [23]
-				34317.956, -- [24]
-				34319.481, -- [25]
-				34321.412, -- [26]
-				34322.493, -- [27]
-				34323.437, -- [28]
-				34324.146, -- [29]
-				34324.478, -- [30]
-				34324.632, -- [31]
-				34440.804, -- [32]
-				34442.831, -- [33]
-				34444.378, -- [34]
-				34444.855, -- [35]
-				34445.895, -- [36]
-				34446.15, -- [37]
-				34446.848, -- [38]
-				34448.002, -- [39]
-				34448.413, -- [40]
-				34448.82, -- [41]
-				34450.958, -- [42]
-				34452.26, -- [43]
-				34453.57, -- [44]
-				34453.895, -- [45]
-				34456, -- [46]
-				34456.661, -- [47]
-			},
-			["UnitLockout"] = 1360976880,
-			["LastActive"] = 1360977041,
-		},
-		["Voracious Virmen <Jyetie>"] = {
-			["GUID"] = "0xF130EA870042B953",
-			["LastEventHealth"] = {
-				"393941 (100%)", -- [1]
-				"393941 (100%)", -- [2]
-				"338232 (85%)", -- [3]
-				"282751 (71%)", -- [4]
-				"260541 (66%)", -- [5]
-				"260541 (66%)", -- [6]
-				"249443 (63%)", -- [7]
-				"244964 (62%)", -- [8]
-				"244964 (62%)", -- [9]
-				"225158 (57%)", -- [10]
-				"225158 (57%)", -- [11]
-				"215310 (54%)", -- [12]
-				"165227 (41%)", -- [13]
-				"165227 (41%)", -- [14]
-				"64755 (16%)", -- [15]
-				"38390 (9%)", -- [16]
-				"4346 (1%)", -- [17]
-				"1 (0%)", -- [18]
-				"0 (0%)", -- [19]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"MISC", -- [19]
-			},
-			["TimeWindows"] = {
-				["TimeDamage"] = {
-					14.77, -- [1]
-				},
-				["DeathCount"] = {
-					1, -- [1]
-				},
-				["FDamage"] = {
-					28673, -- [1]
-				},
-				["ActiveTime"] = {
-					14.77, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["unit"] = "playertarget",
-			["level"] = 1,
-			["DeathLogs"] = {
-				{
-					["MessageTimes"] = {
-						-13.39199999999983, -- [1]
-						-10.61699999999837, -- [2]
-						-9.369999999995343, -- [3]
-						-8.042999999997846, -- [4]
-						-7.298999999999069, -- [5]
-						-7.298999999999069, -- [6]
-						-6.961999999999534, -- [7]
-						-5.436999999998079, -- [8]
-						-4.963999999999942, -- [9]
-						-3.505999999993946, -- [10]
-						-2.581999999994878, -- [11]
-						-2.424999999995634, -- [12]
-						-1.480999999999767, -- [13]
-						-0.771999999997206, -- [14]
-						-0.4399999999950524, -- [15]
-						-0.2860000000000582, -- [16]
-						-0.08999999999650754, -- [17]
-						0, -- [18]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-						true, -- [3]
-						true, -- [4]
-						false, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						false, -- [10]
-						true, -- [11]
-						true, -- [12]
-						false, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						true, -- [18]
-					},
-					["Messages"] = {
-						"Voracious Virmen <Jyetie> Melee Jyetie Hit -4595 (Physical)", -- [1]
-						"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55709 (Frost)", -- [2]
-						"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55481 (Frost)", -- [3]
-						"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -22210 (Frost)", -- [4]
-						"Voracious Virmen <Jyetie> Melee Jyetie Hit -5249 (Physical)", -- [5]
-						"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -11098 (Frost)", -- [6]
-						"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -4479 (Frost)", -- [7]
-						"Voracious Virmen <Jyetie> Melee Jyetie Hit -4681 (Physical)", -- [8]
-						"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Crit -19806 (Frost)", -- [9]
-						"Voracious Virmen <Jyetie> Melee Jyetie Hit -4709 (Physical)", -- [10]
-						"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -9848 (Frost)", -- [11]
-						"Jyetie Frostbolt Voracious Virmen <Jyetie> Crit -50083 (Frost)", -- [12]
-						"Voracious Virmen <Jyetie> Melee Jyetie Hit -4866 (Physical)", -- [13]
-						"Jyetie Frost Bomb Voracious Virmen <Jyetie> Crit -100472 (Frost)", -- [14]
-						"Jyetie Frostbolt Voracious Virmen <Jyetie> Hit -26365 (Frost)", -- [15]
-						"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -34044 (Frost)", -- [16]
-						"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -10914 (Frost)", -- [17]
-						"Voracious Virmen <Jyetie> dies.", -- [18]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						14.14145773098002, -- [2]
-						14.0835810438619, -- [3]
-						5.637900091638088, -- [4]
-						0, -- [5]
-						2.81717312998647, -- [6]
-						1.136972287728365, -- [7]
-						0, -- [8]
-						5.027656425708418, -- [9]
-						0, -- [10]
-						2.499866731312557, -- [11]
-						12.71332509182847, -- [12]
-						0, -- [13]
-						25.50432679005232, -- [14]
-						6.692626560830175, -- [15]
-						8.641903229163757, -- [16]
-						2.77046562810167, -- [17]
-						0, -- [18]
-					},
-					["DeathAt"] = 1360976912,
-					["HealthNum"] = {
-						100, -- [1]
-						85.85854226901998, -- [2]
-						71.77496122515808, -- [3]
-						66.13706113351999, -- [4]
-						66.13706113351999, -- [5]
-						63.31988800353352, -- [6]
-						62.18291571580516, -- [7]
-						62.18291571580516, -- [8]
-						57.15525929009674, -- [9]
-						57.15525929009674, -- [10]
-						54.65539255878419, -- [11]
-						41.94206746695571, -- [12]
-						41.94206746695571, -- [13]
-						16.4377406769034, -- [14]
-						9.74511411607322, -- [15]
-						1.103210886909461, -- [16]
-						0.0002538451189391305, -- [17]
-						0, -- [18]
-					},
-					["Health"] = {
-						"393941 (100%)", -- [1]
-						"338232 (85%)", -- [2]
-						"282751 (71%)", -- [3]
-						"260541 (66%)", -- [4]
-						"260541 (66%)", -- [5]
-						"249443 (63%)", -- [6]
-						"244964 (62%)", -- [7]
-						"244964 (62%)", -- [8]
-						"225158 (57%)", -- [9]
-						"225158 (57%)", -- [10]
-						"215310 (54%)", -- [11]
-						"165227 (41%)", -- [12]
-						"165227 (41%)", -- [13]
-						"64755 (16%)", -- [14]
-						"38390 (9%)", -- [15]
-						"4346 (1%)", -- [16]
-						"1 (0%)", -- [17]
-						"0 (0%)", -- [18]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"MISC", -- [18]
-					},
-				}, -- [1]
-			},
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				nil, -- [1]
-				nil, -- [2]
-				14.14145773098002, -- [3]
-				14.0835810438619, -- [4]
-				5.637900091638088, -- [5]
-				nil, -- [6]
-				2.81717312998647, -- [7]
-				1.136972287728365, -- [8]
-				nil, -- [9]
-				5.027656425708418, -- [10]
-				nil, -- [11]
-				2.499866731312557, -- [12]
-				12.71332509182847, -- [13]
-				nil, -- [14]
-				25.50432679005232, -- [15]
-				6.692626560830175, -- [16]
-				8.641903229163757, -- [17]
-				2.77046562810167, -- [18]
-			},
-			["type"] = "Pet",
-			["TimeLast"] = {
-				["DeathCount"] = 1360976910,
-				["FDamage"] = 1360976908,
-				["ActiveTime"] = 1360976908,
-				["OVERALL"] = 1360976910,
-				["TimeDamage"] = 1360976908,
-			},
-			["Owner"] = "Jyetie",
-			["LastAbility"] = 34323.437,
-			["NextEventNum"] = 20,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				85.85854226901998, -- [3]
-				71.77496122515808, -- [4]
-				66.13706113351999, -- [5]
-				66.13706113351999, -- [6]
-				63.31988800353352, -- [7]
-				62.18291571580516, -- [8]
-				62.18291571580516, -- [9]
-				57.15525929009674, -- [10]
-				57.15525929009674, -- [11]
-				54.65539255878419, -- [12]
-				41.94206746695571, -- [13]
-				41.94206746695571, -- [14]
-				16.4377406769034, -- [15]
-				9.74511411607322, -- [16]
-				1.103210886909461, -- [17]
-				0.0002538451189391305, -- [18]
-				0, -- [19]
-			},
-			["LastEvents"] = {
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4573 (Physical)", -- [1]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4595 (Physical)", -- [2]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55709 (Frost)", -- [3]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Crit -55481 (Frost)", -- [4]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -22210 (Frost)", -- [5]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -5249 (Physical)", -- [6]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -11098 (Frost)", -- [7]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -4479 (Frost)", -- [8]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4681 (Physical)", -- [9]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Crit -19806 (Frost)", -- [10]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4709 (Physical)", -- [11]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -9848 (Frost)", -- [12]
-				"Jyetie Frostbolt Voracious Virmen <Jyetie> Crit -50083 (Frost)", -- [13]
-				"Voracious Virmen <Jyetie> Melee Jyetie Hit -4866 (Physical)", -- [14]
-				"Jyetie Frost Bomb Voracious Virmen <Jyetie> Crit -100472 (Frost)", -- [15]
-				"Jyetie Frostbolt Voracious Virmen <Jyetie> Hit -26365 (Frost)", -- [16]
-				"Jyetie Ice Lance Voracious Virmen <Jyetie> Hit -34044 (Frost)", -- [17]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -10914 (Frost)", -- [18]
-				"Voracious Virmen <Jyetie> dies.", -- [19]
-			},
-			["Name"] = "Voracious Virmen",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				false, -- [6]
-				true, -- [7]
-				true, -- [8]
-				false, -- [9]
-				true, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-			},
-			["LastEventTimes"] = {
-				34309.566, -- [1]
-				34311.526, -- [2]
-				34314.301, -- [3]
-				34315.548, -- [4]
-				34316.875, -- [5]
-				34317.619, -- [6]
-				34317.619, -- [7]
-				34317.956, -- [8]
-				34319.481, -- [9]
-				34319.954, -- [10]
-				34321.412, -- [11]
-				34322.336, -- [12]
-				34322.493, -- [13]
-				34323.437, -- [14]
-				34324.146, -- [15]
-				34324.478, -- [16]
-				34324.632, -- [17]
-				34324.828, -- [18]
-				34324.918, -- [19]
-			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["FDamagedWho"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 28673,
-								},
-							},
-							["amount"] = 28673,
-						},
-					},
-					["DeathCount"] = 1,
-					["FDamage"] = 28673,
-					["ActiveTime"] = 14.77,
-					["TimeDamaging"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.77,
-								},
-							},
-							["amount"] = 14.77,
-						},
-					},
-					["TimeSpent"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.77,
-								},
-							},
-							["amount"] = 14.77,
-						},
-					},
-					["FAttacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5249,
-									["min"] = 4573,
-									["count"] = 6,
-									["amount"] = 28673,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 28673,
-						},
-					},
-					["TimeDamage"] = 14.77,
-				},
-				["OverallData"] = {
-					["FDamagedWho"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 28673,
-								},
-							},
-							["amount"] = 28673,
-						},
-					},
-					["DeathCount"] = 1,
-					["FDamage"] = 28673,
-					["ActiveTime"] = 14.77,
-					["TimeDamaging"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.77,
-								},
-							},
-							["amount"] = 14.77,
-						},
-					},
-					["TimeSpent"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.77,
-								},
-							},
-							["amount"] = 14.77,
-						},
-					},
-					["FAttacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5249,
-									["min"] = 4573,
-									["count"] = 6,
-									["amount"] = 28673,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 28673,
-						},
-					},
-					["TimeDamage"] = 14.77,
-				},
-			},
-			["UnitLockout"] = 1360976894,
-			["LastActive"] = 1360976908,
-		},
-		["Swooping Plainshawk <Jyetie>"] = {
-			["GUID"] = "0xF130EAA80042B876",
-			["LastEventHealth"] = {
-				"393941 (100%)", -- [1]
-				"393941 (100%)", -- [2]
-				"376131 (95%)", -- [3]
-				"376131 (95%)", -- [4]
-				"353678 (89%)", -- [5]
-				"344304 (87%)", -- [6]
-				"299238 (75%)", -- [7]
-				"239843 (60%)", -- [8]
-				"239843 (60%)", -- [9]
-				"230125 (58%)", -- [10]
-				"198973 (50%)", -- [11]
-				"115526 (29%)", -- [12]
-				"115526 (29%)", -- [13]
-				"115526 (29%)", -- [14]
-				"102687 (26%)", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"???", -- [19]
-				"???", -- [20]
-				"???", -- [21]
-				"???", -- [22]
-				"???", -- [23]
-				"???", -- [24]
-				"???", -- [25]
-				"???", -- [26]
-				"393941 (100%)", -- [27]
-				"393941 (100%)", -- [28]
-				"385029 (97%)", -- [29]
-				"362572 (92%)", -- [30]
-				"362572 (92%)", -- [31]
-				"317506 (80%)", -- [32]
-				"293949 (74%)", -- [33]
-				"284696 (72%)", -- [34]
-				"284696 (72%)", -- [35]
-				"259983 (65%)", -- [36]
-				"226945 (57%)", -- [37]
-				"216684 (55%)", -- [38]
-				"216684 (55%)", -- [39]
-				"159590 (40%)", -- [40]
-				"134416 (34%)", -- [41]
-				"77266 (19%)", -- [42]
-				"48810 (12%)", -- [43]
-				"34803 (8%)", -- [44]
-				"34803 (8%)", -- [45]
-				"23424 (5%)", -- [46]
-				"23424 (5%)", -- [47]
-				"1 (0%)", -- [48]
-				"0 (0%)", -- [49]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"MISC", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"DAMAGE", -- [47]
-				"DAMAGE", -- [48]
-				"MISC", -- [49]
-			},
-			["TimeWindows"] = {
-				["TimeDamage"] = {
-					38.76000000000001, -- [1]
-				},
-				["DeathCount"] = {
-					2, -- [1]
-				},
-				["FDamage"] = {
-					98389, -- [1]
-				},
-				["ActiveTime"] = {
-					38.76000000000001, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["unit"] = "playertarget",
-			["level"] = 1,
-			["DeathLogs"] = {
-				{
-					["MessageTimes"] = {
-						-13.92700000000332, -- [1]
-						-13.12099999999919, -- [2]
-						-12.37999999999738, -- [3]
-						-11.90299999999843, -- [4]
-						-10.86299999999756, -- [5]
-						-10.60800000000018, -- [6]
-						-10.50699999999779, -- [7]
-						-9.910000000003493, -- [8]
-						-8.756000000001222, -- [9]
-						-8.345000000001164, -- [10]
-						-8.0370000000039, -- [11]
-						-7.938000000001921, -- [12]
-						-5.80000000000291, -- [13]
-						-5.61699999999837, -- [14]
-						-4.497999999999593, -- [15]
-						-3.188000000001921, -- [16]
-						-3.188000000001921, -- [17]
-						-2.862999999997555, -- [18]
-						-0.7580000000016298, -- [19]
-						-0.7580000000016298, -- [20]
-						-0.09700000000157161, -- [21]
-						0, -- [22]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						true, -- [9]
-						true, -- [10]
-						true, -- [11]
-						false, -- [12]
-						true, -- [13]
-						true, -- [14]
-						true, -- [15]
-						true, -- [16]
-						true, -- [17]
-						false, -- [18]
-						true, -- [19]
-						false, -- [20]
-						true, -- [21]
-						true, -- [22]
-					},
-					["Messages"] = {
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4934 (Physical)", -- [1]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -8912 (Frost)", -- [2]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -22457 (Frost)", -- [3]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5843 (Physical)", -- [4]
-						"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [5]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -23557 (Frost)", -- [6]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9253 (Frost)", -- [7]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4618 (Physical)", -- [8]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -24713 (Frost)", -- [9]
-						"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Hit -33038 (Frostfire)", -- [10]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -10261 (Frost)", -- [11]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5455 (Physical)", -- [12]
-						"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57094 (Frost)", -- [13]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25174 (Frost)", -- [14]
-						"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57150 (Frost)", -- [15]
-						"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -28456 (Frost)", -- [16]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -14007 (Frost)", -- [17]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5048 (Physical)", -- [18]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -11379 (Frost)", -- [19]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6416 (Physical)", -- [20]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -30709 (Frost)", -- [21]
-						"Swooping Plainshawk <Jyetie> dies.", -- [22]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						2.262267699985531, -- [2]
-						5.700599836016053, -- [3]
-						0, -- [4]
-						11.43978413011086, -- [5]
-						5.979829466849097, -- [6]
-						2.348828885543774, -- [7]
-						0, -- [8]
-						6.273274424342731, -- [9]
-						8.386535039510992, -- [10]
-						2.604704765434418, -- [11]
-						0, -- [12]
-						14.49303322071072, -- [13]
-						6.390297024173671, -- [14]
-						14.50724854737131, -- [15]
-						7.223416704531897, -- [16]
-						3.555608580980401, -- [17]
-						0, -- [18]
-						2.888503608408366, -- [19]
-						0, -- [20]
-						7.795329757501758, -- [21]
-						0, -- [22]
-					},
-					["DeathAt"] = 1360977044,
-					["HealthNum"] = {
-						100, -- [1]
-						97.73773230001447, -- [2]
-						92.03713246399842, -- [3]
-						92.03713246399842, -- [4]
-						80.59734833388757, -- [5]
-						74.61751886703847, -- [6]
-						72.26868998149469, -- [7]
-						72.26868998149469, -- [8]
-						65.99541555715196, -- [9]
-						57.60888051764097, -- [10]
-						55.00417575220655, -- [11]
-						55.00417575220655, -- [12]
-						40.51114253149584, -- [13]
-						34.12084550732217, -- [14]
-						19.61359695995085, -- [15]
-						12.39018025541896, -- [16]
-						8.834571674438559, -- [17]
-						8.834571674438559, -- [18]
-						5.946068066030192, -- [19]
-						5.946068066030192, -- [20]
-						0.0002538451189391305, -- [21]
-						0, -- [22]
-					},
-					["Health"] = {
-						"393941 (100%)", -- [1]
-						"385029 (97%)", -- [2]
-						"362572 (92%)", -- [3]
-						"362572 (92%)", -- [4]
-						"317506 (80%)", -- [5]
-						"293949 (74%)", -- [6]
-						"284696 (72%)", -- [7]
-						"284696 (72%)", -- [8]
-						"259983 (65%)", -- [9]
-						"226945 (57%)", -- [10]
-						"216684 (55%)", -- [11]
-						"216684 (55%)", -- [12]
-						"159590 (40%)", -- [13]
-						"134416 (34%)", -- [14]
-						"77266 (19%)", -- [15]
-						"48810 (12%)", -- [16]
-						"34803 (8%)", -- [17]
-						"34803 (8%)", -- [18]
-						"23424 (5%)", -- [19]
-						"23424 (5%)", -- [20]
-						"1 (0%)", -- [21]
-						"0 (0%)", -- [22]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"DAMAGE", -- [21]
-						"MISC", -- [22]
-					},
-				}, -- [1]
-				{
-					["MessageTimes"] = {
-						-14.41800000000512, -- [1]
-						-14.03500000000349, -- [2]
-						-13.76400000000285, -- [3]
-						-13.65800000000309, -- [4]
-						-12.00800000000163, -- [5]
-						-11.88999999999942, -- [6]
-						-11.88999999999942, -- [7]
-						-11.62099999999919, -- [8]
-						-9.630000000004657, -- [9]
-						-9.630000000004657, -- [10]
-						-8.719000000004598, -- [11]
-						-7.559000000001106, -- [12]
-						-7.239000000001397, -- [13]
-						-5.539000000004307, -- [14]
-						-4.893000000003667, -- [15]
-						-3.579000000005181, -- [16]
-						-2.367000000005646, -- [17]
-						-1.559000000001106, -- [18]
-						-0.8040000000037253, -- [19]
-						0, -- [20]
-						0, -- [21]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-						true, -- [2]
-						true, -- [3]
-						false, -- [4]
-						true, -- [5]
-						true, -- [6]
-						true, -- [7]
-						false, -- [8]
-						false, -- [9]
-						true, -- [10]
-						true, -- [11]
-						false, -- [12]
-						true, -- [13]
-						false, -- [14]
-						true, -- [15]
-						false, -- [16]
-						true, -- [17]
-						false, -- [18]
-						true, -- [19]
-						true, -- [20]
-						true, -- [21]
-					},
-					["Messages"] = {
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9374 (Frost)", -- [1]
-						"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [2]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Crit -59395 (Frost)", -- [3]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5331 (Physical)", -- [4]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9718 (Frost)", -- [5]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -31152 (Frost)", -- [6]
-						"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Crit -83447 (Frostfire)", -- [7]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6008 (Physical)", -- [8]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4596 (Physical)", -- [9]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12839 (Frost)", -- [10]
-						"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -32319 (Frost)", -- [11]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4977 (Physical)", -- [12]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12724 (Frost)", -- [13]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Crit -11739 (Physical)", -- [14]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12803 (Frost)", -- [15]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4854 (Physical)", -- [16]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25668 (Frost)", -- [17]
-						"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5562 (Physical)", -- [18]
-						"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -2589 (Frost)", -- [19]
-						"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -22341 (Frost)", -- [20]
-						"Swooping Plainshawk <Jyetie> dies.", -- [21]
-					},
-					["EventNum"] = {
-						2.379544144935409, -- [1]
-						11.43978413011086, -- [2]
-						15.07713083938966, -- [3]
-						0, -- [4]
-						2.46686686585047, -- [5]
-						7.907783145191793, -- [6]
-						21.18261364011362, -- [7]
-						0, -- [8]
-						0, -- [9]
-						3.259117482059496, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						0, -- [19]
-						0, -- [20]
-						0, -- [21]
-					},
-					["DeathAt"] = 1360976902,
-					["HealthNum"] = {
-						87.39988983121837, -- [1]
-						75.96010570110752, -- [2]
-						60.88297486171787, -- [3]
-						60.88297486171787, -- [4]
-						58.4161079958674, -- [5]
-						50.50832485067561, -- [6]
-						29.32571121056199, -- [7]
-						29.32571121056199, -- [8]
-						29.32571121056199, -- [9]
-						26.06659372850249, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						0, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						0, -- [19]
-						0, -- [20]
-						0, -- [21]
-					},
-					["Health"] = {
-						"344304 (87%)", -- [1]
-						"299238 (75%)", -- [2]
-						"239843 (60%)", -- [3]
-						"239843 (60%)", -- [4]
-						"230125 (58%)", -- [5]
-						"198973 (50%)", -- [6]
-						"115526 (29%)", -- [7]
-						"115526 (29%)", -- [8]
-						"115526 (29%)", -- [9]
-						"102687 (26%)", -- [10]
-						"???", -- [11]
-						"???", -- [12]
-						"???", -- [13]
-						"???", -- [14]
-						"???", -- [15]
-						"???", -- [16]
-						"???", -- [17]
-						"???", -- [18]
-						"???", -- [19]
-						"???", -- [20]
-						"???", -- [21]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"DAMAGE", -- [4]
-						"DAMAGE", -- [5]
-						"DAMAGE", -- [6]
-						"DAMAGE", -- [7]
-						"DAMAGE", -- [8]
-						"DAMAGE", -- [9]
-						"DAMAGE", -- [10]
-						"DAMAGE", -- [11]
-						"DAMAGE", -- [12]
-						"DAMAGE", -- [13]
-						"DAMAGE", -- [14]
-						"DAMAGE", -- [15]
-						"DAMAGE", -- [16]
-						"DAMAGE", -- [17]
-						"DAMAGE", -- [18]
-						"DAMAGE", -- [19]
-						"DAMAGE", -- [20]
-						"MISC", -- [21]
-					},
-				}, -- [2]
-			},
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				nil, -- [1]
-				nil, -- [2]
-				4.520981568305914, -- [3]
-				nil, -- [4]
-				5.699584455540297, -- [5]
-				2.379544144935409, -- [6]
-				11.43978413011086, -- [7]
-				15.07713083938966, -- [8]
-				nil, -- [9]
-				2.46686686585047, -- [10]
-				7.907783145191793, -- [11]
-				21.18261364011362, -- [12]
-				[15] = 3.259117482059496,
-				[46] = 2.888503608408366,
-				[48] = 7.795329757501758,
-				[37] = 8.386535039510992,
-				[33] = 5.979829466849097,
-				[29] = 2.262267699985531,
-				[43] = 7.223416704531897,
-				[41] = 6.390297024173671,
-				[32] = 11.43978413011086,
-				[34] = 2.348828885543774,
-				[36] = 6.273274424342731,
-				[38] = 2.604704765434418,
-				[40] = 14.49303322071072,
-				[42] = 14.50724854737131,
-				[44] = 3.555608580980401,
-				[30] = 5.700599836016053,
-			},
-			["type"] = "Pet",
-			["TimeLast"] = {
-				["DeathCount"] = 1360977042,
-				["FDamage"] = 1360977041,
-				["ActiveTime"] = 1360977041,
-				["OVERALL"] = 1360977042,
-				["TimeDamage"] = 1360977041,
-			},
-			["Owner"] = "Jyetie",
-			["LastAbility"] = 34456,
-			["NextEventNum"] = 50,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				95.47901843169409, -- [3]
-				95.47901843169409, -- [4]
-				89.77943397615378, -- [5]
-				87.39988983121837, -- [6]
-				75.96010570110752, -- [7]
-				60.88297486171787, -- [8]
-				60.88297486171787, -- [9]
-				58.4161079958674, -- [10]
-				50.50832485067561, -- [11]
-				29.32571121056199, -- [12]
-				29.32571121056199, -- [13]
-				29.32571121056199, -- [14]
-				26.06659372850249, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				0, -- [19]
-				0, -- [20]
-				0, -- [21]
-				0, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				100, -- [27]
-				100, -- [28]
-				97.73773230001447, -- [29]
-				92.03713246399842, -- [30]
-				92.03713246399842, -- [31]
-				80.59734833388757, -- [32]
-				74.61751886703847, -- [33]
-				72.26868998149469, -- [34]
-				72.26868998149469, -- [35]
-				65.99541555715196, -- [36]
-				57.60888051764097, -- [37]
-				55.00417575220655, -- [38]
-				55.00417575220655, -- [39]
-				40.51114253149584, -- [40]
-				34.12084550732217, -- [41]
-				19.61359695995085, -- [42]
-				12.39018025541896, -- [43]
-				8.834571674438559, -- [44]
-				8.834571674438559, -- [45]
-				5.946068066030192, -- [46]
-				5.946068066030192, -- [47]
-				0.0002538451189391305, -- [48]
-				0, -- [49]
-			},
-			["LastEvents"] = {
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5707 (Physical)", -- [1]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5767 (Physical)", -- [2]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -17810 (Frost)", -- [3]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5672 (Physical)", -- [4]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -22453 (Frost)", -- [5]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9374 (Frost)", -- [6]
-				"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [7]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Crit -59395 (Frost)", -- [8]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5331 (Physical)", -- [9]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9718 (Frost)", -- [10]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -31152 (Frost)", -- [11]
-				"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Crit -83447 (Frostfire)", -- [12]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6008 (Physical)", -- [13]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4596 (Physical)", -- [14]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12839 (Frost)", -- [15]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -32319 (Frost)", -- [16]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4977 (Physical)", -- [17]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12724 (Frost)", -- [18]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Crit -11739 (Physical)", -- [19]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12803 (Frost)", -- [20]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4854 (Physical)", -- [21]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25668 (Frost)", -- [22]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5562 (Physical)", -- [23]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -2589 (Frost)", -- [24]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -22341 (Frost)", -- [25]
-				"Swooping Plainshawk <Jyetie> dies.", -- [26]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5862 (Physical)", -- [27]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4934 (Physical)", -- [28]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -8912 (Frost)", -- [29]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -22457 (Frost)", -- [30]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5843 (Physical)", -- [31]
-				"Jyetie Frost Bomb Swooping Plainshawk <Jyetie> Hit -45066 (Frost)", -- [32]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -23557 (Frost)", -- [33]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9253 (Frost)", -- [34]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -4618 (Physical)", -- [35]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -24713 (Frost)", -- [36]
-				"Jyetie Frostfire Bolt Swooping Plainshawk <Jyetie> Hit -33038 (Frostfire)", -- [37]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -10261 (Frost)", -- [38]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5455 (Physical)", -- [39]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57094 (Frost)", -- [40]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25174 (Frost)", -- [41]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Crit -57150 (Frost)", -- [42]
-				"Jyetie Ice Lance Swooping Plainshawk <Jyetie> Hit -28456 (Frost)", -- [43]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -14007 (Frost)", -- [44]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -5048 (Physical)", -- [45]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -11379 (Frost)", -- [46]
-				"Swooping Plainshawk <Jyetie> Melee Jyetie Hit -6416 (Physical)", -- [47]
-				"Jyetie Frostbolt Swooping Plainshawk <Jyetie> Hit -30709 (Frost)", -- [48]
-				"Swooping Plainshawk <Jyetie> dies.", -- [49]
-			},
-			["Name"] = "Swooping Plainshawk",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				true, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				false, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				false, -- [13]
-				false, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				false, -- [21]
-				true, -- [22]
-				false, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				false, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				true, -- [48]
-				true, -- [49]
-			},
-			["LastEventTimes"] = {
-				34295.392, -- [1]
-				34297.405, -- [2]
-				34298.273, -- [3]
-				34299.453, -- [4]
-				34299.453, -- [5]
-				34300.687, -- [6]
-				34301.07, -- [7]
-				34301.341, -- [8]
-				34301.447, -- [9]
-				34303.097, -- [10]
-				34303.215, -- [11]
-				34303.215, -- [12]
-				34303.484, -- [13]
-				34305.475, -- [14]
-				34305.475, -- [15]
-				34306.386, -- [16]
-				34307.546, -- [17]
-				34307.866, -- [18]
-				34309.566, -- [19]
-				34310.212, -- [20]
-				34311.526, -- [21]
-				34312.738, -- [22]
-				34313.546, -- [23]
-				34314.301, -- [24]
-				34315.105, -- [25]
-				34315.105, -- [26]
-				34440.804, -- [27]
-				34442.831, -- [28]
-				34443.637, -- [29]
-				34444.378, -- [30]
-				34444.855, -- [31]
-				34445.895, -- [32]
-				34446.15, -- [33]
-				34446.251, -- [34]
-				34446.848, -- [35]
-				34448.002, -- [36]
-				34448.413, -- [37]
-				34448.721, -- [38]
-				34448.82, -- [39]
-				34450.958, -- [40]
-				34451.141, -- [41]
-				34452.26, -- [42]
-				34453.57, -- [43]
-				34453.57, -- [44]
-				34453.895, -- [45]
-				34456, -- [46]
-				34456, -- [47]
-				34456.661, -- [48]
-				34456.758, -- [49]
-			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["FDamagedWho"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98389,
-								},
-							},
-							["amount"] = 98389,
-						},
-					},
-					["DeathCount"] = 2,
-					["FDamage"] = 98389,
-					["ActiveTime"] = 38.76000000000001,
-					["TimeDamaging"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38.76000000000001,
-								},
-							},
-							["amount"] = 38.76000000000001,
-						},
-					},
-					["TimeSpent"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38.76000000000001,
-								},
-							},
-							["amount"] = 38.76000000000001,
-						},
-					},
-					["FAttacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 11739,
-									["min"] = 11739,
-									["count"] = 1,
-									["amount"] = 11739,
-								},
-								["Hit"] = {
-									["max"] = 6416,
-									["min"] = 4596,
-									["count"] = 16,
-									["amount"] = 86650,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 98389,
-						},
-					},
-					["TimeDamage"] = 38.76000000000001,
-				},
-				["OverallData"] = {
-					["FDamagedWho"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 98389,
-								},
-							},
-							["amount"] = 98389,
-						},
-					},
-					["DeathCount"] = 2,
-					["FDamage"] = 98389,
-					["ActiveTime"] = 38.76000000000001,
-					["TimeDamaging"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38.76000000000001,
-								},
-							},
-							["amount"] = 38.76000000000001,
-						},
-					},
-					["TimeSpent"] = {
-						["Jyetie"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38.76000000000001,
-								},
-							},
-							["amount"] = 38.76000000000001,
-						},
-					},
-					["FAttacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 11739,
-									["min"] = 11739,
-									["count"] = 1,
-									["amount"] = 11739,
-								},
-								["Hit"] = {
-									["max"] = 6416,
-									["min"] = 4596,
-									["count"] = 16,
-									["amount"] = 86650,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 98389,
-						},
-					},
-					["TimeDamage"] = 38.76000000000001,
-				},
-			},
-			["UnitLockout"] = 1360977026,
-			["LastActive"] = 1360977041,
-		},
-		["Water Elemental <Jyetie>"] = {
-			["GUID"] = "0xF1411FC7D8008FDC",
-			["LastEventHealth"] = {
-				"183402 (100%)", -- [1]
-				"183402 (100%)", -- [2]
-				"183402 (100%)", -- [3]
-				"183402 (100%)", -- [4]
-				"183402 (100%)", -- [5]
-				"183402 (100%)", -- [6]
-				"183402 (100%)", -- [7]
-				"183402 (100%)", -- [8]
-				"183402 (100%)", -- [9]
-				"183402 (100%)", -- [10]
-				"183402 (100%)", -- [11]
-				"183402 (100%)", -- [12]
-				"183402 (100%)", -- [13]
-				"183402 (100%)", -- [14]
-				"183402 (100%)", -- [15]
-				"183402 (100%)", -- [16]
-				"183402 (100%)", -- [17]
-				"183402 (100%)", -- [18]
-			},
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
-				"DAMAGE", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-			},
-			["TimeWindows"] = {
-				["TimeDamage"] = {
-					45.91, -- [1]
-				},
-				["FDamage"] = {
-					253929, -- [1]
-				},
-				["ActiveTime"] = {
-					45.91, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["unit"] = "Water Elemental",
-			["level"] = 1,
-			["LastFightIn"] = 0,
-			["type"] = "Pet",
-			["TimeLast"] = {
-				["TimeDamage"] = 1360977041,
-				["OVERALL"] = 1360977041,
-				["FDamage"] = 1360977041,
-				["ActiveTime"] = 1360977041,
-			},
-			["Owner"] = "Jyetie",
-			["LastAbility"] = 34456,
-			["NextEventNum"] = 19,
+			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -2086,39 +62,17 @@ RecountPerCharDB = {
 				100, -- [5]
 				100, -- [6]
 				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
 			},
 			["LastEvents"] = {
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -17810 (Frost)", -- [1]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9374 (Frost)", -- [2]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9718 (Frost)", -- [3]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12839 (Frost)", -- [4]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12724 (Frost)", -- [5]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -12803 (Frost)", -- [6]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25668 (Frost)", -- [7]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -22341 (Frost)", -- [8]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -11098 (Frost)", -- [9]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Crit -19806 (Frost)", -- [10]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -9848 (Frost)", -- [11]
-				"Water Elemental <Jyetie> Waterbolt Voracious Virmen <Jyetie> Hit -10914 (Frost)", -- [12]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -8912 (Frost)", -- [13]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -9253 (Frost)", -- [14]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -10261 (Frost)", -- [15]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Crit -25174 (Frost)", -- [16]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -14007 (Frost)", -- [17]
-				"Water Elemental <Jyetie> Waterbolt Swooping Plainshawk <Jyetie> Hit -11379 (Frost)", -- [18]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Crit -14546 (Arcane)", -- [1]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [2]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [3]
+				"Jyetie Frostbolt Squatting Virmen <Jyetie> Hit -47729 (Frost)", -- [4]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [5]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [6]
+				"Jyetie Frostfire Bolt Squatting Virmen <Jyetie> Crit -126214 (Frostfire)", -- [7]
 			},
-			["Name"] = "Water Elemental",
+			["Name"] = "Jyetie",
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -2127,200 +81,409 @@ RecountPerCharDB = {
 				false, -- [5]
 				false, -- [6]
 				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
 			},
 			["LastEventTimes"] = {
-				34298.273, -- [1]
-				34300.687, -- [2]
-				34303.097, -- [3]
-				34305.475, -- [4]
-				34307.866, -- [5]
-				34310.212, -- [6]
-				34312.738, -- [7]
-				34315.105, -- [8]
-				34317.619, -- [9]
-				34319.954, -- [10]
-				34322.336, -- [11]
-				34324.828, -- [12]
-				34443.637, -- [13]
-				34446.251, -- [14]
-				34448.721, -- [15]
-				34451.141, -- [16]
-				34453.57, -- [17]
-				34456, -- [18]
+				26595.924, -- [1]
+				26596.744, -- [2]
+				26597.531, -- [3]
+				26598.195, -- [4]
+				26598.318, -- [5]
+				26599.093, -- [6]
+				26599.527, -- [7]
 			},
 			["Fights"] = {
 				["CurrentFightData"] = {
-					["FDamagedWho"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
+					["DOTs"] = {
+						["Nether Tempest (DoT)"] = {
 							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 202263,
+								["Squatting Virmen <Jyetie>"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 202263,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 51666,
-								},
-							},
-							["amount"] = 51666,
-						},
-					},
-					["FDamage"] = 253929,
-					["ActiveTime"] = 45.91,
-					["TimeDamaging"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 36.2,
-								},
-							},
-							["amount"] = 36.2,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 9.710000000000001,
-								},
-							},
-							["amount"] = 9.710000000000001,
+							["amount"] = 15,
 						},
 					},
 					["TimeSpent"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
+						["Squatting Virmen <Jyetie>"] = {
 							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 36.2,
+								["Frostfire Bolt"] = {
+									["count"] = 0.43,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.66,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 6.010000000000001,
 								},
 							},
-							["amount"] = 36.2,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 9.710000000000001,
-								},
-							},
-							["amount"] = 9.710000000000001,
+							["amount"] = 7.100000000000001,
 						},
 					},
 					["FAttacks"] = {
-						["Waterbolt"] = {
+						["Frostfire Bolt"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 25668,
-									["min"] = 17810,
-									["count"] = 5,
-									["amount"] = 110799,
-								},
-								["Hit"] = {
-									["max"] = 14007,
-									["min"] = 8912,
-									["count"] = 13,
-									["amount"] = 143130,
+									["max"] = 126214,
+									["min"] = 126214,
+									["count"] = 1,
+									["amount"] = 126214,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 253929,
+							["count"] = 1,
+							["amount"] = 126214,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 47729,
+									["min"] = 47729,
+									["count"] = 1,
+									["amount"] = 47729,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 47729,
+						},
+						["Nether Tempest (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 14546,
+									["min"] = 14546,
+									["count"] = 1,
+									["amount"] = 14546,
+								},
+								["Tick"] = {
+									["max"] = 7061,
+									["min"] = 7061,
+									["count"] = 4,
+									["amount"] = 28244,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 42790,
 						},
 					},
-					["TimeDamage"] = 45.91,
+					["FDamage"] = 216733,
+					["TimeDamage"] = 7.100000000000001,
+					["TimeDamaging"] = {
+						["Squatting Virmen <Jyetie>"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0.43,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.66,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 6.010000000000001,
+								},
+							},
+							["amount"] = 7.100000000000001,
+						},
+					},
+					["FDamagedWho"] = {
+						["Squatting Virmen <Jyetie>"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 126214,
+								},
+								["Frostbolt"] = {
+									["count"] = 47729,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 42790,
+								},
+							},
+							["amount"] = 216733,
+						},
+					},
+					["DOT_Time"] = 15,
+					["ActiveTime"] = 7.100000000000001,
 				},
 				["OverallData"] = {
-					["FDamagedWho"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
+					["DOTs"] = {
+						["Nether Tempest (DoT)"] = {
 							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 202263,
+								["Squatting Virmen <Jyetie>"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 202263,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 51666,
-								},
-							},
-							["amount"] = 51666,
-						},
-					},
-					["FDamage"] = 253929,
-					["ActiveTime"] = 45.91,
-					["TimeDamaging"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 36.2,
-								},
-							},
-							["amount"] = 36.2,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 9.710000000000001,
-								},
-							},
-							["amount"] = 9.710000000000001,
+							["amount"] = 15,
 						},
 					},
 					["TimeSpent"] = {
-						["Swooping Plainshawk <Jyetie>"] = {
+						["Squatting Virmen <Jyetie>"] = {
 							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 36.2,
+								["Frostfire Bolt"] = {
+									["count"] = 0.43,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.66,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 6.010000000000001,
 								},
 							},
-							["amount"] = 36.2,
-						},
-						["Voracious Virmen <Jyetie>"] = {
-							["Details"] = {
-								["Waterbolt"] = {
-									["count"] = 9.710000000000001,
-								},
-							},
-							["amount"] = 9.710000000000001,
+							["amount"] = 7.100000000000001,
 						},
 					},
 					["FAttacks"] = {
-						["Waterbolt"] = {
+						["Frostfire Bolt"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 25668,
-									["min"] = 17810,
-									["count"] = 5,
-									["amount"] = 110799,
-								},
-								["Hit"] = {
-									["max"] = 14007,
-									["min"] = 8912,
-									["count"] = 13,
-									["amount"] = 143130,
+									["max"] = 126214,
+									["min"] = 126214,
+									["count"] = 1,
+									["amount"] = 126214,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 253929,
+							["count"] = 1,
+							["amount"] = 126214,
+						},
+						["Frostbolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 47729,
+									["min"] = 47729,
+									["count"] = 1,
+									["amount"] = 47729,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 47729,
+						},
+						["Nether Tempest (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 14546,
+									["min"] = 14546,
+									["count"] = 1,
+									["amount"] = 14546,
+								},
+								["Tick"] = {
+									["max"] = 7061,
+									["min"] = 7061,
+									["count"] = 4,
+									["amount"] = 28244,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 42790,
 						},
 					},
-					["TimeDamage"] = 45.91,
+					["FDamage"] = 216733,
+					["TimeDamage"] = 7.100000000000001,
+					["TimeDamaging"] = {
+						["Squatting Virmen <Jyetie>"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0.43,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.66,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 6.010000000000001,
+								},
+							},
+							["amount"] = 7.100000000000001,
+						},
+					},
+					["FDamagedWho"] = {
+						["Squatting Virmen <Jyetie>"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 126214,
+								},
+								["Frostbolt"] = {
+									["count"] = 47729,
+								},
+								["Nether Tempest (DoT)"] = {
+									["count"] = 42790,
+								},
+							},
+							["amount"] = 216733,
+						},
+					},
+					["DOT_Time"] = 15,
+					["ActiveTime"] = 7.100000000000001,
 				},
 			},
-			["UnitLockout"] = 1360976883,
-			["LastActive"] = 1360977041,
+			["UnitLockout"] = 1375317534,
+			["LastActive"] = 1375317537,
+		},
+		["Squatting Virmen <Jyetie>"] = {
+			["GUID"] = "0xF531132F00118F3F",
+			["LastEventHealth"] = {
+				"103636 (26%)", -- [1]
+				"96575 (24%)", -- [2]
+				"89514 (22%)", -- [3]
+				"41785 (10%)", -- [4]
+				"34724 (8%)", -- [5]
+				"27663 (7%)", -- [6]
+				"1 (0%)", -- [7]
+				"0 (0%)", -- [8]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"MISC", -- [8]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "playertarget",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				3.692431100088592, -- [1]
+				1.7924003848292, -- [2]
+				1.7924003848292, -- [3]
+				12.11577368184576, -- [4]
+				1.7924003848292, -- [5]
+				1.7924003848292, -- [6]
+				32.03880784178342, -- [7]
+			},
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						-4.004000000000815, -- [1]
+						-3.184000000001106, -- [2]
+						-2.397000000000844, -- [3]
+						-1.733000000000175, -- [4]
+						-1.610000000000582, -- [5]
+						-0.8349999999991269, -- [6]
+						-0.4009999999980209, -- [7]
+						0, -- [8]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+					},
+					["Messages"] = {
+						"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Crit -14546 (Arcane)", -- [1]
+						"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [2]
+						"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [3]
+						"Jyetie Frostbolt Squatting Virmen <Jyetie> Hit -47729 (Frost)", -- [4]
+						"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [5]
+						"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [6]
+						"Jyetie Frostfire Bolt Squatting Virmen <Jyetie> Crit -126214 (Frostfire)", -- [7]
+						"Squatting Virmen <Jyetie> dies.", -- [8]
+					},
+					["EventNum"] = {
+						3.692431100088592, -- [1]
+						1.7924003848292, -- [2]
+						1.7924003848292, -- [3]
+						12.11577368184576, -- [4]
+						1.7924003848292, -- [5]
+						1.7924003848292, -- [6]
+						32.03880784178342, -- [7]
+						0, -- [8]
+					},
+					["DeathAt"] = 1375317540,
+					["HealthNum"] = {
+						26.30749274637573, -- [1]
+						24.51509236154653, -- [2]
+						22.72269197671733, -- [3]
+						10.60691829487157, -- [4]
+						8.814517910042367, -- [5]
+						7.022117525213166, -- [6]
+						0.0002538451189391305, -- [7]
+						0, -- [8]
+					},
+					["Health"] = {
+						"103636 (26%)", -- [1]
+						"96575 (24%)", -- [2]
+						"89514 (22%)", -- [3]
+						"41785 (10%)", -- [4]
+						"34724 (8%)", -- [5]
+						"27663 (7%)", -- [6]
+						"1 (0%)", -- [7]
+						"0 (0%)", -- [8]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"MISC", -- [8]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Jyetie",
+			["NextEventNum"] = 9,
+			["LastEventHealthNum"] = {
+				26.30749274637573, -- [1]
+				24.51509236154653, -- [2]
+				22.72269197671733, -- [3]
+				10.60691829487157, -- [4]
+				8.814517910042367, -- [5]
+				7.022117525213166, -- [6]
+				0.0002538451189391305, -- [7]
+				0, -- [8]
+			},
+			["LastEvents"] = {
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Crit -14546 (Arcane)", -- [1]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [2]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [3]
+				"Jyetie Frostbolt Squatting Virmen <Jyetie> Hit -47729 (Frost)", -- [4]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [5]
+				"Jyetie Nether Tempest (DoT) Squatting Virmen <Jyetie> Tick -7061 (Arcane)", -- [6]
+				"Jyetie Frostfire Bolt Squatting Virmen <Jyetie> Crit -126214 (Frostfire)", -- [7]
+				"Squatting Virmen <Jyetie> dies.", -- [8]
+			},
+			["Name"] = "Squatting Virmen",
+			["TimeLast"] = {
+				["OVERALL"] = 1375317538,
+				["DeathCount"] = 1375317538,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+			},
+			["LastEventTimes"] = {
+				26595.924, -- [1]
+				26596.744, -- [2]
+				26597.531, -- [3]
+				26598.195, -- [4]
+				26598.318, -- [5]
+				26599.093, -- [6]
+				26599.527, -- [7]
+				26599.928, -- [8]
+			},
+			["UnitLockout"] = 1375317534,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
 		},
 	},
 	["FightNum"] = 0,

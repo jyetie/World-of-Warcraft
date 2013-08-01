@@ -1,0 +1,14 @@
+
+BadPetDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["state"] = "noisy",
+		},
+	},
+}
+BadPet_State = nil
+BadPet_Frame = nil
+BadPet_Debug = nil

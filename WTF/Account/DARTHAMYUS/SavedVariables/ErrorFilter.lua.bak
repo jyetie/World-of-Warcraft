@@ -1,0 +1,10 @@
+
+ErrorFilterDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

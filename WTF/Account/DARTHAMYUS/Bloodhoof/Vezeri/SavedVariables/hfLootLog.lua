@@ -1,4 +1,0 @@
-
-hfLootLogDB = {
-	["version"] = 2,
-}

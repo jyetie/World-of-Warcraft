@@ -1,0 +1,57 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["Inventory"] = {
+					90345, -- [1]
+					61472, -- [2]
+					65789, -- [3]
+					nil, -- [4]
+					90354, -- [5]
+					81990, -- [6]
+					62023, -- [7]
+					65796, -- [8]
+					63925, -- [9]
+					84250, -- [10]
+					57383, -- [11]
+					66900, -- [12]
+					34423, -- [13]
+					57316, -- [14]
+					62038, -- [15]
+					90388, -- [16]
+				},
+				["averageItemLvl"] = 313.933349609375,
+				["overallAIL"] = 324.5,
+				["lastUpdate"] = 1360965124,
+			},
+		},
+		["Guilds"] = {
+			["Default.Bloodhoof.Isle of Pandas"] = {
+				["Members"] = {
+					["Blackslate"] = {
+						["averageItemLvl"] = 374,
+					},
+					["Arieva"] = {
+						["averageItemLvl"] = 5,
+					},
+					["Ferret"] = {
+						["averageItemLvl"] = 358,
+					},
+					["Arkhane"] = {
+						["averageItemLvl"] = 438,
+					},
+					["Silverrayne"] = {
+						["averageItemLvl"] = 462,
+					},
+					["Alythe"] = {
+						["averageItemLvl"] = 313,
+					},
+				},
+			},
+		},
+	},
+}

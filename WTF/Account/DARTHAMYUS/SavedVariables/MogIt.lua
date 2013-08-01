@@ -12,12 +12,12 @@ MogItDB = {
 		["Brynnen - Bloodhoof"] = "Default",
 		["Renevie - Moon Guard"] = "Default",
 		["Zaeliana - Bronzebeard"] = "Default",
-		["Zalizia - Maelstrom"] = "Default",
+		["Alythe - Bloodhoof"] = "Default",
 		["Vezeri - Bloodhoof"] = "Default",
 		["Glitterglade - Bloodhoof"] = "Default",
 		["Karielle - Bronzebeard"] = "Default",
 		["Venerie - Wyrmrest Accord"] = "Default",
-		["Rhosie - Bloodhoof"] = "Default",
+		["Avessia - Bloodhoof"] = "Default",
 		["Cyralie - Bloodhoof"] = "Default",
 		["Eloisa - Bloodhoof"] = "Default",
 		["Tarley - Bloodhoof"] = "Default",
@@ -26,9 +26,9 @@ MogItDB = {
 		["Abryn - Wyrmrest Accord"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
 		["Greyjoy - Crushridge"] = "Default",
-		["Avessia - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
 		["Jyetie - Bloodhoof"] = "Default",
-		["Alythe - Bloodhoof"] = "Default",
+		["Zalizia - Maelstrom"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -77,12 +77,12 @@ MogItWishlist = {
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
 		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
-		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
 		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
 		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
-		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
+		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
 		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
@@ -91,9 +91,9 @@ MogItWishlist = {
 		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
+		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 	},
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
@@ -121,7 +121,34 @@ MogItWishlist = {
 		},
 		["Zaeliana - Bronzebeard"] = {
 		},
-		["Zalizia - Maelstrom"] = {
+		["Alythe - Bloodhoof"] = {
+			["items"] = {
+				30085, -- [1]
+				63919, -- [2]
+				30054, -- [3]
+				65046, -- [4]
+				50015, -- [5]
+				78468, -- [6]
+				78385, -- [7]
+				32276, -- [8]
+				32258, -- [9]
+				70921, -- [10]
+				45321, -- [11]
+				30117, -- [12]
+				71439, -- [13]
+				71413, -- [14]
+				69936, -- [15]
+				71458, -- [16]
+				50060, -- [17]
+				44249, -- [18]
+				30902, -- [19]
+				18822, -- [20]
+				19364, -- [21]
+				77191, -- [22]
+				51392, -- [23]
+				73475, -- [24]
+				49498, -- [25]
+			},
 		},
 		["Vezeri - Bloodhoof"] = {
 		},
@@ -131,7 +158,24 @@ MogItWishlist = {
 		},
 		["Venerie - Wyrmrest Accord"] = {
 		},
-		["Rhosie - Bloodhoof"] = {
+		["Avessia - Bloodhoof"] = {
+			["items"] = {
+				71005, -- [1]
+				40508, -- [2]
+				29921, -- [3]
+				32004, -- [4]
+				30164, -- [5]
+				28186, -- [6]
+				29975, -- [7]
+				16841, -- [8]
+				40512, -- [9]
+				23564, -- [10]
+				32264, -- [11]
+				30892, -- [12]
+				30085, -- [13]
+				85289, -- [14]
+				39588, -- [15]
+			},
 		},
 		["Cyralie - Bloodhoof"] = {
 			["items"] = {
@@ -243,13 +287,13 @@ MogItWishlist = {
 				{
 					["items"] = {
 						["ChestSlot"] = 22009,
-						["HeadSlot"] = 22005,
-						["FeetSlot"] = 22003,
-						["WaistSlot"] = 22002,
 						["ShoulderSlot"] = 22008,
-						["HandsSlot"] = 22006,
-						["LegsSlot"] = 22007,
 						["WristSlot"] = 22004,
+						["HandsSlot"] = 22006,
+						["HeadSlot"] = 22005,
+						["LegsSlot"] = 22007,
+						["WaistSlot"] = 22002,
+						["FeetSlot"] = 22003,
 					},
 					["name"] = "Darkmantle Armor",
 					["alternateItems"] = {
@@ -265,24 +309,7 @@ MogItWishlist = {
 		},
 		["Greyjoy - Crushridge"] = {
 		},
-		["Avessia - Bloodhoof"] = {
-			["items"] = {
-				71005, -- [1]
-				40508, -- [2]
-				29921, -- [3]
-				32004, -- [4]
-				30164, -- [5]
-				28186, -- [6]
-				29975, -- [7]
-				16841, -- [8]
-				40512, -- [9]
-				23564, -- [10]
-				32264, -- [11]
-				30892, -- [12]
-				30085, -- [13]
-				85289, -- [14]
-				39588, -- [15]
-			},
+		["Rhosie - Bloodhoof"] = {
 		},
 		["Jyetie - Bloodhoof"] = {
 			["items"] = {
@@ -341,34 +368,7 @@ MogItWishlist = {
 				}, -- [2]
 			},
 		},
-		["Alythe - Bloodhoof"] = {
-			["items"] = {
-				30085, -- [1]
-				63919, -- [2]
-				30054, -- [3]
-				65046, -- [4]
-				50015, -- [5]
-				78468, -- [6]
-				78385, -- [7]
-				32276, -- [8]
-				32258, -- [9]
-				70921, -- [10]
-				45321, -- [11]
-				30117, -- [12]
-				71439, -- [13]
-				71413, -- [14]
-				69936, -- [15]
-				71458, -- [16]
-				50060, -- [17]
-				44249, -- [18]
-				30902, -- [19]
-				18822, -- [20]
-				19364, -- [21]
-				77191, -- [22]
-				51392, -- [23]
-				73475, -- [24]
-				49498, -- [25]
-			},
+		["Zalizia - Maelstrom"] = {
 		},
 	},
 }

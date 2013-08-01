@@ -1,2 +1,0 @@
-
-MultishotPlayerScreens = nil

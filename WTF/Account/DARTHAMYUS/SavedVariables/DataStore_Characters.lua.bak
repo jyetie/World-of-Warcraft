@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["XPMax"] = 13000000,
+				["played"] = 128691,
+				["guildRankName"] = "Oppa Gangnam St",
+				["isResting"] = 1,
+				["lastUpdate"] = 1360965141,
+				["class"] = "Warrior",
+				["race"] = "Night Elf",
+				["level"] = 85,
+				["XP"] = 5503560,
+				["RestXP"] = 19325866,
+				["money"] = 65384297,
+				["gender"] = 3,
+				["subZone"] = "Dwarven District",
+				["zone"] = "Stormwind City",
+				["guildRankIndex"] = 7,
+				["name"] = "Alythe",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["guildName"] = "Isle of Pandas",
+				["lastLogoutTimestamp"] = 1360965141,
+				["englishClass"] = "WARRIOR",
+			},
+		},
+	},
+}

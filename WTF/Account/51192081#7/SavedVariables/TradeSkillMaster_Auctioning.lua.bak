@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - Bloodhoof"] = {
+			["player"] = {
+				["Jyetie"] = true,
+			},
+		},
+	},
+}

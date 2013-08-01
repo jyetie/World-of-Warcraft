@@ -1,0 +1,12 @@
+
+JumpCounterDB = {
+	["data"] = {
+		{
+			["count"] = 0,
+			["class"] = "WARRIOR",
+			["name"] = "Alythe",
+			["realm"] = "Bloodhoof",
+		}, -- [1]
+	},
+	["version"] = 1,
+}

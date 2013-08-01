@@ -1,6 +1,6 @@
 
 Overachiever_CharVars = {
-	["Version"] = "0.70",
+	["Version"] = "0.72",
 }
 Overachiever_CharVars_Consumed = {
 	["PandaEats2"] = {
@@ -741,7 +741,7 @@ Overachiever_CharVars_Consumed = {
 		[24072] = 0,
 		[13758] = 0,
 	},
-	["LastBuilt"] = "0.70|16357",
+	["LastBuilt"] = "0.72|17128",
 	["Food2"] = {
 		[62652] = 0,
 		[62654] = 0,

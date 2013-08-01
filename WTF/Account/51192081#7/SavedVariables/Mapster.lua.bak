@@ -1,0 +1,20 @@
+
+MapsterDB = {
+	["namespaces"] = {
+		["GroupIcons"] = {
+		},
+		["Coords"] = {
+		},
+		["FogClear"] = {
+		},
+		["BattleMap"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Renevie - Moon Guard"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

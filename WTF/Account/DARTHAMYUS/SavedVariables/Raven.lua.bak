@@ -1,0 +1,16 @@
+
+RavenDB = {
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+	},
+	["global"] = {
+		["Version"] = "6",
+	},
+	["profiles"] = {
+		["Jyetie - Bloodhoof"] = {
+			["Durations"] = {
+				["Honorless Target"] = 30,
+			},
+		},
+	},
+}

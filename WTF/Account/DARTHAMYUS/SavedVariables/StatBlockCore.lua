@@ -80,10 +80,10 @@ StatBlockCoreDB = {
 					["enabled"] = false,
 					["posy"] = 421.5466768741608,
 				},
-				["WeakAuras"] = {
-					["posx"] = 252.5866988245653,
+				["EveryQuest"] = {
+					["posx"] = 710.8266838788986,
 					["enabled"] = false,
-					["posy"] = 517.9732417090709,
+					["posy"] = 506.0266789197922,
 				},
 				["Paste"] = {
 					["posx"] = 653.6532970778135,
@@ -95,10 +95,9 @@ StatBlockCoreDB = {
 					["enabled"] = false,
 					["posy"] = 366.0800609477374,
 				},
-				["TradeSkillMasterMinimapIcon"] = {
-					["posx"] = 408.7466765642166,
-					["enabled"] = false,
-					["posy"] = 389.9734469429677,
+				["Raven"] = {
+					["posx"] = 87.89332895119969,
+					["posy"] = 602.4533479213715,
 				},
 				["Rarity"] = {
 					["posx"] = 170.4533694011388,
@@ -160,17 +159,18 @@ StatBlockCoreDB = {
 					["posx"] = 673.2800163030624,
 					["posy"] = 420.6933174784972,
 				},
-				["Raven"] = {
-					["posx"] = 87.89332895119969,
-					["posy"] = 602.4533479213715,
+				["TradeSkillMasterMinimapIcon"] = {
+					["posx"] = 408.7466765642166,
+					["enabled"] = false,
+					["posy"] = 389.9734469429677,
 				},
 				["AutoTurnIn"] = {
 					["enabled"] = false,
 				},
-				["EveryQuest"] = {
-					["posx"] = 710.8266838788986,
+				["WeakAuras"] = {
+					["posx"] = 252.5866988245653,
 					["enabled"] = false,
-					["posy"] = 506.0266789197922,
+					["posy"] = 517.9732417090709,
 				},
 				["Latency"] = {
 					["posx"] = 1265.878540969425,

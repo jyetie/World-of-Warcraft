@@ -1,0 +1,50 @@
+
+SexyCooldownDB = {
+	["profileKeys"] = {
+		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
+	["profiles"] = {
+		["Avessia - Bloodhoof"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["time_compression"] = 0.41,
+						["border"] = "None",
+						["width"] = 450,
+						["y"] = 392.0000610351563,
+						["x"] = -592.0001373291016,
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 32.9999885559082,
+						["time_max"] = 60,
+						["backgroundColor"] = {
+							["a"] = 0.1600000262260437,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["texture"] = "Armory",
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

@@ -54,29 +54,29 @@ EnchantConfig = {
 			[21842] = {
 				["timestamp"] = 1373328846,
 			},
-			[76137] = {
-				["market"] = 100000,
-				["timestamp"] = 1371819423,
-			},
-			[10998] = {
-				["market"] = 5000,
-				["timestamp"] = 1360965512,
-			},
 			[16202] = {
 				["market"] = 52500,
 				["timestamp"] = 1363296128,
+			},
+			[20725] = {
+				["timestamp"] = 1365833201,
+				["market"] = 10000,
+			},
+			[76137] = {
+				["market"] = 100000,
+				["timestamp"] = 1371819423,
 			},
 			[16203] = {
 				["timestamp"] = 1365833089,
 				["market"] = 110000,
 			},
-			[16204] = {
-				["timestamp"] = 1365833089,
-				["market"] = 15000,
+			[74248] = {
+				["timestamp"] = 1363933168,
+				["market"] = 8000000,
 			},
-			[20725] = {
-				["timestamp"] = 1365833201,
-				["market"] = 10000,
+			[10998] = {
+				["market"] = 5000,
+				["timestamp"] = 1360965512,
 			},
 			[43103] = {
 				["timestamp"] = 1365140382,
@@ -90,9 +90,9 @@ EnchantConfig = {
 				["market"] = 7000,
 				["timestamp"] = 1371542690,
 			},
-			[11138] = {
-				["market"] = 1000,
-				["timestamp"] = 1371383178,
+			[76138] = {
+				["market"] = 500000,
+				["timestamp"] = 1371819423,
 			},
 			[11137] = {
 				["timestamp"] = 1362744553,
@@ -102,9 +102,9 @@ EnchantConfig = {
 				["timestamp"] = 1362264507,
 				["market"] = 12500,
 			},
-			[36928] = {
-				["market"] = 80000,
-				["timestamp"] = 1371298803,
+			[11138] = {
+				["market"] = 1000,
+				["timestamp"] = 1371383178,
 			},
 			[1210] = {
 				["timestamp"] = 1362746494,
@@ -126,9 +126,9 @@ EnchantConfig = {
 				["market"] = 100000,
 				["timestamp"] = 1371819423,
 			},
-			[76138] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
+			[36928] = {
+				["market"] = 80000,
+				["timestamp"] = 1371298803,
 			},
 			[36932] = {
 				["market"] = 10000,
@@ -142,25 +142,25 @@ EnchantConfig = {
 				["market"] = 10000,
 				["timestamp"] = 1371298803,
 			},
-			[23440] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
+			[52720] = {
+				["market"] = 120000,
+				["timestamp"] = 1360967313,
 			},
 			[23438] = {
 				["market"] = 10000,
 				["timestamp"] = 1371542690,
 			},
-			[12800] = {
-				["market"] = 100000,
-				["timestamp"] = 1371541885,
+			[23440] = {
+				["market"] = 10000,
+				["timestamp"] = 1371542690,
 			},
-			[76139] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
+			[39151] = {
+				["timestamp"] = 1362746485,
+				["market"] = 3500,
 			},
-			[43108] = {
-				["timestamp"] = 1371554047,
-				["market"] = 20000,
+			[23079] = {
+				["market"] = 7000,
+				["timestamp"] = 1371542690,
 			},
 			[23436] = {
 				["market"] = 10000,
@@ -170,9 +170,9 @@ EnchantConfig = {
 				["market"] = 70000,
 				["timestamp"] = 1371541885,
 			},
-			[52720] = {
-				["market"] = 120000,
-				["timestamp"] = 1360967313,
+			[12800] = {
+				["market"] = 100000,
+				["timestamp"] = 1371541885,
 			},
 			[34055] = {
 				["market"] = 200000,
@@ -182,17 +182,17 @@ EnchantConfig = {
 				["timestamp"] = 1371266717,
 				["market"] = 40000,
 			},
-			[14343] = {
-				["market"] = 23000,
-				["timestamp"] = 1363296128,
+			[39334] = {
+				["timestamp"] = 1365140382,
+				["market"] = 3500,
 			},
 			[76131] = {
 				["market"] = 500000,
 				["timestamp"] = 1371819423,
 			},
-			[39151] = {
-				["timestamp"] = 1362746485,
-				["market"] = 3500,
+			[76139] = {
+				["market"] = 500000,
+				["timestamp"] = 1371819423,
 			},
 			[23441] = {
 				["market"] = 10000,
@@ -206,13 +206,13 @@ EnchantConfig = {
 				["market"] = 10000,
 				["timestamp"] = 1371542690,
 			},
-			[43104] = {
-				["timestamp"] = 1365140380,
-				["market"] = 20000,
-			},
-			[23079] = {
+			[23077] = {
 				["market"] = 7000,
 				["timestamp"] = 1371542690,
+			},
+			[43108] = {
+				["timestamp"] = 1371554047,
+				["market"] = 20000,
 			},
 			[22446] = {
 				["timestamp"] = 1362264507,
@@ -222,41 +222,41 @@ EnchantConfig = {
 				["market"] = 16000,
 				["timestamp"] = 1363296127,
 			},
-			[79251] = {
-				["timestamp"] = 1365141055,
-				["market"] = 200000,
+			[1705] = {
+				["timestamp"] = 1371266717,
+				["market"] = 25000,
 			},
 			[23437] = {
 				["market"] = 10000,
 				["timestamp"] = 1371542690,
 			},
-			[36921] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
+			[14343] = {
+				["market"] = 23000,
+				["timestamp"] = 1363296128,
 			},
 			[36925] = {
 				["market"] = 80000,
 				["timestamp"] = 1371298803,
 			},
-			[39342] = {
-				["timestamp"] = 1371554047,
-				["market"] = 20000,
+			[36929] = {
+				["market"] = 10000,
+				["timestamp"] = 1371298803,
 			},
 			[36917] = {
 				["market"] = 10000,
 				["timestamp"] = 1371298803,
 			},
-			[39334] = {
-				["timestamp"] = 1365140382,
-				["market"] = 3500,
+			[36921] = {
+				["market"] = 10000,
+				["timestamp"] = 1371298803,
 			},
 			[14344] = {
 				["timestamp"] = 1365833089,
 				["market"] = 25000,
 			},
-			[36929] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
+			[76140] = {
+				["market"] = 500000,
+				["timestamp"] = 1371819423,
 			},
 			[36933] = {
 				["market"] = 10000,
@@ -290,10 +290,6 @@ EnchantConfig = {
 				["timestamp"] = 1362745626,
 				["market"] = 110000,
 			},
-			[818] = {
-				["timestamp"] = 1362746494,
-				["market"] = 7500,
-			},
 			[34052] = {
 				["market"] = 140000,
 				["timestamp"] = 1363296138,
@@ -302,9 +298,13 @@ EnchantConfig = {
 				["timestamp"] = 1365140394,
 				["market"] = 200000,
 			},
-			[7909] = {
-				["market"] = 50000,
-				["timestamp"] = 1371394844,
+			[818] = {
+				["timestamp"] = 1362746494,
+				["market"] = 7500,
+			},
+			[34056] = {
+				["market"] = 75000,
+				["timestamp"] = 1363296127,
 			},
 			[3864] = {
 				["market"] = 35000,
@@ -377,9 +377,9 @@ EnchantConfig = {
 				["market"] = 80000,
 				["timestamp"] = 1371298803,
 			},
-			[76134] = {
-				["market"] = 100000,
-				["timestamp"] = 1371819423,
+			[36926] = {
+				["market"] = 10000,
+				["timestamp"] = 1371298803,
 			},
 			[76142] = {
 				["market"] = 500000,
@@ -389,13 +389,13 @@ EnchantConfig = {
 				["market"] = 80000,
 				["timestamp"] = 1371298803,
 			},
-			[36926] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
+			[76134] = {
+				["market"] = 100000,
+				["timestamp"] = 1371819423,
 			},
-			[34056] = {
-				["market"] = 75000,
-				["timestamp"] = 1363296127,
+			[7909] = {
+				["market"] = 50000,
+				["timestamp"] = 1371394844,
 			},
 			[23117] = {
 				["market"] = 7000,
@@ -405,9 +405,9 @@ EnchantConfig = {
 				["market"] = 60000,
 				["timestamp"] = 1363296127,
 			},
-			[76140] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
+			[39342] = {
+				["timestamp"] = 1371554047,
+				["market"] = 20000,
 			},
 			[11082] = {
 				["timestamp"] = 1371102593,
@@ -432,13 +432,13 @@ EnchantConfig = {
 				["timestamp"] = 1365140440,
 				["market"] = 50000,
 			},
-			[1705] = {
-				["timestamp"] = 1371266717,
-				["market"] = 25000,
+			[79251] = {
+				["timestamp"] = 1365141055,
+				["market"] = 200000,
 			},
-			[23077] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
+			[43104] = {
+				["timestamp"] = 1365140380,
+				["market"] = 20000,
 			},
 			[76135] = {
 				["market"] = 100000,
@@ -479,9 +479,9 @@ EnchantConfig = {
 				["market"] = 10000,
 				["timestamp"] = 1371298803,
 			},
-			[74248] = {
-				["timestamp"] = 1363933168,
-				["market"] = 8000000,
+			[16204] = {
+				["timestamp"] = 1365833089,
+				["market"] = 15000,
 			},
 			[36923] = {
 				["market"] = 10000,
@@ -855,17 +855,17 @@ EnchantConfig = {
 			["Nether Pigment"] = "item:39342:0:0:0",
 			["Greater Celestial Essence"] = "item:52719:0:0:0",
 			["Sky Sapphire"] = "item:36924:0:0:0",
-			["Cardinal Ruby"] = "item:36919:0:0:0",
 			["Adamantite Powder"] = "item:24243:0:0:0",
+			["Cardinal Ruby"] = "item:36919:0:0:0",
 			["Shadowgem"] = "item:1210:0:0:0",
 			["Bloodstone"] = "item:36917:0:0:0",
 			["Lapis Lazuli"] = "item:76133:0:0:0",
-			["Lesser Cosmic Essence"] = "item:34056:0:0:0",
-			["Strange Dust"] = "item:10940:0:0:0",
-			["Nightseye"] = "item:23441:0:0:0",
 			["Primordial Ruby"] = "item:76131:0:0:0",
-			["Star of Elune"] = "item:23438:0:0:0",
+			["Strange Dust"] = "item:10940:0:0:0",
 			["Greater Nether Essence"] = "item:11175:0:0:0",
+			["Lesser Cosmic Essence"] = "item:34056:0:0:0",
+			["Star of Elune"] = "item:23438:0:0:0",
+			["Nightseye"] = "item:23441:0:0:0",
 			["Blue Sapphire"] = "item:12361:0:0:0",
 			["Lesser Astral Essence"] = "item:10998:0:0:0",
 			["Small Dream Shard"] = "item:34053:0:0:0",
@@ -875,13 +875,13 @@ EnchantConfig = {
 			["Tiger Opal"] = "item:76130:0:0:0",
 			["Golden Pigment"] = "item:39338:0:0:0",
 			["Forest Emerald"] = "item:36933:0:0:0",
-			["Ametrine"] = "item:36931:0:0:0",
+			["Lesser Moonstone"] = "item:1705:0:0:0",
 			["Flame Spessarite"] = "item:21929:0:0:0",
-			["Lesser Mystic Essence"] = "item:11134:0:0:0",
+			["Verdant Pigment"] = "item:43103:0:0:0",
 			["Arcane Dust"] = "item:22445:0:0:0",
 			["Monarch Topaz"] = "item:36930:0:0:0",
-			["Verdant Pigment"] = "item:43103:0:0:0",
-			["Lesser Moonstone"] = "item:1705:0:0:0",
+			["Lesser Mystic Essence"] = "item:11134:0:0:0",
+			["Ametrine"] = "item:36931:0:0:0",
 			["Violet Pigment"] = "item:39340:0:0:0",
 			["Living Ruby"] = "item:23436:0:0:0",
 			["Greater Magic Essence"] = "item:10939:0:0:0",

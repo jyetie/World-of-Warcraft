@@ -1,0 +1,11 @@
+
+PasteDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["profiles"] = {
+		["Alythe - Bloodhoof"] = {
+			["loaded"] = true,
+		},
+	},
+}

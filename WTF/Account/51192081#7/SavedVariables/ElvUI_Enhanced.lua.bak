@@ -1,0 +1,458 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Flora - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Avelaine - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
+		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
+		["Tarley - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
+		["Venerie - Wyrmrest Accord"] = "Alythe - Bloodhoof",
+		["Avessia - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Cyralie - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Amazy - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Rhosie - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Cyralie - Bronzebeard"] = "Alythe - Bloodhoof",
+		["Roslyn - Wyrmrest Accord"] = "Alythe - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Alythe - Bloodhoof",
+		["Eloisa - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["gold"] = {
+		["Wyrmrest Accord"] = {
+			["Roslyn"] = 7948535,
+			["Abryn"] = 507167,
+			["Venerie"] = 1277,
+		},
+		["Bronzebeard"] = {
+			["Cyralie"] = 4615258,
+		},
+		["Bloodhoof"] = {
+			["Amazy"] = 10119782,
+			["Jyetie"] = 166404308,
+			["Glitterglade"] = 0,
+			["Avessia"] = 49112497,
+			["Flora"] = 956823,
+			["Tarley"] = 155458888,
+			["Cyralie"] = 6334280,
+			["Sparkler"] = 378701,
+			["Alythe"] = 80030187,
+			["Avelaine"] = 10540801,
+			["Rhosie"] = 5994,
+			["Eloisa"] = 42,
+			["Vezeri"] = 312887,
+			["Brynnen"] = 0,
+		},
+		["Earthen Ring"] = {
+			["Vendrelia"] = 3689960,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profiles"] = {
+		["Flora - Bloodhoof"] = {
+		},
+		["Avelaine - Bloodhoof"] = {
+		},
+		["Roslyn - Wyrmrest Accord"] = {
+		},
+		["Tarley"] = {
+		},
+		["Abryn - Wyrmrest Accord"] = {
+		},
+		["Brynnen - Bloodhoof"] = {
+		},
+		["Tarley - Bloodhoof"] = {
+		},
+		["Alythe - Bloodhoof"] = {
+			["nameplate"] = {
+				["auraFont"] = "Arial Narrow",
+				["font"] = "Arial Narrow",
+			},
+			["currentTutorial"] = 6,
+			["hideTutorial"] = 1,
+			["auras"] = {
+				["visualtimer"] = {
+					["threshold"] = {
+						["tempenchants"] = true,
+						["buffs"] = true,
+					},
+				},
+				["consolidatedBuffs"] = {
+					["enable"] = false,
+				},
+			},
+			["layoutSet"] = "dpsMelee",
+			["movers"] = {
+				["ElvUF_PlayerCastbarMover"] = "BOTTOMElvUIParentBOTTOM0115",
+				["ElvAB_1"] = "BOTTOMElvUIParentBOTTOM039",
+				["ElvAB_2"] = "TOPLEFTElvUIParentTOPLEFT4-314",
+				["TooltipMover"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-89222",
+				["MinimapMover"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-44",
+				["AurasMover"] = "TOPRIGHTElvUIParentTOPRIGHT-4-4",
+				["ElvUF_PetMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT452152",
+				["ElvUF_TargetMover"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-382100",
+				["ElvAB_3"] = "BOTTOMElvUIParentBOTTOM04",
+				["ElvAB_5"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT3244",
+				["ElvUF_PlayerMover"] = "BOTTOMLEFTElvUIParentBOTTOMLEFT382100",
+				["ElvUF_TargetTargetMover"] = "BOTTOMRIGHTElvUIParentBOTTOMRIGHT-451180",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["player"] = {
+						["debuffs"] = {
+							["attachTo"] = "BUFFS",
+						},
+						["portrait"] = {
+							["overlay"] = true,
+							["enable"] = true,
+							["camDistanceScale"] = 2.87,
+							["width"] = 38,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["customTexts"] = {
+						},
+						["width"] = 200,
+						["name"] = {
+							["text_format"] = "[namecolor][name]",
+							["position"] = "TOP",
+						},
+						["castbar"] = {
+							["width"] = 200,
+						},
+						["height"] = 50,
+						["buffs"] = {
+							["noDuration"] = false,
+							["attachTo"] = "FRAME",
+							["enable"] = true,
+						},
+						["health"] = {
+							["text_format"] = "[namecolor][health:current][healthcolor][health:percent]",
+							["position"] = "BOTTOMRIGHT",
+						},
+					},
+					["target"] = {
+						["debuffs"] = {
+							["anchorPoint"] = "TOPLEFT",
+						},
+						["portrait"] = {
+							["overlay"] = true,
+							["enable"] = true,
+							["camDistanceScale"] = 2.87,
+							["width"] = 38,
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["power"] = {
+							["position"] = "BOTTOMLEFT",
+							["hideonnpc"] = false,
+						},
+						["width"] = 200,
+						["health"] = {
+							["text_format"] = "[namecolor][health:current][healthcolor][health:percent]",
+							["position"] = "LEFT",
+						},
+						["name"] = {
+							["text_format"] = "[namecolor][name]",
+							["position"] = "TOP",
+						},
+						["height"] = 50,
+						["buffs"] = {
+							["anchorPoint"] = "TOPLEFT",
+						},
+						["castbar"] = {
+							["width"] = 200,
+						},
+					},
+				},
+				["font"] = "Arial Narrow",
+				["colors"] = {
+					["auraBarBuff"] = {
+						["r"] = 0.1,
+						["g"] = 0.1,
+						["b"] = 0.1,
+					},
+					["castColor"] = {
+						["r"] = 0.1,
+						["g"] = 0.1,
+						["b"] = 0.1,
+					},
+					["health"] = {
+						["r"] = 0.1,
+						["g"] = 0.1,
+						["b"] = 0.1,
+					},
+				},
+			},
+			["datatexts"] = {
+				["panels"] = {
+					["LeftChatDataPanel"] = {
+						["right"] = "System",
+						["left"] = "Durability",
+						["middle"] = "Gold",
+					},
+				},
+				["rightChatPanel"] = false,
+			},
+			["actionbar"] = {
+				["bar3"] = {
+					["buttons"] = 12,
+					["backdrop"] = true,
+					["heightMult"] = 2,
+					["buttonsPerRow"] = 12,
+				},
+				["microbar"] = {
+					["enabled"] = true,
+					["mouseover"] = true,
+				},
+				["bar2"] = {
+					["point"] = "TOPLEFT",
+					["buttonsize"] = 60,
+				},
+				["bar5"] = {
+					["buttons"] = 4,
+				},
+				["font"] = "Arial Narrow",
+				["bar4"] = {
+					["enabled"] = false,
+					["backdrop"] = false,
+				},
+			},
+			["general"] = {
+				["backdropfadecolor"] = {
+					["r"] = 0.054,
+					["g"] = 0.054,
+					["b"] = 0.054,
+				},
+				["valuecolor"] = {
+					["r"] = 0.09,
+					["g"] = 0.513,
+					["b"] = 0.819,
+				},
+				["loginmessage"] = false,
+				["minimap"] = {
+					["locationText"] = "MOUSEOVER",
+					["size"] = 172,
+				},
+			},
+			["chat"] = {
+				["panelBackdrop"] = "LEFT",
+				["emotionIcons"] = false,
+				["panelWidth"] = 313,
+			},
+		},
+		["Vezeri - Bloodhoof"] = {
+		},
+		["Venerie - Wyrmrest Accord"] = {
+		},
+		["Avessia - Bloodhoof"] = {
+		},
+		["Cyralie - Bloodhoof"] = {
+		},
+		["Amazy - Bloodhoof"] = {
+		},
+		["Rhosie - Bloodhoof"] = {
+		},
+		["Glitterglade - Bloodhoof"] = {
+		},
+		["Cyralie - Bronzebeard"] = {
+		},
+		["Vendrelia - Earthen Ring"] = {
+		},
+		["Sparkler - Bloodhoof"] = {
+		},
+		["Jyetie - Bloodhoof"] = {
+		},
+		["Eloisa - Bloodhoof"] = {
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Flora - Bloodhoof"] = "Flora - Bloodhoof",
+		["Avelaine - Bloodhoof"] = "Avelaine - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
+		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
+		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
+		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
+		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
+		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
+		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
+		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
+		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
+		["Roslyn - Wyrmrest Accord"] = "Roslyn - Wyrmrest Accord",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+	},
+	["profiles"] = {
+		["Flora - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Avelaine - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Sparkler - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Vendrelia - Earthen Ring"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Brynnen - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Tarley - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Alythe - Bloodhoof"] = {
+			["general"] = {
+				["minimap"] = {
+					["skinStyle"] = "VERTICAL",
+					["buttonSize"] = 24,
+					["mouseover"] = true,
+				},
+				["dmgfont"] = "Friz Quadrata TT",
+			},
+			["bags"] = {
+				["enable"] = false,
+			},
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+			["theme"] = "default",
+			["install_complete"] = "5.31",
+		},
+		["Vezeri - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Venerie - Wyrmrest Accord"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Avessia - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+			["bags"] = {
+				["enable"] = false,
+			},
+			["general"] = {
+				["dmgfont"] = "Arial Narrow",
+				["namefont"] = "Arial Narrow",
+			},
+		},
+		["Cyralie - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Amazy - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Rhosie - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Glitterglade - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Cyralie - Bronzebeard"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Roslyn - Wyrmrest Accord"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Abryn - Wyrmrest Accord"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Eloisa - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+		},
+		["Jyetie - Bloodhoof"] = {
+			["skins"] = {
+				["addons"] = {
+					["AlwaysTrue"] = true,
+				},
+			},
+			["bags"] = {
+				["enable"] = false,
+			},
+		},
+	},
+}

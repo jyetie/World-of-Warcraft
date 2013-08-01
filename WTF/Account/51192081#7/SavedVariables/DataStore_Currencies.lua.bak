@@ -1,0 +1,42 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Currencies"] = {
+				"Dungeon and Raid|", -- [1]
+				"Justice Points|Interface\\Icons\\pvecurrency-justice", -- [2]
+				"Miscellaneous|", -- [3]
+				"Darkmoon Prize Ticket|Interface\\Icons\\inv_misc_ticket_darkmoon_01", -- [4]
+				"Player vs. Player|", -- [5]
+				"Conquest Points|Interface\\Icons\\PVPCurrency-Conquest-Alliance", -- [6]
+				"Honor Points|Interface\\Icons\\PVPCurrency-Honor-Alliance", -- [7]
+			},
+			["CurrencyTextRev"] = {
+				["Darkmoon Prize Ticket"] = 4,
+				["Justice Points"] = 2,
+				["Conquest Points"] = 6,
+				["Miscellaneous"] = 3,
+				["Honor Points"] = 7,
+				["Player vs. Player"] = 5,
+				["Dungeon and Raid"] = 1,
+			},
+		},
+		["Characters"] = {
+			["Default.Bloodhoof.Alythe"] = {
+				["Currencies"] = {
+					3, -- [1]
+					24836, -- [2]
+					7, -- [3]
+					648, -- [4]
+					11, -- [5]
+					12, -- [6]
+					23310, -- [7]
+				},
+				["lastUpdate"] = 1360965124,
+			},
+		},
+	},
+}
