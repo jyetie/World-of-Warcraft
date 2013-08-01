@@ -7,9 +7,9 @@ SpamageMetersDB = {
 		["Amazy - Bloodhoof"] = "Default",
 		["Renevie - Moon Guard"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
-		["Zaeliana - Bronzebeard"] = "Default",
 		["Tarley - Bloodhoof"] = "Default",
 		["Jyetie - Bloodhoof"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
 		["Alythe - Bloodhoof"] = "Default",
 	},
 	["profiles"] = {

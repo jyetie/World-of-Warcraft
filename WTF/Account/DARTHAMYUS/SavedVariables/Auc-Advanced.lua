@@ -14,57 +14,6 @@ AucAdvancedConfig = {
 				["depositcost"] = false,
 			},
 		},
-		["stat"] = {
-			["simple"] = {
-				["minbuyout"] = false,
-				["enable"] = false,
-				["avgmins"] = false,
-			},
-			["histogram"] = {
-				["enable"] = false,
-				["quantmul"] = false,
-				["iqr"] = false,
-			},
-			["ilevel"] = {
-				["enable"] = false,
-				["quantmul"] = false,
-				["stdev"] = false,
-				["confid"] = false,
-			},
-			["purchased"] = {
-				["enable"] = false,
-				["quantmul"] = false,
-			},
-			["sales"] = {
-				["enable"] = false,
-				["normal"] = false,
-				["avg"] = false,
-				["ignoredsigs"] = {
-				},
-			},
-			["stddev"] = {
-				["enable"] = false,
-				["quantmul"] = false,
-				["stdev"] = false,
-				["confid"] = false,
-			},
-			["wowecon"] = {
-				["useglobal"] = false,
-				["sanitize"] = false,
-			},
-		},
-		["scandata"] = {
-			["tooltip"] = {
-				["modifier"] = false,
-			},
-		},
-		["ModTTShow"] = "never",
-		["tooltip"] = {
-			["marketprice"] = {
-				["show"] = false,
-				["stacksize"] = false,
-			},
-		},
 		["util"] = {
 			["appraiser"] = {
 				["item.42411.stack"] = 1,
@@ -89,27 +38,27 @@ AucAdvancedConfig = {
 				["item.P:1152:4:3:347:44:42.model"] = "fixed",
 				["match"] = false,
 				["item.37156.stack"] = 1,
-				["item.49908.match"] = false,
-				["item.P:1152:4:3:347:44:42.fixed.bid"] = 15000000,
+				["bidtooltip"] = false,
+				["item.42970.fixed.buy"] = 65000,
 				["item.67487.stack"] = 1,
 				["item.42970.fixed.bid"] = 65000,
 				["item.42411.fixed.buy"] = 50000,
 				["item.42411.match"] = false,
-				["item.42465.model"] = "fixed",
+				["item.2453.match"] = true,
 				["item.42970.match"] = false,
-				["item.42402.match"] = false,
+				["columnsortcurDir"] = -1,
 				["item.42743.fixed.bid"] = 500000,
-				["item.P:1152:4:3:347:44:42.fixed.buy"] = 15000000,
+				["item.P:847:1:2:153:10:10.fixed.buy"] = 4000000,
 				["item.42743.fixed.buy"] = 500000,
 				["item.42465.match"] = false,
 				["item.42402.model"] = "fixed",
-				["item.P:847:1:2:153:10:10.fixed.buy"] = 4000000,
-				["columnsortcurDir"] = -1,
+				["item.P:1152:4:3:347:44:42.fixed.buy"] = 15000000,
+				["item.42402.match"] = false,
 				["item.42402.fixed.buy"] = 150000,
-				["item.2453.match"] = true,
+				["item.42465.model"] = "fixed",
 				["item.P:847:1:2:153:10:10.fixed.bid"] = 4000000,
-				["item.42970.fixed.buy"] = 65000,
-				["bidtooltip"] = false,
+				["item.P:1152:4:3:347:44:42.fixed.bid"] = 15000000,
+				["item.49908.match"] = false,
 			},
 			["EasyBuyout"] = {
 			},
@@ -128,11 +77,62 @@ AucAdvancedConfig = {
 			},
 			["automagic"] = {
 				["ammailguix"] = 160,
-				["uierrormsg"] = 1,
 				["SavedMailButtons"] = {
 				},
+				["uierrormsg"] = 1,
 			},
 			["pricelevel"] = {
+			},
+		},
+		["scandata"] = {
+			["tooltip"] = {
+				["modifier"] = false,
+			},
+		},
+		["tooltip"] = {
+			["marketprice"] = {
+				["show"] = false,
+				["stacksize"] = false,
+			},
+		},
+		["ModTTShow"] = "never",
+		["stat"] = {
+			["simple"] = {
+				["minbuyout"] = false,
+				["avgmins"] = false,
+				["enable"] = false,
+			},
+			["histogram"] = {
+				["enable"] = false,
+				["quantmul"] = false,
+				["iqr"] = false,
+			},
+			["ilevel"] = {
+				["enable"] = false,
+				["quantmul"] = false,
+				["stdev"] = false,
+				["confid"] = false,
+			},
+			["wowecon"] = {
+				["useglobal"] = false,
+				["sanitize"] = false,
+			},
+			["sales"] = {
+				["enable"] = false,
+				["normal"] = false,
+				["avg"] = false,
+				["ignoredsigs"] = {
+				},
+			},
+			["stddev"] = {
+				["enable"] = false,
+				["quantmul"] = false,
+				["stdev"] = false,
+				["confid"] = false,
+			},
+			["purchased"] = {
+				["enable"] = false,
+				["quantmul"] = false,
 			},
 		},
 		["configator.top"] = 675,
@@ -144,23 +144,23 @@ AucAdvancedData = {
 		["Moon Guard"] = "Renevie",
 		["Bloodhoof"] = "Alythe",
 		["Earthen Ring"] = "Vendrelia",
+		["Crushridge"] = "Greyjoy",
+		["Maelstrom"] = "Zalizia",
 		["Bronzebeard"] = "Cyralie",
 		["Wyrmrest Accord"] = "Roslyn",
-		["Maelstrom"] = "Zalizia",
-		["Crushridge"] = "Greyjoy",
 	},
 	["Stats"] = {
 	},
 	["UtilSearchUiData"] = {
-		["Version"] = 1,
-		["Current"] = {
-			["snatch.itemsList"] = {
-			},
-		},
 		["Global"] = {
 			["configator.left"] = 349.9999389648438,
 			["configator.top"] = 699.9998779296875,
 		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
 		["SavedSearches"] = {
 		},
 	},

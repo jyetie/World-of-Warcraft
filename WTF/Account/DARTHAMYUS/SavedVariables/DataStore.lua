@@ -7,25 +7,25 @@ DataStoreDB = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -36,89 +36,89 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.Bronzebeard.Zaeliana"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Infinite Death",
+				["faction"] = "Alliance",
 			},
 			["Default.Bloodhoof.Amazy"] = {
-				["guildName"] = "Catastrophe",
 				["faction"] = "Alliance",
+				["guildName"] = "Catastrophe",
 			},
 			["Default.Crushridge.Greyjoy"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Bloodhoof.Rhosie"] = {
-				["guildName"] = "Catastrophe",
 				["faction"] = "Alliance",
+				["guildName"] = "Catastrophe",
 			},
 			["Default.Bloodhoof.Avelaine"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Catastrophe",
+				["faction"] = "Alliance",
 			},
 			["Default.Earthen Ring.Vendrelia"] = {
-				["guildName"] = "Sacred Fate",
 				["faction"] = "Horde",
+				["guildName"] = "Sacred Fate",
 			},
 			["Default.Bloodhoof.Jyetie"] = {
-				["guildName"] = "Isle of Pandas",
 				["faction"] = "Alliance",
+				["guildName"] = "Isle of Pandas",
 			},
 			["Default.Bloodhoof.Tarley"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Isle of Pandas",
-			},
-			["Default.Bronzebeard.Karielle"] = {
 				["faction"] = "Alliance",
+			},
+			["Default.Moon Guard.Renevie"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Get Rich or Die Trying",
 			},
 			["Default.Bloodhoof.Avessia"] = {
-				["guildName"] = "Isle of Pandas",
 				["faction"] = "Alliance",
+				["guildName"] = "Isle of Pandas",
 			},
 			["Default.Wyrmrest Accord.Roslyn"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Wyrmrest Accord.Venerie"] = {
-				["guildName"] = "Aeterna Imperii",
+			["Default.Maelstrom.Zalizia"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Bloodhoof.Cyralie"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Isle of Pandas",
-			},
-			["Default.Bronzebeard.Cyralie"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Infinite Death",
-			},
-			["Default.Wyrmrest Accord.Abryn"] = {
-				["guildName"] = "Not Today",
-				["faction"] = "Alliance",
-			},
-			["Default.Bloodhoof.Alythe"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Isle of Pandas",
-			},
-			["Default.Bloodhoof.Vezeri"] = {
-				["guildName"] = "House Lannister",
-				["faction"] = "Alliance",
-			},
-			["Default.Bloodhoof.Sparkler"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Ministry",
-			},
-			["Default.Bloodhoof.Eloisa"] = {
-				["faction"] = "Alliance",
-				["guildName"] = "Isle of Pandas",
-			},
-			["Default.Bloodhoof.Flora"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Crushridge.Margot"] = {
 				["faction"] = "Neutral",
 			},
-			["Default.Maelstrom.Zalizia"] = {
-				["faction"] = "Horde",
+			["Default.Wyrmrest Accord.Abryn"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Not Today",
 			},
-			["Default.Moon Guard.Renevie"] = {
-				["guildName"] = "Get Rich or Die Trying",
+			["Default.Bloodhoof.Sparkler"] = {
+				["guildName"] = "Ministry",
+				["faction"] = "Alliance",
+			},
+			["Default.Bloodhoof.Vezeri"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "House Lannister",
+			},
+			["Default.Bloodhoof.Alythe"] = {
+				["guildName"] = "Isle of Pandas",
+				["faction"] = "Alliance",
+			},
+			["Default.Bloodhoof.Eloisa"] = {
+				["guildName"] = "Isle of Pandas",
+				["faction"] = "Alliance",
+			},
+			["Default.Bloodhoof.Flora"] = {
+				["faction"] = "Alliance",
+			},
+			["Default.Bronzebeard.Cyralie"] = {
+				["guildName"] = "Infinite Death",
+				["faction"] = "Alliance",
+			},
+			["Default.Wyrmrest Accord.Venerie"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Aeterna Imperii",
+			},
+			["Default.Bronzebeard.Karielle"] = {
 				["faction"] = "Alliance",
 			},
 		},
@@ -141,13 +141,13 @@ DataStoreDB = {
 			["Default.Wyrmrest Accord.Aeterna Imperii"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Wyrmrest Accord.Not Today"] = {
+			["Default.Bronzebeard.Infinite Death"] = {
 				["faction"] = "Alliance",
 			},
 			["Default.Wyrmrest Accord.Bladestorm"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Bronzebeard.Infinite Death"] = {
+			["Default.Wyrmrest Accord.Not Today"] = {
 				["faction"] = "Alliance",
 			},
 		},

@@ -24,8 +24,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -34,8 +34,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -107,15 +107,15 @@ Bartender4DB = {
 							["fadeoutdelay"] = 0.5,
 							["enabled"] = false,
 							["buttons"] = 2,
-							["fadeout"] = true,
 							["version"] = 3,
+							["fadeoutalpha"] = 0.6,
 							["position"] = {
 								["y"] = 62.00001,
 								["x"] = 260,
 								["point"] = "BOTTOM",
 								["scale"] = 1.550000071525574,
 							},
-							["fadeoutalpha"] = 0.6,
+							["fadeout"] = true,
 							["padding"] = -2,
 							["visibility"] = {
 								["possess"] = true,
@@ -190,8 +190,8 @@ Bartender4DB = {
 						{
 							["fadeout"] = true,
 							["enabled"] = true,
-							["fadeoutalpha"] = 0,
 							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 183.9265747070313,
 								["x"] = -250.0913696289063,
@@ -237,8 +237,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -247,8 +247,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -303,8 +303,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -313,8 +313,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -351,48 +351,48 @@ Bartender4DB = {
 				["Margot - Crushridge"] = {
 					["actionbars"] = {
 						{
-							["version"] = 3,
-							["buttons"] = 7,
-							["fadeoutdelay"] = 0.5,
+							["fadeoutalpha"] = 0.6,
 							["position"] = {
 								["y"] = 55.00000476837158,
 								["x"] = -365.759162902832,
 								["point"] = "BOTTOM",
 								["scale"] = 1.25,
 							},
+							["version"] = 3,
+							["buttons"] = 7,
 							["fadeout"] = true,
 							["padding"] = 6.5,
 							["visibility"] = {
 								["nocombat"] = false,
 							},
-							["fadeoutalpha"] = 0.6,
+							["fadeoutdelay"] = 0.5,
 						}, -- [1]
 						{
-							["flyoutDirection"] = "RIGHT",
-							["fadeout"] = true,
-							["buttons"] = 9,
-							["version"] = 3,
-							["rows"] = 12,
-							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = -125.4876708984375,
 								["x"] = -2.999997854232788,
 								["point"] = "TOPLEFT",
 							},
+							["flyoutDirection"] = "RIGHT",
+							["buttons"] = 9,
+							["fadeoutalpha"] = 0,
+							["rows"] = 12,
+							["version"] = 3,
+							["fadeout"] = true,
 						}, -- [2]
 						{
+							["version"] = 3,
 							["fadeoutalpha"] = 0.6,
-							["fadeoutdelay"] = 0.5,
 							["buttons"] = 7,
-							["fadeout"] = true,
-							["padding"] = 6.5,
 							["position"] = {
 								["y"] = 55.3125,
 								["x"] = 0.2237701416015625,
 								["point"] = "BOTTOM",
 								["scale"] = 1.25,
 							},
-							["version"] = 3,
+							["padding"] = 6.5,
+							["fadeout"] = true,
+							["fadeoutdelay"] = 0.5,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -466,8 +466,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -476,8 +476,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -532,8 +532,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -542,8 +542,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -599,8 +599,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -609,8 +609,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -648,8 +648,8 @@ Bartender4DB = {
 				["Vezeri - Bloodhoof"] = {
 					["actionbars"] = {
 						{
+							["version"] = 3,
 							["fadeoutalpha"] = 0.6,
-							["fadeoutdelay"] = 0.5,
 							["position"] = {
 								["y"] = 62.00000877380398,
 								["x"] = -325.5000150203705,
@@ -659,32 +659,32 @@ Bartender4DB = {
 							["fadeout"] = true,
 							["padding"] = -2,
 							["visibility"] = {
-								["overridebar"] = true,
-								["possess"] = true,
 								["vehicle"] = true,
+								["possess"] = true,
+								["overridebar"] = true,
 								["nocombat"] = false,
 								["vehicleui"] = true,
 							},
-							["version"] = 3,
+							["fadeoutdelay"] = 0.5,
 						}, -- [1]
 						{
+							["buttons"] = 9,
 							["fadeout"] = true,
-							["flyoutDirection"] = "RIGHT",
 							["position"] = {
 								["y"] = -125.4876708984375,
 								["x"] = -2.999997854232788,
 								["point"] = "TOPLEFT",
 							},
-							["version"] = 3,
-							["rows"] = 12,
 							["fadeoutalpha"] = 0,
-							["buttons"] = 9,
+							["rows"] = 12,
+							["version"] = 3,
+							["flyoutDirection"] = "RIGHT",
 						}, -- [2]
 						{
 							["enabled"] = false,
 							["buttons"] = 2,
+							["fadeoutdelay"] = 0.5,
 							["fadeoutalpha"] = 0.6,
-							["fadeout"] = true,
 							["position"] = {
 								["y"] = 62.00001,
 								["x"] = 260,
@@ -697,7 +697,7 @@ Bartender4DB = {
 								["possess"] = true,
 								["vehicle"] = true,
 							},
-							["fadeoutdelay"] = 0.5,
+							["fadeout"] = true,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -742,22 +742,22 @@ Bartender4DB = {
 							},
 						}, -- [6]
 						{
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
+							["visibility"] = {
+								["nocombat"] = false,
+								["overridebar"] = false,
+								["combat"] = false,
+								["vehicleui"] = false,
+							},
+							["version"] = 3,
 							["position"] = {
 								["y"] = -81.65058729391603,
 								["x"] = -153.2617165186821,
 								["point"] = "CENTER",
 								["scale"] = 1.850000023841858,
-							},
-							["version"] = 3,
-							["visibility"] = {
-								["combat"] = false,
-								["overridebar"] = false,
-								["nocombat"] = false,
-								["vehicleui"] = false,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
 							},
 						}, -- [7]
 						{
@@ -808,8 +808,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -818,8 +818,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -875,8 +875,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -885,8 +885,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -921,146 +921,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["TARLEY"] = {
-					["actionbars"] = {
-						{
-							["version"] = 3,
-							["fadeoutalpha"] = 0.6,
-							["position"] = {
-								["y"] = 60,
-								["x"] = -368,
-								["point"] = "BOTTOM",
-								["scale"] = 1.550000071525574,
-							},
-							["fadeout"] = true,
-							["padding"] = -2,
-							["visibility"] = {
-								["possess"] = false,
-								["vehicle"] = false,
-								["nocombat"] = false,
-							},
-							["fadeoutdelay"] = 0.5,
-						}, -- [1]
-						{
-							["position"] = {
-								["y"] = -125.4876708984375,
-								["x"] = -2.999997854232788,
-								["point"] = "TOPLEFT",
-							},
-							["flyoutDirection"] = "RIGHT",
-							["buttons"] = 9,
-							["version"] = 3,
-							["rows"] = 12,
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
-						}, -- [2]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 62.00000877380398,
-								["x"] = 262.9250368422072,
-								["point"] = "BOTTOM",
-								["scale"] = 1.550000071525574,
-							},
-							["fadeoutalpha"] = 0.6,
-							["buttons"] = 2,
-							["fadeoutdelay"] = 0.5,
-							["padding"] = -2,
-							["visibility"] = {
-								["possess"] = true,
-								["vehicle"] = true,
-							},
-							["fadeout"] = true,
-						}, -- [3]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-							["rows"] = 12,
-							["padding"] = 5,
-						}, -- [4]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -184.7401733398438,
-								["x"] = -253.5,
-								["point"] = "TOP",
-							},
-							["padding"] = 6,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["showgrid"] = true,
-							["padding"] = 6,
-							["visibility"] = {
-								["always"] = true,
-								["overridebar"] = false,
-								["vehicleui"] = false,
-							},
-							["position"] = {
-								["y"] = 223.9265747070313,
-								["x"] = -253.5000610351563,
-								["point"] = "CENTER",
-							},
-						}, -- [6]
-						{
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
-							},
-							["visibility"] = {
-								["nocombat"] = false,
-								["overridebar"] = false,
-								["combat"] = false,
-								["vehicleui"] = false,
-							},
-							["version"] = 3,
-							["position"] = {
-								["y"] = -81.65058729391603,
-								["x"] = -153.2617165186821,
-								["point"] = "CENTER",
-								["scale"] = 1.850000023841858,
-							},
-						}, -- [7]
-						{
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 183.9265747070313,
-								["x"] = -250.0913696289063,
-								["point"] = "CENTER",
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.5,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 114.5,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [10]
-					},
-				},
-				["Zaeliana - Bronzebeard"] = {
+				["Sparkler - Bloodhoof"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1126,6 +987,72 @@ Bartender4DB = {
 						},
 					},
 				},
+				["Zaeliana - Bronzebeard"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999847412109,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
 				["Amazy - Bloodhoof"] = {
 					["actionbars"] = {
 						{
@@ -1136,35 +1063,35 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 								["scale"] = 1.550000071525574,
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0.6,
 							["padding"] = -2,
 							["visibility"] = {
-								["overridebar"] = true,
-								["possess"] = true,
 								["vehicle"] = true,
+								["possess"] = true,
+								["overridebar"] = true,
 								["nocombat"] = false,
 								["vehicleui"] = true,
 							},
-							["fadeoutalpha"] = 0.6,
+							["version"] = 3,
 						}, -- [1]
 						{
+							["buttons"] = 9,
 							["fadeout"] = true,
-							["flyoutDirection"] = "RIGHT",
 							["position"] = {
 								["y"] = -125.4876708984375,
 								["x"] = -2.999997854232788,
 								["point"] = "TOPLEFT",
 							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 12,
 							["version"] = 3,
-							["buttons"] = 9,
+							["rows"] = 12,
+							["fadeoutalpha"] = 0,
+							["flyoutDirection"] = "RIGHT",
 						}, -- [2]
 						{
 							["enabled"] = false,
 							["buttons"] = 2,
+							["fadeoutdelay"] = 0.5,
 							["fadeoutalpha"] = 0.6,
-							["version"] = 3,
 							["position"] = {
 								["y"] = 62.00001,
 								["x"] = 260,
@@ -1177,7 +1104,7 @@ Bartender4DB = {
 								["possess"] = true,
 								["vehicle"] = true,
 							},
-							["fadeoutdelay"] = 0.5,
+							["version"] = 3,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -1209,36 +1136,36 @@ Bartender4DB = {
 						{
 							["fadeoutalpha"] = 1,
 							["showgrid"] = true,
-							["version"] = 3,
+							["position"] = {
+								["y"] = 223.9265747070313,
+								["x"] = -253.5000610351563,
+								["point"] = "CENTER",
+							},
 							["padding"] = 6,
 							["visibility"] = {
 								["always"] = true,
 								["overridebar"] = false,
 								["vehicleui"] = false,
 							},
-							["position"] = {
-								["y"] = 223.9265747070313,
-								["x"] = -253.5000610351563,
-								["point"] = "CENTER",
-							},
+							["version"] = 3,
 						}, -- [6]
 						{
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
+							["visibility"] = {
+								["nocombat"] = false,
+								["overridebar"] = false,
+								["combat"] = false,
+								["vehicleui"] = false,
+							},
+							["version"] = 3,
 							["position"] = {
 								["y"] = -81.65058729391603,
 								["x"] = -153.2617165186821,
 								["point"] = "CENTER",
 								["scale"] = 1.850000023841858,
-							},
-							["version"] = 3,
-							["visibility"] = {
-								["combat"] = false,
-								["overridebar"] = false,
-								["nocombat"] = false,
-								["vehicleui"] = false,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
 							},
 						}, -- [7]
 						{
@@ -1268,78 +1195,151 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Rhosie - Bloodhoof"] = {
+				["Alythe"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
-							["version"] = 3,
+							["fadeoutdelay"] = 0.5,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
+								["y"] = 60,
+								["x"] = -368,
 								["point"] = "BOTTOM",
+								["scale"] = 1.550000071525574,
 							},
+							["version"] = 3,
+							["padding"] = -2,
+							["visibility"] = {
+								["overridebar"] = true,
+								["possess"] = true,
+								["vehicle"] = true,
+								["nocombat"] = false,
+								["vehicleui"] = true,
+							},
+							["fadeoutalpha"] = 0.6,
 						}, -- [1]
 						{
-							["enabled"] = false,
-							["version"] = 3,
+							["buttons"] = 9,
+							["fadeout"] = true,
 							["position"] = {
-								["y"] = -189.4999847412109,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
+								["y"] = -125.4876708984375,
+								["x"] = -2.999997854232788,
+								["point"] = "TOPLEFT",
 							},
+							["version"] = 3,
+							["rows"] = 12,
+							["fadeoutalpha"] = 0,
+							["flyoutDirection"] = "RIGHT",
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
+							["fadeout"] = true,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 62.00000877380398,
+								["x"] = 262.9250368422072,
+								["point"] = "BOTTOM",
+								["scale"] = 1.550000071525574,
 							},
+							["fadeoutalpha"] = 0.6,
+							["buttons"] = 2,
+							["version"] = 3,
+							["padding"] = -2,
+							["visibility"] = {
+								["possess"] = true,
+								["vehicle"] = true,
+							},
+							["fadeoutdelay"] = 0.5,
 						}, -- [3]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["rows"] = 12,
+							["padding"] = 5,
 						}, -- [4]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
+								["y"] = -184.7401733398438,
+								["x"] = -253.5,
+								["point"] = "TOP",
+							},
+							["padding"] = 6,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
 							},
 						}, -- [5]
 						{
-							["padding"] = 6,
 							["version"] = 3,
+							["showgrid"] = true,
+							["padding"] = 6,
+							["visibility"] = {
+								["always"] = true,
+								["overridebar"] = false,
+								["vehicleui"] = false,
+							},
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = 223.9265747070313,
+								["x"] = -253.5000610351563,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
+							["visibility"] = {
+								["nocombat"] = false,
+								["overridebar"] = false,
+								["combat"] = false,
+								["vehicleui"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = -81.65058729391603,
+								["x"] = -153.2617165186821,
+								["point"] = "CENTER",
+								["scale"] = 1.850000023841858,
+							},
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 183.9265747070313,
+								["x"] = -250.0913696289063,
+								["point"] = "CENTER",
+							},
 						}, -- [8]
-						nil, -- [9]
 						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.5,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.5,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
 						}, -- [10]
 					},
 				},
 				["Ren"] = {
 					["actionbars"] = {
 						{
+							["hidehotkey"] = true,
 							["fadeoutalpha"] = 0.6,
-							["fadeoutdelay"] = 0.5,
 							["buttons"] = 9,
 							["version"] = 3,
 							["position"] = {
@@ -1353,27 +1353,27 @@ Bartender4DB = {
 								["vehicle"] = false,
 								["nocombat"] = false,
 							},
-							["hidehotkey"] = true,
+							["fadeoutdelay"] = 0.5,
 						}, -- [1]
 						{
 							["enabled"] = false,
-							["buttons"] = 9,
+							["flyoutDirection"] = "RIGHT",
 							["fadeoutdelay"] = 0,
+							["buttons"] = 9,
+							["fadeoutalpha"] = 0,
+							["rows"] = 12,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -125.4876708984375,
 								["x"] = -2.999997854232788,
 								["point"] = "TOPLEFT",
 							},
-							["version"] = 3,
-							["rows"] = 12,
-							["fadeoutalpha"] = 0,
-							["flyoutDirection"] = "RIGHT",
 						}, -- [2]
 						{
 							["enabled"] = false,
 							["buttons"] = 2,
+							["version"] = 3,
 							["fadeoutdelay"] = 0.5,
-							["fadeoutalpha"] = 0.6,
 							["position"] = {
 								["y"] = 62.00001,
 								["x"] = 260,
@@ -1386,7 +1386,7 @@ Bartender4DB = {
 								["possess"] = true,
 								["vehicle"] = true,
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0.6,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -1418,8 +1418,8 @@ Bartender4DB = {
 							},
 						}, -- [5]
 						{
+							["version"] = 3,
 							["fadeout"] = true,
-							["fadeoutalpha"] = 0,
 							["showgrid"] = true,
 							["position"] = {
 								["y"] = 223.9265747070313,
@@ -1432,38 +1432,38 @@ Bartender4DB = {
 								["overridebar"] = false,
 								["vehicleui"] = false,
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [6]
 						{
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
-							},
-							["visibility"] = {
-								["nocombat"] = false,
-								["overridebar"] = false,
-								["combat"] = false,
-								["vehicleui"] = false,
-							},
-							["version"] = 3,
 							["position"] = {
 								["y"] = -81.65058729391603,
 								["x"] = -153.2617165186821,
 								["point"] = "CENTER",
 								["scale"] = 1.850000023841858,
 							},
+							["version"] = 3,
+							["visibility"] = {
+								["combat"] = false,
+								["overridebar"] = false,
+								["nocombat"] = false,
+								["vehicleui"] = false,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
 						}, -- [7]
 						{
 							["enabled"] = true,
 							["version"] = 3,
 							["buttons"] = 9,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 50.39999742507916,
 								["x"] = -209.3999887386963,
 								["point"] = "BOTTOM",
 								["scale"] = 1.200000047683716,
 							},
-							["fadeoutalpha"] = 0,
 						}, -- [8]
 						{
 							["version"] = 3,
@@ -1504,8 +1504,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1514,8 +1514,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1570,8 +1570,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1580,8 +1580,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1615,189 +1615,116 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Alythe"] = {
+				["Rhosie - Bloodhoof"] = {
 					["actionbars"] = {
 						{
-							["fadeoutdelay"] = 0.5,
-							["position"] = {
-								["y"] = 60,
-								["x"] = -368,
-								["point"] = "BOTTOM",
-								["scale"] = 1.550000071525574,
-							},
-							["fadeoutalpha"] = 0.6,
-							["padding"] = -2,
-							["visibility"] = {
-								["vehicle"] = true,
-								["possess"] = true,
-								["overridebar"] = true,
-								["nocombat"] = false,
-								["vehicleui"] = true,
-							},
+							["padding"] = 6,
 							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
 						}, -- [1]
 						{
-							["fadeout"] = true,
-							["flyoutDirection"] = "RIGHT",
-							["position"] = {
-								["y"] = -125.4876708984375,
-								["x"] = -2.999997854232788,
-								["point"] = "TOPLEFT",
-							},
-							["fadeoutalpha"] = 0,
-							["rows"] = 12,
+							["enabled"] = false,
 							["version"] = 3,
-							["buttons"] = 9,
+							["position"] = {
+								["y"] = -189.4999847412109,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
 						}, -- [2]
 						{
-							["fadeoutalpha"] = 0.6,
-							["buttons"] = 2,
-							["fadeoutdelay"] = 0.5,
-							["position"] = {
-								["y"] = 62.00000877380398,
-								["x"] = 262.9250368422072,
-								["point"] = "BOTTOM",
-								["scale"] = 1.550000071525574,
-							},
+							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
-							["padding"] = -2,
-							["visibility"] = {
-								["possess"] = true,
-								["vehicle"] = true,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
 							},
-							["fadeout"] = true,
 						}, -- [3]
 						{
-							["enabled"] = false,
+							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
-							["rows"] = 12,
-							["padding"] = 5,
 						}, -- [4]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -184.7401733398438,
-								["x"] = -253.5,
-								["point"] = "TOP",
-							},
-							["padding"] = 6,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
 							},
 						}, -- [5]
 						{
-							["version"] = 3,
-							["showgrid"] = true,
 							["padding"] = 6,
-							["visibility"] = {
-								["always"] = true,
-								["overridebar"] = false,
-								["vehicleui"] = false,
-							},
+							["version"] = 3,
 							["position"] = {
-								["y"] = 223.9265747070313,
-								["x"] = -253.5000610351563,
-								["point"] = "CENTER",
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
 							},
 						}, -- [6]
 						{
-							["position"] = {
-								["y"] = -81.65058729391603,
-								["x"] = -153.2617165186821,
-								["point"] = "CENTER",
-								["scale"] = 1.850000023841858,
-							},
-							["version"] = 3,
-							["visibility"] = {
-								["combat"] = false,
-								["overridebar"] = false,
-								["nocombat"] = false,
-								["vehicleui"] = false,
-							},
-							["states"] = {
-								["enabled"] = true,
-								["possess"] = true,
-							},
 						}, -- [7]
 						{
-							["enabled"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 183.9265747070313,
-								["x"] = -250.0913696289063,
-								["point"] = "CENTER",
-							},
 						}, -- [8]
+						nil, -- [9]
 						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.5,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 114.5,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
-							},
 						}, -- [10]
 					},
 				},
 				["Jyetie - Bloodhoof"] = {
 					["actionbars"] = {
 						{
+							["fadeoutdelay"] = 0.5,
+							["buttons"] = 7,
 							["fadeoutalpha"] = 0.6,
 							["position"] = {
 								["y"] = 82.31999206542969,
 								["x"] = -149.0000152587891,
 								["point"] = "BOTTOM",
 							},
-							["version"] = 3,
-							["buttons"] = 7,
 							["fadeout"] = true,
 							["padding"] = 6,
 							["visibility"] = {
 								["nocombat"] = false,
 							},
-							["fadeoutdelay"] = 0.5,
+							["version"] = 3,
 						}, -- [1]
 						{
+							["fadeout"] = true,
+							["flyoutDirection"] = "RIGHT",
 							["position"] = {
 								["y"] = -125.4876708984375,
 								["x"] = -2.999997854232788,
 								["point"] = "TOPLEFT",
 							},
-							["flyoutDirection"] = "RIGHT",
-							["buttons"] = 9,
-							["fadeoutalpha"] = 0,
-							["rows"] = 12,
 							["version"] = 3,
-							["fadeout"] = true,
+							["rows"] = 12,
+							["fadeoutalpha"] = 0,
+							["buttons"] = 9,
 						}, -- [2]
 						{
+							["fadeoutdelay"] = 0.5,
 							["fadeout"] = true,
-							["version"] = 3,
 							["buttons"] = 7,
+							["fadeoutalpha"] = 0.6,
+							["padding"] = 6,
 							["position"] = {
 								["y"] = 43.5,
 								["x"] = -149.0000152587891,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
-							["fadeoutalpha"] = 0.6,
-							["fadeoutdelay"] = 0.5,
+							["version"] = 3,
 						}, -- [3]
 						{
 							["enabled"] = false,
@@ -1851,70 +1778,143 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Sparkler - Bloodhoof"] = {
+				["TARLEY"] = {
 					["actionbars"] = {
 						{
-							["padding"] = 6,
+							["fadeoutdelay"] = 0.5,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
+								["y"] = 60,
+								["x"] = -368,
 								["point"] = "BOTTOM",
+								["scale"] = 1.550000071525574,
 							},
+							["fadeout"] = true,
+							["padding"] = -2,
+							["visibility"] = {
+								["possess"] = false,
+								["vehicle"] = false,
+								["nocombat"] = false,
+							},
+							["fadeoutalpha"] = 0.6,
 						}, -- [1]
 						{
-							["enabled"] = false,
-							["version"] = 3,
+							["fadeout"] = true,
+							["flyoutDirection"] = "RIGHT",
 							["position"] = {
-								["y"] = -189.4999847412109,
-								["x"] = -231.5000305175781,
-								["point"] = "CENTER",
+								["y"] = -125.4876708984375,
+								["x"] = -2.999997854232788,
+								["point"] = "TOPLEFT",
 							},
+							["fadeoutalpha"] = 0,
+							["rows"] = 12,
+							["version"] = 3,
+							["buttons"] = 9,
 						}, -- [2]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
+							["fadeout"] = true,
+							["buttons"] = 2,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 62.00000877380398,
+								["x"] = 262.9250368422072,
+								["point"] = "BOTTOM",
+								["scale"] = 1.550000071525574,
 							},
+							["fadeoutdelay"] = 0.5,
+							["padding"] = -2,
+							["visibility"] = {
+								["possess"] = true,
+								["vehicle"] = true,
+							},
+							["fadeoutalpha"] = 0.6,
 						}, -- [3]
 						{
-							["rows"] = 12,
-							["padding"] = 5,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
 							},
+							["rows"] = 12,
+							["padding"] = 5,
 						}, -- [4]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 83,
-								["x"] = 3,
-								["point"] = "BOTTOM",
+								["y"] = -184.7401733398438,
+								["x"] = -253.5,
+								["point"] = "TOP",
+							},
+							["padding"] = 6,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
 							},
 						}, -- [5]
 						{
-							["padding"] = 6,
 							["version"] = 3,
+							["showgrid"] = true,
+							["padding"] = 6,
+							["visibility"] = {
+								["always"] = true,
+								["overridebar"] = false,
+								["vehicleui"] = false,
+							},
 							["position"] = {
-								["y"] = 83,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = 223.9265747070313,
+								["x"] = -253.5000610351563,
+								["point"] = "CENTER",
 							},
 						}, -- [6]
 						{
+							["position"] = {
+								["y"] = -81.65058729391603,
+								["x"] = -153.2617165186821,
+								["point"] = "CENTER",
+								["scale"] = 1.850000023841858,
+							},
+							["version"] = 3,
+							["visibility"] = {
+								["combat"] = false,
+								["overridebar"] = false,
+								["nocombat"] = false,
+								["vehicleui"] = false,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+							},
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 183.9265747070313,
+								["x"] = -250.0913696289063,
+								["point"] = "CENTER",
+							},
 						}, -- [8]
-						[10] = {
-						},
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.5,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.5,
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
 					},
 				},
 			},
@@ -1932,14 +1932,14 @@ Bartender4DB = {
 					},
 				},
 				["SAVE"] = {
-					["version"] = 3,
+					["fadeoutalpha"] = 1,
 					["position"] = {
 						["y"] = -60.70996856689453,
 						["x"] = -19.24990844726563,
 						["point"] = "CENTER",
 						["scale"] = 1.5,
 					},
-					["fadeoutalpha"] = 1,
+					["version"] = 3,
 				},
 				["Avelaine - Bloodhoof"] = {
 					["version"] = 3,
@@ -1990,8 +1990,8 @@ Bartender4DB = {
 					},
 				},
 				["Vezeri - Bloodhoof"] = {
-					["version"] = 3,
 					["fadeoutalpha"] = 1,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
 						["x"] = -31.5,
@@ -2015,7 +2015,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["TARLEY"] = {
+				["Sparkler - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
@@ -2032,8 +2032,8 @@ Bartender4DB = {
 					},
 				},
 				["Amazy - Bloodhoof"] = {
-					["version"] = 3,
 					["fadeoutalpha"] = 1,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
 						["x"] = -31.5,
@@ -2041,7 +2041,7 @@ Bartender4DB = {
 						["scale"] = 1.5,
 					},
 				},
-				["Rhosie - Bloodhoof"] = {
+				["Alythe"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
@@ -2050,8 +2050,8 @@ Bartender4DB = {
 					},
 				},
 				["Ren"] = {
-					["fadeoutalpha"] = 1,
 					["version"] = 3,
+					["fadeoutalpha"] = 1,
 					["position"] = {
 						["y"] = -155.578742980957,
 						["x"] = 326.120361328125,
@@ -2075,7 +2075,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alythe"] = {
+				["Rhosie - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
@@ -2091,7 +2091,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Sparkler - Bloodhoof"] = {
+				["TARLEY"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 222.9999847412109,
@@ -2119,8 +2119,8 @@ Bartender4DB = {
 						["point"] = "TOPLEFT",
 						["scale"] = 1,
 					},
-					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["version"] = 3,
 				},
 				["Avelaine - Bloodhoof"] = {
@@ -2142,9 +2142,9 @@ Bartender4DB = {
 					},
 				},
 				["Margot - Crushridge"] = {
-					["version"] = 3,
 					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 40.49997711181641,
 						["x"] = -306.4998779296875,
@@ -2180,9 +2180,9 @@ Bartender4DB = {
 					},
 				},
 				["Vezeri - Bloodhoof"] = {
-					["fadeoutalpha"] = 0,
 					["fadeout"] = true,
 					["version"] = 3,
+					["fadeoutalpha"] = 0,
 					["position"] = {
 						["y"] = -84.6695556640625,
 						["x"] = -5.500002861022949,
@@ -2208,15 +2208,13 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["TARLEY"] = {
-					["fadeoutalpha"] = 0,
-					["fadeout"] = true,
+				["Sparkler - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -84.6695556640625,
-						["x"] = -5.500002861022949,
-						["point"] = "TOPLEFT",
 						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
 					},
 				},
 				["Zaeliana - Bronzebeard"] = {
@@ -2229,9 +2227,9 @@ Bartender4DB = {
 					},
 				},
 				["Amazy - Bloodhoof"] = {
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = -84.6695556640625,
 						["x"] = -5.500002861022949,
@@ -2239,19 +2237,21 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Rhosie - Bloodhoof"] = {
+				["Alythe"] = {
+					["fadeoutalpha"] = 0,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
-						["y"] = 41.75,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
+						["y"] = -84.6695556640625,
+						["x"] = -5.500002861022949,
+						["point"] = "TOPLEFT",
 						["scale"] = 1,
 					},
 				},
 				["Ren"] = {
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
 					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = -125.48779296875,
 						["x"] = -32.60670852661133,
@@ -2277,21 +2277,19 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Alythe"] = {
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
+				["Rhosie - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -84.6695556640625,
-						["x"] = -5.500002861022949,
-						["point"] = "TOPLEFT",
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
 				},
 				["Jyetie - Bloodhoof"] = {
-					["version"] = 3,
 					["fadeout"] = true,
 					["fadeoutalpha"] = 0,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 40.49997711181641,
 						["x"] = -306.4998779296875,
@@ -2299,13 +2297,15 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Sparkler - Bloodhoof"] = {
+				["TARLEY"] = {
+					["fadeout"] = true,
 					["version"] = 3,
+					["fadeoutalpha"] = 0,
 					["position"] = {
+						["y"] = -84.6695556640625,
+						["x"] = -5.500002861022949,
+						["point"] = "TOPLEFT",
 						["scale"] = 1,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
 					},
 				},
 			},
@@ -2321,8 +2321,8 @@ Bartender4DB = {
 						["point"] = "TOP",
 						["scale"] = 0.9000000357627869,
 					},
-					["fadeoutalpha"] = 0.6000000238418579,
 					["fadeout"] = true,
+					["fadeoutalpha"] = 0.6000000238418579,
 				},
 				["SAVE"] = {
 					["enabled"] = true,
@@ -2345,18 +2345,6 @@ Bartender4DB = {
 						["point"] = "TOPLEFT",
 						["scale"] = 0.9000000357627869,
 					},
-					["fadeoutalpha"] = 0.6000000238418579,
-					["fadeout"] = true,
-				},
-				["TARLEY"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 3.599980974195205,
-						["x"] = -467.1000185608864,
-						["point"] = "TOP",
-						["scale"] = 0.9000000357627869,
-					},
 					["fadeout"] = true,
 					["fadeoutalpha"] = 0.6000000238418579,
 				},
@@ -2369,8 +2357,20 @@ Bartender4DB = {
 						["point"] = "TOP",
 						["scale"] = 0.9000000357627869,
 					},
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0.6000000238418579,
+					["fadeout"] = true,
+				},
+				["TARLEY"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 3.599980974195205,
+						["x"] = -467.1000185608864,
+						["point"] = "TOP",
+						["scale"] = 0.9000000357627869,
+					},
+					["fadeoutalpha"] = 0.6000000238418579,
+					["fadeout"] = true,
 				},
 				["Alythe"] = {
 					["enabled"] = true,
@@ -2381,8 +2381,8 @@ Bartender4DB = {
 						["point"] = "TOP",
 						["scale"] = 0.9000000357627869,
 					},
-					["fadeout"] = true,
 					["fadeoutalpha"] = 0.6000000238418579,
+					["fadeout"] = true,
 				},
 			},
 		},
@@ -2496,17 +2496,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["TARLEY"] = {
-					["leftCap"] = "NONE",
+				["Sparkler - Bloodhoof"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["rightCap"] = "NONE",
-					["artSkin"] = "HUMAN",
-					["artLayout"] = "ONEBAR",
 				},
 				["Zaeliana - Bronzebeard"] = {
 					["enabled"] = true,
@@ -2529,14 +2526,17 @@ Bartender4DB = {
 					["artSkin"] = "HUMAN",
 					["artLayout"] = "ONEBAR",
 				},
-				["Rhosie - Bloodhoof"] = {
-					["enabled"] = true,
+				["Alythe"] = {
+					["leftCap"] = "NONE",
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
+					["rightCap"] = "NONE",
+					["artSkin"] = "HUMAN",
+					["artLayout"] = "ONEBAR",
 				},
 				["Ren"] = {
 					["leftCap"] = "NONE",
@@ -2568,17 +2568,14 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alythe"] = {
-					["leftCap"] = "NONE",
+				["Rhosie - Bloodhoof"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["rightCap"] = "NONE",
-					["artSkin"] = "HUMAN",
-					["artLayout"] = "ONEBAR",
 				},
 				["Jyetie - Bloodhoof"] = {
 					["leftCap"] = "NONE",
@@ -2592,14 +2589,17 @@ Bartender4DB = {
 					["artSkin"] = "HUMAN",
 					["artLayout"] = "ONEBAR",
 				},
-				["Sparkler - Bloodhoof"] = {
-					["enabled"] = true,
+				["TARLEY"] = {
+					["leftCap"] = "NONE",
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
+					["rightCap"] = "NONE",
+					["artSkin"] = "HUMAN",
+					["artLayout"] = "ONEBAR",
 				},
 			},
 		},
@@ -2707,14 +2707,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["TARLEY"] = {
-					["enabled"] = false,
+				["Sparkler - Bloodhoof"] = {
 					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 19.5,
-						["x"] = -93.6800537109375,
-						["point"] = "RIGHT",
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Zaeliana - Bronzebeard"] = {
@@ -2736,13 +2735,14 @@ Bartender4DB = {
 						["point"] = "RIGHT",
 					},
 				},
-				["Rhosie - Bloodhoof"] = {
+				["Alythe"] = {
+					["enabled"] = false,
 					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 41.75,
-						["x"] = 463.5,
-						["point"] = "BOTTOM",
+						["y"] = 19.5,
+						["x"] = -93.6800537109375,
+						["point"] = "RIGHT",
 					},
 				},
 				["Ren"] = {
@@ -2773,27 +2773,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alythe"] = {
-					["enabled"] = false,
-					["onebag"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 19.5,
-						["x"] = -93.6800537109375,
-						["point"] = "RIGHT",
-					},
-				},
-				["Jyetie - Bloodhoof"] = {
-					["enabled"] = false,
-					["onebag"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 19.5,
-						["x"] = -93.6800537109375,
-						["point"] = "RIGHT",
-					},
-				},
-				["Sparkler - Bloodhoof"] = {
+				["Rhosie - Bloodhoof"] = {
 					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -2802,200 +2782,24 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Flora - Bloodhoof"] = {
+				["Jyetie - Bloodhoof"] = {
+					["enabled"] = false,
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["SAVE"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -215.9900093078613,
-						["x"] = 281.09765625,
-						["point"] = "LEFT",
-					},
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
-				},
-				["Avelaine - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Roslyn - Wyrmrest Accord"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 116,
-					},
-				},
-				["Margot - Crushridge"] = {
-					["visibility"] = {
-						["always"] = true,
-					},
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Renevie - Moon Guard"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Tarley - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Alythe - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Vezeri - Bloodhoof"] = {
-					["fadeoutalpha"] = 0,
-					["fadeout"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 54.0000057220459,
-						["x"] = 381.7013854980469,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
-				["Avessia - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Cyralie - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
+						["y"] = 19.5,
+						["x"] = -93.6800537109375,
+						["point"] = "RIGHT",
 					},
 				},
 				["TARLEY"] = {
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
+					["enabled"] = false,
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 54.0000057220459,
-						["x"] = 381.7013854980469,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
-				["Zaeliana - Bronzebeard"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 116,
-					},
-				},
-				["Amazy - Bloodhoof"] = {
-					["fadeout"] = true,
-					["fadeoutalpha"] = 0,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 54.0000057220459,
-						["x"] = 381.7013854980469,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
-				["Rhosie - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-					},
-				},
-				["Ren"] = {
-					["fadeoutalpha"] = 0,
-					["fadeout"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = -215.9900093078613,
-						["x"] = 281.09765625,
-						["point"] = "LEFT",
-					},
-				},
-				["Cyralie - Bronzebeard"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 116,
-					},
-				},
-				["Greyjoy - Crushridge"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["y"] = 116,
-					},
-				},
-				["Alythe"] = {
-					["fadeoutalpha"] = 0,
-					["fadeout"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 54.0000057220459,
-						["x"] = 381.7013854980469,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
-				["Jyetie - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
-					},
-				},
-				["Sparkler - Bloodhoof"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997711181641,
-						["x"] = -82.49998474121094,
-						["point"] = "CENTER",
+						["y"] = 19.5,
+						["x"] = -93.6800537109375,
+						["point"] = "RIGHT",
 					},
 				},
 			},
@@ -3090,7 +2894,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["TARLEY"] = {
+				["Sparkler - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47.5,
@@ -3114,7 +2918,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Rhosie - Bloodhoof"] = {
+				["Alythe"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47.5,
@@ -3146,7 +2950,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Alythe"] = {
+				["Rhosie - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47.5,
@@ -3162,12 +2966,208 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Sparkler - Bloodhoof"] = {
+				["TARLEY"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47.5,
 						["x"] = 99.5,
 						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Flora - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["SAVE"] = {
+					["fadeout"] = true,
+					["position"] = {
+						["y"] = -215.9900093078613,
+						["x"] = 281.09765625,
+						["point"] = "LEFT",
+					},
+					["version"] = 3,
+					["fadeoutalpha"] = 0,
+				},
+				["Avelaine - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Roslyn - Wyrmrest Accord"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+				["Margot - Crushridge"] = {
+					["version"] = 3,
+					["visibility"] = {
+						["always"] = true,
+					},
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Renevie - Moon Guard"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Tarley - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Alythe - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Vezeri - Bloodhoof"] = {
+					["fadeout"] = true,
+					["version"] = 3,
+					["fadeoutalpha"] = 0,
+					["position"] = {
+						["y"] = 54.0000057220459,
+						["x"] = 381.7013854980469,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Avessia - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Cyralie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Sparkler - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["Zaeliana - Bronzebeard"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+				["Amazy - Bloodhoof"] = {
+					["fadeoutalpha"] = 0,
+					["version"] = 3,
+					["fadeout"] = true,
+					["position"] = {
+						["y"] = 54.0000057220459,
+						["x"] = 381.7013854980469,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Alythe"] = {
+					["fadeout"] = true,
+					["version"] = 3,
+					["fadeoutalpha"] = 0,
+					["position"] = {
+						["y"] = 54.0000057220459,
+						["x"] = 381.7013854980469,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Ren"] = {
+					["fadeout"] = true,
+					["version"] = 3,
+					["fadeoutalpha"] = 0,
+					["position"] = {
+						["y"] = -215.9900093078613,
+						["x"] = 281.09765625,
+						["point"] = "LEFT",
+					},
+				},
+				["Cyralie - Bronzebeard"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+				["Greyjoy - Crushridge"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+				["Rhosie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["Jyetie - Bloodhoof"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997711181641,
+						["x"] = -82.49998474121094,
+						["point"] = "CENTER",
+					},
+				},
+				["TARLEY"] = {
+					["fadeoutalpha"] = 0,
+					["version"] = 3,
+					["fadeout"] = true,
+					["position"] = {
+						["y"] = 54.0000057220459,
+						["x"] = 381.7013854980469,
+						["point"] = "BOTTOMLEFT",
 					},
 				},
 			},
@@ -3183,13 +3183,13 @@ Bartender4DB = {
 					},
 				},
 				["SAVE"] = {
-					["version"] = 3,
+					["fadeout"] = true,
 					["position"] = {
 						["y"] = -37.04229736328125,
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
@@ -3218,11 +3218,11 @@ Bartender4DB = {
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
 				["Renevie - Moon Guard"] = {
 					["version"] = 3,
@@ -3255,11 +3255,11 @@ Bartender4DB = {
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
 				["Avessia - Bloodhoof"] = {
 					["version"] = 3,
@@ -3277,18 +3277,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["TARLEY"] = {
+				["Sparkler - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = -37.04229736328125,
-						["x"] = -20.17177391052246,
-						["point"] = "LEFT",
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
 					},
-					["fadeout"] = true,
-					["visibility"] = {
-						["nocombat"] = true,
-					},
-					["fadeoutalpha"] = 0,
 				},
 				["Zaeliana - Bronzebeard"] = {
 					["version"] = 3,
@@ -3305,19 +3300,24 @@ Bartender4DB = {
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["version"] = 3,
+					["fadeoutalpha"] = 0,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
-					["fadeoutalpha"] = 0,
-				},
-				["Rhosie - Bloodhoof"] = {
 					["version"] = 3,
+				},
+				["Alythe"] = {
+					["fadeout"] = true,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -120,
-						["point"] = "BOTTOM",
+						["y"] = -37.04229736328125,
+						["x"] = -20.17177391052246,
+						["point"] = "LEFT",
 					},
+					["fadeoutalpha"] = 0,
+					["visibility"] = {
+						["nocombat"] = true,
+					},
+					["version"] = 3,
 				},
 				["Ren"] = {
 					["version"] = 3,
@@ -3326,11 +3326,11 @@ Bartender4DB = {
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["fadeout"] = true,
+					["fadeoutalpha"] = 0,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
-					["fadeoutalpha"] = 0,
+					["fadeout"] = true,
 				},
 				["Cyralie - Bronzebeard"] = {
 					["version"] = 3,
@@ -3348,18 +3348,13 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Alythe"] = {
-					["fadeout"] = true,
-					["position"] = {
-						["y"] = -37.04229736328125,
-						["x"] = -20.17177391052246,
-						["point"] = "LEFT",
-					},
+				["Rhosie - Bloodhoof"] = {
 					["version"] = 3,
-					["visibility"] = {
-						["nocombat"] = true,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -120,
+						["point"] = "BOTTOM",
 					},
-					["fadeoutalpha"] = 0,
 				},
 				["Jyetie - Bloodhoof"] = {
 					["fadeoutalpha"] = 0,
@@ -3368,19 +3363,24 @@ Bartender4DB = {
 						["x"] = -20.17177391052246,
 						["point"] = "LEFT",
 					},
-					["fadeout"] = true,
+					["version"] = 3,
 					["visibility"] = {
 						["nocombat"] = true,
 					},
-					["version"] = 3,
+					["fadeout"] = true,
 				},
-				["Sparkler - Bloodhoof"] = {
+				["TARLEY"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
+						["y"] = -37.04229736328125,
+						["x"] = -20.17177391052246,
+						["point"] = "LEFT",
 					},
+					["fadeoutalpha"] = 0,
+					["visibility"] = {
+						["nocombat"] = true,
+					},
+					["fadeout"] = true,
 				},
 			},
 		},
@@ -3394,7 +3394,7 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
-				["Alythe"] = {
+				["Margot - Crushridge"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 8.000015258789063,
@@ -3418,7 +3418,7 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Amazy - Bloodhoof"] = {
+				["Vezeri - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 8.000015258789063,
@@ -3426,7 +3426,7 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
-				["Vezeri - Bloodhoof"] = {
+				["Amazy - Bloodhoof"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 8.000015258789063,
@@ -3442,7 +3442,7 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
-				["Margot - Crushridge"] = {
+				["Alythe"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 8.000015258789063,
@@ -3465,12 +3465,12 @@ Bartender4DB = {
 		["Rhosie - Bloodhoof"] = "SAVE",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Roslyn - Wyrmrest Accord"] = "Roslyn - Wyrmrest Accord",
+		["Tarley - Bloodhoof"] = "SAVE",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
 		["Avessia - Bloodhoof"] = "SAVE",
 		["Jyetie - Bloodhoof"] = "SAVE",
-		["Tarley - Bloodhoof"] = "SAVE",
+		["Roslyn - Wyrmrest Accord"] = "Roslyn - Wyrmrest Accord",
 	},
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
@@ -3535,13 +3535,10 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["TARLEY"] = {
+		["Sparkler - Bloodhoof"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
-			["minimapIcon"] = {
-				["minimapPos"] = 252.4397917180805,
-			},
-			["outofrange"] = "none",
+			["outofrange"] = "hotkey",
 		},
 		["Zaeliana - Bronzebeard"] = {
 			["focuscastmodifier"] = false,
@@ -3555,11 +3552,13 @@ Bartender4DB = {
 				["minimapPos"] = 252.4397917180805,
 			},
 		},
-		["Rhosie - Bloodhoof"] = {
-			["selfcastrightclick"] = true,
-			["blizzardVehicle"] = true,
+		["Alythe"] = {
 			["focuscastmodifier"] = false,
-			["outofrange"] = "hotkey",
+			["blizzardVehicle"] = true,
+			["minimapIcon"] = {
+				["minimapPos"] = 252.4397917180805,
+			},
+			["outofrange"] = "none",
 		},
 		["Ren"] = {
 			["focuscastmodifier"] = false,
@@ -3581,23 +3580,24 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Alythe"] = {
-			["focuscastmodifier"] = false,
+		["Rhosie - Bloodhoof"] = {
+			["selfcastrightclick"] = true,
 			["blizzardVehicle"] = true,
-			["minimapIcon"] = {
-				["minimapPos"] = 252.4397917180805,
-			},
-			["outofrange"] = "none",
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
 		},
 		["Jyetie - Bloodhoof"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "none",
 		},
-		["Sparkler - Bloodhoof"] = {
+		["TARLEY"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
+			["minimapIcon"] = {
+				["minimapPos"] = 252.4397917180805,
+			},
+			["outofrange"] = "none",
 		},
 	},
 }

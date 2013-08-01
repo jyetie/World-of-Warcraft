@@ -9,491 +9,491 @@ EnchantConfig = {
 	["cache"] = {
 		["prices"] = {
 			[36919] = {
-				["market"] = 80000,
 				["timestamp"] = 1371298803,
+				["market"] = 80000,
 			},
 			[10978] = {
-				["market"] = 700,
 				["timestamp"] = 1360965512,
+				["market"] = 700,
 			},
 			[39340] = {
-				["timestamp"] = 1371553922,
 				["market"] = 30000,
+				["timestamp"] = 1371553922,
 			},
 			[1206] = {
-				["timestamp"] = 1370997103,
 				["market"] = 35000,
+				["timestamp"] = 1370997103,
 			},
 			[74247] = {
-				["market"] = 800000,
 				["timestamp"] = 1363294810,
+				["market"] = 800000,
 			},
 			[46849] = {
-				["market"] = 20000,
 				["timestamp"] = 1371298803,
+				["market"] = 20000,
 			},
 			[21840] = {
 				["timestamp"] = 1373328846,
 			},
 			[774] = {
-				["timestamp"] = 1362746494,
 				["market"] = 5000,
+				["timestamp"] = 1362746494,
 			},
-			[24243] = {
-				["timestamp"] = 1374044471,
-				["market"] = 17500,
+			[76136] = {
+				["timestamp"] = 1371819423,
+				["market"] = 100000,
 			},
 			[52719] = {
-				["market"] = 200000,
 				["timestamp"] = 1365746200,
+				["market"] = 200000,
 			},
 			[34054] = {
-				["market"] = 47500,
 				["timestamp"] = 1363296138,
+				["market"] = 47500,
 			},
-			[21842] = {
-				["timestamp"] = 1373328846,
-			},
-			[16202] = {
-				["market"] = 52500,
-				["timestamp"] = 1363296128,
-			},
-			[20725] = {
-				["timestamp"] = 1365833201,
-				["market"] = 10000,
-			},
-			[76137] = {
-				["market"] = 100000,
-				["timestamp"] = 1371819423,
-			},
-			[16203] = {
-				["timestamp"] = 1365833089,
-				["market"] = 110000,
-			},
-			[74248] = {
-				["timestamp"] = 1363933168,
-				["market"] = 8000000,
-			},
-			[10998] = {
-				["market"] = 5000,
-				["timestamp"] = 1360965512,
-			},
-			[43103] = {
-				["timestamp"] = 1365140382,
-				["market"] = 17500,
-			},
-			[43107] = {
-				["timestamp"] = 1371554912,
+			[36931] = {
+				["timestamp"] = 1371298803,
 				["market"] = 80000,
 			},
-			[23112] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
+			[36923] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
 			},
-			[76138] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
+			[16204] = {
+				["market"] = 15000,
+				["timestamp"] = 1365833089,
 			},
-			[11137] = {
-				["timestamp"] = 1362744553,
-				["market"] = 11000,
+			[16202] = {
+				["timestamp"] = 1363296128,
+				["market"] = 52500,
 			},
-			[22445] = {
-				["timestamp"] = 1362264507,
-				["market"] = 12500,
+			[16203] = {
+				["market"] = 110000,
+				["timestamp"] = 1365833089,
+			},
+			[74248] = {
+				["market"] = 8000000,
+				["timestamp"] = 1363933168,
+			},
+			[20725] = {
+				["market"] = 10000,
+				["timestamp"] = 1365833201,
+			},
+			[43103] = {
+				["market"] = 17500,
+				["timestamp"] = 1365140382,
+			},
+			[43107] = {
+				["market"] = 80000,
+				["timestamp"] = 1371554912,
+			},
+			[36927] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
 			},
 			[11138] = {
-				["market"] = 1000,
 				["timestamp"] = 1371383178,
-			},
-			[1210] = {
-				["timestamp"] = 1362746494,
-				["market"] = 20000,
-			},
-			[11134] = {
-				["timestamp"] = 1371095670,
-				["market"] = 7500,
-			},
-			[11135] = {
-				["timestamp"] = 1362744553,
-				["market"] = 11000,
-			},
-			[36920] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
+				["market"] = 1000,
 			},
 			[76130] = {
+				["timestamp"] = 1371819423,
 				["market"] = 100000,
+			},
+			[90407] = {
 				["timestamp"] = 1371819423,
 			},
 			[36928] = {
-				["market"] = 80000,
 				["timestamp"] = 1371298803,
+				["market"] = 80000,
 			},
 			[36932] = {
-				["market"] = 10000,
 				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[11134] = {
+				["market"] = 7500,
+				["timestamp"] = 1371095670,
+			},
+			[11135] = {
+				["market"] = 11000,
+				["timestamp"] = 1362744553,
+			},
+			[36920] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[11137] = {
+				["market"] = 11000,
+				["timestamp"] = 1362744553,
+			},
+			[76138] = {
+				["timestamp"] = 1371819423,
+				["market"] = 500000,
+			},
+			[1210] = {
+				["market"] = 20000,
+				["timestamp"] = 1362746494,
 			},
 			[74249] = {
-				["market"] = 200000,
 				["timestamp"] = 1363296107,
+				["market"] = 200000,
 			},
-			[36924] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[52720] = {
-				["market"] = 120000,
-				["timestamp"] = 1360967313,
-			},
-			[23438] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
+			[39341] = {
+				["market"] = 15000,
+				["timestamp"] = 1371554912,
 			},
 			[23440] = {
+				["timestamp"] = 1371542690,
 				["market"] = 10000,
-				["timestamp"] = 1371542690,
-			},
-			[39151] = {
-				["timestamp"] = 1362746485,
-				["market"] = 3500,
-			},
-			[23079] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
-			},
-			[23436] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
 			},
 			[12799] = {
-				["market"] = 70000,
 				["timestamp"] = 1371541885,
+				["market"] = 70000,
 			},
 			[12800] = {
-				["market"] = 100000,
 				["timestamp"] = 1371541885,
+				["market"] = 100000,
 			},
-			[34055] = {
-				["market"] = 200000,
-				["timestamp"] = 1363296138,
-			},
-			[1529] = {
-				["timestamp"] = 1371266717,
-				["market"] = 40000,
-			},
-			[39334] = {
-				["timestamp"] = 1365140382,
-				["market"] = 3500,
-			},
-			[76131] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
-			},
-			[76139] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
-			},
-			[23441] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
-			},
-			[74250] = {
-				["market"] = 300000,
-				["timestamp"] = 1363296107,
-			},
-			[23439] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
-			},
-			[23077] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
-			},
-			[43108] = {
-				["timestamp"] = 1371554047,
+			[43104] = {
 				["market"] = 20000,
+				["timestamp"] = 1365140380,
 			},
-			[22446] = {
-				["timestamp"] = 1362264507,
+			[79251] = {
+				["market"] = 200000,
+				["timestamp"] = 1365141055,
+			},
+			[23436] = {
+				["timestamp"] = 1371542690,
+				["market"] = 10000,
+			},
+			[23438] = {
+				["timestamp"] = 1371542690,
+				["market"] = 10000,
+			},
+			[52720] = {
+				["timestamp"] = 1360967313,
 				["market"] = 120000,
 			},
-			[22448] = {
-				["market"] = 16000,
-				["timestamp"] = 1363296127,
-			},
-			[1705] = {
-				["timestamp"] = 1371266717,
-				["market"] = 25000,
-			},
-			[23437] = {
-				["market"] = 10000,
-				["timestamp"] = 1371542690,
-			},
-			[14343] = {
-				["market"] = 23000,
-				["timestamp"] = 1363296128,
-			},
-			[36925] = {
-				["market"] = 80000,
-				["timestamp"] = 1371298803,
-			},
-			[36929] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[36917] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[36921] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[14344] = {
-				["timestamp"] = 1365833089,
-				["market"] = 25000,
-			},
-			[76140] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
-			},
-			[36933] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[39338] = {
-				["timestamp"] = 1365140380,
-				["market"] = 10000,
-			},
-			[23107] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
-			},
-			[11174] = {
-				["timestamp"] = 1362744463,
-				["market"] = 35000,
-			},
-			[11175] = {
-				["timestamp"] = 1362744304,
-				["market"] = 95000,
-			},
-			[11176] = {
-				["timestamp"] = 1362744304,
-				["market"] = 5000,
-			},
-			[11177] = {
-				["timestamp"] = 1362746474,
-				["market"] = 70000,
-			},
-			[11178] = {
-				["timestamp"] = 1362745626,
-				["market"] = 110000,
-			},
-			[34052] = {
-				["market"] = 140000,
+			[34055] = {
 				["timestamp"] = 1363296138,
-			},
-			[52721] = {
-				["timestamp"] = 1365140394,
 				["market"] = 200000,
 			},
-			[818] = {
-				["timestamp"] = 1362746494,
-				["market"] = 7500,
+			[1529] = {
+				["market"] = 40000,
+				["timestamp"] = 1371266717,
 			},
-			[34056] = {
-				["market"] = 75000,
-				["timestamp"] = 1363296127,
+			[14343] = {
+				["timestamp"] = 1363296128,
+				["market"] = 23000,
 			},
-			[3864] = {
-				["market"] = 35000,
-				["timestamp"] = 1371394844,
-			},
-			[7910] = {
-				["market"] = 70000,
-				["timestamp"] = 1371541885,
-			},
-			[76133] = {
-				["market"] = 100000,
+			[76131] = {
 				["timestamp"] = 1371819423,
-			},
-			[76141] = {
 				["market"] = 500000,
-				["timestamp"] = 1371819423,
 			},
-			[52555] = {
-				["market"] = 10000,
+			[39151] = {
+				["market"] = 3500,
+				["timestamp"] = 1362746485,
+			},
+			[52722] = {
+				["market"] = 800000,
+				["timestamp"] = 1362740126,
+			},
+			[74250] = {
+				["timestamp"] = 1363296107,
+				["market"] = 300000,
+			},
+			[52718] = {
 				["timestamp"] = 1360965495,
 			},
-			[74252] = {
-				["market"] = 400000,
-				["timestamp"] = 1363294810,
+			[23077] = {
+				["timestamp"] = 1371542690,
+				["market"] = 7000,
 			},
-			[36930] = {
-				["market"] = 10000,
+			[23079] = {
+				["timestamp"] = 1371542690,
+				["market"] = 7000,
+			},
+			[22446] = {
+				["market"] = 120000,
+				["timestamp"] = 1362264507,
+			},
+			[22448] = {
+				["timestamp"] = 1363296127,
+				["market"] = 16000,
+			},
+			[1705] = {
+				["market"] = 25000,
+				["timestamp"] = 1371266717,
+			},
+			[11084] = {
+				["market"] = 6000,
+				["timestamp"] = 1365140403,
+			},
+			[36921] = {
 				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[14344] = {
+				["market"] = 25000,
+				["timestamp"] = 1365833089,
+			},
+			[39342] = {
+				["market"] = 20000,
+				["timestamp"] = 1371554047,
+			},
+			[36917] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[39334] = {
+				["market"] = 3500,
+				["timestamp"] = 1365140382,
+			},
+			[36925] = {
+				["timestamp"] = 1371298803,
+				["market"] = 80000,
+			},
+			[36929] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[36933] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[34053] = {
+				["timestamp"] = 1363296127,
+				["market"] = 60000,
+			},
+			[23107] = {
+				["timestamp"] = 1371542690,
+				["market"] = 7000,
+			},
+			[11174] = {
+				["market"] = 35000,
+				["timestamp"] = 1362744463,
+			},
+			[11175] = {
+				["market"] = 95000,
+				["timestamp"] = 1362744304,
+			},
+			[11176] = {
+				["market"] = 5000,
+				["timestamp"] = 1362744304,
+			},
+			[11177] = {
+				["market"] = 70000,
+				["timestamp"] = 1362746474,
+			},
+			[11178] = {
+				["market"] = 110000,
+				["timestamp"] = 1362745626,
+			},
+			[23117] = {
+				["timestamp"] = 1371542690,
+				["market"] = 7000,
+			},
+			[7909] = {
+				["timestamp"] = 1371394844,
+				["market"] = 50000,
+			},
+			[34052] = {
+				["timestamp"] = 1363296138,
+				["market"] = 140000,
+			},
+			[34056] = {
+				["timestamp"] = 1363296127,
+				["market"] = 75000,
+			},
+			[76134] = {
+				["timestamp"] = 1371819423,
+				["market"] = 100000,
+			},
+			[7910] = {
+				["timestamp"] = 1371541885,
+				["market"] = 70000,
+			},
+			[76133] = {
+				["timestamp"] = 1371819423,
+				["market"] = 100000,
+			},
+			[76141] = {
+				["timestamp"] = 1371819423,
+				["market"] = 500000,
+			},
+			[36934] = {
+				["timestamp"] = 1371298803,
+				["market"] = 80000,
+			},
+			[74252] = {
+				["timestamp"] = 1363294810,
+				["market"] = 400000,
+			},
+			[76142] = {
+				["timestamp"] = 1371819423,
+				["market"] = 500000,
 			},
 			[43105] = {
-				["timestamp"] = 1371297173,
 				["market"] = 20000,
+				["timestamp"] = 1371297173,
 			},
-			[39339] = {
-				["timestamp"] = 1371297173,
-				["market"] = 20000,
+			[36926] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
 			},
 			[10938] = {
-				["market"] = 4000,
 				["timestamp"] = 1363297289,
+				["market"] = 4000,
 			},
 			[10939] = {
-				["timestamp"] = 1370868037,
 				["market"] = 6000,
+				["timestamp"] = 1370868037,
 			},
 			[79253] = {
-				["timestamp"] = 1365141055,
 				["market"] = 500000,
+				["timestamp"] = 1365141055,
 			},
 			[21881] = {
 				["timestamp"] = 1373328846,
 			},
 			[22450] = {
-				["timestamp"] = 1362264507,
 				["market"] = 10000,
+				["timestamp"] = 1362264507,
 			},
 			[10940] = {
-				["market"] = 3000,
 				["timestamp"] = 1360965512,
+				["market"] = 3000,
 			},
 			[11139] = {
-				["timestamp"] = 1362744553,
 				["market"] = 10000,
+				["timestamp"] = 1362744553,
 			},
 			[36918] = {
-				["market"] = 10000,
 				["timestamp"] = 1371298803,
+				["market"] = 10000,
 			},
 			[36922] = {
+				["timestamp"] = 1371298803,
 				["market"] = 80000,
-				["timestamp"] = 1371298803,
 			},
-			[36926] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[76142] = {
-				["market"] = 500000,
-				["timestamp"] = 1371819423,
-			},
-			[36934] = {
-				["market"] = 80000,
-				["timestamp"] = 1371298803,
-			},
-			[76134] = {
-				["market"] = 100000,
-				["timestamp"] = 1371819423,
-			},
-			[7909] = {
-				["market"] = 50000,
-				["timestamp"] = 1371394844,
-			},
-			[23117] = {
-				["market"] = 7000,
-				["timestamp"] = 1371542690,
-			},
-			[34053] = {
-				["market"] = 60000,
-				["timestamp"] = 1363296127,
-			},
-			[39342] = {
-				["timestamp"] = 1371554047,
+			[39339] = {
 				["market"] = 20000,
+				["timestamp"] = 1371297173,
+			},
+			[36930] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
+			},
+			[52555] = {
+				["timestamp"] = 1360965495,
+				["market"] = 10000,
+			},
+			[3864] = {
+				["timestamp"] = 1371394844,
+				["market"] = 35000,
+			},
+			[818] = {
+				["market"] = 7500,
+				["timestamp"] = 1362746494,
+			},
+			[52721] = {
+				["market"] = 200000,
+				["timestamp"] = 1365140394,
+			},
+			[39338] = {
+				["market"] = 10000,
+				["timestamp"] = 1365140380,
+			},
+			[76140] = {
+				["timestamp"] = 1371819423,
+				["market"] = 500000,
 			},
 			[11082] = {
-				["timestamp"] = 1371102593,
 				["market"] = 6000,
+				["timestamp"] = 1371102593,
 			},
 			[11083] = {
-				["timestamp"] = 1371102593,
 				["market"] = 5000,
+				["timestamp"] = 1371102593,
 			},
-			[11084] = {
-				["timestamp"] = 1365140403,
-				["market"] = 6000,
+			[23437] = {
+				["timestamp"] = 1371542690,
+				["market"] = 10000,
 			},
-			[52718] = {
-				["timestamp"] = 1360965495,
+			[23439] = {
+				["timestamp"] = 1371542690,
+				["market"] = 10000,
 			},
-			[52722] = {
-				["timestamp"] = 1362740126,
-				["market"] = 800000,
+			[23441] = {
+				["timestamp"] = 1371542690,
+				["market"] = 10000,
 			},
 			[34057] = {
-				["timestamp"] = 1365140440,
 				["market"] = 50000,
+				["timestamp"] = 1365140440,
 			},
-			[79251] = {
-				["timestamp"] = 1365141055,
-				["market"] = 200000,
-			},
-			[43104] = {
-				["timestamp"] = 1365140380,
+			[43108] = {
 				["market"] = 20000,
+				["timestamp"] = 1371554047,
+			},
+			[76139] = {
+				["timestamp"] = 1371819423,
+				["market"] = 500000,
 			},
 			[76135] = {
-				["market"] = 100000,
 				["timestamp"] = 1371819423,
+				["market"] = 100000,
 			},
 			[12361] = {
-				["market"] = 50000,
 				["timestamp"] = 1371541885,
+				["market"] = 50000,
 			},
 			[21929] = {
-				["market"] = 7000,
 				["timestamp"] = 1371542690,
+				["market"] = 7000,
 			},
-			[39341] = {
-				["timestamp"] = 1371554912,
-				["market"] = 15000,
+			[36924] = {
+				["timestamp"] = 1371298803,
+				["market"] = 10000,
 			},
 			[12364] = {
-				["market"] = 50000,
 				["timestamp"] = 1371541885,
+				["market"] = 50000,
 			},
 			[43106] = {
-				["timestamp"] = 1371553922,
 				["market"] = 40000,
+				["timestamp"] = 1371553922,
 			},
-			[90407] = {
-				["timestamp"] = 1371819423,
+			[22445] = {
+				["market"] = 12500,
+				["timestamp"] = 1362264507,
 			},
 			[22447] = {
-				["market"] = 38000,
 				["timestamp"] = 1363296127,
+				["market"] = 38000,
 			},
 			[22449] = {
-				["timestamp"] = 1362264507,
 				["market"] = 60000,
+				["timestamp"] = 1362264507,
 			},
-			[36927] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
+			[23112] = {
+				["timestamp"] = 1371542690,
+				["market"] = 7000,
 			},
-			[16204] = {
-				["timestamp"] = 1365833089,
-				["market"] = 15000,
+			[10998] = {
+				["timestamp"] = 1360965512,
+				["market"] = 5000,
 			},
-			[36923] = {
-				["market"] = 10000,
-				["timestamp"] = 1371298803,
-			},
-			[36931] = {
-				["market"] = 80000,
-				["timestamp"] = 1371298803,
-			},
-			[76136] = {
-				["market"] = 100000,
+			[76137] = {
 				["timestamp"] = 1371819423,
+				["market"] = 100000,
+			},
+			[21842] = {
+				["timestamp"] = 1373328846,
+			},
+			[24243] = {
+				["market"] = 17500,
+				["timestamp"] = 1374044471,
 			},
 		},
 		["reagentItemInfoBackup"] = {
@@ -674,93 +674,93 @@ EnchantConfig = {
 			[39502] = "Resilient Parchment#|cffffffff|Hitem:39502:0:0:0:0:0:0:0:80|h[Resilient Parchment]|h|r#1#80#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Certificate",
 			[6371] = "Fire Oil#|cffffffff|Hitem:6371:0:0:0:0:0:0:0:57|h[Fire Oil]|h|r#1#25#0#Trade Goods#Other#20##Interface\\Icons\\INV_Potion_38",
 			[43127] = "Snowfall Ink#|cff1eff00|Hitem:43127:0:0:0:0:0:0:0:80:0|h[Snowfall Ink]|h|r#2#70#0#Trade Goods#Parts#20##Interface\\Icons\\INV_Inscription_InkBlueWhite01",
-			[21840] = "Bolt of Netherweave#|cffffffff|Hitem:21840:0:0:0:0:0:0:0:90:0:0|h[Bolt of Netherweave]|h|r#1#60#0#Trade Goods#Cloth#20##Interface\\Icons\\INV_Fabric_Netherweave_Bolt",
+			[23572] = "Primal Nether#|cff0070dd|Hitem:23572:0:0:0:0:0:0:0|h[Primal Nether]|h|r#3#65#0#Trade Goods#Materials#20##Interface\\Icons\\INV_Elemental_Primal_Nether",
 			[7910] = "Star Ruby#|cff1eff00|Hitem:7910:0:0:0:0:0:0:0:60:0:0|h[Star Ruby]|h|r#2#50#0#Gem#Simple#20##Interface\\Icons\\INV_Misc_Gem_Ruby_02",
-			[21842] = "Bolt of Imbued Netherweave#|cff1eff00|Hitem:21842:0:0:0:0:0:0:0:90:0:0|h[Bolt of Imbued Netherweave]|h|r#2#66#0#Trade Goods#Cloth#20##Interface\\Icons\\INV_Fabric_Netherweave_Bolt_Imbued",
-			[5498] = "Small Lustrous Pearl#|cff1eff00|Hitem:5498:0:0:0:0:0:0:0|h[Small Lustrous Pearl]|h|r#2#15#0#Gem#Simple#20##Interface\\Icons\\INV_Misc_Gem_Pearl_03",
+			[79253] = "Misty Pigment#|cff1eff00|Hitem:79253:0:0:0:0:0:0:0:90:0:0|h[Misty Pigment]|h|r#2#86#0#Trade Goods#Other#20##Interface\\Icons\\inv_inscription_pigment_misty",
+			[79251] = "Shadow Pigment#|cffffffff|Hitem:79251:0:0:0:0:0:0:0:90:0:0|h[Shadow Pigment]|h|r#1#86#0#Trade Goods#Other#20##Interface\\Icons\\inv_inscription_pigment_shadow",
 			[23424] = "Fel Iron Ore#|cffffffff|Hitem:23424:0:0:0:0:0:0:0:61:0:0|h[Fel Iron Ore]|h|r#1#60#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_FelIron",
-			[7067] = "Elemental Earth#|cffffffff|Hitem:7067:0:0:0:0:0:0:0:70|h[Elemental Earth]|h|r#1#25#0#Trade Goods#Elemental#10##Interface\\Icons\\INV_Ore_Iron_01",
+			[76137] = "Alexandrite#|cff1eff00|Hitem:76137:0:0:0:0:0:0:0:90:0:0|h[Alexandrite]|h|r#2#87#0#Gem#Green#20##Interface\\Icons\\INV_MISC_GEM_EMERALDROUGH_03",
 			[23440] = "Dawnstone#|cff0070dd|Hitem:23440:0:0:0:0:0:0:0:66:0:0|h[Dawnstone]|h|r#3#70#0#Gem#Yellow#20##Interface\\Icons\\INV_Jewelcrafting_Dawnstone_02",
 			[23448] = "Felsteel Bar#|cff1eff00|Hitem:23448:0:0:0:0:0:0:0|h[Felsteel Bar]|h|r#2#60#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_Felsteel",
-			[7070] = "Elemental Water#|cffffffff|Hitem:7070:0:0:0:0:0:0:0|h[Elemental Water]|h|r#1#25#0#Reagent#Reagent#10##Interface\\Icons\\INV_Potion_03",
+			[76130] = "Tiger Opal#|cff1eff00|Hitem:76130:0:0:0:0:0:0:0:90:0:0|h[Tiger Opal]|h|r#2#87#0#Gem#Orange#20##Interface\\Icons\\inv_misc_gem_opalrough_03",
 			[35622] = "Eternal Water#|cff1eff00|Hitem:35622:0:0:0:0:0:0:0:80|h[Eternal Water]|h|r#2#75#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Eternal_Water",
 			[22450] = "Void Crystal#|cffa335ee|Hitem:22450:0:0:0:0:0:0:0:90:0:0|h[Void Crystal]|h|r#4#70#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_VoidCrystal",
-			[11082] = "Greater Astral Essence#|cff1eff00|Hitem:11082:0:0:0:0:0:0:0:90:0:0|h[Greater Astral Essence]|h|r#2#25#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceAstralLarge",
-			[11176] = "Dream Dust#|cffffffff|Hitem:11176:0:0:0:0:0:0:0:90:0:0|h[Dream Dust]|h|r#1#45#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_DustDream",
+			[74252] = "Small Ethereal Shard#|cff0070dd|Hitem:74252:0:0:0:0:0:0:0:90:0:0|h[Small Ethereal Shard]|h|r#3#87#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_SMALLETHEREALSHARD",
+			[74251] = "Greater Mysterious Essence#|cff1eff00|Hitem:74251:0:0:0:0:0:0:0:85:0:0|h[Greater Mysterious Essence]|h|r#2#87#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_GREATERMYSTERIOUSESSENCE",
 			[39774] = "Midnight Ink#|cffffffff|Hitem:39774:0:0:0:0:0:0:0:70|h[Midnight Ink]|h|r#1#10#0#Trade Goods#Parts#20##Interface\\Icons\\INV_Inscription_InkBlack01",
-			[14344] = "Large Brilliant Shard#|cff0070dd|Hitem:14344:0:0:0:0:0:0:0:90:0:0|h[Large Brilliant Shard]|h|r#3#55#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_ShardBrilliantLarge",
-			[21885] = "Primal Water#|cff1eff00|Hitem:21885:0:0:0:0:0:0:0:70|h[Primal Water]|h|r#2#65#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Primal_Water",
+			[39469] = "Moonglow Ink#|cffffffff|Hitem:39469:0:0:0:0:0:0:0:70|h[Moonglow Ink]|h|r#1#1#0#Trade Goods#Parts#20##Interface\\Icons\\INV_Inscription_InkWhite02",
+			[72093] = "Kyparite#|cffffffff|Hitem:72093:0:0:0:0:0:0:0:90:0:0|h[Kyparite]|h|r#1#88#0#Trade Goods#Metal & Stone#200##Interface\\Icons\\inv_ore_manticyte",
 			[22447] = "Lesser Planar Essence#|cff1eff00|Hitem:22447:0:0:0:0:0:0:0:90:0:0|h[Lesser Planar Essence]|h|r#2#60#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceArcaneSmall",
-			[23427] = "Eternium Ore#|cff1eff00|Hitem:23427:0:0:0:0:0:0:0:70|h[Eternium Ore]|h|r#2#70#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_Eternium",
+			[61981] = "Inferno Ink#|cff1eff00|Hitem:61981:0:0:0:0:0:0:0:80:0|h[Inferno Ink]|h|r#2#85#0#Trade Goods#Parts#20##Interface\\Icons\\inv_inscription_inkred03",
 			[39343] = "Azure Pigment#|cffffffff|Hitem:39343:0:0:0:0:0:0:0:86:0:0|h[Azure Pigment]|h|r#1#70#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Azure",
 			[14343] = "Small Brilliant Shard#|cff0070dd|Hitem:14343:0:0:0:0:0:0:0:64:0:0|h[Small Brilliant Shard]|h|r#3#50#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_ShardBrilliantSmall",
-			[76131] = "Primordial Ruby#|cff0070dd|Hitem:76131:0:0:0:0:0:0:0:90:0:0|h[Primordial Ruby]|h|r#3#90#0#Gem#Red#20##Interface\\Icons\\inv_misc_gem_x4_rare_uncut_red",
-			[90407] = "Sparkling Shard#|cffffffff|Hitem:90407:0:0:0:0:0:0:0:90:0:0|h[Sparkling Shard]|h|r#1#87#0#Trade Goods#Other#20##Interface\\Icons\\INV_Misc_Gem_Diamond_03",
 			[52182] = "Jasper#|cff1eff00|Hitem:52182:0:0:0:0:0:0:0:88:0:0|h[Jasper]|h|r#2#81#0#Gem#Green#20##Interface\\Icons\\inv_misc_uncutgemsuperior2",
+			[90407] = "Sparkling Shard#|cffffffff|Hitem:90407:0:0:0:0:0:0:0:90:0:0|h[Sparkling Shard]|h|r#1#87#0#Trade Goods#Other#20##Interface\\Icons\\INV_Misc_Gem_Diamond_03",
+			[76131] = "Primordial Ruby#|cff0070dd|Hitem:76131:0:0:0:0:0:0:0:90:0:0|h[Primordial Ruby]|h|r#3#90#0#Gem#Red#20##Interface\\Icons\\inv_misc_gem_x4_rare_uncut_red",
 			[23437] = "Talasite#|cff0070dd|Hitem:23437:0:0:0:0:0:0:0:66:0:0|h[Talasite]|h|r#3#70#0#Gem#Green#20##Interface\\Icons\\INV_Jewelcrafting_Talasite_02",
 			[52718] = "Lesser Celestial Essence#|cff1eff00|Hitem:52718:0:0:0:0:0:0:0:90:0:0|h[Lesser Celestial Essence]|h|r#2#81#0#Trade Goods#Enchanting#10##Interface\\Icons\\inv_misc_lesseressence",
 			[36860] = "Eternal Fire#|cff1eff00|Hitem:36860:0:0:0:0:0:0:0:80|h[Eternal Fire]|h|r#2#75#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Eternal_Fire",
-			[74247] = "Ethereal Shard#|cff0070dd|Hitem:74247:0:0:0:0:0:0:0:90:0:0|h[Ethereal Shard]|h|r#3#90#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_LARGEETHEREALSHARD",
 			[36932] = "Dark Jade#|cff1eff00|Hitem:36932:0:0:0:0:0:0:0:86:0:0|h[Dark Jade]|h|r#2#75#0#Gem#Green#20##Interface\\Icons\\INV_Jewelcrafting_Gem_07",
-			[23441] = "Nightseye#|cff0070dd|Hitem:23441:0:0:0:0:0:0:0:66:0:0|h[Nightseye]|h|r#3#70#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Nightseye_02",
-			[52190] = "Inferno Ruby#|cff0070dd|Hitem:52190:0:0:0:0:0:0:0:88:0:0|h[Inferno Ruby]|h|r#3#84#0#Gem#Red#20##Interface\\Icons\\inv_misc_uncutgemnormal3",
+			[74247] = "Ethereal Shard#|cff0070dd|Hitem:74247:0:0:0:0:0:0:0:90:0:0|h[Ethereal Shard]|h|r#3#90#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_LARGEETHEREALSHARD",
+			[76134] = "Sunstone#|cff1eff00|Hitem:76134:0:0:0:0:0:0:0:90:0:0|h[Sunstone]|h|r#2#87#0#Gem#Yellow#20##Interface\\Icons\\INV_MISC_GEM_TOPAZROUGH_03",
+			[52185] = "Elementium Ore#|cffffffff|Hitem:52185:0:0:0:0:0:0:0:88:0:0|h[Elementium Ore]|h|r#1#83#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\item_pyriumore",
 			[52192] = "Dream Emerald#|cff0070dd|Hitem:52192:0:0:0:0:0:0:0:88:0:0|h[Dream Emerald]|h|r#3#84#0#Gem#Green#20##Interface\\Icons\\inv_misc_uncutgemnormal1",
 			[34053] = "Small Dream Shard#|cff0070dd|Hitem:34053:0:0:0:0:0:0:0:90:0:0|h[Small Dream Shard]|h|r#3#80#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_DreamShard_01",
 			[7972] = "Ichor of Undeath#|cffffffff|Hitem:7972:0:0:0:0:0:0:0:70|h[Ichor of Undeath]|h|r#1#45#0#Trade Goods#Elemental#10##Interface\\Icons\\INV_Misc_Slime_01",
-			[36919] = "Cardinal Ruby#|cffa335ee|Hitem:36919:0:0:0:0:0:0:0:86:0:0|h[Cardinal Ruby]|h|r#4#80#0#Gem#Red#20##Interface\\Icons\\inv_jewelcrafting_gem_32",
-			[41163] = "Titanium Bar#|cff1eff00|Hitem:41163:0:0:0:0:0:0:0:80:0|h[Titanium Bar]|h|r#2#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_Platinum",
-			[34055] = "Greater Cosmic Essence#|cff1eff00|Hitem:34055:0:0:0:0:0:0:0:90:0:0|h[Greater Cosmic Essence]|h|r#2#75#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceCosmicGreater",
+			[43108] = "Ebon Pigment#|cff1eff00|Hitem:43108:0:0:0:0:0:0:0:66:0:0|h[Ebon Pigment]|h|r#2#70#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Ebon",
+			[43104] = "Burnt Pigment#|cff1eff00|Hitem:43104:0:0:0:0:0:0:0:46:0:0|h[Burnt Pigment]|h|r#2#30#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Burnt",
+			[43103] = "Verdant Pigment#|cff1eff00|Hitem:43103:0:0:0:0:0:0:0:90:0:0|h[Verdant Pigment]|h|r#2#20#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Verdant",
 			[34057] = "Abyss Crystal#|cffa335ee|Hitem:34057:0:0:0:0:0:0:0:90:0:0|h[Abyss Crystal]|h|r#4#80#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_AbyssCrystal",
 			[30183] = "Nether Vortex#|cffa335ee|Hitem:30183:0:0:0:0:0:0:0|h[Nether Vortex]|h|r#4#75#0#Trade Goods#Materials#20##Interface\\Icons\\INV_Elemental_Mote_Nether",
-			[39970] = "Fire Leaf#|cffffffff|Hitem:39970:0:0:0:0:0:0:0:62|h[Fire Leaf]|h|r#1#75#0#Consumable#Other#20##Interface\\Icons\\INV_Misc_Herb_11a",
-			[39342] = "Nether Pigment#|cffffffff|Hitem:39342:0:0:0:0:0:0:0:66:0:0|h[Nether Pigment]|h|r#1#60#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Nether",
+			[39339] = "Emerald Pigment#|cffffffff|Hitem:39339:0:0:0:0:0:0:0:90:0:0|h[Emerald Pigment]|h|r#1#30#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Emerald",
+			[39338] = "Golden Pigment#|cffffffff|Hitem:39338:0:0:0:0:0:0:0:90:0:0|h[Golden Pigment]|h|r#1#20#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Golden",
 			[46849] = "Titanium Powder#|cff1eff00|Hitem:46849:0:0:0:0:0:0:0:86:0:0|h[Titanium Powder]|h|r#2#80#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Misc_Dust_03",
 			[35623] = "Eternal Air#|cff1eff00|Hitem:35623:0:0:0:0:0:0:0:80:0|h[Eternal Air]|h|r#2#75#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Eternal_Air",
-			[36933] = "Forest Emerald#|cff0070dd|Hitem:36933:0:0:0:0:0:0:0:86:0:0|h[Forest Emerald]|h|r#3#80#0#Gem#Green#20##Interface\\Icons\\INV_Jewelcrafting_Gem_01",
+			[74249] = "Spirit Dust#|cffffffff|Hitem:74249:0:0:0:0:0:0:0:90:0:0|h[Spirit Dust]|h|r#1#86#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Misc_Powder_Copper",
 			[74248] = "Sha Crystal#|cffa335ee|Hitem:74248:0:0:0:0:0:0:0:90:0:0|h[Sha Crystal]|h|r#4#90#0#Trade Goods#Enchanting#20##Interface\\Icons\\inv_misc_crystalepic2",
 			[36906] = "Icethorn#|cffffffff|Hitem:36906:0:0:0:0:0:0:0:62|h[Icethorn]|h|r#1#80#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_IceThorn",
 			[36903] = "Adder's Tongue#|cffffffff|Hitem:36903:0:0:0:0:0:0:0:80|h[Adder's Tongue]|h|r#1#77#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_EvergreenMoss",
-			[39151] = "Alabaster Pigment#|cffffffff|Hitem:39151:0:0:0:0:0:0:0:90:0:0|h[Alabaster Pigment]|h|r#1#1#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_White",
-			[36934] = "Eye of Zul#|cffa335ee|Hitem:36934:0:0:0:0:0:0:0:86:0:0|h[Eye of Zul]|h|r#4#80#0#Gem#Green#20##Interface\\Icons\\inv_jewelcrafting_gem_34",
-			[8838] = "Sungrass#|cffffffff|Hitem:8838:0:0:0:0:0:0:0:20|h[Sungrass]|h|r#1#46#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_18",
-			[52183] = "Pyrite Ore#|cff1eff00|Hitem:52183:0:0:0:0:0:0:0:88:0:0|h[Pyrite Ore]|h|r#2#85#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\inv_ore_arcanite_01",
-			[36910] = "Titanium Ore#|cff1eff00|Hitem:36910:0:0:0:0:0:0:0:90:0:0|h[Titanium Ore]|h|r#2#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_Platinum_01",
-			[36913] = "Saronite Bar#|cffffffff|Hitem:36913:0:0:0:0:0:0:0:80:0|h[Saronite Bar]|h|r#1#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_Yoggthorite",
-			[36926] = "Shadow Crystal#|cff1eff00|Hitem:36926:0:0:0:0:0:0:0:86:0:0|h[Shadow Crystal]|h|r#2#75#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Gem_11",
-			[22794] = "Fel Lotus#|cffffffff|Hitem:22794:0:0:0:0:0:0:0|h[Fel Lotus]|h|r#1#75#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_FelLotus",
-			[76133] = "Lapis Lazuli#|cff1eff00|Hitem:76133:0:0:0:0:0:0:0:90:0:0|h[Lapis Lazuli]|h|r#2#87#0#Gem#Blue#20##Interface\\Icons\\INV_MISC_GEM_SAPHIREROUGH_03",
-			[36927] = "Twilight Opal#|cff0070dd|Hitem:36927:0:0:0:0:0:0:0:86:0:0|h[Twilight Opal]|h|r#3#80#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Gem_06",
 			[36907] = "Talandra's Rose#|cffffffff|Hitem:36907:0:0:0:0:0:0:0:80|h[Talandra's Rose]|h|r#1#72#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_TalandrasRose",
+			[36927] = "Twilight Opal#|cff0070dd|Hitem:36927:0:0:0:0:0:0:0:86:0:0|h[Twilight Opal]|h|r#3#80#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Gem_06",
+			[8838] = "Sungrass#|cffffffff|Hitem:8838:0:0:0:0:0:0:0:20|h[Sungrass]|h|r#1#46#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_18",
+			[76133] = "Lapis Lazuli#|cff1eff00|Hitem:76133:0:0:0:0:0:0:0:90:0:0|h[Lapis Lazuli]|h|r#2#87#0#Gem#Blue#20##Interface\\Icons\\INV_MISC_GEM_SAPHIREROUGH_03",
+			[36910] = "Titanium Ore#|cff1eff00|Hitem:36910:0:0:0:0:0:0:0:90:0:0|h[Titanium Ore]|h|r#2#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_Platinum_01",
+			[36926] = "Shadow Crystal#|cff1eff00|Hitem:36926:0:0:0:0:0:0:0:86:0:0|h[Shadow Crystal]|h|r#2#75#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Gem_11",
+			[36913] = "Saronite Bar#|cffffffff|Hitem:36913:0:0:0:0:0:0:0:80:0|h[Saronite Bar]|h|r#1#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_Yoggthorite",
+			[22794] = "Fel Lotus#|cffffffff|Hitem:22794:0:0:0:0:0:0:0|h[Fel Lotus]|h|r#1#75#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_FelLotus",
+			[52183] = "Pyrite Ore#|cff1eff00|Hitem:52183:0:0:0:0:0:0:0:88:0:0|h[Pyrite Ore]|h|r#2#85#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\inv_ore_arcanite_01",
+			[36934] = "Eye of Zul#|cffa335ee|Hitem:36934:0:0:0:0:0:0:0:86:0:0|h[Eye of Zul]|h|r#4#80#0#Gem#Green#20##Interface\\Icons\\inv_jewelcrafting_gem_34",
+			[39151] = "Alabaster Pigment#|cffffffff|Hitem:39151:0:0:0:0:0:0:0:90:0:0|h[Alabaster Pigment]|h|r#1#1#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_White",
 			[36901] = "Goldclover#|cffffffff|Hitem:36901:0:0:0:0:0:0:0:80|h[Goldclover]|h|r#1#72#0#Trade Goods#Herb#20##Interface\\Icons\\INV_Misc_Herb_GoldClover",
 			[36917] = "Bloodstone#|cff1eff00|Hitem:36917:0:0:0:0:0:0:0:86:0:0|h[Bloodstone]|h|r#2#75#0#Gem#Red#20##Interface\\Icons\\INV_Jewelcrafting_Gem_12",
-			[74249] = "Spirit Dust#|cffffffff|Hitem:74249:0:0:0:0:0:0:0:90:0:0|h[Spirit Dust]|h|r#1#86#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Misc_Powder_Copper",
-			[39338] = "Golden Pigment#|cffffffff|Hitem:39338:0:0:0:0:0:0:0:90:0:0|h[Golden Pigment]|h|r#1#20#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Golden",
-			[39339] = "Emerald Pigment#|cffffffff|Hitem:39339:0:0:0:0:0:0:0:90:0:0|h[Emerald Pigment]|h|r#1#30#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Emerald",
+			[36933] = "Forest Emerald#|cff0070dd|Hitem:36933:0:0:0:0:0:0:0:86:0:0|h[Forest Emerald]|h|r#3#80#0#Gem#Green#20##Interface\\Icons\\INV_Jewelcrafting_Gem_01",
+			[39342] = "Nether Pigment#|cffffffff|Hitem:39342:0:0:0:0:0:0:0:66:0:0|h[Nether Pigment]|h|r#1#60#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Nether",
+			[39970] = "Fire Leaf#|cffffffff|Hitem:39970:0:0:0:0:0:0:0:62|h[Fire Leaf]|h|r#1#75#0#Consumable#Other#20##Interface\\Icons\\INV_Misc_Herb_11a",
 			[10938] = "Lesser Magic Essence#|cff1eff00|Hitem:10938:0:0:0:0:0:0:0:90:0:0|h[Lesser Magic Essence]|h|r#2#10#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceMagicSmall",
 			[52327] = "Volatile Earth#|cffffffff|Hitem:52327:0:0:0:0:0:0:0:88:0:0|h[Volatile Earth]|h|r#1#83#0#Trade Goods#Elemental#200##Interface\\Icons\\inv_misc_volatileearth",
-			[43103] = "Verdant Pigment#|cff1eff00|Hitem:43103:0:0:0:0:0:0:0:90:0:0|h[Verdant Pigment]|h|r#2#20#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Verdant",
-			[43104] = "Burnt Pigment#|cff1eff00|Hitem:43104:0:0:0:0:0:0:0:46:0:0|h[Burnt Pigment]|h|r#2#30#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Burnt",
-			[43108] = "Ebon Pigment#|cff1eff00|Hitem:43108:0:0:0:0:0:0:0:66:0:0|h[Ebon Pigment]|h|r#2#70#0#Trade Goods#Other#20##Interface\\Icons\\INV_Inscription_Pigment_Ebon",
+			[34055] = "Greater Cosmic Essence#|cff1eff00|Hitem:34055:0:0:0:0:0:0:0:90:0:0|h[Greater Cosmic Essence]|h|r#2#75#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceCosmicGreater",
+			[41163] = "Titanium Bar#|cff1eff00|Hitem:41163:0:0:0:0:0:0:0:80:0|h[Titanium Bar]|h|r#2#80#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_Platinum",
+			[36919] = "Cardinal Ruby#|cffa335ee|Hitem:36919:0:0:0:0:0:0:0:86:0:0|h[Cardinal Ruby]|h|r#4#80#0#Gem#Red#20##Interface\\Icons\\inv_jewelcrafting_gem_32",
 			[21884] = "Primal Fire#|cff1eff00|Hitem:21884:0:0:0:0:0:0:0:70|h[Primal Fire]|h|r#2#65#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Primal_Fire",
 			[23425] = "Adamantite Ore#|cffffffff|Hitem:23425:0:0:0:0:0:0:0:61:0:0|h[Adamantite Ore]|h|r#1#65#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_Adamantium",
-			[52185] = "Elementium Ore#|cffffffff|Hitem:52185:0:0:0:0:0:0:0:88:0:0|h[Elementium Ore]|h|r#1#83#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\item_pyriumore",
-			[76134] = "Sunstone#|cff1eff00|Hitem:76134:0:0:0:0:0:0:0:90:0:0|h[Sunstone]|h|r#2#87#0#Gem#Yellow#20##Interface\\Icons\\INV_MISC_GEM_TOPAZROUGH_03",
+			[52190] = "Inferno Ruby#|cff0070dd|Hitem:52190:0:0:0:0:0:0:0:88:0:0|h[Inferno Ruby]|h|r#3#84#0#Gem#Red#20##Interface\\Icons\\inv_misc_uncutgemnormal3",
+			[23441] = "Nightseye#|cff0070dd|Hitem:23441:0:0:0:0:0:0:0:66:0:0|h[Nightseye]|h|r#3#70#0#Gem#Purple#20##Interface\\Icons\\INV_Jewelcrafting_Nightseye_02",
 			[23449] = "Khorium Bar#|cff1eff00|Hitem:23449:0:0:0:0:0:0:0|h[Khorium Bar]|h|r#2#70#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ingot_09",
 			[10978] = "Small Glimmering Shard#|cff0070dd|Hitem:10978:0:0:0:0:0:0:0:90:0:0|h[Small Glimmering Shard]|h|r#3#20#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_ShardGlimmeringSmall",
 			[35624] = "Eternal Earth#|cff1eff00|Hitem:35624:0:0:0:0:0:0:0:80|h[Eternal Earth]|h|r#2#75#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Eternal_Earth",
 			[22451] = "Primal Air#|cff1eff00|Hitem:22451:0:0:0:0:0:0:0:72|h[Primal Air]|h|r#2#65#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Primal_Air",
 			[74250] = "Mysterious Essence#|cff1eff00|Hitem:74250:0:0:0:0:0:0:0:90:0:0|h[Mysterious Essence]|h|r#2#87#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_GREATERMYSTERIOUSESSENCE",
-			[61981] = "Inferno Ink#|cff1eff00|Hitem:61981:0:0:0:0:0:0:0:80:0|h[Inferno Ink]|h|r#2#85#0#Trade Goods#Parts#20##Interface\\Icons\\inv_inscription_inkred03",
+			[23427] = "Eternium Ore#|cff1eff00|Hitem:23427:0:0:0:0:0:0:0:70|h[Eternium Ore]|h|r#2#70#0#Trade Goods#Metal & Stone#20##Interface\\Icons\\INV_Ore_Eternium",
 			[10998] = "Lesser Astral Essence#|cff1eff00|Hitem:10998:0:0:0:0:0:0:0:90:0:0|h[Lesser Astral Essence]|h|r#2#20#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceAstralSmall",
-			[72093] = "Kyparite#|cffffffff|Hitem:72093:0:0:0:0:0:0:0:90:0:0|h[Kyparite]|h|r#1#88#0#Trade Goods#Metal & Stone#200##Interface\\Icons\\inv_ore_manticyte",
-			[39469] = "Moonglow Ink#|cffffffff|Hitem:39469:0:0:0:0:0:0:0:70|h[Moonglow Ink]|h|r#1#1#0#Trade Goods#Parts#20##Interface\\Icons\\INV_Inscription_InkWhite02",
-			[74251] = "Greater Mysterious Essence#|cff1eff00|Hitem:74251:0:0:0:0:0:0:0:85:0:0|h[Greater Mysterious Essence]|h|r#2#87#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_GREATERMYSTERIOUSESSENCE",
-			[74252] = "Small Ethereal Shard#|cff0070dd|Hitem:74252:0:0:0:0:0:0:0:90:0:0|h[Small Ethereal Shard]|h|r#3#87#0#Trade Goods#Enchanting#20##Interface\\Icons\\TRADE_ENCHANTING_SMALLETHEREALSHARD",
-			[76130] = "Tiger Opal#|cff1eff00|Hitem:76130:0:0:0:0:0:0:0:90:0:0|h[Tiger Opal]|h|r#2#87#0#Gem#Orange#20##Interface\\Icons\\inv_misc_gem_opalrough_03",
-			[76137] = "Alexandrite#|cff1eff00|Hitem:76137:0:0:0:0:0:0:0:90:0:0|h[Alexandrite]|h|r#2#87#0#Gem#Green#20##Interface\\Icons\\INV_MISC_GEM_EMERALDROUGH_03",
-			[79251] = "Shadow Pigment#|cffffffff|Hitem:79251:0:0:0:0:0:0:0:90:0:0|h[Shadow Pigment]|h|r#1#86#0#Trade Goods#Other#20##Interface\\Icons\\inv_inscription_pigment_shadow",
-			[79253] = "Misty Pigment#|cff1eff00|Hitem:79253:0:0:0:0:0:0:0:90:0:0|h[Misty Pigment]|h|r#2#86#0#Trade Goods#Other#20##Interface\\Icons\\inv_inscription_pigment_misty",
-			[23572] = "Primal Nether#|cff0070dd|Hitem:23572:0:0:0:0:0:0:0|h[Primal Nether]|h|r#3#65#0#Trade Goods#Materials#20##Interface\\Icons\\INV_Elemental_Primal_Nether",
+			[21885] = "Primal Water#|cff1eff00|Hitem:21885:0:0:0:0:0:0:0:70|h[Primal Water]|h|r#2#65#0#Trade Goods#Elemental#20##Interface\\Icons\\INV_Elemental_Primal_Water",
+			[14344] = "Large Brilliant Shard#|cff0070dd|Hitem:14344:0:0:0:0:0:0:0:90:0:0|h[Large Brilliant Shard]|h|r#3#55#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_ShardBrilliantLarge",
+			[11176] = "Dream Dust#|cffffffff|Hitem:11176:0:0:0:0:0:0:0:90:0:0|h[Dream Dust]|h|r#1#45#0#Trade Goods#Enchanting#20##Interface\\Icons\\INV_Enchant_DustDream",
+			[11082] = "Greater Astral Essence#|cff1eff00|Hitem:11082:0:0:0:0:0:0:0:90:0:0|h[Greater Astral Essence]|h|r#2#25#0#Trade Goods#Enchanting#10##Interface\\Icons\\INV_Enchant_EssenceAstralLarge",
+			[7070] = "Elemental Water#|cffffffff|Hitem:7070:0:0:0:0:0:0:0|h[Elemental Water]|h|r#1#25#0#Reagent#Reagent#10##Interface\\Icons\\INV_Potion_03",
+			[7067] = "Elemental Earth#|cffffffff|Hitem:7067:0:0:0:0:0:0:0:70|h[Elemental Earth]|h|r#1#25#0#Trade Goods#Elemental#10##Interface\\Icons\\INV_Ore_Iron_01",
+			[5498] = "Small Lustrous Pearl#|cff1eff00|Hitem:5498:0:0:0:0:0:0:0|h[Small Lustrous Pearl]|h|r#2#15#0#Gem#Simple#20##Interface\\Icons\\INV_Misc_Gem_Pearl_03",
+			[21842] = "Bolt of Imbued Netherweave#|cff1eff00|Hitem:21842:0:0:0:0:0:0:0:90:0:0|h[Bolt of Imbued Netherweave]|h|r#2#66#0#Trade Goods#Cloth#20##Interface\\Icons\\INV_Fabric_Netherweave_Bolt_Imbued",
+			[21840] = "Bolt of Netherweave#|cffffffff|Hitem:21840:0:0:0:0:0:0:0:90:0:0|h[Bolt of Netherweave]|h|r#1#60#0#Trade Goods#Cloth#20##Interface\\Icons\\INV_Fabric_Netherweave_Bolt",
 		},
 		["names"] = {
 			["Alexandrite"] = "item:76137:0:0:0",
@@ -843,62 +843,62 @@ EnchantConfig = {
 			["Jade"] = "item:1529:0:0:0",
 			["Chalcedony"] = "item:36923:0:0:0",
 			["Dusky Pigment"] = "item:39334:0:0:0",
-			["Bolt of Imbued Netherweave"] = "item:21842:0:0:0",
-			["Kyparite"] = "item:72093:0:0:0",
+			["Greater Planar Essence"] = "item:22446:0:0:0",
+			["Huge Emerald"] = "item:12364:0:0:0",
 			["Iron Ore"] = "item:2772:0:0:0",
 			["Large Prismatic Shard"] = "item:22449:0:0:0",
 			["White Trillium Ore"] = "item:72103:0:0:0",
-			["Deep Peridot"] = "item:23079:0:0:0",
-			["Sha Crystal"] = "item:74248:0:0:0",
+			["Wild Jade"] = "item:76139:0:0:0",
+			["Large Glowing Shard"] = "item:11139:0:0:0",
 			["Dreadstone"] = "item:36928:0:0:0",
-			["Lesser Magic Essence"] = "item:10938:0:0:0",
+			["Thorium Ore"] = "item:10620:0:0:0",
 			["Nether Pigment"] = "item:39342:0:0:0",
-			["Greater Celestial Essence"] = "item:52719:0:0:0",
-			["Sky Sapphire"] = "item:36924:0:0:0",
+			["Small Radiant Shard"] = "item:11177:0:0:0",
+			["Ebon Pigment"] = "item:43108:0:0:0",
+			["Sun Crystal"] = "item:36920:0:0:0",
 			["Adamantite Powder"] = "item:24243:0:0:0",
-			["Cardinal Ruby"] = "item:36919:0:0:0",
 			["Shadowgem"] = "item:1210:0:0:0",
 			["Bloodstone"] = "item:36917:0:0:0",
 			["Lapis Lazuli"] = "item:76133:0:0:0",
-			["Primordial Ruby"] = "item:76131:0:0:0",
+			["King's Amber"] = "item:36922:0:0:0",
 			["Strange Dust"] = "item:10940:0:0:0",
-			["Greater Nether Essence"] = "item:11175:0:0:0",
-			["Lesser Cosmic Essence"] = "item:34056:0:0:0",
+			["Roguestone"] = "item:76135:0:0:0",
+			["Primordial Ruby"] = "item:76131:0:0:0",
 			["Star of Elune"] = "item:23438:0:0:0",
-			["Nightseye"] = "item:23441:0:0:0",
-			["Blue Sapphire"] = "item:12361:0:0:0",
-			["Lesser Astral Essence"] = "item:10998:0:0:0",
-			["Small Dream Shard"] = "item:34053:0:0:0",
-			["Majestic Zircon"] = "item:36925:0:0:0",
-			["Malachite"] = "item:774:0:0:0",
+			["Greater Nether Essence"] = "item:11175:0:0:0",
+			["Azure Moonstone"] = "item:23117:0:0:0",
+			["Dream Dust"] = "item:11176:0:0:0",
+			["Greater Magic Essence"] = "item:10939:0:0:0",
+			["Living Ruby"] = "item:23436:0:0:0",
+			["Violet Pigment"] = "item:39340:0:0:0",
 			["Nexus Crystal"] = "item:20725:0:0:0",
-			["Tiger Opal"] = "item:76130:0:0:0",
+			["Ametrine"] = "item:36931:0:0:0",
 			["Golden Pigment"] = "item:39338:0:0:0",
-			["Forest Emerald"] = "item:36933:0:0:0",
+			["Lesser Mystic Essence"] = "item:11134:0:0:0",
 			["Lesser Moonstone"] = "item:1705:0:0:0",
 			["Flame Spessarite"] = "item:21929:0:0:0",
 			["Verdant Pigment"] = "item:43103:0:0:0",
-			["Arcane Dust"] = "item:22445:0:0:0",
 			["Monarch Topaz"] = "item:36930:0:0:0",
-			["Lesser Mystic Essence"] = "item:11134:0:0:0",
-			["Ametrine"] = "item:36931:0:0:0",
-			["Violet Pigment"] = "item:39340:0:0:0",
-			["Living Ruby"] = "item:23436:0:0:0",
-			["Greater Magic Essence"] = "item:10939:0:0:0",
-			["Dream Dust"] = "item:11176:0:0:0",
-			["Azure Moonstone"] = "item:23117:0:0:0",
-			["Roguestone"] = "item:76135:0:0:0",
-			["King's Amber"] = "item:36922:0:0:0",
-			["Sun Crystal"] = "item:36920:0:0:0",
-			["Ebon Pigment"] = "item:43108:0:0:0",
-			["Small Radiant Shard"] = "item:11177:0:0:0",
+			["Arcane Dust"] = "item:22445:0:0:0",
+			["Forest Emerald"] = "item:36933:0:0:0",
+			["Tiger Opal"] = "item:76130:0:0:0",
+			["Malachite"] = "item:774:0:0:0",
+			["Majestic Zircon"] = "item:36925:0:0:0",
+			["Small Dream Shard"] = "item:34053:0:0:0",
+			["Lesser Astral Essence"] = "item:10998:0:0:0",
+			["Blue Sapphire"] = "item:12361:0:0:0",
+			["Nightseye"] = "item:23441:0:0:0",
+			["Lesser Cosmic Essence"] = "item:34056:0:0:0",
+			["Cardinal Ruby"] = "item:36919:0:0:0",
+			["Sky Sapphire"] = "item:36924:0:0:0",
+			["Greater Celestial Essence"] = "item:52719:0:0:0",
 			["Golden Draenite"] = "item:23112:0:0:0",
-			["Thorium Ore"] = "item:10620:0:0:0",
-			["Large Glowing Shard"] = "item:11139:0:0:0",
-			["Wild Jade"] = "item:76139:0:0:0",
+			["Lesser Magic Essence"] = "item:10938:0:0:0",
+			["Sha Crystal"] = "item:74248:0:0:0",
+			["Deep Peridot"] = "item:23079:0:0:0",
 			["Sapphire Pigment"] = "item:43107:0:0:0",
-			["Huge Emerald"] = "item:12364:0:0:0",
-			["Greater Planar Essence"] = "item:22446:0:0:0",
+			["Kyparite"] = "item:72093:0:0:0",
+			["Bolt of Imbued Netherweave"] = "item:21842:0:0:0",
 		},
 	},
 }

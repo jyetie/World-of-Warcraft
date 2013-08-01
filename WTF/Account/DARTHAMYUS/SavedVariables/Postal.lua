@@ -237,7 +237,6 @@ Postal3DB = {
 		},
 		["Jyetie - Bloodhoof"] = {
 			["BlackBook"] = {
-				["AutoCompleteGuild"] = false,
 				["recent"] = {
 					"Avessia|Bloodhoof|Alliance", -- [1]
 					"Vezeri|Bloodhoof|Alliance", -- [2]
@@ -258,6 +257,7 @@ Postal3DB = {
 					"Fedalinn|Bloodhoof|Alliance", -- [17]
 					"Squidink|Bloodhoof|Alliance", -- [18]
 				},
+				["AutoCompleteGuild"] = false,
 			},
 		},
 		["Renevie - Moon Guard"] = {

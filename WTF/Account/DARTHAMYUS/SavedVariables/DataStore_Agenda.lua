@@ -7,25 +7,25 @@ DataStore_AgendaDB = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -50,19 +50,19 @@ DataStore_AgendaDB = {
 					["Perditious"] = {
 						["note"] = "",
 					},
-					["Adathorrules"] = {
+					["Chknman"] = {
 						["note"] = "",
 					},
-					["Mageadathor"] = {
+					["Adathor"] = {
 						["note"] = "",
 					},
 					["Olver"] = {
 						["note"] = "",
 					},
-					["Icedr"] = {
+					["Zilania"] = {
 						["note"] = "",
 					},
-					["Zilania"] = {
+					["Icedr"] = {
 						["note"] = "",
 					},
 					["Blackkdahlia"] = {
@@ -83,10 +83,10 @@ DataStore_AgendaDB = {
 					["Belthazorr"] = {
 						["note"] = "",
 					},
-					["Adathor"] = {
+					["Mageadathor"] = {
 						["note"] = "",
 					},
-					["Chknman"] = {
+					["Adathorrules"] = {
 						["note"] = "",
 					},
 				},
@@ -97,7 +97,7 @@ DataStore_AgendaDB = {
 					["Tarias"] = {
 						["note"] = "",
 					},
-					["Psalm"] = {
+					["Fedalinn"] = {
 						["note"] = "",
 					},
 					["Tarius"] = {
@@ -106,7 +106,7 @@ DataStore_AgendaDB = {
 					["Tuladirn"] = {
 						["note"] = "",
 					},
-					["Fedalinn"] = {
+					["Psalm"] = {
 						["note"] = "",
 					},
 				},
@@ -186,13 +186,8 @@ DataStore_AgendaDB = {
 					},
 				},
 			},
-			["Default.Wyrmrest Accord.Abryn"] = {
-				["lastUpdate"] = 1363933660,
-				["Contacts"] = {
-					["Anarena"] = {
-						["note"] = "",
-					},
-				},
+			["Default.Moon Guard.Renevie"] = {
+				["lastUpdate"] = 1374042668,
 			},
 			["Default.Bloodhoof.Avessia"] = {
 				["Calendar"] = {
@@ -201,12 +196,12 @@ DataStore_AgendaDB = {
 					"2013-08-19|20:00|Heroics|6|8", -- [3]
 					"2013-08-26|20:00|Heroics|6|8", -- [4]
 				},
-				["lastUpdate"] = 1375249024,
+				["lastUpdate"] = 1375317816,
 				["Contacts"] = {
-					["Fedalinn"] = {
+					["Rynaleth"] = {
 						["note"] = "",
 					},
-					["Rynaleth"] = {
+					["Fedalinn"] = {
 						["note"] = "",
 					},
 				},
@@ -215,6 +210,118 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1366897506,
 				["Contacts"] = {
 					["Elarcy"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Wyrmrest Accord.Venerie"] = {
+				["lastUpdate"] = 1363933076,
+			},
+			["Default.Bloodhoof.Cyralie"] = {
+				["lastUpdate"] = 1365735117,
+				["Contacts"] = {
+					["Squidink"] = {
+						["note"] = "",
+					},
+					["Tarias"] = {
+						["note"] = "",
+						["class"] = "Death Knight",
+						["level"] = 86,
+					},
+					["Toxin"] = {
+						["note"] = "",
+						["class"] = "Rogue",
+						["level"] = 90,
+					},
+					["Tuladirn"] = {
+						["note"] = "",
+					},
+					["Brockle"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Crushridge.Margot"] = {
+				["lastUpdate"] = 1367216818,
+			},
+			["Default.Bronzebeard.Karielle"] = {
+				["lastUpdate"] = 1366112431,
+				["Contacts"] = {
+					["Gilianda"] = {
+						["note"] = "",
+					},
+					["Chknman"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Bloodhoof.Sparkler"] = {
+				["lastUpdate"] = 1365734828,
+				["Contacts"] = {
+					["Hïde"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Bloodhoof.Vezeri"] = {
+				["lastUpdate"] = 1374891060,
+				["Contacts"] = {
+					["Rynaleth"] = {
+						["note"] = "",
+					},
+					["Fedalinn"] = {
+						["note"] = "",
+					},
+					["Uzulla"] = {
+						["note"] = "",
+					},
+					["Tarias"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Bloodhoof.Alythe"] = {
+				["lastUpdate"] = 1375249613,
+			},
+			["Default.Bloodhoof.Eloisa"] = {
+				["lastUpdate"] = 1362711659,
+			},
+			["Default.Bloodhoof.Flora"] = {
+				["lastUpdate"] = 1373617800,
+				["Contacts"] = {
+					["Fedalinn"] = {
+						["note"] = "",
+					},
+					["Rynaleth"] = {
+						["note"] = "",
+					},
+					["Darias"] = {
+						["note"] = "",
+					},
+				},
+			},
+			["Default.Bronzebeard.Cyralie"] = {
+				["lastUpdate"] = 1369739091,
+				["Contacts"] = {
+					["Adathor"] = {
+						["note"] = "",
+					},
+					["Drivete"] = {
+						["note"] = "",
+					},
+					["Boomasaurus"] = {
+						["note"] = "",
+					},
+					["Hexagons"] = {
+						["note"] = "",
+					},
+					["Toilet"] = {
+						["note"] = "",
+					},
+					["Grèènbeard"] = {
+						["note"] = "",
+					},
+					["Icedr"] = {
 						["note"] = "",
 					},
 				},
@@ -236,120 +343,13 @@ DataStore_AgendaDB = {
 					},
 				},
 			},
-			["Default.Bloodhoof.Cyralie"] = {
-				["lastUpdate"] = 1365735117,
+			["Default.Wyrmrest Accord.Abryn"] = {
+				["lastUpdate"] = 1363933660,
 				["Contacts"] = {
-					["Squidink"] = {
-						["note"] = "",
-					},
-					["Tarias"] = {
-						["note"] = "",
-						["level"] = 86,
-						["class"] = "Death Knight",
-					},
-					["Toxin"] = {
-						["note"] = "",
-						["level"] = 90,
-						["class"] = "Rogue",
-					},
-					["Tuladirn"] = {
-						["note"] = "",
-					},
-					["Brockle"] = {
+					["Anarena"] = {
 						["note"] = "",
 					},
 				},
-			},
-			["Default.Bronzebeard.Cyralie"] = {
-				["lastUpdate"] = 1369739091,
-				["Contacts"] = {
-					["Adathor"] = {
-						["note"] = "",
-					},
-					["Drivete"] = {
-						["note"] = "",
-					},
-					["Boomasaurus"] = {
-						["note"] = "",
-					},
-					["Hexagons"] = {
-						["note"] = "",
-					},
-					["Grèènbeard"] = {
-						["note"] = "",
-					},
-					["Toilet"] = {
-						["note"] = "",
-					},
-					["Icedr"] = {
-						["note"] = "",
-					},
-				},
-			},
-			["Default.Bronzebeard.Karielle"] = {
-				["lastUpdate"] = 1366112431,
-				["Contacts"] = {
-					["Gilianda"] = {
-						["note"] = "",
-					},
-					["Chknman"] = {
-						["note"] = "",
-					},
-				},
-			},
-			["Default.Bloodhoof.Alythe"] = {
-				["lastUpdate"] = 1375249613,
-			},
-			["Default.Bloodhoof.Vezeri"] = {
-				["lastUpdate"] = 1374891060,
-				["Contacts"] = {
-					["Fedalinn"] = {
-						["note"] = "",
-					},
-					["Rynaleth"] = {
-						["note"] = "",
-					},
-					["Uzulla"] = {
-						["note"] = "",
-					},
-					["Tarias"] = {
-						["note"] = "",
-					},
-				},
-			},
-			["Default.Bloodhoof.Sparkler"] = {
-				["lastUpdate"] = 1365734828,
-				["Contacts"] = {
-					["Hïde"] = {
-						["note"] = "",
-					},
-				},
-			},
-			["Default.Bloodhoof.Eloisa"] = {
-				["lastUpdate"] = 1362711659,
-			},
-			["Default.Bloodhoof.Flora"] = {
-				["lastUpdate"] = 1373617800,
-				["Contacts"] = {
-					["Fedalinn"] = {
-						["note"] = "",
-					},
-					["Rynaleth"] = {
-						["note"] = "",
-					},
-					["Darias"] = {
-						["note"] = "",
-					},
-				},
-			},
-			["Default.Crushridge.Margot"] = {
-				["lastUpdate"] = 1367216818,
-			},
-			["Default.Wyrmrest Accord.Venerie"] = {
-				["lastUpdate"] = 1363933076,
-			},
-			["Default.Moon Guard.Renevie"] = {
-				["lastUpdate"] = 1374042668,
 			},
 		},
 	},

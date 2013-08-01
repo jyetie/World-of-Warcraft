@@ -5,45 +5,13 @@ SwatterData = {
 	["autoshow"] = true,
 	["errors"] = {
 		{
-			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
-			["count"] = 35,
-			["addons"] = "  Swatter, v4.3.0 (<%codename%>)\n  NPCScan, v5.0.0.5\n  NPCScanAutoAdd, v1.5\n  NPCScanOverlay, v5.0.0.3\n  ACP, v3.4.3 \n  Altoholic, v5.3.001\n  AucAdvanced, v5.17.5413 (NeedyNoddy)\n  AucFilterBasic, v5.17.5413 (NeedyNoddy)\n  AucFilterOutlier, v5.17.5413.5347(5.17/embedded)\n  AucMatchUndercut, v5.17.5413.5364(5.17/embedded)\n  AucScanData, v5.17.5413 (NeedyNoddy)\n  AucStatHistogram, v5.17.5413 (NeedyNoddy)\n  AucStatiLevel, v5.17.5413 (NeedyNoddy)\n  AucStatPurchased, v5.17.5413 (NeedyNoddy)\n  AucStatSales, v5.17.5413.5376(5.17/embedded)\n  AucStatSimple, v5.17.5413 (NeedyNoddy)\n  AucStatStdDev, v5.17.5413 (NeedyNoddy)\n  AucStatWOWEcon, v5.17.5413.5323(5.17/embedded)\n  AucUtilAHWindowControl, v5.17.5413.5347(5.17/embedded)\n  AucUtilAppraiser, v5.17.5413.5393(5.17/embedded)\n  AucUtilAskPrice, v5.17.5413.5347(5.17/embedded)\n  AucUtilAutoMagic, v5.17.5413.5392(5.17/embedded)\n  AucUtilCompactUI, v5.17.5413.5400(5.17/embedded)\n  AucUtilEasyBuyout, v5.17.5413.5347(5.17/embedded)\n  AucUtilFixAH, v5.17.5413 (NeedyNoddy)\n  AucUtilItemSuggest, v5.17.5413.5365(5.17/embedded)\n  AucUtilPriceLevel, v5.17.5413.5365(5.17/embedded)\n  AucUtilScanButton, v5.17.5413.5403(5.17/embedded)\n  AucUtilScanFinish, v5.17.5413.5347(5.17/embedded)\n  AucUtilScanProgress, v5.17.5413.4979(5.17/embedded)\n  AucUtilScanStart, v5.17.5413.5347(5.17/embedded)\n  AucUtilSearchUI, v5.17.5413.5373(5.17/embedded)\n  AucUtilSimpleAuction, v5.17.5413.5388(5.17/embedded)\n  AucUtilVendMarkup, v5.17.5413.4828(5.17/embedded)\n  AutoTurnIn, v4.1\n  Babylonian, v5.1.DEV.332(/embedded)\n  BadBoy, v12.022\n  BadBoyCCleaner, v3.65\n  BagBrother, v\n  Bartender4, v4.5.10\n  BeanCounter, v5.17.5413 (NeedyNoddy)\n  BindPad, v2.6.3\n  ButtonFacade, v5.3.394\n  Combuctor, v5.3.0\n  CombuctorSets, v\n  Configator, v5.1.DEV.344(/embedded)\n  DataStore, v5.3.001\n  DataStoreAchievements, v5.3.001\n  DataStoreAgenda, v5.3.001\n  DataStoreAuctions, v5.3.001\n  DataStoreCharacters, v5.3.001\n  DataStoreContainers, v5.3.001\n  DataStoreCrafts, v5.3.001\n  DataStoreCurrencies, v5.3.001\n  DataStoreInventory, v5.3.001\n  DataStoreMails, v5.3.001\n  DataStorePets, v5.3.001\n  DataStoreQuests, v5.3.001\n  DataStoreReputations, v5.3.001\n  DataStoreSpells, v5.3.001\n  DataStoreStats, v5.3.001\n  DataStoreTalents, v5.3.001\n  DBMCore, v\n  DBMSpellTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  Enchantrix, v5.17.5413 (NeedyNoddy)\n  EnchantrixBarker, v5.17.5413 (NeedyNoddy)\n  ErrorFilter, v2.8\n  Farmhand, vv1.6.1\n  Fonter, v\n  Gatherer, v4.3.0\n  GTFO, v4.23.3\n  HealersHaveToDie, v2.1.4\n  Informant, v5.17.5413 (NeedyNoddy)\n  ItemNotes, v1.0\n  JumpCounter, v3.0\n  LibBabbleBoss30, v\n  LibBabbleZone30, v\n  LibExtraTip, v5.12.DEV.350(/embedded)\n  Mapster, v1.5.4\n  Masque, v5.3.394\n  MasqueApathy, v5.3.106\n  MasqueCleanIcons, v1.1\n  MasqueEntropy, v5.2.79\n  miirGui, v2.1.9\n  miirguiicons, v1.0.0\n  MikScrollingBattleText, v5.7.129\n  Multishot, v3.1.0\n  MyRolePlay, v5.3.0.102\n  NPCScanEx, v1.2.2\n  OmniCC, v5.3.1\n  OPie, vLime 5\n  Overachiever, v0.72\n  Paste, v1.1.4\n  PitBull4, vv4.0.0-beta45\n  PitBull4Aggro, vv4.0.0-beta45\n  PitBull4AltPowerBar, vv4.0.0-beta45\n  PitBull4Aura, vv4.0.0-beta45\n  PitBull4Background, vv4.0.0-beta45\n  PitBull4BattlePet, vv4.0.0-beta45\n  PitBull4BurningEmbers, vv4.0.0-beta45\n  PitBull4CombatIcon, vv4.0.0-beta45\n  PitBull4ComboPoints, vv4.0.0-beta45\n  PitBull4DemonicFury, vv4.0.0-beta45\n  PitBull4HealthBar, vv4.0.0-beta45\n  PitBull4HideBlizzard, vv4.0.0-beta45\n  PitBull4LeaderIcon, vv4.0.0-beta45\n  PitBull4LuaTexts, vv4.0.0-beta45\n  PitBull4MasterLooterIcon, vv4.0.0-beta45\n  PitBull4PhaseIcon, vv4.0.0-beta45\n  PitBull4PowerBar, vv4.0.0-beta45\n  PitBull4PvPIcon, vv4.0.0-beta45\n  PitBull4RaidTargetIcon, vv4.0.0-beta45\n  PitBull4RangeFader, vv4.0.0-beta45\n  PitBull4ReadyCheckIcon, vv4.0.0-beta45\n  PitBull4RestIcon, vv4.0.0-beta45\n  PitBull4RoleIcon, vv4.0.0-beta45\n  PitBull4SoulShards, vv4.0.0-beta45\n  PitBull4VisualHeal, vv4.0.0-beta45\n  Postal, v3.5.1\n  Prat30, v3.5.6      \n  Prat30Libraries, v\n  Quartz, v3.1.3\n  RaidAchievement, v1.126\n  RandomMountContinued, v1.07.07\n  Rarity, v1.0\n  RarityOptions, v\n  RatingBuster, v1.6.7\n  Raven, v\n  SexyCooldown, v0.6.16\n  SexyMap, v2.4.7\n  SpamageMeters, v1.6.7\n  StatBlockDurability, v5.3.0\n  StatBlockFPS, v5.3.0\n  StatBlockLatency, v5.3.0\n  StatBlockCore, v2.78\n  Stubby, v5.17.5413 (NeedyNoddy)\n  TidyPlates, v6.11.3\n  TidyPlatesGraphite, v\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  TidyPlatesQuatre, v\n  TidyPlatesThreatPlates, v6.008\n  TidyPlatesHub, v\n  TidyPlatesWidgets, v\n  TipHelper, v5.12.DEV.351(/embedded)\n  TipTac, v13.05.22\n  TipTacExtraTip, v1.0\n  TipTacItemRef, v13.05.22\n  TipTacMSP, v5.3.001\n  TipTacOptions, v13.05.22\n  TipTacTalents, v13.04.17\n  TomTom, vv50300-1.0.1\n  ToolTipTabs, v1.6a\n  VuhDo, v3.44\n  VuhDoOptions, v3.44\n  WeakAuras, v1.4.7.10\n  WIM, v3.6.9\n  BlizRuntimeLib_enUS v5.3.0.50300 <us>\n  (ck=12ef)\n",
-			["timestamp"] = "2013-06-17 22:11:45",
-			["context"] = "AddOn: miirGui",
-			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [1]
-		{
-			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
-			["count"] = 35,
-			["addons"] = "  Swatter, v4.3.0 (<%codename%>)\n  NPCScan, v5.0.0.5\n  NPCScanAutoAdd, v1.5\n  NPCScanOverlay, v5.0.0.3\n  ACP, v3.4.3 \n  Altoholic, v5.3.001\n  AucAdvanced, v5.17.5413 (NeedyNoddy)\n  AucFilterBasic, v5.17.5413 (NeedyNoddy)\n  AucFilterOutlier, v5.17.5413.5347(5.17/embedded)\n  AucMatchUndercut, v5.17.5413.5364(5.17/embedded)\n  AucScanData, v5.17.5413 (NeedyNoddy)\n  AucStatHistogram, v5.17.5413 (NeedyNoddy)\n  AucStatiLevel, v5.17.5413 (NeedyNoddy)\n  AucStatPurchased, v5.17.5413 (NeedyNoddy)\n  AucStatSales, v5.17.5413.5376(5.17/embedded)\n  AucStatSimple, v5.17.5413 (NeedyNoddy)\n  AucStatStdDev, v5.17.5413 (NeedyNoddy)\n  AucStatWOWEcon, v5.17.5413.5323(5.17/embedded)\n  AucUtilAHWindowControl, v5.17.5413.5347(5.17/embedded)\n  AucUtilAppraiser, v5.17.5413.5393(5.17/embedded)\n  AucUtilAskPrice, v5.17.5413.5347(5.17/embedded)\n  AucUtilAutoMagic, v5.17.5413.5392(5.17/embedded)\n  AucUtilCompactUI, v5.17.5413.5400(5.17/embedded)\n  AucUtilEasyBuyout, v5.17.5413.5347(5.17/embedded)\n  AucUtilFixAH, v5.17.5413 (NeedyNoddy)\n  AucUtilItemSuggest, v5.17.5413.5365(5.17/embedded)\n  AucUtilPriceLevel, v5.17.5413.5365(5.17/embedded)\n  AucUtilScanButton, v5.17.5413.5403(5.17/embedded)\n  AucUtilScanFinish, v5.17.5413.5347(5.17/embedded)\n  AucUtilScanProgress, v5.17.5413.4979(5.17/embedded)\n  AucUtilScanStart, v5.17.5413.5347(5.17/embedded)\n  AucUtilSearchUI, v5.17.5413.5373(5.17/embedded)\n  AucUtilSimpleAuction, v5.17.5413.5388(5.17/embedded)\n  AucUtilVendMarkup, v5.17.5413.4828(5.17/embedded)\n  AutoTurnIn, v4.1\n  Babylonian, v5.1.DEV.332(/embedded)\n  BadBoy, v12.022\n  BadBoyCCleaner, v3.65\n  BagBrother, v\n  Bartender4, v4.5.10\n  BeanCounter, v5.17.5413 (NeedyNoddy)\n  BindPad, v2.6.3\n  ButtonFacade, v5.3.394\n  Combuctor, v5.3.0\n  CombuctorSets, v\n  Configator, v5.1.DEV.344(/embedded)\n  DataStore, v5.3.001\n  DataStoreAchievements, v5.3.001\n  DataStoreAgenda, v5.3.001\n  DataStoreAuctions, v5.3.001\n  DataStoreCharacters, v5.3.001\n  DataStoreContainers, v5.3.001\n  DataStoreCrafts, v5.3.001\n  DataStoreCurrencies, v5.3.001\n  DataStoreInventory, v5.3.001\n  DataStoreMails, v5.3.001\n  DataStorePets, v5.3.001\n  DataStoreQuests, v5.3.001\n  DataStoreReputations, v5.3.001\n  DataStoreSpells, v5.3.001\n  DataStoreStats, v5.3.001\n  DataStoreTalents, v5.3.001\n  DBMCore, v\n  DBMSpellTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  Enchantrix, v5.17.5413 (NeedyNoddy)\n  EnchantrixBarker, v5.17.5413 (NeedyNoddy)\n  ErrorFilter, v2.8\n  Farmhand, vv1.6.1\n  Fonter, v\n  Gatherer, v4.3.0\n  GTFO, v4.23.3\n  HealersHaveToDie, v2.1.4\n  Informant, v5.17.5413 (NeedyNoddy)\n  ItemNotes, v1.0\n  JumpCounter, v3.0\n  LibBabbleBoss30, v\n  LibBabbleZone30, v\n  LibExtraTip, v5.12.DEV.350(/embedded)\n  Mapster, v1.5.4\n  Masque, v5.3.394\n  MasqueApathy, v5.3.106\n  MasqueCleanIcons, v1.1\n  MasqueEntropy, v5.2.79\n  miirGui, v2.1.9\n  miirguiicons, v1.0.0\n  MikScrollingBattleText, v5.7.129\n  Multishot, v3.1.0\n  MyRolePlay, v5.3.0.102\n  NPCScanEx, v1.2.2\n  OmniCC, v5.3.1\n  OPie, vLime 5\n  Overachiever, v0.72\n  Paste, v1.1.4\n  PitBull4, vv4.0.0-beta45\n  PitBull4Aggro, vv4.0.0-beta45\n  PitBull4AltPowerBar, vv4.0.0-beta45\n  PitBull4Aura, vv4.0.0-beta45\n  PitBull4Background, vv4.0.0-beta45\n  PitBull4BattlePet, vv4.0.0-beta45\n  PitBull4BurningEmbers, vv4.0.0-beta45\n  PitBull4CombatIcon, vv4.0.0-beta45\n  PitBull4ComboPoints, vv4.0.0-beta45\n  PitBull4DemonicFury, vv4.0.0-beta45\n  PitBull4HealthBar, vv4.0.0-beta45\n  PitBull4HideBlizzard, vv4.0.0-beta45\n  PitBull4LeaderIcon, vv4.0.0-beta45\n  PitBull4LuaTexts, vv4.0.0-beta45\n  PitBull4MasterLooterIcon, vv4.0.0-beta45\n  PitBull4PhaseIcon, vv4.0.0-beta45\n  PitBull4PowerBar, vv4.0.0-beta45\n  PitBull4PvPIcon, vv4.0.0-beta45\n  PitBull4RaidTargetIcon, vv4.0.0-beta45\n  PitBull4RangeFader, vv4.0.0-beta45\n  PitBull4ReadyCheckIcon, vv4.0.0-beta45\n  PitBull4RestIcon, vv4.0.0-beta45\n  PitBull4RoleIcon, vv4.0.0-beta45\n  PitBull4SoulShards, vv4.0.0-beta45\n  PitBull4VisualHeal, vv4.0.0-beta45\n  Postal, v3.5.1\n  Prat30, v3.5.6      \n  Prat30Libraries, v\n  Quartz, v3.1.3\n  RaidAchievement, v1.126\n  RandomMountContinued, v1.07.07\n  Rarity, v1.0\n  RarityOptions, v\n  RatingBuster, v1.6.7\n  Raven, v\n  SexyCooldown, v0.6.16\n  SexyMap, v2.4.7\n  SpamageMeters, v1.6.7\n  StatBlockDurability, v5.3.0\n  StatBlockFPS, v5.3.0\n  StatBlockLatency, v5.3.0\n  StatBlockCore, v2.78\n  Stubby, v5.17.5413 (NeedyNoddy)\n  TidyPlates, v6.11.3\n  TidyPlatesGraphite, v\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  TidyPlatesQuatre, v\n  TidyPlatesThreatPlates, v6.008\n  TidyPlatesHub, v\n  TidyPlatesWidgets, v\n  TipHelper, v5.12.DEV.351(/embedded)\n  TipTac, v13.05.22\n  TipTacExtraTip, v1.0\n  TipTacItemRef, v13.05.22\n  TipTacMSP, v5.3.001\n  TipTacOptions, v13.05.22\n  TipTacTalents, v13.04.17\n  TomTom, vv50300-1.0.1\n  ToolTipTabs, v1.6a\n  VuhDo, v3.44\n  VuhDoOptions, v3.44\n  WeakAuras, v1.4.7.10\n  WIM, v3.6.9\n  BlizRuntimeLib_enUS v5.3.0.50300 <us>\n  (ck=12ef)\n",
-			["timestamp"] = "2013-06-17 22:11:45",
-			["context"] = "AddOn: miirGui",
-			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [2]
-		{
-			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
-			["count"] = 202,
-			["addons"] = "  Swatter, v4.3.0 (<%codename%>)\n  NPCScan, v5.0.0.5\n  NPCScanAutoAdd, v1.5\n  NPCScanOverlay, v5.0.0.3\n  ACP, v3.4.3 \n  Altoholic, v5.3.001\n  AucAdvanced, v5.17.5413 (NeedyNoddy)\n  AucFilterBasic, v5.17.5413 (NeedyNoddy)\n  AucFilterOutlier, v5.17.5413.5347(5.17/embedded)\n  AucMatchUndercut, v5.17.5413.5364(5.17/embedded)\n  AucScanData, v5.17.5413 (NeedyNoddy)\n  AucStatHistogram, v5.17.5413 (NeedyNoddy)\n  AucStatiLevel, v5.17.5413 (NeedyNoddy)\n  AucStatPurchased, v5.17.5413 (NeedyNoddy)\n  AucStatSales, v5.17.5413.5376(5.17/embedded)\n  AucStatSimple, v5.17.5413 (NeedyNoddy)\n  AucStatStdDev, v5.17.5413 (NeedyNoddy)\n  AucStatWOWEcon, v5.17.5413.5323(5.17/embedded)\n  AucUtilAHWindowControl, v5.17.5413.5347(5.17/embedded)\n  AucUtilAppraiser, v5.17.5413.5393(5.17/embedded)\n  AucUtilAskPrice, v5.17.5413.5347(5.17/embedded)\n  AucUtilAutoMagic, v5.17.5413.5392(5.17/embedded)\n  AucUtilCompactUI, v5.17.5413.5400(5.17/embedded)\n  AucUtilEasyBuyout, v5.17.5413.5347(5.17/embedded)\n  AucUtilFixAH, v5.17.5413 (NeedyNoddy)\n  AucUtilItemSuggest, v5.17.5413.5365(5.17/embedded)\n  AucUtilPriceLevel, v5.17.5413.5365(5.17/embedded)\n  AucUtilScanButton, v5.17.5413.5403(5.17/embedded)\n  AucUtilScanFinish, v5.17.5413.5347(5.17/embedded)\n  AucUtilScanProgress, v5.17.5413.4979(5.17/embedded)\n  AucUtilScanStart, v5.17.5413.5347(5.17/embedded)\n  AucUtilSearchUI, v5.17.5413.5373(5.17/embedded)\n  AucUtilSimpleAuction, v5.17.5413.5388(5.17/embedded)\n  AucUtilVendMarkup, v5.17.5413.4828(5.17/embedded)\n  AutoTurnIn, v4.1\n  Babylonian, v5.1.DEV.332(/embedded)\n  BadBoy, v12.022\n  BadBoyCCleaner, v3.65\n  BagBrother, v\n  Bartender4, v4.5.10\n  BeanCounter, v5.17.5413 (NeedyNoddy)\n  BindPad, v2.6.3\n  ButtonFacade, v5.3.394\n  Combuctor, v5.3.0\n  CombuctorSets, v\n  Configator, v5.1.DEV.344(/embedded)\n  DataStore, v5.3.001\n  DataStoreAchievements, v5.3.001\n  DataStoreAgenda, v5.3.001\n  DataStoreAuctions, v5.3.001\n  DataStoreCharacters, v5.3.001\n  DataStoreContainers, v5.3.001\n  DataStoreCrafts, v5.3.001\n  DataStoreCurrencies, v5.3.001\n  DataStoreInventory, v5.3.001\n  DataStoreMails, v5.3.001\n  DataStorePets, v5.3.001\n  DataStoreQuests, v5.3.001\n  DataStoreReputations, v5.3.001\n  DataStoreSpells, v5.3.001\n  DataStoreStats, v5.3.001\n  DataStoreTalents, v5.3.001\n  DBMCore, v\n  DBMSpellTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  Enchantrix, v5.17.5413 (NeedyNoddy)\n  EnchantrixBarker, v5.17.5413 (NeedyNoddy)\n  ErrorFilter, v2.8\n  Farmhand, vv1.6.1\n  Fonter, v\n  Gatherer, v4.3.0\n  GTFO, v4.23.3\n  HealersHaveToDie, v2.1.4\n  Informant, v5.17.5413 (NeedyNoddy)\n  ItemNotes, v1.0\n  JumpCounter, v3.0\n  LibBabbleBoss30, v\n  LibBabbleZone30, v\n  LibExtraTip, v5.12.DEV.350(/embedded)\n  Mapster, v1.5.4\n  Masque, v5.3.394\n  MasqueApathy, v5.3.106\n  MasqueCleanIcons, v1.1\n  MasqueEntropy, v5.2.79\n  miirGui, v2.1.9\n  miirguiicons, v1.0.0\n  MikScrollingBattleText, v5.7.129\n  Multishot, v3.1.0\n  MyRolePlay, v5.3.0.102\n  NPCScanEx, v1.2.2\n  OmniCC, v5.3.1\n  OPie, vLime 5\n  Overachiever, v0.72\n  OverachieverTabs, v0.71\n  Paste, v1.1.4\n  PitBull4, vv4.0.0-beta45\n  PitBull4Aggro, vv4.0.0-beta45\n  PitBull4AltPowerBar, vv4.0.0-beta45\n  PitBull4Aura, vv4.0.0-beta45\n  PitBull4Background, vv4.0.0-beta45\n  PitBull4BattlePet, vv4.0.0-beta45\n  PitBull4BurningEmbers, vv4.0.0-beta45\n  PitBull4CombatIcon, vv4.0.0-beta45\n  PitBull4ComboPoints, vv4.0.0-beta45\n  PitBull4DemonicFury, vv4.0.0-beta45\n  PitBull4HealthBar, vv4.0.0-beta45\n  PitBull4HideBlizzard, vv4.0.0-beta45\n  PitBull4LeaderIcon, vv4.0.0-beta45\n  PitBull4LuaTexts, vv4.0.0-beta45\n  PitBull4MasterLooterIcon, vv4.0.0-beta45\n  PitBull4PhaseIcon, vv4.0.0-beta45\n  PitBull4PowerBar, vv4.0.0-beta45\n  PitBull4PvPIcon, vv4.0.0-beta45\n  PitBull4RaidTargetIcon, vv4.0.0-beta45\n  PitBull4RangeFader, vv4.0.0-beta45\n  PitBull4ReadyCheckIcon, vv4.0.0-beta45\n  PitBull4RestIcon, vv4.0.0-beta45\n  PitBull4RoleIcon, vv4.0.0-beta45\n  PitBull4SoulShards, vv4.0.0-beta45\n  PitBull4VisualHeal, vv4.0.0-beta45\n  Postal, v3.5.1\n  Prat30, v3.5.6      \n  Prat30Libraries, v\n  Quartz, v3.1.3\n  RaidAchievement, v1.126\n  RandomMountContinued, v1.07.07\n  Rarity, v1.0\n  RarityOptions, v\n  RatingBuster, v1.6.7\n  Raven, v\n  SexyCooldown, v0.6.16\n  SexyMap, v2.4.7\n  SpamageMeters, v1.6.7\n  StatBlockDurability, v5.3.0\n  StatBlockFPS, v5.3.0\n  StatBlockLatency, v5.3.0\n  StatBlockCore, v2.78\n  Stubby, v5.17.5413 (NeedyNoddy)\n  TidyPlates, v6.11.3\n  TidyPlatesGraphite, v\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  TidyPlatesQuatre, v\n  TidyPlatesThreatPlates, v6.008\n  TidyPlatesHub, v\n  TidyPlatesWidgets, v\n  TipHelper, v5.12.DEV.351(/embedded)\n  TipTac, v13.05.22\n  TipTacExtraTip, v1.0\n  TipTacItemRef, v13.05.22\n  TipTacMSP, v5.3.001\n  TipTacOptions, v13.05.22\n  TipTacTalents, v13.04.17\n  TomTom, vv50300-1.0.1\n  ToolTipTabs, v1.6a\n  VuhDo, v3.44\n  VuhDoOptions, v3.44\n  WeakAuras, v1.4.7.10\n  WIM, v3.6.9\n  BlizRuntimeLib_enUS v5.3.0.50300 <us>\n  (ck=1309)\n",
-			["timestamp"] = "2013-06-17 22:37:31",
-			["context"] = "AddOn: SexyCooldown",
-			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [3]
-		{
-			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
-			["count"] = 135,
-			["addons"] = "  Swatter, v4.3.0 (<%codename%>)\n  NPCScan, v5.0.0.5\n  NPCScanAutoAdd, v1.5\n  NPCScanOverlay, v5.0.0.3\n  ACP, v3.4.3 \n  Altoholic, v5.3.001\n  AucAdvanced, v5.17.5413 (NeedyNoddy)\n  AucFilterBasic, v5.17.5413 (NeedyNoddy)\n  AucFilterOutlier, v5.17.5413.5347(5.17/embedded)\n  AucMatchUndercut, v5.17.5413.5364(5.17/embedded)\n  AucScanData, v5.17.5413 (NeedyNoddy)\n  AucStatHistogram, v5.17.5413 (NeedyNoddy)\n  AucStatiLevel, v5.17.5413 (NeedyNoddy)\n  AucStatPurchased, v5.17.5413 (NeedyNoddy)\n  AucStatSales, v5.17.5413.5376(5.17/embedded)\n  AucStatSimple, v5.17.5413 (NeedyNoddy)\n  AucStatStdDev, v5.17.5413 (NeedyNoddy)\n  AucStatWOWEcon, v5.17.5413.5323(5.17/embedded)\n  AucUtilAHWindowControl, v5.17.5413.5347(5.17/embedded)\n  AucUtilAppraiser, v5.17.5413.5393(5.17/embedded)\n  AucUtilAskPrice, v5.17.5413.5347(5.17/embedded)\n  AucUtilAutoMagic, v5.17.5413.5392(5.17/embedded)\n  AucUtilCompactUI, v5.17.5413.5400(5.17/embedded)\n  AucUtilEasyBuyout, v5.17.5413.5347(5.17/embedded)\n  AucUtilFixAH, v5.17.5413 (NeedyNoddy)\n  AucUtilItemSuggest, v5.17.5413.5365(5.17/embedded)\n  AucUtilPriceLevel, v5.17.5413.5365(5.17/embedded)\n  AucUtilScanButton, v5.17.5413.5403(5.17/embedded)\n  AucUtilScanFinish, v5.17.5413.5347(5.17/embedded)\n  AucUtilScanProgress, v5.17.5413.4979(5.17/embedded)\n  AucUtilScanStart, v5.17.5413.5347(5.17/embedded)\n  AucUtilSearchUI, v5.17.5413.5373(5.17/embedded)\n  AucUtilSimpleAuction, v5.17.5413.5388(5.17/embedded)\n  AucUtilVendMarkup, v5.17.5413.4828(5.17/embedded)\n  AutoTurnIn, v4.1\n  Babylonian, v5.1.DEV.332(/embedded)\n  BadBoy, v12.022\n  BadBoyCCleaner, v3.65\n  BagBrother, v\n  Bartender4, v4.5.10\n  BeanCounter, v5.17.5413 (NeedyNoddy)\n  BindPad, v2.6.3\n  ButtonFacade, v5.3.394\n  Combuctor, v5.3.0\n  CombuctorSets, v\n  Configator, v5.1.DEV.344(/embedded)\n  DataStore, v5.3.001\n  DataStoreAchievements, v5.3.001\n  DataStoreAgenda, v5.3.001\n  DataStoreAuctions, v5.3.001\n  DataStoreCharacters, v5.3.001\n  DataStoreContainers, v5.3.001\n  DataStoreCrafts, v5.3.001\n  DataStoreCurrencies, v5.3.001\n  DataStoreInventory, v5.3.001\n  DataStoreMails, v5.3.001\n  DataStorePets, v5.3.001\n  DataStoreQuests, v5.3.001\n  DataStoreReputations, v5.3.001\n  DataStoreSpells, v5.3.001\n  DataStoreStats, v5.3.001\n  DataStoreTalents, v5.3.001\n  DBMCore, v\n  DBMSpellTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  Enchantrix, v5.17.5413 (NeedyNoddy)\n  EnchantrixBarker, v5.17.5413 (NeedyNoddy)\n  ErrorFilter, v2.8\n  Farmhand, vv1.6.1\n  Fonter, v\n  Gatherer, v4.3.0\n  GTFO, v4.23.3\n  HealersHaveToDie, v2.1.4\n  Informant, v5.17.5413 (NeedyNoddy)\n  ItemNotes, v1.0\n  JumpCounter, v3.0\n  LibBabbleBoss30, v\n  LibBabbleZone30, v\n  LibExtraTip, v5.12.DEV.350(/embedded)\n  Mapster, v1.5.4\n  Masque, v5.3.394\n  MasqueApathy, v5.3.106\n  MasqueCleanIcons, v1.1\n  MasqueEntropy, v5.2.79\n  miirGui, v2.1.9\n  miirguiicons, v1.0.0\n  MikScrollingBattleText, v5.7.129\n  Multishot, v3.1.0\n  MyRolePlay, v5.3.0.102\n  NPCScanEx, v1.2.2\n  OmniCC, v5.3.1\n  OPie, vLime 5\n  Overachiever, v0.72\n  OverachieverTabs, v0.71\n  Paste, v1.1.4\n  PitBull4, vv4.0.0-beta45\n  PitBull4Aggro, vv4.0.0-beta45\n  PitBull4AltPowerBar, vv4.0.0-beta45\n  PitBull4Aura, vv4.0.0-beta45\n  PitBull4Background, vv4.0.0-beta45\n  PitBull4BattlePet, vv4.0.0-beta45\n  PitBull4BurningEmbers, vv4.0.0-beta45\n  PitBull4CombatIcon, vv4.0.0-beta45\n  PitBull4ComboPoints, vv4.0.0-beta45\n  PitBull4DemonicFury, vv4.0.0-beta45\n  PitBull4HealthBar, vv4.0.0-beta45\n  PitBull4HideBlizzard, vv4.0.0-beta45\n  PitBull4LeaderIcon, vv4.0.0-beta45\n  PitBull4LuaTexts, vv4.0.0-beta45\n  PitBull4MasterLooterIcon, vv4.0.0-beta45\n  PitBull4PhaseIcon, vv4.0.0-beta45\n  PitBull4PowerBar, vv4.0.0-beta45\n  PitBull4PvPIcon, vv4.0.0-beta45\n  PitBull4RaidTargetIcon, vv4.0.0-beta45\n  PitBull4RangeFader, vv4.0.0-beta45\n  PitBull4ReadyCheckIcon, vv4.0.0-beta45\n  PitBull4RestIcon, vv4.0.0-beta45\n  PitBull4RoleIcon, vv4.0.0-beta45\n  PitBull4SoulShards, vv4.0.0-beta45\n  PitBull4VisualHeal, vv4.0.0-beta45\n  Postal, v3.5.1\n  Prat30, v3.5.6      \n  Prat30Libraries, v\n  Quartz, v3.1.3\n  RaidAchievement, v1.126\n  RandomMountContinued, v1.07.07\n  Rarity, v1.0\n  RarityOptions, v\n  RatingBuster, v1.6.7\n  Raven, v\n  SexyCooldown, v0.6.16\n  SexyMap, v2.4.7\n  SpamageMeters, v1.6.7\n  StatBlockDurability, v5.3.0\n  StatBlockFPS, v5.3.0\n  StatBlockLatency, v5.3.0\n  StatBlockCore, v2.78\n  Stubby, v5.17.5413 (NeedyNoddy)\n  TidyPlates, v6.11.3\n  TidyPlatesGraphite, v\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  TidyPlatesQuatre, v\n  TidyPlatesThreatPlates, v6.008\n  TidyPlatesHub, v\n  TidyPlatesWidgets, v\n  TipHelper, v5.12.DEV.351(/embedded)\n  TipTac, v13.05.22\n  TipTacExtraTip, v1.0\n  TipTacItemRef, v13.05.22\n  TipTacMSP, v5.3.001\n  TipTacOptions, v13.05.22\n  TipTacTalents, v13.04.17\n  TomTom, vv50300-1.0.1\n  ToolTipTabs, v1.6a\n  VuhDo, v3.44\n  VuhDoOptions, v3.44\n  WeakAuras, v1.4.7.10\n  WIM, v3.6.9\n  BlizRuntimeLib_enUS v5.3.0.50300 <us>\n  (ck=1309)\n",
-			["timestamp"] = "2013-06-17 22:37:41",
-			["context"] = "AddOn: SexyCooldown",
-			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [4]
-		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 115,
 			["addons"] = "  Swatter, v4.3.0 (<%codename%>)\n  NPCScan, v5.0.0.5\n  NPCScanAutoAdd, v1.5\n  NPCScanOverlay, v5.0.0.3\n  ACP, v3.4.3 \n  Altoholic, v5.3.001\n  AucAdvanced, v5.17.5413 (NeedyNoddy)\n  AucFilterBasic, v5.17.5413 (NeedyNoddy)\n  AucFilterOutlier, v5.17.5413.5347(5.17/embedded)\n  AucMatchUndercut, v5.17.5413.5364(5.17/embedded)\n  AucScanData, v5.17.5413 (NeedyNoddy)\n  AucStatHistogram, v5.17.5413 (NeedyNoddy)\n  AucStatiLevel, v5.17.5413 (NeedyNoddy)\n  AucStatPurchased, v5.17.5413 (NeedyNoddy)\n  AucStatSales, v5.17.5413.5376(5.17/embedded)\n  AucStatSimple, v5.17.5413 (NeedyNoddy)\n  AucStatStdDev, v5.17.5413 (NeedyNoddy)\n  AucStatWOWEcon, v5.17.5413.5323(5.17/embedded)\n  AucUtilAHWindowControl, v5.17.5413.5347(5.17/embedded)\n  AucUtilAppraiser, v5.17.5413.5393(5.17/embedded)\n  AucUtilAskPrice, v5.17.5413.5347(5.17/embedded)\n  AucUtilAutoMagic, v5.17.5413.5392(5.17/embedded)\n  AucUtilCompactUI, v5.17.5413.5400(5.17/embedded)\n  AucUtilEasyBuyout, v5.17.5413.5347(5.17/embedded)\n  AucUtilFixAH, v5.17.5413 (NeedyNoddy)\n  AucUtilItemSuggest, v5.17.5413.5365(5.17/embedded)\n  AucUtilPriceLevel, v5.17.5413.5365(5.17/embedded)\n  AucUtilScanButton, v5.17.5413.5403(5.17/embedded)\n  AucUtilScanFinish, v5.17.5413.5347(5.17/embedded)\n  AucUtilScanProgress, v5.17.5413.4979(5.17/embedded)\n  AucUtilScanStart, v5.17.5413.5347(5.17/embedded)\n  AucUtilSearchUI, v5.17.5413.5373(5.17/embedded)\n  AucUtilSimpleAuction, v5.17.5413.5388(5.17/embedded)\n  AucUtilVendMarkup, v5.17.5413.4828(5.17/embedded)\n  AutoTurnIn, v4.1\n  Babylonian, v5.1.DEV.332(/embedded)\n  BadBoy, v12.022\n  BadBoyCCleaner, v3.65\n  BagBrother, v\n  Bartender4, v4.5.10\n  BeanCounter, v5.17.5413 (NeedyNoddy)\n  BindPad, v2.6.3\n  ButtonFacade, v5.3.394\n  Combuctor, v5.3.0\n  CombuctorSets, v\n  Configator, v5.1.DEV.344(/embedded)\n  DataStore, v5.3.001\n  DataStoreAchievements, v5.3.001\n  DataStoreAgenda, v5.3.001\n  DataStoreAuctions, v5.3.001\n  DataStoreCharacters, v5.3.001\n  DataStoreContainers, v5.3.001\n  DataStoreCrafts, v5.3.001\n  DataStoreCurrencies, v5.3.001\n  DataStoreInventory, v5.3.001\n  DataStoreMails, v5.3.001\n  DataStorePets, v5.3.001\n  DataStoreQuests, v5.3.001\n  DataStoreReputations, v5.3.001\n  DataStoreSpells, v5.3.001\n  DataStoreStats, v5.3.001\n  DataStoreTalents, v5.3.001\n  DBMCore, v\n  DBMSpellTimers, v\n  DebugLib, v5.1.DEV.337(/embedded)\n  Enchantrix, v5.17.5413 (NeedyNoddy)\n  EnchantrixBarker, v5.17.5413 (NeedyNoddy)\n  ErrorFilter, v2.8\n  Farmhand, vv1.6.1\n  Fonter, v\n  Gatherer, v4.3.0\n  GTFO, v4.23.3\n  HealersHaveToDie, v2.1.4\n  Informant, v5.17.5413 (NeedyNoddy)\n  ItemNotes, v1.0\n  JumpCounter, v3.0\n  LibBabbleBoss30, v\n  LibBabbleZone30, v\n  LibExtraTip, v5.12.DEV.350(/embedded)\n  Mapster, v1.5.4\n  Masque, v5.3.394\n  MasqueApathy, v5.3.106\n  MasqueCleanIcons, v1.1\n  MasqueEntropy, v5.2.79\n  miirGui, v2.1.9\n  miirguiicons, v1.0.0\n  MikScrollingBattleText, v5.7.129\n  Multishot, v3.1.0\n  MyRolePlay, v5.3.0.102\n  NPCScanEx, v1.2.2\n  OmniCC, v5.3.1\n  OPie, vLime 5\n  Overachiever, v0.72\n  OverachieverTabs, v0.71\n  Paste, v1.1.4\n  PitBull4, vv4.0.0-beta45\n  PitBull4Aggro, vv4.0.0-beta45\n  PitBull4AltPowerBar, vv4.0.0-beta45\n  PitBull4Aura, vv4.0.0-beta45\n  PitBull4Background, vv4.0.0-beta45\n  PitBull4BattlePet, vv4.0.0-beta45\n  PitBull4BurningEmbers, vv4.0.0-beta45\n  PitBull4CombatIcon, vv4.0.0-beta45\n  PitBull4ComboPoints, vv4.0.0-beta45\n  PitBull4DemonicFury, vv4.0.0-beta45\n  PitBull4HealthBar, vv4.0.0-beta45\n  PitBull4HideBlizzard, vv4.0.0-beta45\n  PitBull4LeaderIcon, vv4.0.0-beta45\n  PitBull4LuaTexts, vv4.0.0-beta45\n  PitBull4MasterLooterIcon, vv4.0.0-beta45\n  PitBull4PhaseIcon, vv4.0.0-beta45\n  PitBull4PowerBar, vv4.0.0-beta45\n  PitBull4PvPIcon, vv4.0.0-beta45\n  PitBull4RaidTargetIcon, vv4.0.0-beta45\n  PitBull4RangeFader, vv4.0.0-beta45\n  PitBull4ReadyCheckIcon, vv4.0.0-beta45\n  PitBull4RestIcon, vv4.0.0-beta45\n  PitBull4RoleIcon, vv4.0.0-beta45\n  PitBull4SoulShards, vv4.0.0-beta45\n  PitBull4VisualHeal, vv4.0.0-beta45\n  Postal, v3.5.1\n  Prat30, v3.5.6      \n  Prat30Libraries, v\n  Quartz, v3.1.3\n  RaidAchievement, v1.126\n  RandomMountContinued, v1.07.07\n  Rarity, v1.0\n  RarityOptions, v\n  RatingBuster, v1.6.7\n  Raven, v\n  SexyCooldown, v0.6.16\n  SexyMap, v2.4.7\n  SpamageMeters, v1.6.7\n  StatBlockDurability, v5.3.0\n  StatBlockFPS, v5.3.0\n  StatBlockLatency, v5.3.0\n  StatBlockCore, v2.78\n  Stubby, v5.17.5413 (NeedyNoddy)\n  TidyPlates, v6.11.3\n  TidyPlatesGraphite, v\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  TidyPlatesQuatre, v\n  TidyPlatesThreatPlates, v6.008\n  TidyPlatesHub, v\n  TidyPlatesWidgets, v\n  TipHelper, v5.12.DEV.351(/embedded)\n  TipTac, v13.05.22\n  TipTacExtraTip, v1.0\n  TipTacItemRef, v13.05.22\n  TipTacMSP, v5.3.001\n  TipTacOptions, v13.05.22\n  TipTacTalents, v13.04.17\n  TomTom, vv50300-1.0.1\n  ToolTipTabs, v1.6a\n  VuhDo, v3.44\n  VuhDoOptions, v3.44\n  WeakAuras, v1.4.7.10\n  WIM, v3.6.9\n  BlizRuntimeLib_enUS v5.3.0.50300 <us>\n  (ck=1309)\n",
 			["timestamp"] = "2013-06-17 22:37:41",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [5]
+		}, -- [1]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 91,
@@ -51,7 +19,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 22:37:41",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [6]
+		}, -- [2]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (MultiBarBottomLeft:Hide()) during combat lockdown.",
 			["count"] = 3,
@@ -59,7 +27,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:19:35",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:41: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:120: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\ActionBarController.lua:53: in function <Interface\\FrameXML\\ActionBarController.lua:42>\n",
-		}, -- [7]
+		}, -- [3]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (MultiBarBottomRight:Hide()) during combat lockdown.",
 			["count"] = 3,
@@ -67,7 +35,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:19:35",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:49: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:120: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\ActionBarController.lua:53: in function <Interface\\FrameXML\\ActionBarController.lua:42>\n",
-		}, -- [8]
+		}, -- [4]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (MultiBarRight:Hide()) during combat lockdown.",
 			["count"] = 3,
@@ -75,7 +43,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:19:35",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:56: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:120: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\ActionBarController.lua:53: in function <Interface\\FrameXML\\ActionBarController.lua:42>\n",
-		}, -- [9]
+		}, -- [5]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (MultiBarLeft:Hide()) during combat lockdown.",
 			["count"] = 3,
@@ -83,7 +51,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:19:35",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\MultiActionBars.lua:63: in function `MultiActionBar_Update'\nInterface\\FrameXML\\ActionBarController.lua:153: in function `ValidateActionBarTransition'\nInterface\\FrameXML\\ActionBarController.lua:120: in function `ActionBarController_UpdateAll'\nInterface\\FrameXML\\ActionBarController.lua:53: in function <Interface\\FrameXML\\ActionBarController.lua:42>\n",
-		}, -- [10]
+		}, -- [6]
 		{
 			["message"] = "Error: AddOn Overachiever attempted to call a forbidden function (UseQuestLogSpecialItem()) from a tainted execution path.",
 			["count"] = 3,
@@ -91,7 +59,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:42:15",
 			["context"] = "AddOn: Overachiever",
 			["stack"] = "[C]: in function `UseQuestLogSpecialItem'\nInterface\\FrameXML\\WatchFrame.lua:1400: in function `WatchFrameItem_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [11]
+		}, -- [7]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 275,
@@ -100,7 +68,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-17 23:57:44",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [12]
+		}, -- [8]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 12,
@@ -108,7 +76,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:20:28",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:180: in function <Interface\\FrameXML\\SpellBookFrame.lua:178>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1800: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1644: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1531: in function <Interface\\FrameXML\\UIParent.lua:1527>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2243: in function `ShowUIPanel'\nInterface\\FrameXML\\SpellBookFrame.lua:75: in function <Interface\\FrameXML\\SpellBookFrame.lua:59>\n[C]: in function `ToggleSpellBook'\n[string \"TOGGLEPROFESSIONBOOK\"]:1: in function <[string \"TOGGLEPROFESSIONBOOK\"]:1>\n",
-		}, -- [13]
+		}, -- [9]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 12,
@@ -116,7 +84,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:20:28",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:180: in function <Interface\\FrameXML\\SpellBookFrame.lua:178>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1800: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1644: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1531: in function <Interface\\FrameXML\\UIParent.lua:1527>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2243: in function `ShowUIPanel'\nInterface\\FrameXML\\SpellBookFrame.lua:75: in function <Interface\\FrameXML\\SpellBookFrame.lua:59>\n[C]: in function `ToggleSpellBook'\n[string \"TOGGLEPROFESSIONBOOK\"]:1: in function <[string \"TOGGLEPROFESSIONBOOK\"]:1>\n",
-		}, -- [14]
+		}, -- [10]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 12,
@@ -124,7 +92,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:20:28",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:180: in function <Interface\\FrameXML\\SpellBookFrame.lua:178>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1800: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1644: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1531: in function <Interface\\FrameXML\\UIParent.lua:1527>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2243: in function `ShowUIPanel'\nInterface\\FrameXML\\SpellBookFrame.lua:75: in function <Interface\\FrameXML\\SpellBookFrame.lua:59>\n[C]: in function `ToggleSpellBook'\n[string \"TOGGLEPROFESSIONBOOK\"]:1: in function <[string \"TOGGLEPROFESSIONBOOK\"]:1>\n",
-		}, -- [15]
+		}, -- [11]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 12,
@@ -132,7 +100,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:20:28",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:180: in function <Interface\\FrameXML\\SpellBookFrame.lua:178>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1800: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1644: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1531: in function <Interface\\FrameXML\\UIParent.lua:1527>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2243: in function `ShowUIPanel'\nInterface\\FrameXML\\SpellBookFrame.lua:75: in function <Interface\\FrameXML\\SpellBookFrame.lua:59>\n[C]: in function `ToggleSpellBook'\n[string \"TOGGLEPROFESSIONBOOK\"]:1: in function <[string \"TOGGLEPROFESSIONBOOK\"]:1>\n",
-		}, -- [16]
+		}, -- [12]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 989,
@@ -141,7 +109,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:29:34",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBarCustomizerHealth.lua:673: in function `VUHDO_updateHealthBarsFor'\n...erface\\AddOns\\VuhDo\\VuhDoBarCustomizerDebuffIcon.lua:182: in function `VUHDO_addDebuffIcon'\nInterface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:359: in function <Interface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:275>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:327: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:282>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:408: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:407>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:757: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:715>\nInterface\\AddOns\\VuhDo\\VuhDoPanelRefresh.lua:232: in function `VUHDO_refreshUI'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1061: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1044>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1199: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [17]
+		}, -- [13]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: attempt to perform arithmetic on field 'group' (a nil value)",
 			["count"] = 1,
@@ -150,7 +118,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:29:38",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: in function <Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:82>\nInterface\\AddOns\\VuhDo\\VuhDoDcShield.lua:120: in function `VUHDO_mirrorToMacro'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1334: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [18]
+		}, -- [14]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -159,7 +127,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:29:47",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [19]
+		}, -- [15]
 		{
 			["message"] = "Interface\\AddOns\\SexyCooldown\\Modules\\Spells.lua:130: attempt to concatenate local 'id' (a nil value)",
 			["count"] = 17,
@@ -168,7 +136,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 00:47:37",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\SexyCooldown\\Modules\\Spells.lua:130: in function `UpdateSpellCooldowns'\nInterface\\AddOns\\SexyCooldown\\Modules\\Spells.lua:100: in function `Refresh'\nInterface\\AddOns\\SexyCooldown\\Modules\\Spells.lua:52: in function <Interface\\AddOns\\SexyCooldown\\Modules\\Spells.lua:51>\n",
-		}, -- [20]
+		}, -- [16]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 760,
@@ -177,7 +145,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:55:44",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:610: in function `VUHDO_initAllEventBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:476: in function `VUHDO_registerAllBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:321: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:299>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:480: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:350>\n",
-		}, -- [21]
+		}, -- [17]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: attempt to perform arithmetic on field 'group' (a nil value)",
 			["count"] = 1,
@@ -186,7 +154,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:55:50",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: in function <Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:82>\nInterface\\AddOns\\VuhDo\\VuhDoDcShield.lua:120: in function `VUHDO_mirrorToMacro'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1334: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [22]
+		}, -- [18]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 130,
@@ -194,7 +162,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:57:00",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [23]
+		}, -- [19]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -203,7 +171,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:57:03",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [24]
+		}, -- [20]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
 			["count"] = 54,
@@ -211,7 +179,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:59:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [25]
+		}, -- [21]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 48,
@@ -219,7 +187,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:59:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [26]
+		}, -- [22]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 43,
@@ -227,7 +195,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 03:59:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [27]
+		}, -- [23]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 187,
@@ -236,7 +204,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 04:12:34",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [28]
+		}, -- [24]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -244,7 +212,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 04:28:49",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [29]
+		}, -- [25]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -252,7 +220,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 04:28:49",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [30]
+		}, -- [26]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -260,7 +228,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 04:28:49",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [31]
+		}, -- [27]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 1,
@@ -268,7 +236,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-18 04:28:49",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [32]
+		}, -- [28]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 4,
@@ -277,7 +245,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:34:18",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:610: in function `VUHDO_initAllEventBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:476: in function `VUHDO_registerAllBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:321: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:299>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:480: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:350>\n",
-		}, -- [33]
+		}, -- [29]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: attempt to perform arithmetic on field 'group' (a nil value)",
 			["count"] = 1,
@@ -286,7 +254,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:34:25",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: in function <Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:82>\nInterface\\AddOns\\VuhDo\\VuhDoDcShield.lua:120: in function `VUHDO_mirrorToMacro'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1334: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [34]
+		}, -- [30]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -295,7 +263,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:36:28",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [35]
+		}, -- [31]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 244,
@@ -303,7 +271,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:37:04",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [36]
+		}, -- [32]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
 			["count"] = 125,
@@ -311,7 +279,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:43:02",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [37]
+		}, -- [33]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 113,
@@ -319,7 +287,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:43:02",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [38]
+		}, -- [34]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 101,
@@ -327,7 +295,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:43:02",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [39]
+		}, -- [35]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -335,7 +303,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:45:39",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:148: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [40]
+		}, -- [36]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -343,7 +311,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:45:39",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:148: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [41]
+		}, -- [37]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -351,7 +319,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:45:39",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:148: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [42]
+		}, -- [38]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -359,7 +327,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:45:39",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:20: in function `tabUpdate'\nInterface\\FrameXML\\SpellBookFrame.lua:289: in function `SpellBookFrame_Update'\nInterface\\FrameXML\\SpellBookFrame.lua:148: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [43]
+		}, -- [39]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 574,
@@ -368,7 +336,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 04:56:22",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [44]
+		}, -- [40]
 		{
 			["message"] = "[string \"VuhDoNewOptionsPanelBarsTexturePanelTextureSliderSlider:OnShow\"]:3: Usage: VuhDoNewOptionsPanelBarsTexturePanelTextureSliderSlider:SetMinMaxValues(min, max)",
 			["count"] = 1,
@@ -377,7 +345,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-21 05:14:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `SetMinMaxValues'\n[string \"*:OnShow\"]:3: in function <[string \"*:OnShow\"]:1>\n[C]: in function `SetShown'\nInterface\\AddOns\\VuhDo\\VuhDoGuiToolbox.lua:175: in function `VUHDO_toggleMenu'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:617: in function `VUHDO_slashCmd'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1401: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4391: in function <Interface\\FrameXML\\ChatFrame.lua:4337>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4085: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4124: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
-		}, -- [45]
+		}, -- [41]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 391,
@@ -385,7 +353,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:05:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [46]
+		}, -- [42]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
 			["count"] = 191,
@@ -393,7 +361,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:05:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [47]
+		}, -- [43]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 139,
@@ -401,7 +369,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:05:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [48]
+		}, -- [44]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 124,
@@ -409,7 +377,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:05:05",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [49]
+		}, -- [45]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 142,
@@ -418,7 +386,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:13:20",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetHyperlinkCompareItem'\nInterface\\FrameXML\\GameTooltip.lua:314: in function `GameTooltip_ShowCompareItem'\n[string \"*:OnTooltipSetItem\"]:3: in function <[string \"*:OnTooltipSetItem\"]:1>\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:432: in function `OnTooltipSetItem'\nInterface\\AddOns\\Enchantrix\\EnxMain.lua:219: in function <Interface\\AddOns\\Enchantrix\\EnxMain.lua:215>\n[C]: ?\n[C]: ?\n[C]: ?\nInterface\\AddOns\\Altoholic\\Tooltip.lua:563: in function <Interface\\AddOns\\Altoholic\\Tooltip.lua:561>\n[C]: ?\n[C]: ?\n[C]: ?\n...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:387: in function <...AddOns\\Auc-Advanced\\Libs\\LibExtraTip\\LibExtraTip.lua:381>\n[C]: in function `SetLootItem'\nInterface\\FrameXML\\LootFrame.lua:270: in function `LootItem_OnEnter'\n[string \"*:OnEnter\"]:1: in function <[string \"*:OnEnter\"]:1>\n",
-		}, -- [50]
+		}, -- [46]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -426,7 +394,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:42:52",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [51]
+		}, -- [47]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -434,7 +402,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:42:52",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [52]
+		}, -- [48]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -442,7 +410,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:42:52",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [53]
+		}, -- [49]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -450,7 +418,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 20:42:52",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [54]
+		}, -- [50]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 789,
@@ -459,7 +427,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 21:09:59",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBarCustomizerHealth.lua:673: in function `VUHDO_updateHealthBarsFor'\n...erface\\AddOns\\VuhDo\\VuhDoBarCustomizerDebuffIcon.lua:182: in function `VUHDO_addDebuffIcon'\nInterface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:359: in function <Interface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:275>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:327: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:282>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:408: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:407>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:757: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:715>\nInterface\\AddOns\\VuhDo\\VuhDoPanelRefresh.lua:232: in function `VUHDO_refreshUI'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1061: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1044>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1199: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [55]
+		}, -- [51]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -468,7 +436,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 21:15:42",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [56]
+		}, -- [52]
 		{
 			["message"] = "Note: AddOn SexyCooldown attempted to call a protected function (OverrideActionBarButton5:Show()) during combat lockdown.",
 			["count"] = 3,
@@ -476,7 +444,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-24 21:15:47",
 			["context"] = "AddOn: SexyCooldown",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [57]
+		}, -- [53]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 471,
@@ -485,7 +453,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 15:43:22",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:610: in function `VUHDO_initAllEventBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:476: in function `VUHDO_registerAllBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:321: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:299>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:480: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:350>\n",
-		}, -- [58]
+		}, -- [54]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -494,7 +462,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 15:55:10",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [59]
+		}, -- [55]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 6,
@@ -502,7 +470,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 16:14:51",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [60]
+		}, -- [56]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 6,
@@ -510,7 +478,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 16:14:51",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [61]
+		}, -- [57]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 6,
@@ -518,7 +486,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 16:14:51",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [62]
+		}, -- [58]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 6,
@@ -526,7 +494,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 16:14:51",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [63]
+		}, -- [59]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 15,
@@ -535,7 +503,7 @@ SwatterData = {
 			["timestamp"] = "2013-06-26 16:43:48",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [64]
+		}, -- [60]
 		{
 			["message"] = "Interface\\AddOns\\Combuctor\\sets\\api.lua:33: Set must include a name",
 			["count"] = 1,
@@ -544,7 +512,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:21:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `assert'\nInterface\\AddOns\\Combuctor\\sets\\api.lua:33: in function `Register'\n...AddOns\\combuctor_enchanting\\Combuctor_Enchanting.lua:54: in main chunk\n",
-		}, -- [65]
+		}, -- [61]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 518,
@@ -553,7 +521,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:21:30",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:610: in function `VUHDO_initAllEventBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:476: in function `VUHDO_registerAllBouquets'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:321: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:299>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:480: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:350>\n",
-		}, -- [66]
+		}, -- [62]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 481,
@@ -562,7 +530,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:28:34",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [67]
+		}, -- [63]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -571,7 +539,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:40:25",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [68]
+		}, -- [64]
 		{
 			["message"] = "[string \"VuhDoNewOptionsPanelBarsTexturePanelTextureSliderSlider:OnShow\"]:3: Usage: VuhDoNewOptionsPanelBarsTexturePanelTextureSliderSlider:SetMinMaxValues(min, max)",
 			["count"] = 2,
@@ -580,7 +548,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:44:23",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `SetMinMaxValues'\n[string \"*:OnShow\"]:3: in function <[string \"*:OnShow\"]:1>\n[C]: in function `SetShown'\nInterface\\AddOns\\VuhDo\\VuhDoGuiToolbox.lua:175: in function `VUHDO_toggleMenu'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:617: in function `VUHDO_slashCmd'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1401: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4391: in function <Interface\\FrameXML\\ChatFrame.lua:4337>\n[C]: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4085: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:4124: in function `ChatEdit_OnEnterPressed'\n[string \"*:OnEnterPressed\"]:1: in function <[string \"*:OnEnterPressed\"]:1>\n",
-		}, -- [69]
+		}, -- [65]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: attempt to perform arithmetic on field 'group' (a nil value)",
 			["count"] = 1,
@@ -589,7 +557,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:44:32",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: in function <Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:82>\nInterface\\AddOns\\VuhDo\\VuhDoDcShield.lua:120: in function `VUHDO_mirrorToMacro'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1334: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [70]
+		}, -- [66]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
 			["count"] = 74,
@@ -597,7 +565,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:46:07",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [71]
+		}, -- [67]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 50,
@@ -605,7 +573,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:46:07",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [72]
+		}, -- [68]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 113,
@@ -613,7 +581,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:46:07",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [73]
+		}, -- [69]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 62,
@@ -621,7 +589,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:46:07",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [74]
+		}, -- [70]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -629,7 +597,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [75]
+		}, -- [71]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -637,7 +605,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [76]
+		}, -- [72]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -645,7 +613,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [77]
+		}, -- [73]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -653,7 +621,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [78]
+		}, -- [74]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame:SetHeight()) during combat lockdown.",
 			["count"] = 1,
@@ -661,7 +629,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `SetHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:391: in function `ArchIndiana_CalcHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:341: in function `ArchIndianaFrame_LoadRaces'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:150: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [79]
+		}, -- [75]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_SurveyButton:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -669,7 +637,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:276: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [80]
+		}, -- [76]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_TradeButton:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -677,7 +645,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 00:53:44",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:277: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [81]
+		}, -- [77]
 		{
 			["message"] = "Interface\\AddOns\\Combuctor\\sets\\api.lua:33: Set must include a name",
 			["count"] = 1,
@@ -686,7 +654,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:29:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `assert'\nInterface\\AddOns\\Combuctor\\sets\\api.lua:33: in function `Register'\n...AddOns\\combuctor_enchanting\\Combuctor_Enchanting.lua:54: in main chunk\n",
-		}, -- [82]
+		}, -- [78]
 		{
 			["message"] = "Interface\\AddOns\\Combuctor\\main.lua:279: bad argument #1 to 'pairs' (table expected, got nil)",
 			["count"] = 104,
@@ -695,7 +663,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:30:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `pairs'\nInterface\\AddOns\\Combuctor\\main.lua:279: in function `UpdateFrames'\nInterface\\AddOns\\Combuctor\\events\\itemFrame.lua:99: in function `method'\nInterface\\AddOns\\Combuctor\\events\\itemFrame.lua:24: in function <Interface\\AddOns\\Combuctor\\events\\itemFrame.lua:21>\n",
-		}, -- [83]
+		}, -- [79]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 3,
@@ -703,7 +671,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:32:57",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [84]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\Combuctor\\sets\\api.lua:33: Set must include a name",
 			["count"] = 1,
@@ -712,7 +680,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:34:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `assert'\nInterface\\AddOns\\Combuctor\\sets\\api.lua:33: in function `Register'\n...AddOns\\combuctor_enchanting\\Combuctor_Enchanting.lua:54: in main chunk\n",
-		}, -- [85]
+		}, -- [81]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton1:Show()) during combat lockdown.",
 			["count"] = 267,
@@ -720,7 +688,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:34:34",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [86]
+		}, -- [82]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton4:Show()) during combat lockdown.",
 			["count"] = 127,
@@ -728,7 +696,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:37:05",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [87]
+		}, -- [83]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton2:Show()) during combat lockdown.",
 			["count"] = 97,
@@ -736,7 +704,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:37:05",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [88]
+		}, -- [84]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton6:Show()) during combat lockdown.",
 			["count"] = 67,
@@ -744,7 +712,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:37:05",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [89]
+		}, -- [85]
 		{
 			["message"] = "[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: Usage: UnitBuff(\"unit\", [index] or [\"name\", \"rank\"][, \"filter\"])",
 			["count"] = 199,
@@ -753,7 +721,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 22:44:06",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `UnitBuff'\n[string \"return UnitBuff('pet', GetSpellInfo(20217))...\"]:1: in main chunk\n...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9978: in function <...ingBuster\\libs\\LibStatLogic-1.2\\LibStatLogic-1.2.lua:9944>\n(tail call): ?\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:3617: in function `func'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:4393: in function `StatSummary'\nInterface\\AddOns\\RatingBuster\\RatingBuster.lua:2727: in function `handler'\n...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:179: in function <...ingBuster\\libs\\LibTipHooker-1.1\\LibTipHooker-1.1.lua:174>\n[C]: in function `SetBagItem'\nInterface\\FrameXML\\ContainerFrame.lua:815: in function `ContainerFrameItemButton_OnEnter'\nInterface\\AddOns\\Combuctor\\components\\item.lua:167: in function <Interface\\AddOns\\Combuctor\\components\\item.lua:149>\n",
-		}, -- [90]
+		}, -- [86]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: attempt to compare number with nil",
 			["count"] = 372,
@@ -762,7 +730,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:44",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoBouquetValidators.lua:388: in function `validator'\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:246: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:224>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:519: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:515>\nInterface\\AddOns\\VuhDo\\VuhDoBouquets.lua:588: in function <Interface\\AddOns\\VuhDo\\VuhDoBouquets.lua:582>\nInterface\\AddOns\\VuhDo\\VuhDoBarCustomizerHealth.lua:673: in function `VUHDO_updateHealthBarsFor'\n...erface\\AddOns\\VuhDo\\VuhDoBarCustomizerDebuffIcon.lua:182: in function `VUHDO_addDebuffIcon'\nInterface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:359: in function <Interface\\AddOns\\VuhDo\\VuhDoDebuffs.lua:275>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:327: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:282>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:408: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:407>\nInterface\\AddOns\\VuhDo\\VuhDo.lua:757: in function <Interface\\AddOns\\VuhDo\\VuhDo.lua:715>\nInterface\\AddOns\\VuhDo\\VuhDoPanelRefresh.lua:232: in function `VUHDO_refreshUI'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1061: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1044>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1199: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [91]
+		}, -- [87]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: Usage: UnitIsEnemy(\"unit\", \"otherUnit\")",
 			["count"] = 1000,
@@ -771,7 +739,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:46",
 			["context"] = "Global",
 			["stack"] = "[C]: ?\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:897: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:883>\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1275: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [92]
+		}, -- [88]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -779,7 +747,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [93]
+		}, -- [89]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession1SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -787,7 +755,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1073: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [94]
+		}, -- [90]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonBottom:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -795,7 +763,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:514: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [95]
+		}, -- [91]
 		{
 			["message"] = "Note: AddOn miirGui attempted to call a protected function (PrimaryProfession2SpellButtonTop:Show()) during combat lockdown.",
 			["count"] = 4,
@@ -803,7 +771,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: miirGui",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\miirGui\\core.lua:515: in function <Interface\\AddOns\\miirGui\\core.lua:444>\n[C]: in function `FormatProfession'\nInterface\\FrameXML\\SpellBookFrame.lua:1074: in function `SpellBook_UpdateProfTab'\nInterface\\FrameXML\\SpellBookFrame.lua:160: in function <Interface\\FrameXML\\SpellBookFrame.lua:139>\n",
-		}, -- [96]
+		}, -- [92]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame:SetHeight()) during combat lockdown.",
 			["count"] = 4,
@@ -811,7 +779,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `SetHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:391: in function `ArchIndiana_CalcHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:341: in function `ArchIndianaFrame_LoadRaces'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:150: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [97]
+		}, -- [93]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_SurveyButton:Hide()) during combat lockdown.",
 			["count"] = 4,
@@ -819,7 +787,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:276: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [98]
+		}, -- [94]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_TradeButton:Hide()) during combat lockdown.",
 			["count"] = 4,
@@ -827,7 +795,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:04:47",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Hide'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:277: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [99]
+		}, -- [95]
 		{
 			["message"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: attempt to perform arithmetic on field 'group' (a nil value)",
 			["count"] = 1,
@@ -836,7 +804,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-16 23:35:06",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:90: in function <Interface\\AddOns\\VuhDo\\VuhDoDcShield.lua:82>\nInterface\\AddOns\\VuhDo\\VuhDoDcShield.lua:120: in function `VUHDO_mirrorToMacro'\nInterface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1334: in function <Interface\\AddOns\\VuhDo\\VuhDoEventHandler.lua:1119>\n",
-		}, -- [100]
+		}, -- [96]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame:SetHeight()) during combat lockdown.",
 			["count"] = 2,
@@ -844,7 +812,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-31 17:40:37",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `SetHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:391: in function `ArchIndiana_CalcHeight'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:341: in function `ArchIndianaFrame_LoadRaces'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:150: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [101]
+		}, -- [97]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_SurveyButton:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -852,7 +820,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-31 17:40:37",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:268: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [102]
+		}, -- [98]
 		{
 			["message"] = "Note: AddOn archindiana attempted to call a protected function (ArchIndianaFrame_TradeButton:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -860,7 +828,7 @@ SwatterData = {
 			["timestamp"] = "2013-07-31 17:40:37",
 			["context"] = "AddOn: archindiana",
 			["stack"] = "[C]: in function `Show'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:269: in function `ArchIndianaFrame_UpdateRank'\nInterface\\AddOns\\archindiana\\ArchIndiana.lua:151: in function <Interface\\AddOns\\archindiana\\ArchIndiana.lua:146>\n",
-		}, -- [103]
+		}, -- [99]
 		{
 			["message"] = "Note: AddOn NoButtonGlow attempted to call a protected function (OverrideActionBarButton3:Show()) during combat lockdown.",
 			["count"] = 2,
@@ -868,6 +836,6 @@ SwatterData = {
 			["timestamp"] = "2013-07-31 17:40:59",
 			["context"] = "AddOn: NoButtonGlow",
 			["stack"] = "[C]: in function `Show'\nInterface\\FrameXML\\ActionButton.lua:268: in function `ActionButton_Update'\nInterface\\FrameXML\\ActionButton.lua:523: in function `ActionButton_OnEvent'\nInterface\\FrameXML\\ActionButton.lua:124: in function <Interface\\FrameXML\\ActionButton.lua:117>\n",
-		}, -- [104]
+		}, -- [100]
 	},
 }

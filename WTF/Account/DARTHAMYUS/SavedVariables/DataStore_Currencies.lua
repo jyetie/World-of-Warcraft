@@ -7,25 +7,25 @@ DataStore_CurrenciesDB = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
-		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 	},
 	["global"] = {
 		["Reference"] = {
@@ -65,35 +65,35 @@ DataStore_CurrenciesDB = {
 				["Player vs. Player"] = 5,
 				["Mote of Darkness"] = 15,
 				["Unused"] = 23,
-				["Ironpaw Token"] = 9,
+				["Mogu Rune of Fate"] = 22,
 				["Epicurean's Award"] = 17,
 				["Honor Points"] = 7,
 				["Illustrious Jewelcrafter's Token"] = 20,
 				["Conquest Points"] = 6,
 				["Essence of Corrupted Deathwing"] = 14,
-				["Lesser Charm of Good Fortune"] = 13,
+				["Justice Points"] = 2,
 				["Darkmoon Prize Ticket"] = 4,
 				["Cataclysm"] = 19,
 				["Miscellaneous"] = 3,
-				["Justice Points"] = 2,
+				["Lesser Charm of Good Fortune"] = 13,
 				["Champion's Seal"] = 16,
-				["Mogu Rune of Fate"] = 22,
+				["Ironpaw Token"] = 9,
 			},
 		},
 		["Characters"] = {
 			["Default.Bloodhoof.Brynnen"] = {
+				["lastUpdate"] = 1363414475,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
 				},
-				["lastUpdate"] = 1363414475,
 			},
 			["Default.Bloodhoof.Glitterglade"] = {
+				["lastUpdate"] = 1362711941,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
 				},
-				["lastUpdate"] = 1362711941,
 			},
 			["Default.Bronzebeard.Zaeliana"] = {
 				["Currencies"] = {
@@ -152,11 +152,11 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1373181401,
 			},
 			["Default.Crushridge.Greyjoy"] = {
-				["lastUpdate"] = 1367216682,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
 				},
+				["lastUpdate"] = 1367216682,
 			},
 			["Default.Bloodhoof.Rhosie"] = {
 				["Currencies"] = {
@@ -208,11 +208,11 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.Earthen Ring.Vendrelia"] = {
+				["lastUpdate"] = 1363196056,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
 				},
-				["lastUpdate"] = 1363196056,
 			},
 			["Default.Bloodhoof.Jyetie"] = {
 				["Currencies"] = {
@@ -288,12 +288,29 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1375249860,
 			},
-			["Default.Crushridge.Margot"] = {
+			["Default.Moon Guard.Renevie"] = {
 				["Currencies"] = {
-					11, -- [1]
-					12, -- [2]
+					7, -- [1]
+					648, -- [2]
+					11, -- [3]
+					12, -- [4]
 				},
-				["lastUpdate"] = 1367216792,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+				},
+				["lastUpdate"] = 1374043566,
 			},
 			["Default.Bloodhoof.Avessia"] = {
 				["Currencies"] = {
@@ -303,7 +320,7 @@ DataStore_CurrenciesDB = {
 					7, -- [4]
 					2184, -- [5]
 					23, -- [6]
-					3354, -- [7]
+					3482, -- [7]
 					300, -- [8]
 					11, -- [9]
 					12, -- [10]
@@ -323,7 +340,7 @@ DataStore_CurrenciesDB = {
 					0, -- [12]
 					0, -- [13]
 				},
-				["lastUpdate"] = 1375249266,
+				["lastUpdate"] = 1375317816,
 			},
 			["Default.Wyrmrest Accord.Roslyn"] = {
 				["Currencies"] = {
@@ -347,12 +364,28 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1366897503,
 			},
-			["Default.Wyrmrest Accord.Venerie"] = {
+			["Default.Maelstrom.Zalizia"] = {
+				["lastUpdate"] = 1366113028,
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+				},
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
+					10766, -- [3]
 				},
-				["lastUpdate"] = 1363933076,
 			},
 			["Default.Bloodhoof.Cyralie"] = {
 				["Currencies"] = {
@@ -379,16 +412,10 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1365734933,
 			},
-			["Default.Bronzebeard.Karielle"] = {
+			["Default.Wyrmrest Accord.Abryn"] = {
 				["Currencies"] = {
-					3, -- [1]
-					260100, -- [2]
-					16, -- [3]
-					7, -- [4]
-					3336, -- [5]
-					11, -- [6]
-					12, -- [7]
-					17038, -- [8]
+					11, -- [1]
+					12, -- [2]
 				},
 				["Archeology"] = {
 					0, -- [1]
@@ -405,7 +432,7 @@ DataStore_CurrenciesDB = {
 					0, -- [12]
 					0, -- [13]
 				},
-				["lastUpdate"] = 1366112431,
+				["lastUpdate"] = 1363933659,
 			},
 			["Default.Bronzebeard.Cyralie"] = {
 				["Currencies"] = {
@@ -443,53 +470,6 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1369739091,
 			},
-			["Default.Bloodhoof.Sparkler"] = {
-				["Currencies"] = {
-					7, -- [1]
-					648, -- [2]
-					11, -- [3]
-					12, -- [4]
-					6030, -- [5]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-				},
-				["lastUpdate"] = 1365734826,
-			},
-			["Default.Bloodhoof.Vezeri"] = {
-				["Currencies"] = {
-					11, -- [1]
-					12, -- [2]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-				},
-				["lastUpdate"] = 1374891059,
-			},
 			["Default.Bloodhoof.Alythe"] = {
 				["lastUpdate"] = 1375249613,
 				["Archeology"] = {
@@ -521,6 +501,53 @@ DataStore_CurrenciesDB = {
 					12, -- [11]
 					52750, -- [12]
 				},
+			},
+			["Default.Bloodhoof.Vezeri"] = {
+				["Currencies"] = {
+					11, -- [1]
+					12, -- [2]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+				},
+				["lastUpdate"] = 1374891059,
+			},
+			["Default.Bloodhoof.Sparkler"] = {
+				["Currencies"] = {
+					7, -- [1]
+					648, -- [2]
+					11, -- [3]
+					12, -- [4]
+					6030, -- [5]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+				},
+				["lastUpdate"] = 1365734826,
 			},
 			["Default.Bloodhoof.Eloisa"] = {
 				["lastUpdate"] = 1362711659,
@@ -573,74 +600,47 @@ DataStore_CurrenciesDB = {
 					45326, -- [10]
 				},
 			},
-			["Default.Wyrmrest Accord.Abryn"] = {
+			["Default.Bronzebeard.Karielle"] = {
+				["Currencies"] = {
+					3, -- [1]
+					260100, -- [2]
+					16, -- [3]
+					7, -- [4]
+					3336, -- [5]
+					11, -- [6]
+					12, -- [7]
+					17038, -- [8]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+				},
+				["lastUpdate"] = 1366112431,
+			},
+			["Default.Wyrmrest Accord.Venerie"] = {
+				["lastUpdate"] = 1363933076,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
 				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-				},
-				["lastUpdate"] = 1363933659,
 			},
-			["Default.Maelstrom.Zalizia"] = {
-				["lastUpdate"] = 1366113028,
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-				},
+			["Default.Crushridge.Margot"] = {
+				["lastUpdate"] = 1367216792,
 				["Currencies"] = {
 					11, -- [1]
 					12, -- [2]
-					10766, -- [3]
 				},
-			},
-			["Default.Moon Guard.Renevie"] = {
-				["Currencies"] = {
-					7, -- [1]
-					648, -- [2]
-					11, -- [3]
-					12, -- [4]
-				},
-				["Archeology"] = {
-					0, -- [1]
-					0, -- [2]
-					0, -- [3]
-					0, -- [4]
-					0, -- [5]
-					0, -- [6]
-					0, -- [7]
-					0, -- [8]
-					0, -- [9]
-					0, -- [10]
-					0, -- [11]
-					0, -- [12]
-					0, -- [13]
-				},
-				["lastUpdate"] = 1374043566,
 			},
 		},
 	},

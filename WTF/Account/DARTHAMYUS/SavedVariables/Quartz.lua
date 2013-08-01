@@ -19,17 +19,15 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["h"] = 27,
 					["w"] = 268,
 					["y"] = 214.0001068115234,
-					["x"] = 659.9999389648438,
-					["border"] = "None",
 					["font"] = "Arial Narrow",
+					["border"] = "None",
+					["x"] = 659.9999389648438,
 					["texture"] = "VuhDo - Plain",
 					["hideicon"] = true,
 				},
@@ -37,13 +35,15 @@ Quartz3DB = {
 					["y"] = 214.0001068115234,
 					["h"] = 27,
 					["hideicon"] = true,
-					["border"] = "None",
-					["x"] = 659.9999389648438,
-					["font"] = "Arial Narrow",
 					["w"] = 268,
+					["font"] = "Arial Narrow",
+					["x"] = 659.9999389648438,
+					["border"] = "None",
 					["texture"] = "VuhDo - Plain",
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -66,11 +66,11 @@ Quartz3DB = {
 				["Default"] = {
 					["h"] = 50,
 					["w"] = 268,
-					["hideicon"] = true,
+					["y"] = 85.99987030029297,
 					["x"] = 661.0001831054688,
 					["border"] = "Blizzard Dialog",
 					["texture"] = "VuhDo - Plain",
-					["y"] = 85.99987030029297,
+					["hideicon"] = true,
 					["noInterruptChangeBorder"] = false,
 					["alpha"] = 0.7500000596046448,
 					["nametexty"] = 14,
@@ -80,24 +80,24 @@ Quartz3DB = {
 				},
 				["Ren"] = {
 					["timetextposition"] = "left",
-					["timetexty"] = -6,
+					["texture"] = "VuhDo - Plain",
 					["noInterruptChangeBorder"] = false,
 					["w"] = 268,
-					["h"] = 50,
+					["border"] = "Blizzard Dialog",
 					["hideicon"] = true,
-					["x"] = 659.0001220703125,
-					["alpha"] = 0.7500000596046448,
+					["h"] = 50,
+					["font"] = "Arial Narrow",
 					["nametexty"] = 14,
 					["y"] = 111.9997024536133,
-					["font"] = "Arial Narrow",
-					["border"] = "Blizzard Dialog",
-					["texture"] = "VuhDo - Plain",
+					["alpha"] = 0.7500000596046448,
+					["x"] = 659.0001220703125,
+					["timetexty"] = -6,
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 			["profiles"] = {
@@ -134,28 +134,28 @@ Quartz3DB = {
 		["Avessia - Bloodhoof"] = "Default",
 		["Cyralie - Bloodhoof"] = "Default",
 		["Amazy - Bloodhoof"] = "Default",
-		["Rhosie - Bloodhoof"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
 		["Greyjoy - Crushridge"] = "Default",
 		["Roslyn - Wyrmrest Accord"] = "Default",
 		["Jyetie - Bloodhoof"] = "Default",
-		["Zaeliana - Bronzebeard"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["castingcolor"] = {
-				0.1882352941176471, -- [1]
-				0.1882352941176471, -- [2]
-				0.1882352941176471, -- [3]
-				1, -- [4]
-			},
+			["backgroundalpha"] = 0,
 			["bordercolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
-			["backgroundalpha"] = 0,
+			["castingcolor"] = {
+				0.1882352941176471, -- [1]
+				0.1882352941176471, -- [2]
+				0.1882352941176471, -- [3]
+				1, -- [4]
+			},
 			["modules"] = {
 				["GCD"] = false,
 				["Buff"] = false,
@@ -165,10 +165,10 @@ Quartz3DB = {
 		},
 		["Ren"] = {
 			["modules"] = {
-				["Focus"] = false,
-				["Pet"] = false,
-				["GCD"] = false,
 				["Buff"] = false,
+				["GCD"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
 			},
 			["bordercolor"] = {
 				nil, -- [1]

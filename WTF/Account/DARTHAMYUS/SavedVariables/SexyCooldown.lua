@@ -20,8 +20,8 @@ SexyCooldownDB = {
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
 		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
 	},
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
@@ -96,10 +96,10 @@ SexyCooldownDB = {
 						["INTERNAL_ITEM_COOLDOWN"] = false,
 						["MY_TARGET_BUFFS"] = false,
 						["PET_SPELL_COOLDOWN"] = false,
-						["MY_BUFFS_ON_ME"] = true,
+						["INTERNAL_SPELL_COOLDOWN"] = true,
 						["ITEM_COOLDOWN"] = false,
 						["MY_DEBUFFS"] = false,
-						["INTERNAL_SPELL_COOLDOWN"] = true,
+						["MY_BUFFS_ON_ME"] = true,
 					},
 					["blacklist"] = {
 					},
@@ -146,11 +146,11 @@ SexyCooldownDB = {
 							["b"] = 0,
 						},
 						["texture"] = "ElvUI Norm",
-						["y"] = -378.4999771118164,
-						["width"] = 735,
 						["maxDuration"] = 60,
+						["width"] = 735,
+						["y"] = -378.4999771118164,
 						["x"] = 10.001220703125,
-						["customTimings"] = "1, 5, 10, 15,",
+						["name"] = "Bar 0",
 						["advancedOptions"] = true,
 						["height"] = 32,
 						["lock"] = true,
@@ -160,7 +160,7 @@ SexyCooldownDB = {
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["name"] = "Bar 0",
+						["customTimings"] = "1, 5, 10, 15,",
 					},
 				}, -- [1]
 				{
@@ -191,21 +191,21 @@ SexyCooldownDB = {
 						["fontColor"] = {
 						},
 						["advancedOptions"] = true,
-						["y"] = -346.5000457763672,
+						["maxDuration"] = 15,
 						["height"] = 10.00002002716065,
 						["border"] = "None",
 						["width"] = 327,
-						["maxDuration"] = 15,
+						["y"] = -346.5000457763672,
 						["x"] = 8.0001220703125,
 						["name"] = "buffs",
+						["lock"] = true,
+						["inactiveAlpha"] = 0,
 						["borderColor"] = {
 							["a"] = 0.8500000089406967,
 							["r"] = 0.3019607843137255,
 							["g"] = 0.5215686274509804,
 							["b"] = 1,
 						},
-						["inactiveAlpha"] = 0,
-						["lock"] = true,
 						["backgroundColor"] = {
 							["a"] = 0,
 							["r"] = 0.2,
@@ -624,7 +624,7 @@ SexyCooldownDB = {
 						["SPELL_COOLDOWN"] = false,
 					},
 					["bar"] = {
-						["orientation"] = "LEFT_TO_RIGHT",
+						["height"] = 10.00002002716065,
 						["backgroundColor"] = {
 							["a"] = 0,
 							["b"] = 0.6784313725490196,
@@ -633,12 +633,12 @@ SexyCooldownDB = {
 						},
 						["fontColor"] = {
 						},
-						["time_max"] = 15,
-						["inactiveAlpha"] = 0,
+						["width"] = 327,
+						["orientation"] = "LEFT_TO_RIGHT",
 						["lock"] = true,
 						["border"] = "None",
-						["width"] = 327,
-						["y"] = -272.0003051757813,
+						["time_max"] = 15,
+						["maxDuration"] = 15,
 						["x"] = -12.00006103515625,
 						["name"] = "buffs",
 						["borderColor"] = {
@@ -647,8 +647,8 @@ SexyCooldownDB = {
 							["g"] = 0.5215686274509804,
 							["r"] = 0.3019607843137255,
 						},
-						["height"] = 10.00002002716065,
-						["maxDuration"] = 15,
+						["inactiveAlpha"] = 0,
+						["y"] = -272.0003051757813,
 						["advancedOptions"] = true,
 						["texture"] = "Flat",
 					},
@@ -675,18 +675,18 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
+						["lock"] = true,
+						["height"] = 30.99999046325684,
+						["width"] = 618.9999389648438,
+						["maxDuration"] = 60,
+						["x"] = -0.00018310546875,
+						["name"] = "Bar 1",
 						["borderColor"] = {
 							["a"] = 0,
 							["b"] = 1,
 							["g"] = 0.5215686274509804,
 							["r"] = 0.3019607843137255,
 						},
-						["height"] = 30.99999046325684,
-						["width"] = 618.9999389648438,
-						["y"] = -377.0001449584961,
-						["x"] = -0.00018310546875,
-						["name"] = "Bar 1",
-						["lock"] = true,
 						["inactiveAlpha"] = 0,
 						["time_max"] = 60,
 						["backgroundColor"] = {
@@ -695,7 +695,7 @@ SexyCooldownDB = {
 							["g"] = 0.2705882352941176,
 							["r"] = 0.2,
 						},
-						["maxDuration"] = 60,
+						["y"] = -377.0001449584961,
 					},
 					["eventColors"] = {
 						["BUFFS_ON_ME"] = {

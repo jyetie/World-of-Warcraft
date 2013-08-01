@@ -12,13 +12,7 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["Horde"] = {
 		},
 	},
-	["Bronzebeard"] = {
-		["Alliance"] = {
-		},
-	},
-	["Wyrmrest Accord"] = {
-		["Horde"] = {
-		},
+	["Crushridge"] = {
 		["Alliance"] = {
 		},
 	},
@@ -26,7 +20,13 @@ AucAdvancedFilterBasic_IgnoreList = {
 		["Horde"] = {
 		},
 	},
-	["Crushridge"] = {
+	["Bronzebeard"] = {
+		["Alliance"] = {
+		},
+	},
+	["Wyrmrest Accord"] = {
+		["Horde"] = {
+		},
 		["Alliance"] = {
 		},
 	},

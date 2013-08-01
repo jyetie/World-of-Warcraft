@@ -2,27 +2,27 @@
 StatBlockCoreDB = {
 	["profileKeys"] = {
 		["Flora - Bloodhoof"] = "Default",
-		["Rhosie - Bloodhoof"] = "Default",
-		["Tarley - Bloodhoof"] = "Default",
 		["Avessia - Bloodhoof"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
 		["Sparkler - Bloodhoof"] = "Default",
-		["Roslyn - Wyrmrest Accord"] = "Default",
-		["Zaeliana - Bronzebeard"] = "Default",
+		["Cyralie - Bloodhoof"] = "Default",
+		["Vezeri - Bloodhoof"] = "Default",
 		["Amazy - Bloodhoof"] = "Default",
 		["Renevie - Moon Guard"] = "Default",
 		["Avelaine - Bloodhoof"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
-		["Vezeri - Bloodhoof"] = "Default",
-		["Cyralie - Bloodhoof"] = "Default",
-		["Jyetie - Bloodhoof"] = "Default",
+		["Zaeliana - Bronzebeard"] = "Default",
+		["Roslyn - Wyrmrest Accord"] = "Default",
+		["Tarley - Bloodhoof"] = "Default",
 		["Alythe - Bloodhoof"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["globalBDC"] = {
-				["r"] = 0,
-				["g"] = 0,
 				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
 			},
 			["globalScale"] = 0.8500000000000001,
 			["globalFont"] = "Tempest",
@@ -57,14 +57,17 @@ StatBlockCoreDB = {
 					["enabled"] = false,
 					["posy"] = 325.1200078725815,
 				},
-				["ZoneText"] = {
-					["posx"] = 198.8266584602989,
-					["posy"] = 420.6933435201645,
+				["Latency"] = {
+					["posx"] = 1265.878540969425,
+					["strata"] = "MEDIUM",
+					["width"] = 84.99961090087891,
+					["posy"] = 16.55413872288136,
+					["scale"] = 0.8500000000000001,
 				},
-				["DailyChecklistDO"] = {
-					["posx"] = 704.8534545675939,
+				["WeakAuras"] = {
+					["posx"] = 252.5866988245653,
 					["enabled"] = false,
-					["posy"] = 485.5466784238815,
+					["posy"] = 517.9732417090709,
 				},
 				["Prat"] = {
 					["posx"] = 645.1199635378507,
@@ -85,15 +88,13 @@ StatBlockCoreDB = {
 					["enabled"] = false,
 					["posy"] = 506.0266789197922,
 				},
-				["Paste"] = {
-					["posx"] = 653.6532970778135,
+				["AutoTurnIn"] = {
 					["enabled"] = false,
-					["posy"] = 358.4000086784363,
 				},
-				["RaidAchievement"] = {
-					["posx"] = 682.6666831970215,
+				["TradeSkillMasterMinimapIcon"] = {
+					["posx"] = 408.7466765642166,
 					["enabled"] = false,
-					["posy"] = 366.0800609477374,
+					["posy"] = 389.9734469429677,
 				},
 				["Raven"] = {
 					["posx"] = 87.89332895119969,
@@ -111,34 +112,30 @@ StatBlockCoreDB = {
 					["posy"] = 485.5466784238815,
 				},
 				["Money"] = {
-					["posx"] = 1137.493556517256,
+					["enabled"] = false,
 					["scale"] = 0.8500000000000001,
 					["width"] = 122.9996643066406,
 					["posy"] = 16.55418437718197,
-					["enabled"] = false,
+					["posx"] = 1137.493556517256,
 				},
 				["FPS"] = {
 					["posx"] = 1230.165433883667,
 					["strata"] = "MEDIUM",
 					["label"] = "",
-					["scale"] = 0.8500000000000001,
+					["align"] = "LEFT",
 					["width"] = 50.00168991088867,
 					["posy"] = 16.55418437718197,
-					["align"] = "LEFT",
+					["scale"] = 0.8500000000000001,
 				},
 				["Bartender4"] = {
 					["posx"] = 672.4266829490662,
 					["enabled"] = false,
 					["posy"] = 330.2400079965591,
 				},
-				["JumpCounter"] = {
-					["posx"] = 1317.803274380276,
-					["strata"] = "MEDIUM",
-					["align"] = "RIGHT",
-					["width"] = 66.00115203857422,
-					["posy"] = 139.4344873084492,
-					["icon"] = false,
-					["scale"] = 0.8500000000000001,
+				["Informant"] = {
+					["posx"] = 607.5733480453491,
+					["enabled"] = false,
+					["posy"] = 448.853292118707,
 				},
 				["Bad Pet"] = {
 					["posx"] = 738.1332991234449,
@@ -150,34 +147,37 @@ StatBlockCoreDB = {
 					["enabled"] = false,
 					["posy"] = 436.0533438920975,
 				},
-				["Informant"] = {
-					["posx"] = 607.5733480453491,
-					["enabled"] = false,
-					["posy"] = 448.853292118707,
+				["JumpCounter"] = {
+					["posx"] = 1317.803274380276,
+					["strata"] = "MEDIUM",
+					["align"] = "RIGHT",
+					["width"] = 66.00115203857422,
+					["posy"] = 139.4344873084492,
+					["icon"] = false,
+					["scale"] = 0.8500000000000001,
 				},
 				["MogIt"] = {
 					["posx"] = 673.2800163030624,
 					["posy"] = 420.6933174784972,
 				},
-				["TradeSkillMasterMinimapIcon"] = {
-					["posx"] = 408.7466765642166,
+				["RaidAchievement"] = {
+					["posx"] = 682.6666831970215,
 					["enabled"] = false,
-					["posy"] = 389.9734469429677,
+					["posy"] = 366.0800609477374,
 				},
-				["AutoTurnIn"] = {
+				["Paste"] = {
+					["posx"] = 653.6532970778135,
 					["enabled"] = false,
+					["posy"] = 358.4000086784363,
 				},
-				["WeakAuras"] = {
-					["posx"] = 252.5866988245653,
+				["DailyChecklistDO"] = {
+					["posx"] = 704.8534545675939,
 					["enabled"] = false,
-					["posy"] = 517.9732417090709,
+					["posy"] = 485.5466784238815,
 				},
-				["Latency"] = {
-					["posx"] = 1265.878540969425,
-					["strata"] = "MEDIUM",
-					["width"] = 84.99961090087891,
-					["posy"] = 16.55413872288136,
-					["scale"] = 0.8500000000000001,
+				["ZoneText"] = {
+					["posx"] = 198.8266584602989,
+					["posy"] = 420.6933435201645,
 				},
 			},
 			["globalSize"] = 14,

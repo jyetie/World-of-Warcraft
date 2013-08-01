@@ -2,7 +2,7 @@
 PetTracker_Tutorial = 7
 PetTracker_Sets = {
 	["MapFilter"] = "Missing",
-	["HideTracker"] = true,
 	["HideSpecies"] = false,
+	["HideTracker"] = true,
 	["HideStables"] = true,
 }

@@ -7,25 +7,25 @@ DataStore_InventoryDB = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
-		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -179,10 +179,10 @@ DataStore_InventoryDB = {
 					56724, -- [10]
 					1156, -- [11]
 					24120, -- [12]
-					[15] = "|cffffffff|Hitem:51994:0:0:0:0:0:-85:696254472:23:0:0|h[]|h|r",
-					[16] = 66028,
-					[17] = 6341,
 					[19] = 5976,
+					[16] = 66028,
+					[15] = "|cffffffff|Hitem:51994:0:0:0:0:0:-85:696254472:23:0:0|h[]|h|r",
+					[17] = 6341,
 				},
 				["averageItemLvl"] = 15.3125,
 				["overallAIL"] = 16.5,
@@ -235,16 +235,29 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 484.0666809082031,
 				["lastUpdate"] = 1375249860,
 			},
-			["Default.Crushridge.Margot"] = {
+			["Default.Moon Guard.Renevie"] = {
 				["Inventory"] = {
-					[5] = 72019,
-					[6] = 77509,
-					[7] = 72020,
-					[9] = 77526,
+					61958, -- [1]
+					"|cffffffff|Hitem:51995:0:0:0:0:0:-39:359399445:65:0:0|h[]|h|r", -- [2]
+					63219, -- [3]
+					nil, -- [4]
+					28052, -- [5]
+					25982, -- [6]
+					62029, -- [7]
+					27728, -- [8]
+					"|cffffffff|Hitem:51972:0:0:0:0:0:-82:1865875474:65:0:0|h[]|h|r", -- [9]
+					51970, -- [10]
+					25785, -- [11]
+					25542, -- [12]
+					62978, -- [13]
+					63245, -- [14]
+					62040, -- [15]
+					25760, -- [16]
+					[19] = 45574,
 				},
-				["averageItemLvl"] = 48.00000381469727,
-				["overallAIL"] = 48.00000381469727,
-				["lastUpdate"] = 1367216792,
+				["averageItemLvl"] = 78.86666870117188,
+				["overallAIL"] = 86.66667175292969,
+				["lastUpdate"] = 1374043387,
 			},
 			["Default.Bloodhoof.Avessia"] = {
 				["Inventory"] = {
@@ -267,7 +280,7 @@ DataStore_InventoryDB = {
 				},
 				["averageItemLvl"] = 480.4667053222656,
 				["overallAIL"] = 480.4667053222656,
-				["lastUpdate"] = 1375249022,
+				["lastUpdate"] = 1375317816,
 			},
 			["Default.Wyrmrest Accord.Roslyn"] = {
 				["Inventory"] = {
@@ -292,19 +305,28 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 30.00000190734863,
 				["lastUpdate"] = 1366897503,
 			},
-			["Default.Wyrmrest Accord.Venerie"] = {
+			["Default.Maelstrom.Zalizia"] = {
 				["Inventory"] = {
-					[6] = 57220,
-					[7] = 20899,
-					[8] = 20900,
-					[10] = 57198,
-					[9] = 66616,
-					[16] = 8182,
-					[5] = 57202,
+					31145, -- [1]
+					24462, -- [2]
+					25718, -- [3]
+					4344, -- [4]
+					24455, -- [5]
+					12466, -- [6]
+					10842, -- [7]
+					31789, -- [8]
+					"|cffffffff|Hitem:24748:0:0:0:0:0:-6:399966234:67:0:0|h[]|h|r", -- [9]
+					24452, -- [10]
+					24154, -- [11]
+					24045, -- [12]
+					11832, -- [13]
+					28108, -- [14]
+					24459, -- [15]
+					29109, -- [16]
 				},
-				["averageItemLvl"] = 1.800000071525574,
-				["overallAIL"] = 1.800000071525574,
-				["lastUpdate"] = 1363933077,
+				["averageItemLvl"] = 84.06667327880859,
+				["overallAIL"] = 85.13333892822266,
+				["lastUpdate"] = 1366112561,
 			},
 			["Default.Bloodhoof.Cyralie"] = {
 				["Inventory"] = {
@@ -329,29 +351,25 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 175.0625,
 				["lastUpdate"] = 1365735086,
 			},
-			["Default.Bronzebeard.Karielle"] = {
+			["Default.Wyrmrest Accord.Abryn"] = {
 				["Inventory"] = {
-					75129, -- [1]
-					61472, -- [2]
-					75134, -- [3]
-					nil, -- [4]
-					"|cff1eff00|Hitem:82122:0:0:0:0:0:-7:-2090204318:85:0:0|h[Miner Breastplate of the Bear]|h|r", -- [5]
-					63871, -- [6]
-					75133, -- [7]
-					65861, -- [8]
-					76156, -- [9]
-					56336, -- [10]
-					66900, -- [11]
-					56270, -- [12]
-					55854, -- [13]
-					38212, -- [14]
-					"|cffffffff|Hitem:71267:4072:0:0:0:0:0:622201536:85:0:0|h[]|h|r", -- [15]
-					65816, -- [16]
-					[19] = 43154,
+					nil, -- [1]
+					nil, -- [2]
+					63622, -- [3]
+					2575, -- [4]
+					57390, -- [5]
+					63583, -- [6]
+					63550, -- [7]
+					63559, -- [8]
+					63543, -- [9]
+					57522, -- [10]
+					[16] = 58902,
+					[15] = 65983,
+					[17] = 5192,
 				},
-				["averageItemLvl"] = 492.4000244140625,
-				["overallAIL"] = 492.4000244140625,
-				["lastUpdate"] = 1366112431,
+				["averageItemLvl"] = 16.625,
+				["overallAIL"] = 16.625,
+				["lastUpdate"] = 1363935070,
 			},
 			["Default.Bronzebeard.Cyralie"] = {
 				["Inventory"] = {
@@ -376,20 +394,28 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 394.0000305175781,
 				["lastUpdate"] = 1369739091,
 			},
-			["Default.Bloodhoof.Sparkler"] = {
+			["Default.Bloodhoof.Alythe"] = {
 				["Inventory"] = {
-					[11] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:901906446:43:0:0|h[Tumultuous Ring of the Bear]|h|r",
-					[2] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:1088946187:43:0:0|h[Tumultuous Necklace of the Monkey]|h|r",
-					[8] = 6394,
-					[10] = 65919,
-					[12] = 65971,
-					[6] = "|cff0070dd|Hitem:51968:0:0:0:0:0:-83:377421834:43:0:0|h[Enumerated Wrap of the Sun]|h|r",
-					[9] = 4043,
-					[16] = 65941,
+					82919, -- [1]
+					85177, -- [2]
+					82920, -- [3]
+					nil, -- [4]
+					81696, -- [5]
+					95533, -- [6]
+					82923, -- [7]
+					98141, -- [8]
+					82948, -- [9]
+					87362, -- [10]
+					81139, -- [11]
+					89525, -- [12]
+					85181, -- [13]
+					79329, -- [14]
+					"|cffffffff|Hitem:93608:4422:0:0:0:0:0:846023808:90:0:0|h[]|h|r", -- [15]
+					90464, -- [16]
 				},
-				["averageItemLvl"] = 18.60000038146973,
-				["overallAIL"] = 22.93333435058594,
-				["lastUpdate"] = 1365734826,
+				["averageItemLvl"] = 459.0666809082031,
+				["overallAIL"] = 461.9375,
+				["lastUpdate"] = 1375249613,
 			},
 			["Default.Bloodhoof.Vezeri"] = {
 				["Inventory"] = {
@@ -414,28 +440,20 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 94.86666870117188,
 				["lastUpdate"] = 1374891059,
 			},
-			["Default.Bloodhoof.Alythe"] = {
+			["Default.Bloodhoof.Sparkler"] = {
 				["Inventory"] = {
-					82919, -- [1]
-					85177, -- [2]
-					82920, -- [3]
-					nil, -- [4]
-					81696, -- [5]
-					95533, -- [6]
-					82923, -- [7]
-					98141, -- [8]
-					82948, -- [9]
-					87362, -- [10]
-					81139, -- [11]
-					89525, -- [12]
-					85181, -- [13]
-					79329, -- [14]
-					"|cffffffff|Hitem:93608:4422:0:0:0:0:0:846023808:90:0:0|h[]|h|r", -- [15]
-					90464, -- [16]
+					[11] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:901906446:43:0:0|h[Tumultuous Ring of the Bear]|h|r",
+					[2] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-78:1088946187:43:0:0|h[Tumultuous Necklace of the Monkey]|h|r",
+					[8] = 6394,
+					[10] = 65919,
+					[12] = 65971,
+					[16] = 65941,
+					[9] = 4043,
+					[6] = "|cff0070dd|Hitem:51968:0:0:0:0:0:-83:377421834:43:0:0|h[Enumerated Wrap of the Sun]|h|r",
 				},
-				["averageItemLvl"] = 459.0666809082031,
-				["overallAIL"] = 461.9375,
-				["lastUpdate"] = 1375249613,
+				["averageItemLvl"] = 18.60000038146973,
+				["overallAIL"] = 22.93333435058594,
+				["lastUpdate"] = 1365734826,
 			},
 			["Default.Bloodhoof.Eloisa"] = {
 				["Inventory"] = {
@@ -469,72 +487,54 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 392.3333435058594,
 				["lastUpdate"] = 1373617798,
 			},
-			["Default.Wyrmrest Accord.Abryn"] = {
+			["Default.Bronzebeard.Karielle"] = {
 				["Inventory"] = {
-					nil, -- [1]
-					nil, -- [2]
-					63622, -- [3]
-					2575, -- [4]
-					57390, -- [5]
-					63583, -- [6]
-					63550, -- [7]
-					63559, -- [8]
-					63543, -- [9]
-					57522, -- [10]
-					[16] = 58902,
-					[15] = 65983,
-					[17] = 5192,
-				},
-				["averageItemLvl"] = 16.625,
-				["overallAIL"] = 16.625,
-				["lastUpdate"] = 1363935070,
-			},
-			["Default.Maelstrom.Zalizia"] = {
-				["Inventory"] = {
-					31145, -- [1]
-					24462, -- [2]
-					25718, -- [3]
-					4344, -- [4]
-					24455, -- [5]
-					12466, -- [6]
-					10842, -- [7]
-					31789, -- [8]
-					"|cffffffff|Hitem:24748:0:0:0:0:0:-6:399966234:67:0:0|h[]|h|r", -- [9]
-					24452, -- [10]
-					24154, -- [11]
-					24045, -- [12]
-					11832, -- [13]
-					28108, -- [14]
-					24459, -- [15]
-					29109, -- [16]
-				},
-				["averageItemLvl"] = 84.06667327880859,
-				["overallAIL"] = 85.13333892822266,
-				["lastUpdate"] = 1366112561,
-			},
-			["Default.Moon Guard.Renevie"] = {
-				["Inventory"] = {
-					61958, -- [1]
-					"|cffffffff|Hitem:51995:0:0:0:0:0:-39:359399445:65:0:0|h[]|h|r", -- [2]
-					63219, -- [3]
+					75129, -- [1]
+					61472, -- [2]
+					75134, -- [3]
 					nil, -- [4]
-					28052, -- [5]
-					25982, -- [6]
-					62029, -- [7]
-					27728, -- [8]
-					"|cffffffff|Hitem:51972:0:0:0:0:0:-82:1865875474:65:0:0|h[]|h|r", -- [9]
-					51970, -- [10]
-					25785, -- [11]
-					25542, -- [12]
-					62978, -- [13]
-					63245, -- [14]
-					62040, -- [15]
-					25760, -- [16]
-					[19] = 45574,
+					"|cff1eff00|Hitem:82122:0:0:0:0:0:-7:-2090204318:85:0:0|h[Miner Breastplate of the Bear]|h|r", -- [5]
+					63871, -- [6]
+					75133, -- [7]
+					65861, -- [8]
+					76156, -- [9]
+					56336, -- [10]
+					66900, -- [11]
+					56270, -- [12]
+					55854, -- [13]
+					38212, -- [14]
+					"|cffffffff|Hitem:71267:4072:0:0:0:0:0:622201536:85:0:0|h[]|h|r", -- [15]
+					65816, -- [16]
+					[19] = 43154,
 				},
-				["averageItemLvl"] = 78.86666870117188,
-				["overallAIL"] = 86.66667175292969,
-				["lastUpdate"] = 1374043387,
+				["averageItemLvl"] = 492.4000244140625,
+				["overallAIL"] = 492.4000244140625,
+				["lastUpdate"] = 1366112431,
+			},
+			["Default.Wyrmrest Accord.Venerie"] = {
+				["Inventory"] = {
+					[6] = 57220,
+					[7] = 20899,
+					[8] = 20900,
+					[10] = 57198,
+					[5] = 57202,
+					[9] = 66616,
+					[16] = 8182,
+				},
+				["averageItemLvl"] = 1.800000071525574,
+				["overallAIL"] = 1.800000071525574,
+				["lastUpdate"] = 1363933077,
+			},
+			["Default.Crushridge.Margot"] = {
+				["Inventory"] = {
+					[5] = 72019,
+					[6] = 77509,
+					[7] = 72020,
+					[9] = 77526,
+				},
+				["averageItemLvl"] = 48.00000381469727,
+				["overallAIL"] = 48.00000381469727,
+				["lastUpdate"] = 1367216792,
 			},
 		},
 		["Guilds"] = {
@@ -547,11 +547,11 @@ DataStore_InventoryDB = {
 			},
 			["Default.Bronzebeard.Infinite Death"] = {
 				["Members"] = {
-					["Zaeliana"] = {
-						["averageItemLvl"] = 388,
-					},
 					["Cyralie"] = {
 						["averageItemLvl"] = 394,
+					},
+					["Zaeliana"] = {
+						["averageItemLvl"] = 388,
 					},
 				},
 			},
@@ -581,8 +581,8 @@ DataStore_InventoryDB = {
 					["Spankdalight"] = {
 						["averageItemLvl"] = 377,
 					},
-					["Taketoo"] = {
-						["averageItemLvl"] = 6,
+					["Renevie"] = {
+						["averageItemLvl"] = 77,
 					},
 					["Spanktastic"] = {
 						["averageItemLvl"] = 301,
@@ -593,8 +593,8 @@ DataStore_InventoryDB = {
 					["Spanken"] = {
 						["averageItemLvl"] = 91,
 					},
-					["Renevie"] = {
-						["averageItemLvl"] = 77,
+					["Taketoo"] = {
+						["averageItemLvl"] = 6,
 					},
 					["Guildthree"] = {
 						["averageItemLvl"] = 20,
@@ -611,20 +611,6 @@ DataStore_InventoryDB = {
 					},
 					["Avelaine"] = {
 						["averageItemLvl"] = 256,
-					},
-				},
-			},
-			["Default.Wyrmrest Accord.Not Today"] = {
-				["Members"] = {
-					["Abryn"] = {
-						["averageItemLvl"] = 10,
-					},
-				},
-			},
-			["Default.Wyrmrest Accord.Bladestorm"] = {
-				["Members"] = {
-					["Roslyn"] = {
-						["averageItemLvl"] = 29,
 					},
 				},
 			},
@@ -780,8 +766,8 @@ DataStore_InventoryDB = {
 					["Targetkiller"] = {
 						["averageItemLvl"] = 1,
 					},
-					["Jamesaeon"] = {
-						["averageItemLvl"] = 1,
+					["Sxybeast"] = {
+						["averageItemLvl"] = 498,
 					},
 					["Dethwing"] = {
 						["averageItemLvl"] = 497,
@@ -789,8 +775,8 @@ DataStore_InventoryDB = {
 					["Fapo"] = {
 						["averageItemLvl"] = 75,
 					},
-					["Battleheart"] = {
-						["averageItemLvl"] = 449,
+					["Sxybeeyatch"] = {
+						["averageItemLvl"] = 81,
 					},
 					["Iisfluffy"] = {
 						["averageItemLvl"] = 1,
@@ -804,8 +790,8 @@ DataStore_InventoryDB = {
 					["Dethinsane"] = {
 						["averageItemLvl"] = 29,
 					},
-					["Namanasty"] = {
-						["averageItemLvl"] = 493,
+					["Cyralie"] = {
+						["averageItemLvl"] = 113,
 					},
 					["Cyrie"] = {
 						["averageItemLvl"] = 12,
@@ -819,8 +805,8 @@ DataStore_InventoryDB = {
 					["Stikki"] = {
 						["averageItemLvl"] = 83,
 					},
-					["Arieva"] = {
-						["averageItemLvl"] = 5,
+					["Dethbayne"] = {
+						["averageItemLvl"] = 8,
 					},
 					["Liefie"] = {
 						["averageItemLvl"] = 327,
@@ -831,17 +817,17 @@ DataStore_InventoryDB = {
 					["Blackslate"] = {
 						["averageItemLvl"] = 374,
 					},
-					["Goggie"] = {
-						["averageItemLvl"] = 466,
-					},
 					["Taggsho"] = {
 						["averageItemLvl"] = 410,
 					},
-					["Dethbayne"] = {
-						["averageItemLvl"] = 8,
+					["Goggie"] = {
+						["averageItemLvl"] = 466,
+					},
+					["Arieva"] = {
+						["averageItemLvl"] = 5,
 					},
 					["Avessia"] = {
-						["averageItemLvl"] = 480,
+						["averageItemLvl"] = 514,
 					},
 					["Misspo"] = {
 						["averageItemLvl"] = 45,
@@ -849,14 +835,14 @@ DataStore_InventoryDB = {
 					["Lilmedwarf"] = {
 						["averageItemLvl"] = 164,
 					},
-					["Cyralie"] = {
-						["averageItemLvl"] = 113,
+					["Namanasty"] = {
+						["averageItemLvl"] = 493,
 					},
 					["Dreamshadows"] = {
 						["averageItemLvl"] = 430,
 					},
-					["Sxybeeyatch"] = {
-						["averageItemLvl"] = 81,
+					["Battleheart"] = {
+						["averageItemLvl"] = 449,
 					},
 					["Huuhaa"] = {
 						["averageItemLvl"] = 18,
@@ -864,8 +850,8 @@ DataStore_InventoryDB = {
 					["Sxywarrior"] = {
 						["averageItemLvl"] = 1,
 					},
-					["Sxybeast"] = {
-						["averageItemLvl"] = 498,
+					["Jamesaeon"] = {
+						["averageItemLvl"] = 1,
 					},
 					["Sunshangxi"] = {
 						["averageItemLvl"] = 36,
@@ -875,6 +861,20 @@ DataStore_InventoryDB = {
 					},
 					["Hersoul"] = {
 						["averageItemLvl"] = 80,
+					},
+				},
+			},
+			["Default.Wyrmrest Accord.Bladestorm"] = {
+				["Members"] = {
+					["Roslyn"] = {
+						["averageItemLvl"] = 29,
+					},
+				},
+			},
+			["Default.Wyrmrest Accord.Not Today"] = {
+				["Members"] = {
+					["Abryn"] = {
+						["averageItemLvl"] = 10,
 					},
 				},
 			},

@@ -2,12 +2,24 @@
 MADB = {
 	["characters"] = {
 	},
-	["tooltips"] = 1,
 	["frameListRows"] = 18,
+	["tooltips"] = 1,
 	["profiles"] = {
 		["default"] = {
 			["name"] = "default",
 			["frames"] = {
+				["BonusRollFrame"] = {
+					["clampToScreen"] = true,
+					["name"] = "BonusRollFrame",
+					["orgClampToScreen"] = 1,
+					["pos"] = {
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						-9.999908447265625, -- [4]
+						-100.9999389648438, -- [5]
+					},
+				},
 				["WatchFrameMover"] = {
 					["orgClampToScreen"] = 1,
 					["orgWidth"] = 200,
@@ -32,18 +44,6 @@ MADB = {
 						"BOTTOM", -- [3]
 						-6.103515625e-005, -- [4]
 						128, -- [5]
-					},
-				},
-				["BonusRollFrame"] = {
-					["clampToScreen"] = true,
-					["name"] = "BonusRollFrame",
-					["orgClampToScreen"] = 1,
-					["pos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						-9.999908447265625, -- [4]
-						-100.9999389648438, -- [5]
 					},
 				},
 			},

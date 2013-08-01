@@ -22,8 +22,8 @@ KuiNameplatesGDB = {
 		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
-		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 	},
 	["profiles"] = {
@@ -35,8 +35,6 @@ KuiNameplatesGDB = {
 		},
 		["Avessia - Bloodhoof"] = {
 		},
-		["Tarley - Bloodhoof"] = {
-		},
 		["Jyetie - Bloodhoof"] = {
 			["fonts"] = {
 				["options"] = {
@@ -46,6 +44,8 @@ KuiNameplatesGDB = {
 			["general"] = {
 				["hheight"] = 13,
 			},
+		},
+		["Tarley - Bloodhoof"] = {
 		},
 		["Alythe - Bloodhoof"] = {
 		},

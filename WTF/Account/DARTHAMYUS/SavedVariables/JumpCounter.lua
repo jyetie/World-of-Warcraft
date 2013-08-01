@@ -4,7 +4,7 @@ JumpCounterDB = {
 		{
 			["name"] = "Jyetie",
 			["class"] = "MAGE",
-			["count"] = 18498,
+			["count"] = 18501,
 			["realm"] = "Bloodhoof",
 		}, -- [1]
 		{
@@ -28,7 +28,7 @@ JumpCounterDB = {
 		{
 			["name"] = "Avessia",
 			["class"] = "SHAMAN",
-			["count"] = 6323,
+			["count"] = 6328,
 			["realm"] = "Bloodhoof",
 		}, -- [5]
 		{

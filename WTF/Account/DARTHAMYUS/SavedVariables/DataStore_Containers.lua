@@ -7,60 +7,60 @@ DataStore_ContainersDB = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
-		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Bloodhoof.Brynnen"] = {
 				["lastUpdate"] = 1363414477,
+				["numFreeBagSlots"] = 14,
 				["Containers"] = {
 					["Bag0"] = {
-						["size"] = 16,
+						["freeslots"] = 14,
 						["ids"] = {
 							77272, -- [1]
 							6948, -- [2]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							5, -- [1]
 						},
-						["freeslots"] = 14,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 14,
 				["numBagSlots"] = 16,
 			},
 			["Default.Bloodhoof.Glitterglade"] = {
 				["lastUpdate"] = 1362711941,
+				["numFreeBagSlots"] = 15,
 				["Containers"] = {
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
 						},
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["freeslots"] = 15,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 15,
 				["numBagSlots"] = 16,
 			},
 			["Default.Bronzebeard.Zaeliana"] = {
@@ -68,8 +68,10 @@ DataStore_ContainersDB = {
 				["numBankSlots"] = 118,
 				["lastUpdate"] = 1369739185,
 				["numFreeBagSlots"] = 5,
+				["numBagSlots"] = 96,
 				["Containers"] = {
 					["Bag10"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:86:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							33447, -- [1]
 							67438, -- [2]
@@ -88,17 +90,26 @@ DataStore_ContainersDB = {
 							43646, -- [15]
 							45574, -- [16]
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:86:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 1,
 						["counts"] = {
 							14, -- [1]
 							[10] = 2,
 							[15] = 4,
 						},
-						["freeslots"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 					},
 					["Bag8"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:737388352:86:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[2] = "|cffa335ee|Hitem:78823:0:3995:3995:3995:0:0:0:86:0:0|h[Robes of Dying Light]|h|r",
+						},
+						["counts"] = {
+							20, -- [1]
+							[8] = 3,
+							[10] = 3,
+							[5] = 2,
+						},
 						["ids"] = {
 							39334, -- [1]
 							78823, -- [2]
@@ -117,36 +128,10 @@ DataStore_ContainersDB = {
 							2034, -- [15]
 							32327, -- [16]
 						},
-						["links"] = {
-							[2] = "|cffa335ee|Hitem:78823:0:3995:3995:3995:0:0:0:86:0:0|h[Robes of Dying Light]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:737388352:86:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							20, -- [1]
-							[8] = 3,
-							[10] = 3,
-							[5] = 2,
-						},
 						["size"] = 16,
 					},
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:86:0:0|h[Frostweave Bag]|h|r",
-						["links"] = {
-							[5] = "|cff1eff00|Hitem:82118:0:0:0:0:0:-8:1318715875:86:0:0|h[Shamanic Ring of the Whale]|h|r",
-							[3] = "|cff1eff00|Hitem:81993:0:0:0:0:0:-123:1079444136:86:0:0|h[Wall Helm of the Earthbreaker]|h|r",
-							[11] = "|cff1eff00|Hitem:24685:0:0:0:0:0:-15:291504170:86:0:0|h[Elementalist Belt of Spirit]|h|r",
-						},
-						["counts"] = {
-							[7] = 14,
-							[15] = 3,
-							[10] = 19,
-							[2] = 7,
-							[4] = 12,
-							[16] = 2,
-							[19] = 5,
-						},
-						["freeslots"] = 4,
 						["ids"] = {
 							71634, -- [1]
 							82392, -- [2]
@@ -167,8 +152,137 @@ DataStore_ContainersDB = {
 							[19] = 75014,
 							[20] = 88377,
 						},
+						["links"] = {
+							[5] = "|cff1eff00|Hitem:82118:0:0:0:0:0:-8:1318715875:86:0:0|h[Shamanic Ring of the Whale]|h|r",
+							[11] = "|cff1eff00|Hitem:24685:0:0:0:0:0:-15:291504170:86:0:0|h[Elementalist Belt of Spirit]|h|r",
+							[3] = "|cff1eff00|Hitem:81993:0:0:0:0:0:-123:1079444136:86:0:0|h[Wall Helm of the Earthbreaker]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:86:0:0|h[Frostweave Bag]|h|r",
+						["counts"] = {
+							[7] = 14,
+							[15] = 3,
+							[10] = 19,
+							[19] = 5,
+							[4] = 12,
+							[16] = 2,
+							[2] = 7,
+						},
+						["freeslots"] = 4,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							40042, -- [1]
+							2290, -- [2]
+							43013, -- [3]
+							43464, -- [4]
+							82001, -- [5]
+							89112, -- [6]
+							43011, -- [7]
+							24787, -- [8]
+							43126, -- [9]
+							37704, -- [10]
+							81968, -- [11]
+							81405, -- [12]
+							62784, -- [13]
+							37118, -- [14]
+							25409, -- [15]
+							81406, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							2, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							2, -- [4]
+							nil, -- [5]
+							6, -- [6]
+							3, -- [7]
+							nil, -- [8]
+							20, -- [9]
+							10, -- [10]
+							nil, -- [11]
+							19, -- [12]
+							20, -- [13]
+							nil, -- [14]
+							13, -- [15]
+							13, -- [16]
+						},
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:24787:0:0:0:0:0:-6:1841168437:86:0:0|h[Murkblood Pants of the Eagle]|h|r",
+							[5] = "|cff1eff00|Hitem:82001:0:0:0:0:0:-14:1202913571:86:0:0|h[Polished Sword of the Tiger]|h|r",
+							[11] = "|cff1eff00|Hitem:81968:0:0:0:0:0:-37:326894248:86:0:0|h[Stitched Leggings of the Seer]|h|r",
+						},
+					},
+					["Bag5"] = {
+						["link"] = "|cff1eff00|Hitem:9587:0:0:0:0:0:0:1010765504:86:0:0|h[Thawpelt Sack]|h|r",
+						["ids"] = {
+							25433, -- [1]
+							37160, -- [2]
+							32329, -- [3]
+							3456, -- [4]
+							69601, -- [5]
+							32230, -- [6]
+							44597, -- [7]
+							nil, -- [8]
+							32428, -- [9]
+							25539, -- [10]
+							54651, -- [11]
+							43013, -- [12]
+							32897, -- [13]
+							44615, -- [14]
+						},
+						["freeslots"] = 1,
+						["counts"] = {
+							14, -- [1]
+							[14] = 17,
+							[13] = 5,
+							[12] = 20,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_17",
+						["size"] = 14,
+					},
+					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:449595808:86:0:0|h[Frostweave Bag]|h|r",
+						["links"] = {
+							[5] = "|cff1eff00|Hitem:24903:0:0:0:0:0:-15:271646761:86:0:0|h[Talhide Lined-Boots of Spirit]|h|r",
+							[13] = "|cff1eff00|Hitem:82037:0:0:0:0:0:-5:-1995308628:86:0:0|h[Whisper Bindings of the Monkey]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["ids"] = {
+							79254, -- [1]
+							88376, -- [2]
+							76350, -- [3]
+							76362, -- [4]
+							24903, -- [5]
+							79010, -- [6]
+							88375, -- [7]
+							nil, -- [8]
+							79249, -- [9]
+							79253, -- [10]
+							81980, -- [11]
+							14047, -- [12]
+							82037, -- [13]
+							76098, -- [14]
+							81805, -- [15]
+							6948, -- [16]
+							79731, -- [17]
+							13161, -- [18]
+							63122, -- [19]
+							63122, -- [20]
+						},
+						["counts"] = {
+							20, -- [1]
+							[20] = 19,
+							[17] = 7,
+							[12] = 10,
+							[19] = 20,
+							[14] = 2,
+						},
+						["freeslots"] = 1,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -214,140 +328,7 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 28,
 					},
-					["Bag5"] = {
-						["ids"] = {
-							25433, -- [1]
-							37160, -- [2]
-							32329, -- [3]
-							3456, -- [4]
-							69601, -- [5]
-							32230, -- [6]
-							44597, -- [7]
-							nil, -- [8]
-							32428, -- [9]
-							25539, -- [10]
-							54651, -- [11]
-							43013, -- [12]
-							32897, -- [13]
-							44615, -- [14]
-						},
-						["link"] = "|cff1eff00|Hitem:9587:0:0:0:0:0:0:1010765504:86:0:0|h[Thawpelt Sack]|h|r",
-						["size"] = 14,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_17",
-						["counts"] = {
-							14, -- [1]
-							[14] = 17,
-							[13] = 5,
-							[12] = 20,
-						},
-						["freeslots"] = 1,
-					},
-					["Bag4"] = {
-						["ids"] = {
-							79254, -- [1]
-							88376, -- [2]
-							76350, -- [3]
-							76362, -- [4]
-							24903, -- [5]
-							79010, -- [6]
-							88375, -- [7]
-							nil, -- [8]
-							79249, -- [9]
-							79253, -- [10]
-							81980, -- [11]
-							14047, -- [12]
-							82037, -- [13]
-							76098, -- [14]
-							81805, -- [15]
-							6948, -- [16]
-							79731, -- [17]
-							13161, -- [18]
-							63122, -- [19]
-							63122, -- [20]
-						},
-						["links"] = {
-							[5] = "|cff1eff00|Hitem:24903:0:0:0:0:0:-15:271646761:86:0:0|h[Talhide Lined-Boots of Spirit]|h|r",
-							[13] = "|cff1eff00|Hitem:82037:0:0:0:0:0:-5:-1995308628:86:0:0|h[Whisper Bindings of the Monkey]|h|r",
-						},
-						["counts"] = {
-							20, -- [1]
-							[20] = 19,
-							[17] = 7,
-							[12] = 10,
-							[19] = 20,
-							[14] = 2,
-						},
-						["freeslots"] = 1,
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:449595808:86:0:0|h[Frostweave Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
-					},
-					["Bag0"] = {
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:24787:0:0:0:0:0:-6:1841168437:86:0:0|h[Murkblood Pants of the Eagle]|h|r",
-							[11] = "|cff1eff00|Hitem:81968:0:0:0:0:0:-37:326894248:86:0:0|h[Stitched Leggings of the Seer]|h|r",
-							[5] = "|cff1eff00|Hitem:82001:0:0:0:0:0:-14:1202913571:86:0:0|h[Polished Sword of the Tiger]|h|r",
-						},
-						["ids"] = {
-							40042, -- [1]
-							2290, -- [2]
-							43013, -- [3]
-							43464, -- [4]
-							82001, -- [5]
-							89112, -- [6]
-							43011, -- [7]
-							24787, -- [8]
-							43126, -- [9]
-							37704, -- [10]
-							81968, -- [11]
-							81405, -- [12]
-							62784, -- [13]
-							37118, -- [14]
-							25409, -- [15]
-							81406, -- [16]
-						},
-						["counts"] = {
-							2, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							2, -- [4]
-							nil, -- [5]
-							6, -- [6]
-							3, -- [7]
-							nil, -- [8]
-							20, -- [9]
-							10, -- [10]
-							nil, -- [11]
-							19, -- [12]
-							20, -- [13]
-							nil, -- [14]
-							13, -- [15]
-							13, -- [16]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
 					["Bag1"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:77454824:86:0:0|h[Frostweave Bag]|h|r",
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:82021:0:0:0:0:0:-91:-2135555526:86:0:0|h[Steppe Belt of the Marksman]|h|r",
-							[16] = "|cff1eff00|Hitem:24786:0:0:0:0:0:-24:1109196853:86:0:0|h[Murkblood Cover of Intellect]|h|r",
-							[18] = "|cff1eff00|Hitem:24797:0:0:0:0:0:-5:942080031:86:0:0|h[Expedition Bracers of the Monkey]|h|r",
-						},
-						["counts"] = {
-							nil, -- [1]
-							19, -- [2]
-							15, -- [3]
-							3, -- [4]
-							3, -- [5]
-							3, -- [6]
-							2, -- [7]
-							[13] = 18,
-							[10] = 20,
-							[12] = 12,
-							[14] = 2,
-							[9] = 20,
-						},
 						["ids"] = {
 							1711, -- [1]
 							79731, -- [2]
@@ -370,25 +351,30 @@ DataStore_ContainersDB = {
 							73410, -- [19]
 							21746, -- [20]
 						},
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:82021:0:0:0:0:0:-91:-2135555526:86:0:0|h[Steppe Belt of the Marksman]|h|r",
+							[16] = "|cff1eff00|Hitem:24786:0:0:0:0:0:-24:1109196853:86:0:0|h[Murkblood Cover of Intellect]|h|r",
+							[18] = "|cff1eff00|Hitem:24797:0:0:0:0:0:-5:942080031:86:0:0|h[Expedition Bracers of the Monkey]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:77454824:86:0:0|h[Frostweave Bag]|h|r",
+						["counts"] = {
+							nil, -- [1]
+							19, -- [2]
+							15, -- [3]
+							3, -- [4]
+							3, -- [5]
+							3, -- [6]
+							2, -- [7]
+							[13] = 18,
+							[10] = 20,
+							[12] = 12,
+							[14] = 2,
+							[9] = 20,
+						},
 						["size"] = 20,
 					},
 					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:2077960576:86:0:0|h[Frostweave Bag]|h|r",
-						["links"] = {
-							[14] = "|cffa335ee|Hitem:72858:0:4009:0:0:0:0:84220928:86:154:0|h[Safeguard Gloves]|h|r",
-							[19] = "|cff1eff00|Hitem:82071:0:0:0:0:0:-139:1716781823:86:0:0|h[Brick Legplates of the Mercenary]|h|r",
-							[3] = "|cffa335ee|Hitem:72825:0:3995:0:0:0:0:-1770275072:86:0:0|h[Mantle of Time]|h|r",
-						},
-						["counts"] = {
-							20, -- [1]
-							[11] = 2,
-							[13] = 2,
-							[8] = 8,
-							[10] = 3,
-							[18] = 10,
-							[15] = 8,
-						},
 						["ids"] = {
 							89640, -- [1]
 							11754, -- [2]
@@ -411,7 +397,22 @@ DataStore_ContainersDB = {
 							82071, -- [19]
 							8383, -- [20]
 						},
+						["links"] = {
+							[14] = "|cffa335ee|Hitem:72858:0:4009:0:0:0:0:84220928:86:154:0|h[Safeguard Gloves]|h|r",
+							[19] = "|cff1eff00|Hitem:82071:0:0:0:0:0:-139:1716781823:86:0:0|h[Brick Legplates of the Mercenary]|h|r",
+							[3] = "|cffa335ee|Hitem:72825:0:3995:0:0:0:0:-1770275072:86:0:0|h[Mantle of Time]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:2077960576:86:0:0|h[Frostweave Bag]|h|r",
+						["counts"] = {
+							20, -- [1]
+							[11] = 2,
+							[13] = 2,
+							[8] = 8,
+							[10] = 3,
+							[15] = 8,
+							[18] = 10,
+						},
 						["size"] = 20,
 					},
 					["Bag9"] = {
@@ -434,7 +435,6 @@ DataStore_ContainersDB = {
 							3928, -- [15]
 							37702, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							11, -- [1]
 							[7] = 19,
@@ -443,6 +443,7 @@ DataStore_ContainersDB = {
 							[16] = 4,
 							[15] = 5,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag7"] = {
@@ -465,19 +466,30 @@ DataStore_ContainersDB = {
 							39338, -- [15]
 							28654, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							2, -- [1]
 							[11] = 10,
 							[7] = 2,
 							[8] = 4,
 							[12] = 8,
-							[13] = 3,
 							[6] = 2,
+							[13] = 3,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag6"] = {
+						["link"] = "|cffffffff|Hitem:1725:0:0:0:0:0:0:1753943296:86:0:0|h[Large Knapsack]|h|r",
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:24665:0:0:0:0:0:-8:1777860660:86:0:0|h[Shadow Council Cowl of the Whale]|h|r",
+						},
+						["counts"] = {
+							[6] = 3,
+							[7] = 20,
+							[10] = 2,
+							[9] = 3,
+							[5] = 5,
+						},
 						["ids"] = {
 							52719, -- [1]
 							28515, -- [2]
@@ -492,28 +504,17 @@ DataStore_ContainersDB = {
 							13005, -- [11]
 							32943, -- [12]
 						},
-						["links"] = {
-							[4] = "|cff1eff00|Hitem:24665:0:0:0:0:0:-8:1777860660:86:0:0|h[Shadow Council Cowl of the Whale]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Red",
-						["link"] = "|cffffffff|Hitem:1725:0:0:0:0:0:0:1753943296:86:0:0|h[Large Knapsack]|h|r",
-						["counts"] = {
-							[6] = 3,
-							[7] = 20,
-							[10] = 2,
-							[9] = 3,
-							[5] = 5,
-						},
 						["size"] = 12,
 					},
 				},
-				["numBagSlots"] = 96,
 			},
 			["Default.Bloodhoof.Amazy"] = {
 				["numBankSlots"] = 28,
 				["lastUpdate"] = 1373182318,
 				["Containers"] = {
 					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:962608128:87:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							75014, -- [1]
 							97512, -- [2]
@@ -532,16 +533,15 @@ DataStore_ContainersDB = {
 							88371, -- [15]
 							88165, -- [16]
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:962608128:87:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 						["counts"] = {
 							3, -- [1]
 							25, -- [2]
 							[11] = 4,
 							[12] = 9,
 						},
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 6,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -574,7 +574,12 @@ DataStore_ContainersDB = {
 							24452, -- [27]
 							22829, -- [28]
 						},
-						["size"] = 28,
+						["links"] = {
+							[21] = "|cff0070dd|Hitem:51995:0:0:0:0:0:-92:1403191317:71:0:0|h[Turbulent Necklace of the Squire]|h|r",
+							[22] = "|cff1eff00|Hitem:25306:0:0:0:0:0:-8:1036320790:71:0:0|h[Permafrost Dagger of the Whale]|h|r",
+							[23] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-78:-1809973234:71:0:0|h[Tumultuous Ring of the Monkey]|h|r",
+							[25] = "|cff0070dd|Hitem:51961:0:0:0:0:0:-88:651558942:71:0:0|h[Vigorous Shoulderguards of the Foreseer]|h|r",
+						},
 						["counts"] = {
 							nil, -- [1]
 							2, -- [2]
@@ -586,15 +591,9 @@ DataStore_ContainersDB = {
 							[5] = 20,
 							[20] = 7,
 						},
-						["links"] = {
-							[21] = "|cff0070dd|Hitem:51995:0:0:0:0:0:-92:1403191317:71:0:0|h[Turbulent Necklace of the Squire]|h|r",
-							[22] = "|cff1eff00|Hitem:25306:0:0:0:0:0:-8:1036320790:71:0:0|h[Permafrost Dagger of the Whale]|h|r",
-							[23] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-78:-1809973234:71:0:0|h[Tumultuous Ring of the Monkey]|h|r",
-							[25] = "|cff0070dd|Hitem:51961:0:0:0:0:0:-88:651558942:71:0:0|h[Vigorous Shoulderguards of the Foreseer]|h|r",
-						},
+						["size"] = 28,
 					},
 					["Bag1"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1849005184:87:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							97619, -- [1]
 							88567, -- [2]
@@ -612,17 +611,19 @@ DataStore_ContainersDB = {
 							89112, -- [14]
 							88165, -- [15]
 						},
-						["freeslots"] = 2,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1849005184:87:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
 						["counts"] = {
 							3, -- [1]
 							[14] = 11,
 							[6] = 2,
 							[10] = 10,
 						},
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 2,
 					},
 					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1418739200:87:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							88165, -- [1]
 							61479, -- [2]
@@ -638,19 +639,17 @@ DataStore_ContainersDB = {
 							[13] = 88165,
 							[14] = 63893,
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1418739200:87:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 						["counts"] = {
 							[11] = 2,
 							[10] = 10,
 							[9] = 10,
 							[8] = 9,
 						},
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 6,
 					},
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:60936104:87:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							63292, -- [1]
 							74833, -- [2]
@@ -669,7 +668,9 @@ DataStore_ContainersDB = {
 							52718, -- [15]
 							72092, -- [16]
 						},
-						["freeslots"] = 2,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:60936104:87:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							3, -- [1]
 							8, -- [2]
@@ -679,8 +680,7 @@ DataStore_ContainersDB = {
 							[12] = 5,
 							[16] = 2,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
+						["freeslots"] = 2,
 					},
 					["Bag0"] = {
 						["ids"] = {
@@ -702,78 +702,71 @@ DataStore_ContainersDB = {
 							81406, -- [16]
 						},
 						["cooldowns"] = {
-							[9] = "608953.836|1|1",
-							[16] = "608953.836|1|1",
-							[15] = "608953.836|1|1",
 							[10] = "608953.836|1|1",
+							[16] = "608953.836|1|1",
+							[9] = "608953.836|1|1",
+							[15] = "608953.836|1|1",
+						},
+						["counts"] = {
+							[10] = 4,
+							[16] = 4,
+							[9] = 2,
+							[4] = 7,
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							[9] = 2,
-							[16] = 4,
-							[4] = 7,
-							[10] = 4,
-						},
 						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 16,
 				["numBagSlots"] = 80,
+				["numFreeBagSlots"] = 16,
 			},
 			["Default.Crushridge.Greyjoy"] = {
 				["lastUpdate"] = 1367216683,
-				["numFreeBagSlots"] = 62,
 				["Containers"] = {
 					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:38145:0:0:0:0:0:0:0:55:0:0|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
 						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 12,
 					},
 					["Bag0"] = {
-						["freeslots"] = 14,
+						["size"] = 16,
 						["ids"] = {
 							41751, -- [1]
 							40582, -- [2]
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							10, -- [1]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
+						["freeslots"] = 14,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:38145:0:0:0:0:0:0:0:55:0:0|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
 						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 12,
 					},
 					["Bag2"] = {
 						["link"] = "|cffffffff|Hitem:38145:0:0:0:0:0:0:0:55:0:0|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
 						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 12,
 					},
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:38145:0:0:0:0:0:0:0:55:0:0|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
 						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 12,
 					},
 				},
+				["numFreeBagSlots"] = 62,
 				["numBagSlots"] = 64,
 			},
 			["Default.Bloodhoof.Rhosie"] = {
 				["lastUpdate"] = 1370566292,
-				["numFreeBagSlots"] = 11,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2078792832:23:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							"|cff0070dd|Hitem:51964:0:0:0:0:0:-71:90570762:23:0:0|h[Vigorous Belt of the Bandit]|h|r", -- [1]
-							[5] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-80:419758090:23:0:0|h[Vigorous Belt of the Wild]|h|r",
-						},
-						["size"] = 16,
 						["ids"] = {
 							51964, -- [1]
 							4306, -- [2]
@@ -782,6 +775,12 @@ DataStore_ContainersDB = {
 							51964, -- [5]
 							[7] = 42944,
 						},
+						["links"] = {
+							"|cff0070dd|Hitem:51964:0:0:0:0:0:-71:90570762:23:0:0|h[Vigorous Belt of the Bandit]|h|r", -- [1]
+							[5] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-80:419758090:23:0:0|h[Vigorous Belt of the Wild]|h|r",
+						},
+						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2078792832:23:0:0|h[Netherweave Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["freeslots"] = 11,
 					},
@@ -804,13 +803,13 @@ DataStore_ContainersDB = {
 							159, -- [15]
 							74601, -- [16]
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							4, -- [1]
 							[11] = 2,
 							[6] = 7,
 							[7] = 2,
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 					},
 					["Bag1"] = {
@@ -833,12 +832,12 @@ DataStore_ContainersDB = {
 							2592, -- [15]
 							1738, -- [16]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							[5] = 2,
 							[13] = 3,
 							[15] = 16,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag2"] = {
@@ -861,24 +860,16 @@ DataStore_ContainersDB = {
 							6550, -- [16]
 						},
 						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:428229760:23:0:0|h[Netherweave Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							20, -- [1]
 							[8] = 20,
 							[9] = 13,
 							[3] = 5,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1273123328:23:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:6557:0:0:0:0:0:-78:1579024387:23:0:0|h[Bard's Boots of the Monkey]|h|r",
-							[14] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-86:1242038280:23:0:0|h[Tumultuous Cloak of the Soldier]|h|r",
-						},
-						["counts"] = {
-							[7] = 2,
-						},
 						["ids"] = {
 							73242, -- [1]
 							1179, -- [2]
@@ -897,16 +888,26 @@ DataStore_ContainersDB = {
 							10441, -- [15]
 							60684, -- [16]
 						},
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:6557:0:0:0:0:0:-78:1579024387:23:0:0|h[Bard's Boots of the Monkey]|h|r",
+							[14] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-86:1242038280:23:0:0|h[Tumultuous Cloak of the Soldier]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1273123328:23:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[7] = 2,
+						},
 						["size"] = 16,
 					},
 				},
+				["numFreeBagSlots"] = 11,
 				["numBagSlots"] = 80,
 			},
 			["Default.Bloodhoof.Avelaine"] = {
 				["numBankSlots"] = 44,
 				["lastUpdate"] = 1372989313,
 				["numBagSlots"] = 84,
+				["numFreeBagSlots"] = 22,
 				["Containers"] = {
 					["Bag5"] = {
 						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1996387456:80:0:0|h[Netherweave Bag]|h|r",
@@ -928,7 +929,6 @@ DataStore_ContainersDB = {
 							32423, -- [15]
 							4359, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							nil, -- [1]
 							2, -- [2]
@@ -947,13 +947,14 @@ DataStore_ContainersDB = {
 							16, -- [15]
 							10, -- [16]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:21841:0:0:0:0:0:0:1722053248:82:0:0|h[]|h|r",
-						["freeslots"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 16,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -1019,6 +1020,15 @@ DataStore_ContainersDB = {
 						["size"] = 28,
 					},
 					["Bag1"] = {
+						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:1025225088:82:0:0|h[Pit Lord's Satchel]|h|r",
+						["links"] = {
+							[19] = "|cff1eff00|Hitem:55687:0:0:0:0:0:-131:284688611:82:0:0|h[Mosshide Shoulders of the Undertow]|h|r",
+						},
+						["counts"] = {
+							[12] = 7,
+							[17] = 6,
+							[9] = 15,
+						},
 						["ids"] = {
 							72657, -- [1]
 							45578, -- [2]
@@ -1041,28 +1051,10 @@ DataStore_ContainersDB = {
 							55687, -- [19]
 							57383, -- [20]
 						},
-						["links"] = {
-							[19] = "|cff1eff00|Hitem:55687:0:0:0:0:0:-131:284688611:82:0:0|h[Mosshide Shoulders of the Undertow]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedRunecloth",
-						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:1025225088:82:0:0|h[Pit Lord's Satchel]|h|r",
-						["counts"] = {
-							[17] = 6,
-							[9] = 15,
-							[12] = 7,
-						},
 						["size"] = 20,
 					},
 					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1144737280:82:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[4] = "|cff1eff00|Hitem:7526:0:0:0:0:0:-19:758841358:82:0:0|h[Gossamer Belt of Intellect]|h|r",
-							[12] = "|cff1eff00|Hitem:55723:0:0:0:0:0:-8:190382307:82:0:0|h[Mistmantle Sandals of the Whale]|h|r",
-						},
-						["counts"] = {
-							[7] = 4,
-							[11] = 3,
-						},
 						["ids"] = {
 							18267, -- [1]
 							62093, -- [2]
@@ -1081,10 +1073,20 @@ DataStore_ContainersDB = {
 							55787, -- [15]
 							66886, -- [16]
 						},
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:7526:0:0:0:0:0:-19:758841358:82:0:0|h[Gossamer Belt of Intellect]|h|r",
+							[12] = "|cff1eff00|Hitem:55723:0:0:0:0:0:-8:190382307:82:0:0|h[Mistmantle Sandals of the Whale]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1144737280:82:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[7] = 4,
+							[11] = 3,
+						},
 						["size"] = 16,
 					},
 					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1344931968:82:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							57339, -- [1]
 							61478, -- [2]
@@ -1098,14 +1100,13 @@ DataStore_ContainersDB = {
 							[14] = 27778,
 							[15] = 29053,
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1344931968:82:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 6,
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							[5] = 3,
 							[6] = 4,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
+						["freeslots"] = 6,
 					},
 					["Bag0"] = {
 						["ids"] = {
@@ -1126,29 +1127,29 @@ DataStore_ContainersDB = {
 							28780, -- [15]
 							60217, -- [16]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							[6] = 2,
 							[7] = 2,
 							[4] = 19,
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 22,
 			},
 			["Default.Earthen Ring.Vendrelia"] = {
 				["lastUpdate"] = 1363196057,
+				["numFreeBagSlots"] = 15,
 				["Containers"] = {
 					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1496183936:23:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 14,
 						["ids"] = {
 							10998, -- [1]
 							[3] = 45581,
 						},
-						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1496183936:23:0:0|h[Netherweave Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 14,
+						["size"] = 16,
 					},
 					["Bag0"] = {
 						["ids"] = {
@@ -1169,7 +1170,6 @@ DataStore_ContainersDB = {
 							2997, -- [15]
 							48835, -- [16]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -1187,6 +1187,7 @@ DataStore_ContainersDB = {
 							2, -- [14]
 							13, -- [15]
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 					},
 					["Bag1"] = {
@@ -1209,20 +1210,30 @@ DataStore_ContainersDB = {
 							16305, -- [15]
 							7073, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							13, -- [1]
 							[11] = 4,
 							[13] = 12,
-							[16] = 13,
+							[5] = 2,
 							[12] = 4,
 							[14] = 2,
+							[16] = 13,
 							[9] = 5,
-							[5] = 2,
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1155880448:23:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[16] = "|cff1eff00|Hitem:15497:0:0:0:0:0:-10:1667956740:23:0:0|h[Outrunner's Cord of the Gorilla]|h|r",
+						},
+						["counts"] = {
+							[8] = 9,
+							[13] = 20,
+							[12] = 3,
+							[15] = 14,
+						},
 						["ids"] = {
 							48921, -- [1]
 							5635, -- [2]
@@ -1241,20 +1252,21 @@ DataStore_ContainersDB = {
 							2589, -- [15]
 							15497, -- [16]
 						},
-						["links"] = {
-							[16] = "|cff1eff00|Hitem:15497:0:0:0:0:0:-10:1667956740:23:0:0|h[Outrunner's Cord of the Gorilla]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1155880448:23:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							[8] = 9,
-							[13] = 20,
-							[12] = 3,
-							[15] = 14,
-						},
 						["size"] = 16,
 					},
 					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1313548544:23:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[13] = "|cff1eff00|Hitem:14125:0:0:0:0:0:-81:-2042036217:23:0:0|h[Ritual Leggings of the Whale]|h|r",
+						},
+						["counts"] = {
+							4, -- [1]
+							[5] = 2,
+							[10] = 4,
+							[11] = 9,
+						},
+						["freeslots"] = 1,
 						["ids"] = {
 							6444, -- [1]
 							1793, -- [2]
@@ -1273,22 +1285,10 @@ DataStore_ContainersDB = {
 							21005, -- [15]
 							4306, -- [16]
 						},
-						["links"] = {
-							[13] = "|cff1eff00|Hitem:14125:0:0:0:0:0:-81:-2042036217:23:0:0|h[Ritual Leggings of the Whale]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1313548544:23:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							4, -- [1]
-							[5] = 2,
-							[10] = 4,
-							[11] = 9,
-						},
-						["freeslots"] = 1,
 					},
 				},
-				["numFreeBagSlots"] = 15,
 				["numBagSlots"] = 80,
 			},
 			["Default.Bloodhoof.Jyetie"] = {
@@ -1297,6 +1297,12 @@ DataStore_ContainersDB = {
 				["lastUpdate"] = 1375317591,
 				["Containers"] = {
 					["Bag10"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:2022852608:90:0:0|h[Frostweave Bag]|h|r",
+						["links"] = {
+							[18] = "|cffa335ee|Hitem:86770:4806:4579:0:0:0:0:2026886912:90:0:445|h[Shadowsummoner Spaulders]|h|r",
+							[7] = "|cffa335ee|Hitem:47755:3873:3459:3459:0:0:0:1147582464:90:119:0|h[Khadgar's Leggings of Triumph]|h|r",
+							[20] = "|cffa335ee|Hitem:72376:0:4236:4000:0:0:0:0:90:0:0|h[Ruthless Gladiator's Silk Robe]|h|r",
+						},
 						["ids"] = {
 							50275, -- [1]
 							86828, -- [2]
@@ -1319,57 +1325,56 @@ DataStore_ContainersDB = {
 							59482, -- [19]
 							72376, -- [20]
 						},
-						["links"] = {
-							[18] = "|cffa335ee|Hitem:86770:4806:4579:0:0:0:0:2026886912:90:0:445|h[Shadowsummoner Spaulders]|h|r",
-							[7] = "|cffa335ee|Hitem:47755:3873:3459:3459:0:0:0:1147582464:90:119:0|h[Khadgar's Leggings of Triumph]|h|r",
-							[20] = "|cffa335ee|Hitem:72376:0:4236:4000:0:0:0:0:90:0:0|h[Ruthless Gladiator's Silk Robe]|h|r",
-						},
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:2022852608:90:0:0|h[Frostweave Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["size"] = 20,
 					},
-					["Bag100"] = {
+					["Bag0"] = {
 						["ids"] = {
-							69986, -- [1]
-							50643, -- [2]
-							50741, -- [3]
-							93503, -- [4]
-							52025, -- [5]
-							39242, -- [6]
-							39216, -- [7]
-							28565, -- [8]
-							28517, -- [9]
-							52025, -- [10]
-							16797, -- [11]
-							28726, -- [12]
-							28799, -- [13]
-							73574, -- [14]
-							4037, -- [15]
-							4036, -- [16]
-							7110, -- [17]
-							10026, -- [18]
-							89882, -- [19]
-							8383, -- [20]
-							40197, -- [21]
-							26043, -- [22]
-							36862, -- [23]
-							24421, -- [24]
-							21744, -- [25]
-							28341, -- [26]
-							39733, -- [27]
-							40245, -- [28]
+							92942, -- [1]
+							43013, -- [2]
+							43007, -- [3]
+							34054, -- [4]
+							79102, -- [5]
+							79267, -- [6]
+							45313, -- [7]
+							45087, -- [8]
+							89640, -- [9]
+							89641, -- [10]
+							45148, -- [11]
+							43147, -- [12]
+							34054, -- [13]
+							72104, -- [14]
+							43467, -- [15]
+							38551, -- [16]
 						},
-						["size"] = 28,
 						["counts"] = {
-							[24] = 2,
-							[25] = 11,
-							[22] = 99,
+							5, -- [1]
+							18, -- [2]
+							4, -- [3]
+							nil, -- [4]
+							4, -- [5]
+							2, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							8, -- [9]
+							2, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							20, -- [13]
+							3, -- [14]
+							nil, -- [15]
+							8, -- [16]
 						},
-						["links"] = {
-							[14] = "|cffa335ee|Hitem:73574:4113:0:4244:0:0:0:0:90:0:0|h[Cataclysmic Gladiator's Silk Trousers]|h|r",
-						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 					},
 					["Bag8"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1759287424:90:0:0|h[Frostweave Bag]|h|r",
+						["links"] = {
+							"|cff0070dd|Hitem:31246:0:0:0:0:0:-37:-1913520077:90:0:0|h[Nagahide Leggings of the Seer]|h|r", -- [1]
+							[4] = "|cff0070dd|Hitem:31174:0:0:0:0:0:-8:-1761804241:90:0:0|h[Demonweave Raiment of the Whale]|h|r",
+							[9] = "|cffa335ee|Hitem:97671:0:0:0:0:0:-348:1147668611:90:0:465|h[Dissident's Robes of the Impatient]|h|r",
+						},
 						["ids"] = {
 							31246, -- [1]
 							86577, -- [2]
@@ -1392,62 +1397,40 @@ DataStore_ContainersDB = {
 							44748, -- [19]
 							56836, -- [20]
 						},
-						["links"] = {
-							"|cff0070dd|Hitem:31246:0:0:0:0:0:-37:-1913520077:90:0:0|h[Nagahide Leggings of the Seer]|h|r", -- [1]
-							[4] = "|cff0070dd|Hitem:31174:0:0:0:0:0:-8:-1761804241:90:0:0|h[Demonweave Raiment of the Whale]|h|r",
-							[9] = "|cffa335ee|Hitem:97671:0:0:0:0:0:-348:1147668611:90:0:465|h[Dissident's Robes of the Impatient]|h|r",
-						},
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1759287424:90:0:0|h[Frostweave Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["size"] = 20,
 					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:659553792:90:0:0|h[Grummlepack]|h|r",
+					["Bag7"] = {
 						["ids"] = {
-							72095, -- [1]
-							33447, -- [2]
-							45256, -- [3]
-							45246, -- [4]
-							45253, -- [5]
-							45090, -- [6]
-							72238, -- [7]
-							74840, -- [8]
-							72092, -- [9]
-							41510, -- [10]
-							72235, -- [11]
-							72234, -- [12]
-							79010, -- [13]
-							72237, -- [14]
-							79011, -- [15]
-							95879, -- [16]
-							72094, -- [17]
-							34055, -- [18]
-							38426, -- [19]
-							53643, -- [20]
-							41511, -- [21]
-							58256, -- [22]
-							95454, -- [23]
-							82441, -- [24]
+							21524, -- [1]
+							25974, -- [2]
+							31766, -- [3]
+							25978, -- [4]
+							90378, -- [5]
+							64457, -- [6]
+							97658, -- [7]
+							31059, -- [8]
+							32273, -- [9]
+							69777, -- [10]
+							37863, -- [11]
+							32329, -- [12]
+							32327, -- [13]
+							89196, -- [14]
+							35279, -- [15]
+							89795, -- [16]
+							16684, -- [17]
+							69578, -- [18]
+							16683, -- [19]
+							85973, -- [20]
+							64361, -- [21]
+							29380, -- [22]
 						},
-						["counts"] = {
-							2, -- [1]
-							2, -- [2]
-							[24] = 12,
-							[13] = 2,
-							[7] = 3,
-							[14] = 9,
-							[15] = 4,
-							[8] = 3,
-							[9] = 4,
-							[19] = 8,
-							[20] = 2,
-							[11] = 20,
-							[22] = 4,
-							[12] = 3,
-							[17] = 4,
+						["links"] = {
+							[7] = "|cffa335ee|Hitem:97658:0:0:0:0:0:-348:1752893571:90:0:465|h[Dissident's Crown of the Impatient]|h|r",
 						},
-						["icon"] = "Interface\\Icons\\inv_misc_bag_36",
-						["size"] = 24,
+						["link"] = "|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:90:0:0|h[\"Gigantique\" Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_27",
+						["size"] = 22,
 					},
 					["Bag3"] = {
 						["link"] = "|cffa335ee|Hitem:82446:0:0:0:0:0:0:1629400576:90:0:0|h[Royal Satchel]|h|r",
@@ -1481,17 +1464,262 @@ DataStore_ContainersDB = {
 							80809, -- [27]
 							97545, -- [28]
 						},
-						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
 						["counts"] = {
-							[28] = 96,
+							[18] = 13,
 							[13] = 84,
-							[8] = 78,
+							[28] = 96,
 							[10] = 10,
 							[3] = 39,
 							[19] = 3,
 							[16] = 20,
-							[18] = 13,
+							[8] = 78,
 						},
+						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
+						["size"] = 28,
+					},
+					["Bag9"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:438170816:90:0:0|h[Frostweave Bag]|h|r",
+						["ids"] = {
+							64651, -- [1]
+							30250, -- [2]
+							30244, -- [3]
+							34858, -- [4]
+							34855, -- [5]
+							16801, -- [6]
+							50210, -- [7]
+							40286, -- [8]
+							71141, -- [9]
+							30183, -- [10]
+							28345, -- [11]
+							43348, -- [12]
+							24112, -- [13]
+							65079, -- [14]
+							34012, -- [15]
+							30021, -- [16]
+							30668, -- [17]
+							16802, -- [18]
+							32049, -- [19]
+							47752, -- [20]
+						},
+						["counts"] = {
+							[9] = 2,
+							[10] = 2,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+					},
+					["Bag5"] = {
+						["link"] = "|cffa335ee|Hitem:49295:0:0:0:0:0:0:1543105040:90:0:0|h[Enlarged Onyxia Hide Backpack]|h|r",
+						["links"] = {
+							[19] = "|cff1eff00|Hitem:25096:0:0:0:0:0:-38:1705705501:90:0:0|h[Elementalist Star of the Prophet]|h|r",
+						},
+						["counts"] = {
+							2, -- [1]
+							[4] = 4,
+						},
+						["ids"] = {
+							41427, -- [1]
+							88584, -- [2]
+							64358, -- [3]
+							43478, -- [4]
+							15196, -- [5]
+							15198, -- [6]
+							53097, -- [7]
+							51803, -- [8]
+							50998, -- [9]
+							40280, -- [10]
+							40271, -- [11]
+							21539, -- [12]
+							21538, -- [13]
+							21157, -- [14]
+							22280, -- [15]
+							54651, -- [16]
+							44803, -- [17]
+							69776, -- [18]
+							25096, -- [19]
+							45073, -- [20]
+							34604, -- [21]
+							28322, -- [22]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_22",
+						["size"] = 22,
+					},
+					["Bag4"] = {
+						["ids"] = {
+							86578, -- [1]
+							45057, -- [2]
+							75525, -- [3]
+							28455, -- [4]
+							86580, -- [5]
+							35819, -- [6]
+							94222, -- [7]
+							41599, -- [8]
+							91593, -- [9]
+							95449, -- [10]
+							94029, -- [11]
+							44987, -- [12]
+							64398, -- [13]
+							40419, -- [14]
+							91232, -- [15]
+							51326, -- [16]
+							86565, -- [17]
+							84837, -- [18]
+							40418, -- [19]
+							38729, -- [20]
+							40289, -- [21]
+							27431, -- [22]
+							94288, -- [23]
+							64488, -- [24]
+						},
+						["links"] = {
+							[11] = "|cff1eff00|Hitem:94029:0:0:0:0:0:-114:227476382:90:0:0|h[Faded Spirit-Wrencher Shoulders of the Flameblaze]|h|r",
+						},
+						["counts"] = {
+							[12] = 11,
+							[7] = 3,
+							[23] = 15,
+						},
+						["link"] = "|cff0070dd|Hitem:69748:0:0:0:0:0:0:854764096:90:0:0|h[Tattered Hexcloth Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_12",
+						["size"] = 24,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							69986, -- [1]
+							50643, -- [2]
+							50741, -- [3]
+							93503, -- [4]
+							52025, -- [5]
+							39242, -- [6]
+							39216, -- [7]
+							28565, -- [8]
+							28517, -- [9]
+							52025, -- [10]
+							16797, -- [11]
+							28726, -- [12]
+							28799, -- [13]
+							73574, -- [14]
+							4037, -- [15]
+							4036, -- [16]
+							7110, -- [17]
+							10026, -- [18]
+							89882, -- [19]
+							8383, -- [20]
+							40197, -- [21]
+							26043, -- [22]
+							36862, -- [23]
+							24421, -- [24]
+							21744, -- [25]
+							28341, -- [26]
+							39733, -- [27]
+							40245, -- [28]
+						},
+						["links"] = {
+							[14] = "|cffa335ee|Hitem:73574:4113:0:4244:0:0:0:0:90:0:0|h[Cataclysmic Gladiator's Silk Trousers]|h|r",
+						},
+						["counts"] = {
+							[24] = 2,
+							[25] = 11,
+							[22] = 99,
+						},
+						["size"] = 28,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:659553792:90:0:0|h[Grummlepack]|h|r",
+						["ids"] = {
+							72095, -- [1]
+							33447, -- [2]
+							45256, -- [3]
+							45246, -- [4]
+							45253, -- [5]
+							45090, -- [6]
+							72238, -- [7]
+							74840, -- [8]
+							72092, -- [9]
+							41510, -- [10]
+							72235, -- [11]
+							72234, -- [12]
+							79010, -- [13]
+							72237, -- [14]
+							79011, -- [15]
+							95879, -- [16]
+							72094, -- [17]
+							34055, -- [18]
+							38426, -- [19]
+							53643, -- [20]
+							41511, -- [21]
+							58256, -- [22]
+							95454, -- [23]
+							82441, -- [24]
+						},
+						["icon"] = "Interface\\Icons\\inv_misc_bag_36",
+						["counts"] = {
+							2, -- [1]
+							2, -- [2]
+							[24] = 12,
+							[13] = 2,
+							[7] = 3,
+							[14] = 9,
+							[15] = 4,
+							[8] = 3,
+							[9] = 4,
+							[19] = 8,
+							[20] = 2,
+							[11] = 20,
+							[22] = 4,
+							[12] = 3,
+							[17] = 4,
+						},
+						["size"] = 24,
+					},
+					["Bag2"] = {
+						["link"] = "|cffa335ee|Hitem:82446:0:0:0:0:0:0:1282292736:90:0:0|h[Royal Satchel]|h|r",
+						["ids"] = {
+							58268, -- [1]
+							54445, -- [2]
+							6948, -- [3]
+							72988, -- [4]
+							72988, -- [5]
+							72988, -- [6]
+							72095, -- [7]
+							72988, -- [8]
+							89815, -- [9]
+							nil, -- [10]
+							34054, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							89911, -- [16]
+							91877, -- [17]
+							64373, -- [18]
+							90883, -- [19]
+							64481, -- [20]
+							nil, -- [21]
+							33470, -- [22]
+							nil, -- [23]
+							79249, -- [24]
+							90888, -- [25]
+							91138, -- [26]
+							97543, -- [27]
+							32363, -- [28]
+						},
+						["freeslots"] = 7,
+						["counts"] = {
+							6, -- [1]
+							[24] = 17,
+							[7] = 16,
+							[27] = 184,
+							[4] = 20,
+							[8] = 14,
+							[16] = 8,
+							[17] = 79,
+							[5] = 20,
+							[11] = 20,
+							[6] = 20,
+							[22] = 3,
+						},
+						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
 						["size"] = 28,
 					},
 					["VoidStorage"] = {
@@ -1576,235 +1804,12 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 80,
 					},
-					["Bag5"] = {
-						["ids"] = {
-							41427, -- [1]
-							88584, -- [2]
-							64358, -- [3]
-							43478, -- [4]
-							15196, -- [5]
-							15198, -- [6]
-							53097, -- [7]
-							51803, -- [8]
-							50998, -- [9]
-							40280, -- [10]
-							40271, -- [11]
-							21539, -- [12]
-							21538, -- [13]
-							21157, -- [14]
-							22280, -- [15]
-							54651, -- [16]
-							44803, -- [17]
-							69776, -- [18]
-							25096, -- [19]
-							45073, -- [20]
-							34604, -- [21]
-							28322, -- [22]
-						},
-						["links"] = {
-							[19] = "|cff1eff00|Hitem:25096:0:0:0:0:0:-38:1705705501:90:0:0|h[Elementalist Star of the Prophet]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_22",
-						["link"] = "|cffa335ee|Hitem:49295:0:0:0:0:0:0:1543105040:90:0:0|h[Enlarged Onyxia Hide Backpack]|h|r",
-						["counts"] = {
-							2, -- [1]
-							[4] = 4,
-						},
-						["size"] = 22,
-					},
-					["Bag4"] = {
-						["link"] = "|cff0070dd|Hitem:69748:0:0:0:0:0:0:854764096:90:0:0|h[Tattered Hexcloth Bag]|h|r",
-						["links"] = {
-							[11] = "|cff1eff00|Hitem:94029:0:0:0:0:0:-114:227476382:90:0:0|h[Faded Spirit-Wrencher Shoulders of the Flameblaze]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_12",
-						["ids"] = {
-							86578, -- [1]
-							45057, -- [2]
-							75525, -- [3]
-							28455, -- [4]
-							86580, -- [5]
-							35819, -- [6]
-							94222, -- [7]
-							41599, -- [8]
-							91593, -- [9]
-							95449, -- [10]
-							94029, -- [11]
-							44987, -- [12]
-							64398, -- [13]
-							40419, -- [14]
-							91232, -- [15]
-							51326, -- [16]
-							86565, -- [17]
-							84837, -- [18]
-							40418, -- [19]
-							38729, -- [20]
-							40289, -- [21]
-							27431, -- [22]
-							94288, -- [23]
-							64488, -- [24]
-						},
-						["counts"] = {
-							[7] = 3,
-							[23] = 15,
-							[12] = 11,
-						},
-						["size"] = 24,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							92942, -- [1]
-							43013, -- [2]
-							43007, -- [3]
-							34054, -- [4]
-							79102, -- [5]
-							79267, -- [6]
-							45313, -- [7]
-							45087, -- [8]
-							89640, -- [9]
-							89641, -- [10]
-							45148, -- [11]
-							43147, -- [12]
-							34054, -- [13]
-							72104, -- [14]
-							43467, -- [15]
-							38551, -- [16]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							5, -- [1]
-							18, -- [2]
-							4, -- [3]
-							nil, -- [4]
-							4, -- [5]
-							2, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							8, -- [9]
-							2, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							20, -- [13]
-							3, -- [14]
-							nil, -- [15]
-							8, -- [16]
-						},
-						["size"] = 16,
-					},
-					["Bag7"] = {
-						["link"] = "|cffa335ee|Hitem:38082:0:0:0:0:0:0:0:90:0:0|h[\"Gigantique\" Bag]|h|r",
-						["links"] = {
-							[7] = "|cffa335ee|Hitem:97658:0:0:0:0:0:-348:1752893571:90:0:465|h[Dissident's Crown of the Impatient]|h|r",
-						},
-						["ids"] = {
-							21524, -- [1]
-							25974, -- [2]
-							31766, -- [3]
-							25978, -- [4]
-							90378, -- [5]
-							64457, -- [6]
-							97658, -- [7]
-							31059, -- [8]
-							32273, -- [9]
-							69777, -- [10]
-							37863, -- [11]
-							32329, -- [12]
-							32327, -- [13]
-							89196, -- [14]
-							35279, -- [15]
-							89795, -- [16]
-							16684, -- [17]
-							69578, -- [18]
-							16683, -- [19]
-							85973, -- [20]
-							64361, -- [21]
-							29380, -- [22]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_27",
-						["size"] = 22,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							58268, -- [1]
-							54445, -- [2]
-							6948, -- [3]
-							72988, -- [4]
-							72988, -- [5]
-							72988, -- [6]
-							72095, -- [7]
-							72988, -- [8]
-							89815, -- [9]
-							nil, -- [10]
-							34054, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							89911, -- [16]
-							91877, -- [17]
-							64373, -- [18]
-							90883, -- [19]
-							64481, -- [20]
-							nil, -- [21]
-							33470, -- [22]
-							nil, -- [23]
-							79249, -- [24]
-							90888, -- [25]
-							91138, -- [26]
-							97543, -- [27]
-							32363, -- [28]
-						},
-						["link"] = "|cffa335ee|Hitem:82446:0:0:0:0:0:0:1282292736:90:0:0|h[Royal Satchel]|h|r",
-						["size"] = 28,
-						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
-						["counts"] = {
-							6, -- [1]
-							[24] = 17,
-							[7] = 16,
-							[27] = 184,
-							[4] = 20,
-							[8] = 14,
-							[16] = 8,
-							[17] = 79,
-							[5] = 20,
-							[11] = 20,
-							[6] = 20,
-							[22] = 3,
-						},
-						["freeslots"] = 7,
-					},
-					["Bag9"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:438170816:90:0:0|h[Frostweave Bag]|h|r",
-						["ids"] = {
-							64651, -- [1]
-							30250, -- [2]
-							30244, -- [3]
-							34858, -- [4]
-							34855, -- [5]
-							16801, -- [6]
-							50210, -- [7]
-							40286, -- [8]
-							71141, -- [9]
-							30183, -- [10]
-							28345, -- [11]
-							43348, -- [12]
-							24112, -- [13]
-							65079, -- [14]
-							34012, -- [15]
-							30021, -- [16]
-							30668, -- [17]
-							16802, -- [18]
-							32049, -- [19]
-							47752, -- [20]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["counts"] = {
-							[9] = 2,
-							[10] = 2,
-						},
-						["size"] = 20,
-					},
 					["Bag11"] = {
+						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:1775704192:90:0:0|h[Papa's New Bag]|h|r",
+						["links"] = {
+							[6] = "|cffa335ee|Hitem:47713:3810:3463:0:0:0:0:0:90:0:0|h[Mantle of Catastrophic Emanation]|h|r",
+							[11] = "|cffa335ee|Hitem:78796:4207:4253:3995:0:0:0:0:90:151:0|h[Time Lord's Hood]|h|r",
+						},
 						["ids"] = {
 							86715, -- [1]
 							34607, -- [2]
@@ -1827,15 +1832,15 @@ DataStore_ContainersDB = {
 							86892, -- [19]
 							34329, -- [20]
 						},
-						["links"] = {
-							[6] = "|cffa335ee|Hitem:47713:3810:3463:0:0:0:0:0:90:0:0|h[Mantle of Catastrophic Emanation]|h|r",
-							[11] = "|cffa335ee|Hitem:78796:4207:4253:3995:0:0:0:0:90:151:0|h[Time Lord's Hood]|h|r",
-						},
-						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:1775704192:90:0:0|h[Papa's New Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
 						["size"] = 20,
 					},
 					["Bag6"] = {
+						["link"] = "|cffa335ee|Hitem:43345:0:0:0:0:0:0:-1620071552:90:0:0|h[Dragon Hide Bag]|h|r",
+						["links"] = {
+							[12] = "|cff1eff00|Hitem:24672:0:0:0:0:0:-15:908460072:90:0:0|h[Eldr'naan Gloves of Spirit]|h|r",
+							[19] = "|cff1eff00|Hitem:24671:0:0:0:0:0:-6:1808072757:90:0:0|h[Eldr'naan Jerkin of the Eagle]|h|r",
+						},
 						["ids"] = {
 							18706, -- [1]
 							18706, -- [2]
@@ -1860,17 +1865,12 @@ DataStore_ContainersDB = {
 							35275, -- [21]
 							40336, -- [22]
 						},
-						["links"] = {
-							[12] = "|cff1eff00|Hitem:24672:0:0:0:0:0:-15:908460072:90:0:0|h[Eldr'naan Gloves of Spirit]|h|r",
-							[19] = "|cff1eff00|Hitem:24671:0:0:0:0:0:-6:1808072757:90:0:0|h[Eldr'naan Jerkin of the Eagle]|h|r",
-						},
-						["link"] = "|cffa335ee|Hitem:43345:0:0:0:0:0:0:-1620071552:90:0:0|h[Dragon Hide Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
 						["size"] = 22,
 					},
 				},
-				["numBagSlots"] = 120,
 				["numFreeBagSlots"] = 7,
+				["numBagSlots"] = 120,
 			},
 			["Default.Bloodhoof.Tarley"] = {
 				["numFreeBankSlots"] = 10,
@@ -1878,28 +1878,6 @@ DataStore_ContainersDB = {
 				["lastUpdate"] = 1375250166,
 				["Containers"] = {
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2111946624:90:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[11] = "|cff0070dd|Hitem:81077:0:4509:0:0:0:0:1899969152:90:0:451|h[Hopping Mad Leggings]|h|r",
-						},
-						["counts"] = {
-							13, -- [1]
-							20, -- [2]
-							20, -- [3]
-							nil, -- [4]
-							2, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							20, -- [8]
-							nil, -- [9]
-							20, -- [10]
-							nil, -- [11]
-							9, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							2, -- [15]
-						},
-						["freeslots"] = 4,
 						["ids"] = {
 							72238, -- [1]
 							53038, -- [2]
@@ -1918,10 +1896,33 @@ DataStore_ContainersDB = {
 							43352, -- [15]
 							87209, -- [16]
 						},
+						["links"] = {
+							[11] = "|cff0070dd|Hitem:81077:0:4509:0:0:0:0:1899969152:90:0:451|h[Hopping Mad Leggings]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2111946624:90:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							13, -- [1]
+							20, -- [2]
+							20, -- [3]
+							nil, -- [4]
+							2, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							20, -- [8]
+							nil, -- [9]
+							20, -- [10]
+							nil, -- [11]
+							9, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							2, -- [15]
+						},
+						["freeslots"] = 4,
 					},
 					["Bag5"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1557429504:90:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							16849, -- [1]
 							11138, -- [2]
@@ -1940,37 +1941,10 @@ DataStore_ContainersDB = {
 							31542, -- [15]
 							30674, -- [16]
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1557429504:90:0:0|h[Netherweave Bag]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
 					},
 					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:1636981248:90:0:0|h[Grummlepack]|h|r",
-						["links"] = {
-							[3] = "|cff1eff00|Hitem:6595:0:0:0:0:0:-17:-1584267256:90:0:0|h[Battleforge Gauntlets of Strength]|h|r",
-						},
-						["counts"] = {
-							184, -- [1]
-							10, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							5, -- [5]
-							5, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							20, -- [10]
-							nil, -- [11]
-							7, -- [12]
-							nil, -- [13]
-							7, -- [14]
-							3, -- [15]
-							nil, -- [16]
-							2, -- [17]
-							3, -- [18]
-							[24] = 366,
-						},
-						["freeslots"] = 4,
 						["ids"] = {
 							91877, -- [1]
 							76061, -- [2]
@@ -1997,8 +1971,34 @@ DataStore_ContainersDB = {
 							6948, -- [23]
 							94288, -- [24]
 						},
+						["links"] = {
+							[3] = "|cff1eff00|Hitem:6595:0:0:0:0:0:-17:-1584267256:90:0:0|h[Battleforge Gauntlets of Strength]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\inv_misc_bag_36",
 						["size"] = 24,
+						["link"] = "|cffffffff|Hitem:88397:0:0:0:0:0:0:1636981248:90:0:0|h[Grummlepack]|h|r",
+						["counts"] = {
+							184, -- [1]
+							10, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							5, -- [5]
+							5, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							20, -- [10]
+							nil, -- [11]
+							7, -- [12]
+							nil, -- [13]
+							7, -- [14]
+							3, -- [15]
+							nil, -- [16]
+							2, -- [17]
+							3, -- [18]
+							[24] = 366,
+						},
+						["freeslots"] = 4,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -2031,24 +2031,25 @@ DataStore_ContainersDB = {
 							16849, -- [27]
 							18829, -- [28]
 						},
-						["size"] = 28,
-						["counts"] = {
-							[11] = 20,
-							[10] = 20,
-							[19] = 20,
-							[24] = 2,
-						},
 						["links"] = {
 							[2] = "|cff1eff00|Hitem:10084:0:0:0:0:0:-11:-993329130:90:0:0|h[Lord's Legguards of the Falcon]|h|r",
 							[8] = "|cff1eff00|Hitem:10122:0:0:0:0:0:-69:1278672914:90:0:0|h[Ornate Girdle of the Eagle]|h|r",
 							[18] = "|cff1eff00|Hitem:24867:0:0:0:0:0:-12:1361510447:90:0:0|h[Blood Knight Greaves of the Boar]|h|r",
 							[22] = "|cff1eff00|Hitem:7543:0:0:0:0:0:-69:1408892943:90:0:0|h[Champion's Pauldrons of the Eagle]|h|r",
+							[17] = "|cff1eff00|Hitem:24862:0:0:0:0:0:-5:988545059:90:0:0|h[Blood Knight Girdle of the Monkey]|h|r",
 							[23] = "|cff1eff00|Hitem:6592:0:0:0:0:0:-20:1514602507:90:0:0|h[Battleforge Armor of Power]|h|r",
 							[16] = "|cff1eff00|Hitem:6597:0:0:0:0:0:-68:2010710024:90:0:0|h[Battleforge Shoulderguards of the Bear]|h|r",
-							[17] = "|cff1eff00|Hitem:24862:0:0:0:0:0:-5:988545059:90:0:0|h[Blood Knight Girdle of the Monkey]|h|r",
 						},
+						["counts"] = {
+							[11] = 20,
+							[10] = 20,
+							[24] = 2,
+							[19] = 20,
+						},
+						["size"] = 28,
 					},
 					["Bag7"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:373859904:90:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							52179, -- [1]
 							52191, -- [2]
@@ -2065,9 +2066,7 @@ DataStore_ContainersDB = {
 							34229, -- [13]
 							45844, -- [14]
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:373859904:90:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 2,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 						["counts"] = {
 							2, -- [1]
 							nil, -- [2]
@@ -2076,10 +2075,10 @@ DataStore_ContainersDB = {
 							2, -- [5]
 							3, -- [6]
 						},
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 2,
 					},
 					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1536458624:90:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							nil, -- [1]
 							72093, -- [2]
@@ -2098,7 +2097,9 @@ DataStore_ContainersDB = {
 							80433, -- [15]
 							72094, -- [16]
 						},
-						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1536458624:90:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 8,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							nil, -- [1]
 							42, -- [2]
@@ -2117,11 +2118,10 @@ DataStore_ContainersDB = {
 							nil, -- [15]
 							10, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 8,
+						["size"] = 16,
 					},
 					["Bag0"] = {
-						["size"] = 16,
+						["freeslots"] = 2,
 						["ids"] = {
 							72234, -- [1]
 							86143, -- [2]
@@ -2140,6 +2140,7 @@ DataStore_ContainersDB = {
 							87595, -- [15]
 							52329, -- [16]
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							12, -- [1]
 							5, -- [2]
@@ -2158,11 +2159,9 @@ DataStore_ContainersDB = {
 							nil, -- [15]
 							4, -- [16]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 2,
+						["size"] = 16,
 					},
 					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:50316:0:0:0:0:0:0:376471272:90:0:0|h[Papa's Brand New Bag]|h|r",
 						["ids"] = {
 							72096, -- [1]
 							79011, -- [2]
@@ -2187,7 +2186,9 @@ DataStore_ContainersDB = {
 							72092, -- [21]
 							74833, -- [22]
 						},
-						["size"] = 22,
+						["link"] = "|cffa335ee|Hitem:50316:0:0:0:0:0:0:376471272:90:0:0|h[Papa's Brand New Bag]|h|r",
+						["freeslots"] = 1,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
 						["counts"] = {
 							20, -- [1]
 							7, -- [2]
@@ -2209,10 +2210,15 @@ DataStore_ContainersDB = {
 							[19] = 5,
 							[21] = 2,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
-						["freeslots"] = 1,
+						["size"] = 22,
 					},
 					["Bag6"] = {
+						["link"] = "|cff1eff00|Hitem:4500:0:0:0:0:0:0:1527284864:90:0:0|h[Traveler's Backpack]|h|r",
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:10234:0:0:0:0:0:-68:750059539:90:0:0|h[Engraved Boots of the Bear]|h|r",
+							[16] = "|cff0070dd|Hitem:31163:0:0:0:0:0:-45:467468332:90:0:0|h[Nethersteel Handguards of the Champion]|h|r",
+							[9] = "|cff1eff00|Hitem:10236:0:0:0:0:0:-11:1428357146:90:0:0|h[Engraved Leggings of the Falcon]|h|r",
+						},
 						["ids"] = {
 							22206, -- [1]
 							50300, -- [2]
@@ -2231,2133 +2237,12 @@ DataStore_ContainersDB = {
 							81067, -- [15]
 							31163, -- [16]
 						},
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:10234:0:0:0:0:0:-68:750059539:90:0:0|h[Engraved Boots of the Bear]|h|r",
-							[16] = "|cff0070dd|Hitem:31163:0:0:0:0:0:-45:467468332:90:0:0|h[Nethersteel Handguards of the Champion]|h|r",
-							[9] = "|cff1eff00|Hitem:10236:0:0:0:0:0:-11:1428357146:90:0:0|h[Engraved Leggings of the Falcon]|h|r",
-						},
-						["link"] = "|cff1eff00|Hitem:4500:0:0:0:0:0:0:1527284864:90:0:0|h[Traveler's Backpack]|h|r",
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
 						["size"] = 16,
 					},
 				},
-				["numFreeBagSlots"] = 19,
 				["numBagSlots"] = 94,
-			},
-			["Default.Crushridge.Margot"] = {
-				["lastUpdate"] = 1367216792,
-				["Containers"] = {
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							77272, -- [1]
-							6948, -- [2]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							5, -- [1]
-						},
-						["freeslots"] = 14,
-					},
-				},
-				["numFreeBagSlots"] = 14,
-				["numBagSlots"] = 16,
-			},
-			["Default.Bloodhoof.Avessia"] = {
-				["numFreeBankSlots"] = 87,
-				["numBankSlots"] = 108,
-				["lastUpdate"] = 1375249485,
-				["numBagSlots"] = 112,
-				["numFreeBagSlots"] = 20,
-				["Containers"] = {
-					["Bag8"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:89379472:90:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 16,
-					},
-					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:46097024:90:0:0|h[Frostweave Bag]|h|r",
-						["ids"] = {
-							79249, -- [1]
-							39354, -- [2]
-							nil, -- [3]
-							72234, -- [4]
-							79254, -- [5]
-							72988, -- [6]
-							[13] = 87208,
-							[14] = 88487,
-							[15] = 71634,
-							[9] = 87582,
-							[18] = 79255,
-							[19] = 79254,
-							[20] = 79254,
-							[11] = 79731,
-							[12] = 87209,
-							[17] = 79254,
-						},
-						["freeslots"] = 5,
-						["counts"] = {
-							11, -- [1]
-							49, -- [2]
-							nil, -- [3]
-							12, -- [4]
-							20, -- [5]
-							8, -- [6]
-							[11] = 20,
-							[13] = 4,
-							[20] = 20,
-							[18] = 20,
-							[12] = 4,
-							[14] = 5,
-							[19] = 20,
-							[17] = 20,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
-					},
-					["Bag100"] = {
-						["ids"] = {
-							90378, -- [1]
-							nil, -- [2]
-							19362, -- [3]
-							nil, -- [4]
-							28671, -- [5]
-							32254, -- [6]
-							16948, -- [7]
-							16950, -- [8]
-							81105, -- [9]
-							90370, -- [10]
-							93585, -- [11]
-							64399, -- [12]
-							94233, -- [13]
-							88584, -- [14]
-							94233, -- [15]
-							3820, -- [16]
-							74837, -- [17]
-							74840, -- [18]
-							79253, -- [19]
-							74834, -- [20]
-							35279, -- [21]
-							95350, -- [22]
-							89682, -- [23]
-						},
-						["freeslots"] = 7,
-						["counts"] = {
-							[18] = 10,
-							[16] = 2,
-							[17] = 6,
-							[20] = 11,
-						},
-						["size"] = 28,
-					},
-					["Bag5"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1440943104:90:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag4"] = {
-						["link"] = "|cff0070dd|Hitem:54445:0:0:0:0:0:0:1546609280:90:0:0|h[Otherworldly Bag]|h|r",
-						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
-						["freeslots"] = 12,
-						["bagtype"] = 64,
-						["ids"] = {
-							22578, -- [1]
-							74252, -- [2]
-							nil, -- [3]
-							74249, -- [4]
-							74249, -- [5]
-							6218, -- [6]
-							74249, -- [7]
-							74249, -- [8]
-							11176, -- [9]
-							34055, -- [10]
-							34052, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
-							52718, -- [17]
-							nil, -- [18]
-							34056, -- [19]
-							22450, -- [20]
-							74247, -- [21]
-							nil, -- [22]
-							nil, -- [23]
-							nil, -- [24]
-							nil, -- [25]
-							nil, -- [26]
-							74250, -- [27]
-							74249, -- [28]
-							74249, -- [29]
-							74249, -- [30]
-							74249, -- [31]
-							74249, -- [32]
-							74249, -- [33]
-							74249, -- [34]
-							22445, -- [35]
-							74248, -- [36]
-						},
-						["counts"] = {
-							10, -- [1]
-							2, -- [2]
-							nil, -- [3]
-							15, -- [4]
-							20, -- [5]
-							nil, -- [6]
-							20, -- [7]
-							20, -- [8]
-							3, -- [9]
-							5, -- [10]
-							[33] = 20,
-							[35] = 18,
-							[27] = 9,
-							[28] = 20,
-							[29] = 20,
-							[30] = 20,
-							[31] = 20,
-							[32] = 20,
-							[34] = 20,
-							[36] = 10,
-							[20] = 3,
-							[21] = 2,
-							[17] = 5,
-							[19] = 3,
-						},
-						["size"] = 36,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							28631, -- [1]
-							31547, -- [2]
-							72235, -- [3]
-							72237, -- [4]
-							72235, -- [5]
-							2289, -- [6]
-							79010, -- [7]
-							79255, -- [8]
-							79254, -- [9]
-							79254, -- [10]
-							39469, -- [11]
-							29760, -- [12]
-							79011, -- [13]
-							1711, -- [14]
-							79102, -- [15]
-							80809, -- [16]
-						},
-						["cooldowns"] = {
-							[6] = "125633.063|1.306|1",
-							[14] = "125633.063|1.306|1",
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							19, -- [3]
-							13, -- [4]
-							3, -- [5]
-							nil, -- [6]
-							7, -- [7]
-							8, -- [8]
-							20, -- [9]
-							2, -- [10]
-							15, -- [11]
-							nil, -- [12]
-							20, -- [13]
-							2, -- [14]
-							7, -- [15]
-						},
-						["size"] = 16,
-					},
-					["Bag7"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:889032768:90:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 16,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							79267, -- [1]
-							72238, -- [2]
-							89641, -- [3]
-							6948, -- [4]
-							2290, -- [5]
-							89640, -- [6]
-							43119, -- [7]
-							79264, -- [8]
-							95567, -- [9]
-							79731, -- [10]
-							38682, -- [11]
-							83726, -- [12]
-							76061, -- [13]
-							39505, -- [14]
-							89815, -- [15]
-							87358, -- [16]
-							17202, -- [17]
-							95866, -- [18]
-						},
-						["counts"] = {
-							nil, -- [1]
-							10, -- [2]
-							2, -- [3]
-							[6] = 4,
-							[7] = 3,
-							[10] = 5,
-							[13] = 2,
-							[17] = 18,
-							[5] = 3,
-							[11] = 3,
-						},
-						["freeslots"] = 2,
-						["cooldowns"] = {
-							[4] = "125282.434|900|1",
-						},
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1388584576:90:0:0|h[Frostweave Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
-					},
-					["Bag9"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:827797696:90:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 16,
-					},
-					["Bag1"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:612623744:90:0:0|h[Frostweave Bag]|h|r",
-						["links"] = {
-							[13] = "|cff1eff00|Hitem:24679:0:0:0:0:0:-15:630718519:90:0:0|h[Archmage Robe of Spirit]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
-						["ids"] = {
-							32242, -- [1]
-							32897, -- [2]
-							79254, -- [3]
-							95449, -- [4]
-							32262, -- [5]
-							98116, -- [6]
-							43123, -- [7]
-							32253, -- [8]
-							89112, -- [9]
-							21877, -- [10]
-							32528, -- [11]
-							21877, -- [12]
-							24679, -- [13]
-							32276, -- [14]
-							31022, -- [15]
-							76097, -- [16]
-							74840, -- [17]
-							nil, -- [18]
-							82467, -- [19]
-							79265, -- [20]
-						},
-						["counts"] = {
-							nil, -- [1]
-							2, -- [2]
-							20, -- [3]
-							[6] = 3,
-							[7] = 4,
-							[10] = 20,
-							[12] = 7,
-							[9] = 3,
-							[17] = 19,
-						},
-						["freeslots"] = 1,
-					},
-					["Bag6"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:497264480:90:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 16,
-					},
-				},
-			},
-			["Default.Wyrmrest Accord.Roslyn"] = {
-				["numFreeBankSlots"] = 28,
-				["numBankSlots"] = 28,
-				["lastUpdate"] = 1366897548,
-				["numFreeBagSlots"] = 5,
-				["Containers"] = {
-					["Bag0"] = {
-						["counts"] = {
-							15, -- [1]
-							20, -- [2]
-							20, -- [3]
-							17, -- [4]
-							nil, -- [5]
-							20, -- [6]
-							8, -- [7]
-							13, -- [8]
-							11, -- [9]
-							[14] = 4,
-						},
-						["links"] = {
-							[10] = "|cff0070dd|Hitem:51976:0:0:0:0:0:-85:1459617811:44:0:0|h[Earthbound Shoulderguards of the Sorcerer]|h|r",
-						},
-						["ids"] = {
-							2447, -- [1]
-							765, -- [2]
-							2449, -- [3]
-							765, -- [4]
-							nil, -- [5]
-							2835, -- [6]
-							4306, -- [7]
-							4338, -- [8]
-							2835, -- [9]
-							51976, -- [10]
-							nil, -- [11]
-							6948, -- [12]
-							10301, -- [13]
-							2449, -- [14]
-						},
-						["freeslots"] = 4,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag100"] = {
-						["size"] = 28,
-						["freeslots"] = 28,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:57247:0:0:0:0:0:0:1489918208:44:0:0|h[Grape-Picking Sack]|h|r",
-						["links"] = {
-							[2] = "|cff1eff00|Hbattlepet:847:1:2:153:10:10:0x0000000000000000|h[Fishy]|h|r",
-						},
-						["counts"] = {
-							[3] = 2,
-						},
-						["freeslots"] = 1,
-						["ids"] = {
-							774, -- [1]
-							nil, -- [2]
-							2770, -- [3]
-							818, -- [4]
-							nil, -- [5]
-							1210, -- [6]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-						["size"] = 6,
-					},
-				},
-				["numBagSlots"] = 22,
-			},
-			["Default.Wyrmrest Accord.Venerie"] = {
-				["lastUpdate"] = 1363933513,
-				["Containers"] = {
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							6948, -- [1]
-							20980, -- [2]
-							117, -- [3]
-							57217, -- [4]
-							771, -- [5]
-							58235, -- [6]
-							57224, -- [7]
-							62391, -- [8]
-							2589, -- [9]
-							62328, -- [10]
-							57199, -- [11]
-							[13] = 774,
-							[14] = 2672,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							[3] = 11,
-							[10] = 4,
-							[14] = 3,
-						},
-						["freeslots"] = 3,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:57792:0:0:0:0:0:0:488324512:9:0:0|h[]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Green",
-						["freeslots"] = 6,
-					},
-				},
-				["numFreeBagSlots"] = 9,
-				["numBagSlots"] = 22,
-			},
-			["Default.Bloodhoof.Cyralie"] = {
-				["numFreeBankSlots"] = 28,
-				["numBankSlots"] = 28,
-				["lastUpdate"] = 1365735086,
-				["Containers"] = {
-					["Bag4"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1085298176:80:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							"|cff0070dd|Hitem:51987:0:0:0:0:0:-43:2038169628:80:0:0|h[Stalwart Grips of the Soldier]|h|r", -- [1]
-						},
-						["counts"] = {
-							[9] = 3,
-						},
-						["freeslots"] = 3,
-						["ids"] = {
-							51987, -- [1]
-							43184, -- [2]
-							40755, -- [3]
-							27420, -- [4]
-							42765, -- [5]
-							42768, -- [6]
-							38223, -- [7]
-							nil, -- [8]
-							38577, -- [9]
-							nil, -- [10]
-							44345, -- [11]
-							44369, -- [12]
-							65947, -- [13]
-							39680, -- [14]
-							nil, -- [15]
-							44362, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag100"] = {
-						["freeslots"] = 28,
-						["size"] = 28,
-					},
-					["Bag1"] = {
-						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:1557575936:80:0:0|h[Blue Leather Bag]|h|r",
-						["links"] = {
-							[7] = "|cff0070dd|Hitem:51984:0:0:0:0:0:-68:1106575379:80:0:0|h[Stalwart Shoulderpads of the Bear]|h|r",
-						},
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							20, -- [4]
-						},
-						["freeslots"] = 1,
-						["ids"] = {
-							38218, -- [1]
-							18376, -- [2]
-							44377, -- [3]
-							21877, -- [4]
-							87521, -- [5]
-							29944, -- [6]
-							51984, -- [7]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_05",
-						["size"] = 8,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							43180, -- [1]
-							44361, -- [2]
-							4338, -- [3]
-							nil, -- [4]
-							43306, -- [5]
-							nil, -- [6]
-							51978, -- [7]
-							8144, -- [8]
-							nil, -- [9]
-							25717, -- [10]
-							14828, -- [11]
-							nil, -- [12]
-							44407, -- [13]
-							44412, -- [14]
-							51987, -- [15]
-							29337, -- [16]
-						},
-						["links"] = {
-							[7] = "|cff0070dd|Hitem:51978:0:0:0:0:0:-75:1261568010:80:0:0|h[Earthbound Girdle of the Champion]|h|r",
-							[15] = "|cff0070dd|Hitem:51987:0:0:0:0:0:-43:708444188:80:0:0|h[Stalwart Grips of the Soldier]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 4,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1904082304:80:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							[3] = 7,
-						},
-						["size"] = 16,
-					},
-					["Bag3"] = {
-						["ids"] = {
-							51995, -- [1]
-							25714, -- [2]
-							24021, -- [3]
-							29329, -- [4]
-							51990, -- [5]
-							nil, -- [6]
-							21877, -- [7]
-							44370, -- [8]
-							33454, -- [9]
-							29336, -- [10]
-							51996, -- [11]
-							88293, -- [12]
-							33470, -- [13]
-							51991, -- [14]
-							9388, -- [15]
-							12997, -- [16]
-						},
-						["links"] = {
-							"|cff0070dd|Hitem:51995:0:0:0:0:0:-91:1191968789:80:0:0|h[Turbulent Necklace of the Marksman]|h|r", -- [1]
-							[14] = "|cff0070dd|Hitem:51991:0:0:0:0:0:-45:103677975:80:0:0|h[Turbulent Signet of the Champion]|h|r",
-							[15] = "|cff0070dd|Hitem:9388:0:0:0:0:0:-11:746651661:80:0:0|h[Revelosh's Armguards of the Falcon]|h|r",
-							[11] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-84:2080833547:80:0:0|h[Tumultuous Necklace of Stamina]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 1,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1012144064:80:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							[7] = 4,
-							[13] = 5,
-						},
-						["size"] = 16,
-					},
-					["Bag0"] = {
-						["links"] = {
-							[14] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-84:-1784807410:80:0:0|h[Tumultuous Ring of Stamina]|h|r",
-						},
-						["ids"] = {
-							6948, -- [1]
-							51990, -- [2]
-							44337, -- [3]
-							nil, -- [4]
-							43624, -- [5]
-							82884, -- [6]
-							9446, -- [7]
-							43174, -- [8]
-							65989, -- [9]
-							51980, -- [10]
-							60402, -- [11]
-							35630, -- [12]
-							nil, -- [13]
-							51992, -- [14]
-							65973, -- [15]
-							18383, -- [16]
-						},
-						["freeslots"] = 2,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-				},
-				["numBagSlots"] = 72,
-				["numFreeBagSlots"] = 11,
-			},
-			["Default.Bronzebeard.Karielle"] = {
-				["lastUpdate"] = 1366112431,
-				["Containers"] = {
-					["Bag4"] = {
-						["ids"] = {
-							[2] = 40476,
-							[16] = 71332,
-						},
-						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:67531:0:0:0:0:0:0:0:85:0:0|h[Stormwind Satchel]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Blue",
-						["freeslots"] = 14,
-					},
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							74725, -- [1]
-							[4] = 71083,
-							[8] = 10978,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							4, -- [1]
-							[4] = 3,
-						},
-						["freeslots"] = 13,
-					},
-					["Bag1"] = {
-						["ids"] = {
-							[4] = 24579,
-						},
-						["link"] = "|cff1eff00|Hitem:67530:0:0:0:0:0:0:0:85:0:0|h[Gnomeregan Satchel]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_21",
-						["counts"] = {
-							[4] = 3,
-						},
-						["freeslots"] = 15,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							35723, -- [1]
-							[8] = 62768,
-							[15] = 66927,
-							[12] = 62483,
-							[14] = 6948,
-							[9] = 56003,
-							[4] = 52723,
-						},
-						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1131211520:85:0:0|h[Netherweave Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 9,
-					},
-					["Bag3"] = {
-						["ids"] = {
-							[11] = 71332,
-							[15] = 44789,
-						},
-						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:67528:0:0:0:0:0:0:0:85:0:0|h[Ironforge Satchel]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
-						["freeslots"] = 14,
-					},
-				},
-				["numFreeBagSlots"] = 65,
-				["numBagSlots"] = 80,
-			},
-			["Default.Bronzebeard.Cyralie"] = {
-				["lastUpdate"] = 1369739091,
-				["numBagSlots"] = 90,
-				["Containers"] = {
-					["Bag4"] = {
-						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:-231951232:86:0:0|h[Pit Lord's Satchel]|h|r",
-						["links"] = {
-							[3] = "|cff1eff00|Hitem:10111:0:0:0:0:0:-9:454950937:86:0:0|h[Wanderer's Hat of the Owl]|h|r",
-							[13] = "|cff1eff00|Hitem:25307:0:0:0:0:0:-44:281804822:86:0:0|h[Shadow Dagger of the Elder]|h|r",
-							[17] = "|cff1eff00|Hitem:24682:0:0:0:0:0:-19:-1899233225:86:0:0|h[Archmage Pants of Intellect]|h|r",
-						},
-						["counts"] = {
-							3, -- [1]
-							[14] = 20,
-							[6] = 2,
-							[7] = 20,
-							[9] = 18,
-						},
-						["ids"] = {
-							7068, -- [1]
-							88377, -- [2]
-							10111, -- [3]
-							8952, -- [4]
-							8754, -- [5]
-							7912, -- [6]
-							25409, -- [7]
-							10593, -- [8]
-							25411, -- [9]
-							88375, -- [10]
-							22832, -- [11]
-							76350, -- [12]
-							25307, -- [13]
-							25409, -- [14]
-							24680, -- [15]
-							89112, -- [16]
-							24682, -- [17]
-							71634, -- [18]
-							20815, -- [19]
-							6948, -- [20]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedRunecloth",
-						["size"] = 20,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							25409, -- [1]
-							25411, -- [2]
-							76644, -- [3]
-							40042, -- [4]
-							81405, -- [5]
-							25400, -- [6]
-							81406, -- [7]
-							87216, -- [8]
-							76638, -- [9]
-							76140, -- [10]
-							58145, -- [11]
-							74843, -- [12]
-							35625, -- [13]
-							23447, -- [14]
-							2776, -- [15]
-							32897, -- [16]
-						},
-						["counts"] = {
-							18, -- [1]
-							18, -- [2]
-							[11] = 10,
-							[7] = 8,
-							[15] = 4,
-							[13] = 2,
-							[14] = 4,
-							[16] = 4,
-							[5] = 18,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:43345:0:0:0:0:0:0:-1456928768:86:0:0|h[Dragon Hide Bag]|h|r",
-						["ids"] = {
-							76061, -- [1]
-							81404, -- [2]
-							73410, -- [3]
-							2775, -- [4]
-							21882, -- [5]
-							21877, -- [6]
-							25409, -- [7]
-							25373, -- [8]
-							3576, -- [9]
-							2771, -- [10]
-							22578, -- [11]
-							35623, -- [12]
-							35622, -- [13]
-							36910, -- [14]
-							43013, -- [15]
-							43013, -- [16]
-							90407, -- [17]
-							43013, -- [18]
-							27678, -- [19]
-							81403, -- [20]
-							40199, -- [21]
-							43012, -- [22]
-						},
-						["counts"] = {
-							2, -- [1]
-							3, -- [2]
-							nil, -- [3]
-							4, -- [4]
-							20, -- [5]
-							18, -- [6]
-							17, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							5, -- [10]
-							5, -- [11]
-							nil, -- [12]
-							3, -- [13]
-							4, -- [14]
-							2, -- [15]
-							20, -- [16]
-							19, -- [17]
-							20, -- [18]
-							8, -- [19]
-							2, -- [20]
-							10, -- [21]
-							2, -- [22]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
-						["size"] = 22,
-					},
-					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:325622720:86:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[4] = "|cff1eff00|Hitem:6596:0:0:0:0:0:-81:1006764042:86:0:0|h[Battleforge Legguards of the Whale]|h|r",
-							[10] = "|cff1eff00|Hitem:24671:0:0:0:0:0:-6:960233525:86:0:0|h[Eldr'naan Jerkin of the Eagle]|h|r",
-						},
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							20, -- [3]
-							nil, -- [4]
-							17, -- [5]
-							2, -- [6]
-							20, -- [7]
-							20, -- [8]
-							4, -- [9]
-							nil, -- [10]
-							14, -- [11]
-							20, -- [12]
-							20, -- [13]
-							nil, -- [14]
-							5, -- [15]
-							13, -- [16]
-						},
-						["ids"] = {
-							12820, -- [1]
-							88370, -- [2]
-							40042, -- [3]
-							6596, -- [4]
-							40042, -- [5]
-							76098, -- [6]
-							40042, -- [7]
-							40042, -- [8]
-							62649, -- [9]
-							24671, -- [10]
-							40042, -- [11]
-							40042, -- [12]
-							40042, -- [13]
-							2901, -- [14]
-							4784, -- [15]
-							8150, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1628854912:86:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[7] = "|cff1eff00|Hitem:10251:0:0:0:0:0:-81:634257429:86:0:0|h[Master's Gloves of the Whale]|h|r",
-						},
-						["counts"] = {
-							6, -- [1]
-							nil, -- [2]
-							10, -- [3]
-							10, -- [4]
-							10, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							20, -- [8]
-							6, -- [9]
-							3, -- [10]
-							2, -- [11]
-							9, -- [12]
-							8, -- [13]
-							5, -- [14]
-							7, -- [15]
-						},
-						["ids"] = {
-							11370, -- [1]
-							9262, -- [2]
-							7078, -- [3]
-							7077, -- [4]
-							7068, -- [5]
-							13824, -- [6]
-							10251, -- [7]
-							21840, -- [8]
-							7075, -- [9]
-							7076, -- [10]
-							17011, -- [11]
-							7068, -- [12]
-							7077, -- [13]
-							4787, -- [14]
-							82392, -- [15]
-							17010, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-				},
-			},
-			["Default.Bloodhoof.Sparkler"] = {
-				["lastUpdate"] = 1365734859,
-				["numFreeBagSlots"] = 7,
-				["Containers"] = {
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:57549:0:0:0:0:0:0:783047936:43:0:0|h[]|h|r",
-						["links"] = {
-							[8] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-71:1368260616:43:0:0|h[Tumultuous Cloak of the Bandit]|h|r",
-						},
-						["size"] = 8,
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							11081, -- [3]
-							11039, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							51994, -- [8]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
-						["freeslots"] = 5,
-					},
-					["Bag0"] = {
-						["size"] = 16,
-						["ids"] = {
-							6948, -- [1]
-							3798, -- [2]
-							57575, -- [3]
-							4306, -- [4]
-							9308, -- [5]
-							59, -- [6]
-							59044, -- [7]
-							71634, -- [8]
-							65963, -- [9]
-							59050, -- [10]
-							16310, -- [11]
-							3779, -- [12]
-							81055, -- [13]
-							1708, -- [14]
-							11134, -- [15]
-							51973, -- [16]
-						},
-						["counts"] = {
-							[5] = 2,
-							[13] = 4,
-							[4] = 7,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							[16] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-83:1203175439:43:0:0|h[Enumerated Handwraps of the Sun]|h|r",
-						},
-					},
-					["Bag1"] = {
-						["ids"] = {
-							9448, -- [1]
-							51992, -- [2]
-							5507, -- [3]
-							7069, -- [4]
-						},
-						["links"] = {
-							[2] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:1262092302:43:0:0|h[Tumultuous Ring of the Bear]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
-						["freeslots"] = 2,
-						["link"] = "|cffffffff|Hitem:59053:0:0:0:0:0:0:66776832:43:0:0|h[Airfield Courier Bag]|h|r",
-						["counts"] = {
-							[4] = 8,
-						},
-						["size"] = 6,
-					},
-				},
-				["numBagSlots"] = 30,
-			},
-			["Default.Bloodhoof.Vezeri"] = {
-				["numFreeBankSlots"] = 23,
-				["numBankSlots"] = 140,
-				["lastUpdate"] = 1374891141,
-				["numFreeBagSlots"] = 17,
-				["numBagSlots"] = 80,
-				["Containers"] = {
-					["Bag10"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1275635968:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							nil, -- [1]
-							3864, -- [2]
-							23440, -- [3]
-							1210, -- [4]
-							36926, -- [5]
-							52178, -- [6]
-							76565, -- [7]
-							52180, -- [8]
-							36927, -- [9]
-							55854, -- [10]
-							80433, -- [11]
-							nil, -- [12]
-							76131, -- [13]
-							1705, -- [14]
-							1529, -- [15]
-							32249, -- [16]
-						},
-						["freeslots"] = 2,
-						["counts"] = {
-							[5] = 4,
-							[8] = 3,
-							[4] = 13,
-							[11] = 3,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag8"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:525488256:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							36905, -- [1]
-							2289, -- [2]
-							10558, -- [3]
-							4377, -- [4]
-							nil, -- [5]
-							17203, -- [6]
-							23781, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							88567, -- [13]
-							88567, -- [14]
-							88567, -- [15]
-							43007, -- [16]
-						},
-						["freeslots"] = 6,
-						["counts"] = {
-							nil, -- [1]
-							2, -- [2]
-							20, -- [3]
-							8, -- [4]
-							[7] = 20,
-							[16] = 79,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							[15] = "|cff1eff00|Hitem:36428:0:0:0:0:0:-41:781385784:74:0:0|h[Bouquet Ring of the Beast]|h|r",
-						},
-						["ids"] = {
-							72235, -- [1]
-							72237, -- [2]
-							72238, -- [3]
-							74838, -- [4]
-							74844, -- [5]
-							74833, -- [6]
-							nil, -- [7]
-							74250, -- [8]
-							nil, -- [9]
-							72988, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							88567, -- [14]
-							36428, -- [15]
-							38682, -- [16]
-						},
-						["size"] = 16,
-						["counts"] = {
-							5, -- [1]
-							9, -- [2]
-							3, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							14, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							6, -- [16]
-						},
-						["freeslots"] = 5,
-					},
-					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:310029696:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							74708, -- [1]
-							32749, -- [2]
-							61980, -- [3]
-							21840, -- [4]
-							74700, -- [5]
-							37704, -- [6]
-							74712, -- [7]
-							10938, -- [8]
-							16202, -- [9]
-							37701, -- [10]
-							34055, -- [11]
-							34056, -- [12]
-							22447, -- [13]
-							22446, -- [14]
-							34053, -- [15]
-							21840, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["counts"] = {
-							4, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							20, -- [4]
-							8, -- [5]
-							5, -- [6]
-							4, -- [7]
-							2, -- [8]
-							nil, -- [9]
-							4, -- [10]
-							9, -- [11]
-							2, -- [12]
-							4, -- [13]
-							2, -- [14]
-							nil, -- [15]
-							20, -- [16]
-						},
-						["size"] = 16,
-					},
-					["Bag7"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1313347584:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							nil, -- [1]
-							81410, -- [2]
-							24246, -- [3]
-							52984, -- [4]
-							16000, -- [5]
-							32897, -- [6]
-							13144, -- [7]
-							31918, -- [8]
-							86143, -- [9]
-							95410, -- [10]
-							95412, -- [11]
-							23781, -- [12]
-							79868, -- [13]
-							95412, -- [14]
-							10558, -- [15]
-							37118, -- [16]
-						},
-						["freeslots"] = 1,
-						["counts"] = {
-							[6] = 18,
-							[2] = 19,
-							[15] = 20,
-							[9] = 25,
-							[12] = 19,
-							[4] = 2,
-							[5] = 5,
-							[13] = 3,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag5"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:843833600:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							23572, -- [1]
-							63128, -- [2]
-							87216, -- [3]
-							79869, -- [4]
-							40199, -- [5]
-							8183, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							22789, -- [12]
-							64397, -- [13]
-							3357, -- [14]
-							nil, -- [15]
-							13464, -- [16]
-						},
-						["freeslots"] = 6,
-						["counts"] = {
-							4, -- [1]
-							[13] = 2,
-							[16] = 7,
-							[12] = 6,
-							[14] = 5,
-							[5] = 6,
-							[4] = 3,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag4"] = {
-						["ids"] = {
-							nil, -- [1]
-							37700, -- [2]
-							21840, -- [3]
-							24246, -- [4]
-							nil, -- [5]
-							72104, -- [6]
-							52385, -- [7]
-							10940, -- [8]
-							12695, -- [9]
-							21885, -- [10]
-							52761, -- [11]
-							74709, -- [12]
-							32749, -- [13]
-							6948, -- [14]
-							7971, -- [15]
-							21840, -- [16]
-						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:619763840:74:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["counts"] = {
-							nil, -- [1]
-							5, -- [2]
-							20, -- [3]
-							3, -- [4]
-							nil, -- [5]
-							12, -- [6]
-							nil, -- [7]
-							14, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							2, -- [11]
-							4, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							20, -- [16]
-						},
-						["freeslots"] = 2,
-					},
-					["Bag100"] = {
-						["ids"] = {
-							34656, -- [1]
-							38147, -- [2]
-							34652, -- [3]
-							38632, -- [4]
-							34648, -- [5]
-							34651, -- [6]
-							34649, -- [7]
-							39327, -- [8]
-							34650, -- [9]
-							34655, -- [10]
-							13463, -- [11]
-							3358, -- [12]
-							39328, -- [13]
-							62039, -- [14]
-							4625, -- [15]
-							3818, -- [16]
-							95373, -- [17]
-							18562, -- [18]
-							64396, -- [19]
-							13067, -- [20]
-							44091, -- [21]
-							13013, -- [22]
-							63127, -- [23]
-							31952, -- [24]
-							39338, -- [25]
-							83064, -- [26]
-							21841, -- [27]
-							34664, -- [28]
-						},
-						["counts"] = {
-							[13] = 9,
-							[28] = 15,
-							[15] = 3,
-							[8] = 5,
-							[16] = 3,
-							[18] = 2,
-							[19] = 2,
-							[11] = 3,
-							[12] = 20,
-							[23] = 8,
-						},
-						["size"] = 28,
-					},
-					["Bag1"] = {
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							80588, -- [3]
-							76142, -- [4]
-							97827, -- [5]
-							10360, -- [6]
-							97832, -- [7]
-							42360, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							50452, -- [13]
-							74863, -- [14]
-							75014, -- [15]
-							21877, -- [16]
-						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:943970688:74:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							13, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							2, -- [15]
-							14, -- [16]
-						},
-						["freeslots"] = 6,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							21840, -- [1]
-							74839, -- [2]
-							86124, -- [3]
-							14048, -- [4]
-							nil, -- [5]
-							22446, -- [6]
-							nil, -- [7]
-							32897, -- [8]
-							30307, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							30306, -- [12]
-							74840, -- [13]
-							75016, -- [14]
-							2842, -- [15]
-							44672, -- [16]
-						},
-						["links"] = {
-							[16] = "|cff0070dd|Hitem:44672:0:0:0:0:0:-91:1188757585:74:0:0|h[Seal-Fur Spaulders of the Marksman]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1994257792:74:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							5, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							5, -- [4]
-							nil, -- [5]
-							9, -- [6]
-							nil, -- [7]
-							59, -- [8]
-							[13] = 37,
-							[14] = 6,
-						},
-						["freeslots"] = 4,
-					},
-					["Bag9"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1249100288:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							7909, -- [5]
-							23439, -- [6]
-							32230, -- [7]
-							36917, -- [8]
-							52182, -- [9]
-							76141, -- [10]
-							36923, -- [11]
-							36929, -- [12]
-							[15] = 40110,
-						},
-						["freeslots"] = 7,
-						["counts"] = {
-							[9] = 2,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag11"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:8807552:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							32227, -- [1]
-							3864, -- [2]
-							36932, -- [3]
-							52181, -- [4]
-							7910, -- [5]
-							36921, -- [6]
-							86574, -- [7]
-							64881, -- [8]
-							89684, -- [9]
-							89611, -- [10]
-							64904, -- [11]
-							62038, -- [12]
-							61935, -- [13]
-							62024, -- [14]
-							62023, -- [15]
-							69887, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag6"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1254121856:74:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							785, -- [1]
-							13465, -- [2]
-							2453, -- [3]
-							3821, -- [4]
-							41611, -- [5]
-							2452, -- [6]
-							2447, -- [7]
-							2449, -- [8]
-							75016, -- [9]
-							765, -- [10]
-							3358, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							3356, -- [14]
-							3358, -- [15]
-							10286, -- [16]
-						},
-						["freeslots"] = 2,
-						["counts"] = {
-							17, -- [1]
-							10, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							4, -- [5]
-							4, -- [6]
-							3, -- [7]
-							2, -- [8]
-							5, -- [9]
-							nil, -- [10]
-							20, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							7, -- [14]
-							7, -- [15]
-							2, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-				},
-			},
-			["Default.Bloodhoof.Alythe"] = {
-				["numFreeBankSlots"] = 6,
-				["numBankSlots"] = 36,
-				["lastUpdate"] = 1375249810,
-				["numBagSlots"] = 80,
-				["numFreeBagSlots"] = 5,
-				["Containers"] = {
-					["Bag5"] = {
-						["ids"] = {
-							20817, -- [1]
-							77589, -- [2]
-						},
-						["link"] = "|cffffffff|Hitem:60240:0:0:0:0:0:0:1718028160:90:0:0|h[Dream Carrier]|h|r",
-						["freeslots"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_03",
-						["counts"] = {
-							3, -- [1]
-							7, -- [2]
-						},
-						["size"] = 8,
-					},
-					["Bag4"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1239894528:90:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[4] = "|cff1eff00|Hitem:94042:0:0:0:0:0:-139:1858470814:90:0:0|h[Forgotten Peacekeeper Shoulders of the Mercenary]|h|r",
-						},
-						["freeslots"] = 2,
-						["ids"] = {
-							81061, -- [1]
-							89815, -- [2]
-							nil, -- [3]
-							94042, -- [4]
-							90354, -- [5]
-							82467, -- [6]
-							85179, -- [7]
-							27790, -- [8]
-							93624, -- [9]
-							93623, -- [10]
-							84079, -- [11]
-							94221, -- [12]
-							32512, -- [13]
-							nil, -- [14]
-							85225, -- [15]
-							27897, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag100"] = {
-						["ids"] = {
-							40755, -- [1]
-							65493, -- [2]
-							45574, -- [3]
-							28748, -- [4]
-							63878, -- [5]
-							26043, -- [6]
-							57268, -- [7]
-							2840, -- [8]
-							8529, -- [9]
-							63866, -- [10]
-							27884, -- [11]
-							63787, -- [12]
-							28055, -- [13]
-							29337, -- [14]
-							27840, -- [15]
-							2840, -- [16]
-							2840, -- [17]
-							74847, -- [18]
-							63861, -- [19]
-							27803, -- [20]
-							81055, -- [21]
-							61487, -- [22]
-							27447, -- [23]
-							2770, -- [24]
-							90388, -- [25]
-							72988, -- [26]
-							90382, -- [27]
-							87587, -- [28]
-						},
-						["counts"] = {
-							[6] = 6,
-							[17] = 20,
-							[21] = 4,
-							[8] = 20,
-							[9] = 13,
-							[26] = 9,
-							[16] = 20,
-							[24] = 10,
-						},
-						["size"] = 28,
-					},
-					["Bag1"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:42458112:90:0:0|h[Netherweave Bag]|h|r",
-						["ids"] = {
-							30976, -- [1]
-							32471, -- [2]
-							30980, -- [3]
-							31090, -- [4]
-							31091, -- [5]
-							95454, -- [6]
-							72104, -- [7]
-							27855, -- [8]
-							72988, -- [9]
-							40643, -- [10]
-							87209, -- [11]
-							82441, -- [12]
-							28509, -- [13]
-							35280, -- [14]
-							72988, -- [15]
-							72988, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["counts"] = {
-							[7] = 2,
-							[16] = 5,
-							[15] = 20,
-							[9] = 20,
-						},
-						["size"] = 16,
-					},
-					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:782833152:90:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[8] = "|cff0070dd|Hitem:82969:4993:0:0:0:0:0:747973248:90:0:451|h[Masterwork Spiritguard Shield]|h|r",
-						},
-						["counts"] = {
-							[11] = 19,
-							[6] = 63,
-							[9] = 9,
-							[3] = 10,
-						},
-						["size"] = 16,
-						["ids"] = {
-							28503, -- [1]
-							94222, -- [2]
-							55053, -- [3]
-							31293, -- [4]
-							28505, -- [5]
-							97544, -- [6]
-							49908, -- [7]
-							82969, -- [8]
-							97545, -- [9]
-							nil, -- [10]
-							81414, -- [11]
-							27748, -- [12]
-							nil, -- [13]
-							31091, -- [14]
-							86583, -- [15]
-							6948, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 2,
-					},
-					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:816012288:90:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							"|cff1eff00|Hitem:24956:0:0:0:0:0:-11:580452384:90:0:0|h[Bogslayer Pauldrons of the Falcon]|h|r", -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							"|cff1eff00|Hitem:10128:0:0:0:0:0:-14:1725562903:90:0:0|h[Revenant Chestplate of the Tiger]|h|r", -- [4]
-						},
-						["counts"] = {
-							[15] = 9,
-						},
-						["size"] = 16,
-						["ids"] = {
-							24956, -- [1]
-							43348, -- [2]
-							28522, -- [3]
-							10128, -- [4]
-							95567, -- [5]
-							28771, -- [6]
-							71634, -- [7]
-							32255, -- [8]
-							28747, -- [9]
-							29761, -- [10]
-							nil, -- [11]
-							87649, -- [12]
-							41426, -- [13]
-							31103, -- [14]
-							76061, -- [15]
-							32082, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 1,
-					},
-					["Bag0"] = {
-						["links"] = {
-							[9] = "|cff1eff00|Hitem:82263:0:0:0:0:0:-40:657589150:90:0:0|h[Vine Shoulders of the Bandit]|h|r",
-						},
-						["ids"] = {
-							97530, -- [1]
-							17202, -- [2]
-							30978, -- [3]
-							94577, -- [4]
-							5956, -- [5]
-							89640, -- [6]
-							94111, -- [7]
-							90910, -- [8]
-							82263, -- [9]
-							83730, -- [10]
-							32354, -- [11]
-							32333, -- [12]
-							34011, -- [13]
-							72096, -- [14]
-							89112, -- [15]
-							72096, -- [16]
-						},
-						["counts"] = {
-							2, -- [1]
-							12, -- [2]
-							[6] = 3,
-							[7] = 15,
-							[15] = 24,
-							[14] = 6,
-							[16] = 20,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-				},
-			},
-			["Default.Bloodhoof.Eloisa"] = {
-				["lastUpdate"] = 1362711739,
-				["Containers"] = {
-					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-						["ids"] = {
-							6948, -- [1]
-							51994, -- [2]
-							[5] = 60497,
-						},
-						["freeslots"] = 13,
-						["counts"] = {
-							[5] = 3,
-						},
-						["links"] = {
-							[2] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-78:489685000:22:0:0|h[Tumultuous Cloak of the Monkey]|h|r",
-						},
-					},
-				},
-				["numFreeBagSlots"] = 13,
-				["numBagSlots"] = 16,
-			},
-			["Default.Bloodhoof.Flora"] = {
-				["numFreeBankSlots"] = 15,
-				["numBankSlots"] = 28,
-				["lastUpdate"] = 1373617797,
-				["Containers"] = {
-					["Bag4"] = {
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							71634, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							74833, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							89682, -- [14]
-							90338, -- [15]
-						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1562345344:87:0:0|h[Netherweave Bag]|h|r",
-						["freeslots"] = 12,
-						["counts"] = {
-							[11] = 20,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							6948, -- [1]
-							97619, -- [2]
-							86199, -- [3]
-							81200, -- [4]
-							81472, -- [5]
-							88580, -- [6]
-							79825, -- [7]
-							81194, -- [8]
-							89641, -- [9]
-							81203, -- [10]
-							82328, -- [11]
-							88388, -- [12]
-							97512, -- [13]
-							81495, -- [14]
-							28506, -- [15]
-							74833, -- [16]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							[11] = 14,
-							[2] = 16,
-							[8] = 20,
-							[10] = 16,
-							[12] = 10,
-							[4] = 8,
-							[16] = 3,
-							[13] = 30,
-						},
-						["size"] = 16,
-					},
-					["Bag1"] = {
-						["ids"] = {
-							88051, -- [1]
-							81404, -- [2]
-							82119, -- [3]
-							87608, -- [4]
-							87612, -- [5]
-							88532, -- [6]
-							81221, -- [7]
-							82005, -- [8]
-							72093, -- [9]
-							72120, -- [10]
-							72988, -- [11]
-							89112, -- [12]
-							81988, -- [13]
-							84281, -- [14]
-							97621, -- [15]
-							55186, -- [16]
-						},
-						["links"] = {
-							[8] = "|cff1eff00|Hitem:82005:0:0:0:0:0:-5:892207483:87:0:0|h[Intricate Ring of the Monkey]|h|r",
-							[13] = "|cff1eff00|Hitem:81988:0:0:0:0:0:-5:1368326824:87:0:0|h[Saurok Vest of the Monkey]|h|r",
-							[3] = "|cff1eff00|Hitem:82119:0:0:0:0:0:-132:1820131699:87:0:0|h[Shamanic Scepter of the Wavecrest]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1610262016:87:0:0|h[Netherweave Bag]|h|r",
-						["counts"] = {
-							[6] = 5,
-							[2] = 4,
-							[15] = 15,
-							[10] = 20,
-							[12] = 10,
-							[11] = 5,
-							[9] = 20,
-							[7] = 2,
-						},
-						["size"] = 16,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							79268, -- [1]
-							89640, -- [2]
-							85688, -- [3]
-							74839, -- [4]
-							62040, -- [5]
-							66886, -- [6]
-							61958, -- [7]
-							62029, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							90377, -- [14]
-							nil, -- [15]
-							81403, -- [16]
-						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1533191936:87:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["counts"] = {
-							nil, -- [1]
-							2, -- [2]
-							nil, -- [3]
-							5, -- [4]
-							[16] = 18,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 6,
-					},
-					["Bag3"] = {
-						["ids"] = {
-							63881, -- [1]
-							[6] = 81202,
-							[10] = 88056,
-						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:675456384:87:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
-						["counts"] = {
-							[6] = 18,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 13,
-					},
-					["Bag100"] = {
-						["size"] = 28,
-						["ids"] = {
-							56680, -- [1]
-							12662, -- [2]
-							nil, -- [3]
-							65924, -- [4]
-							15582, -- [5]
-							33448, -- [6]
-							33447, -- [7]
-							62275, -- [8]
-							14213, -- [9]
-							51966, -- [10]
-							68198, -- [11]
-							41427, -- [12]
-							40211, -- [13]
-							17058, -- [14]
-						},
-						["freeslots"] = 15,
-						["counts"] = {
-							[6] = 5,
-							[7] = 5,
-							[12] = 5,
-							[14] = 3,
-							[13] = 5,
-						},
-						["links"] = {
-							[5] = "|cff1eff00|Hitem:15582:0:0:0:0:0:-69:260177936:86:0:0|h[Sparkleshell Legguards of the Eagle]|h|r",
-							[10] = "|cff0070dd|Hitem:51966:0:0:0:0:0:-71:2119827475:86:0:0|h[Vigorous Spaulders of the Bandit]|h|r",
-							[9] = "|cff1eff00|Hitem:14213:0:0:0:0:0:-81:1900478479:86:0:0|h[Vital Raiment of the Whale]|h|r",
-						},
-					},
-				},
-				["numFreeBagSlots"] = 31,
-				["numBagSlots"] = 80,
-			},
-			["Default.Wyrmrest Accord.Abryn"] = {
-				["lastUpdate"] = 1363935608,
-				["Containers"] = {
-					["Bag2"] = {
-						["ids"] = {
-							4306, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							nil, -- [4]
-							4338, -- [5]
-							1708, -- [6]
-						},
-						["link"] = "|cffffffff|Hitem:828:0:0:0:0:0:0:754067056:42:0:0|h[Small Blue Pouch]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Blue",
-						["counts"] = {
-							8, -- [1]
-						},
-						["freeslots"] = 3,
-					},
-					["Bag3"] = {
-						["ids"] = {
-							nil, -- [1]
-							1710, -- [2]
-							nil, -- [3]
-							55121, -- [4]
-						},
-						["size"] = 8,
-						["link"] = "|cffffffff|Hitem:57251:0:0:0:0:0:0:643592832:41:0:0|h[\"Collecting\" Bag]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_11",
-						["freeslots"] = 6,
-					},
-					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-						["ids"] = {
-							6948, -- [1]
-							9764, -- [2]
-							17056, -- [3]
-							57935, -- [4]
-							58910, -- [5]
-							7228, -- [6]
-							780, -- [7]
-							56202, -- [8]
-							56201, -- [9]
-							56200, -- [10]
-							58364, -- [11]
-							2589, -- [12]
-							51964, -- [13]
-							5428, -- [14]
-						},
-						["freeslots"] = 2,
-						["counts"] = {
-							[6] = 2,
-							[7] = 3,
-							[8] = 5,
-							[10] = 3,
-							[12] = 14,
-							[14] = 2,
-							[9] = 3,
-						},
-						["links"] = {
-							[2] = "|cff1eff00|Hitem:9764:0:0:0:0:0:-12:2009530369:42:0:0|h[Cadet Shield of the Boar]|h|r",
-							[13] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-80:1808138250:42:0:0|h[Vigorous Belt of the Wild]|h|r",
-						},
-					},
-					["Bag1"] = {
-						["ids"] = {
-							6889, -- [1]
-							nil, -- [2]
-							58906, -- [3]
-							57405, -- [4]
-							1017, -- [5]
-							4414, -- [6]
-						},
-						["link"] = "|cffffffff|Hitem:57247:0:0:0:0:0:0:273653632:41:0:0|h[Grape-Picking Sack]|h|r",
-						["size"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-						["counts"] = {
-							5, -- [1]
-							[5] = 2,
-						},
-						["freeslots"] = 1,
-					},
-				},
-				["numFreeBagSlots"] = 12,
-				["numBagSlots"] = 36,
-			},
-			["Default.Maelstrom.Zalizia"] = {
-				["lastUpdate"] = 1366113029,
-				["numFreeBagSlots"] = 12,
-				["Containers"] = {
-					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:4499:0:0:0:0:0:0:0:67:0:0|h[Huge Brown Sack]|h|r",
-						["ids"] = {
-							22575, -- [1]
-							11143, -- [2]
-							24421, -- [3]
-							14047, -- [4]
-							64884, -- [5]
-						},
-						["freeslots"] = 7,
-						["counts"] = {
-							3, -- [1]
-							2, -- [2]
-							5, -- [3]
-							20, -- [4]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-						["size"] = 12,
-					},
-					["Bag0"] = {
-						["links"] = {
-							[13] = "|cff1eff00|Hitem:24865:0:0:0:0:0:-40:1219624995:67:0:0|h[Blood Knight Gauntlets of the Bandit]|h|r",
-							[16] = "|cff1eff00|Hitem:25302:0:0:0:0:0:-6:479789075:67:0:0|h[Soul-Drain Dagger of the Eagle]|h|r",
-						},
-						["ids"] = {
-							6948, -- [1]
-							805, -- [2]
-							24402, -- [3]
-							60242, -- [4]
-							25412, -- [5]
-							27678, -- [6]
-							22406, -- [7]
-							25414, -- [8]
-							10843, -- [9]
-							23358, -- [10]
-							24507, -- [11]
-							27854, -- [12]
-							24865, -- [13]
-							24510, -- [14]
-							31193, -- [15]
-							25302, -- [16]
-						},
-						["counts"] = {
-							[5] = 9,
-							[6] = 7,
-							[12] = 2,
-							[11] = 2,
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag1"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1498707840:67:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[5] = "|cff0070dd|Hitem:31192:0:0:0:0:0:-19:-1757937634:67:0:0|h[Crocolisk Hide Bindings of Intellect]|h|r",
-							[4] = "|cff1eff00|Hitem:24743:0:0:0:0:0:-40:1550188590:67:0:0|h[Ranger Jerkin of the Bandit]|h|r",
-							[11] = "|cff1eff00|Hitem:24947:0:0:0:0:0:-36:788791337:67:0:0|h[Bloodscale Legguards of the Sorcerer]|h|r",
-						},
-						["counts"] = {
-							nil, -- [1]
-							20, -- [2]
-							5, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							20, -- [8]
-							5, -- [9]
-							20, -- [10]
-							nil, -- [11]
-							5, -- [12]
-							20, -- [13]
-							14, -- [14]
-							nil, -- [15]
-							2, -- [16]
-						},
-						["ids"] = {
-							24378, -- [1]
-							14047, -- [2]
-							30858, -- [3]
-							24743, -- [4]
-							31192, -- [5]
-							24069, -- [6]
-							51960, -- [7]
-							21877, -- [8]
-							21877, -- [9]
-							21877, -- [10]
-							24947, -- [11]
-							23424, -- [12]
-							14047, -- [13]
-							14047, -- [14]
-							28058, -- [15]
-							28399, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag2"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2130066816:67:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							"|cff1eff00|Hitem:24819:0:0:0:0:0:-13:-1710096346:67:0:0|h[Felstone Leggings of the Wolf]|h|r", -- [1]
-							[4] = "|cff0070dd|Hitem:51991:0:0:0:0:0:-91:1929838615:67:0:0|h[Turbulent Signet of the Marksman]|h|r",
-							[9] = "|cff0070dd|Hitem:51995:0:0:0:0:0:-92:609550357:67:0:0|h[Turbulent Necklace of the Squire]|h|r",
-						},
-						["counts"] = {
-							[11] = 8,
-							[2] = 20,
-							[10] = 2,
-							[12] = 4,
-							[16] = 14,
-							[13] = 20,
-						},
-						["freeslots"] = 1,
-						["ids"] = {
-							24819, -- [1]
-							21877, -- [2]
-							51960, -- [3]
-							51991, -- [4]
-							25539, -- [5]
-							29340, -- [6]
-							27411, -- [7]
-							24920, -- [8]
-							51995, -- [9]
-							22445, -- [10]
-							25433, -- [11]
-							24246, -- [12]
-							21877, -- [13]
-							nil, -- [14]
-							25729, -- [15]
-							26042, -- [16]
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["size"] = 16,
-					},
-					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:4499:0:0:0:0:0:0:0:67:0:0|h[Huge Brown Sack]|h|r",
-						["ids"] = {
-							21877, -- [1]
-							86143, -- [2]
-							90044, -- [3]
-							43626, -- [4]
-							90043, -- [5]
-							90058, -- [6]
-							43352, -- [7]
-							90057, -- [8]
-						},
-						["freeslots"] = 4,
-						["counts"] = {
-							20, -- [1]
-							9, -- [2]
-							3, -- [3]
-							3, -- [4]
-							[7] = 2,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-						["size"] = 12,
-					},
-				},
-				["numBagSlots"] = 72,
+				["numFreeBagSlots"] = 19,
 			},
 			["Default.Moon Guard.Renevie"] = {
 				["numFreeBankSlots"] = 6,
@@ -4374,37 +2259,16 @@ DataStore_ContainersDB = {
 							5760, -- [5]
 							5760, -- [6]
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Black",
 						["counts"] = {
 							3, -- [1]
 							19, -- [2]
 							20, -- [3]
 							9, -- [4]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Black",
 						["size"] = 6,
 					},
 					["Bag4"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:666560768:66:0:0|h[Netherweave Bag]|h|r",
-						["links"] = {
-							[14] = "|cff0070dd|Hitem:28492:0:0:0:0:0:-57:1795424297:66:0:0|h[Talonite's Boots of the Shadow]|h|r",
-							[16] = "|cff1eff00|Hitem:24643:0:0:0:0:0:-19:1426391075:66:0:0|h[Mistyreed Shoulderpads of Intellect]|h|r",
-						},
-						["counts"] = {
-							nil, -- [1]
-							5, -- [2]
-							14, -- [3]
-							26, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							3, -- [7]
-							12, -- [8]
-							12, -- [9]
-							10, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							15, -- [13]
-						},
-						["freeslots"] = 1,
 						["ids"] = {
 							6948, -- [1]
 							22788, -- [2]
@@ -4423,8 +2287,29 @@ DataStore_ContainersDB = {
 							nil, -- [15]
 							24643, -- [16]
 						},
+						["links"] = {
+							[14] = "|cff0070dd|Hitem:28492:0:0:0:0:0:-57:1795424297:66:0:0|h[Talonite's Boots of the Shadow]|h|r",
+							[16] = "|cff1eff00|Hitem:24643:0:0:0:0:0:-19:1426391075:66:0:0|h[Mistyreed Shoulderpads of Intellect]|h|r",
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:666560768:66:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							nil, -- [1]
+							5, -- [2]
+							14, -- [3]
+							26, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							3, -- [7]
+							12, -- [8]
+							12, -- [9]
+							10, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							15, -- [13]
+						},
+						["freeslots"] = 1,
 					},
 					["Bag100"] = {
 						["ids"] = {
@@ -4488,6 +2373,24 @@ DataStore_ContainersDB = {
 						["size"] = 28,
 					},
 					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:67531:0:0:0:0:0:0:0:66:0:0|h[Stormwind Satchel]|h|r",
+						["links"] = {
+							[3] = "|cff1eff00|Hitem:25303:0:0:0:0:0:-6:990642196:66:0:0|h[Amplifying Blade of the Eagle]|h|r",
+							[10] = "|cff1eff00|Hitem:24639:0:0:0:0:0:-6:258736175:66:0:0|h[Mistyreed Tunic of the Eagle]|h|r",
+							[13] = "|cff1eff00|Hitem:25061:0:0:0:0:0:-44:380829719:66:0:0|h[Hiddenite Necklace of the Elder]|h|r",
+						},
+						["counts"] = {
+							2, -- [1]
+							12, -- [2]
+							nil, -- [3]
+							10, -- [4]
+							nil, -- [5]
+							7, -- [6]
+							nil, -- [7]
+							9, -- [8]
+							[14] = 8,
+							[12] = 10,
+						},
 						["ids"] = {
 							24246, -- [1]
 							23424, -- [2]
@@ -4506,28 +2409,11 @@ DataStore_ContainersDB = {
 							29476, -- [15]
 							30530, -- [16]
 						},
-						["links"] = {
-							[3] = "|cff1eff00|Hitem:25303:0:0:0:0:0:-6:990642196:66:0:0|h[Amplifying Blade of the Eagle]|h|r",
-							[10] = "|cff1eff00|Hitem:24639:0:0:0:0:0:-6:258736175:66:0:0|h[Mistyreed Tunic of the Eagle]|h|r",
-							[13] = "|cff1eff00|Hitem:25061:0:0:0:0:0:-44:380829719:66:0:0|h[Hiddenite Necklace of the Elder]|h|r",
-						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Blue",
-						["link"] = "|cff1eff00|Hitem:67531:0:0:0:0:0:0:0:66:0:0|h[Stormwind Satchel]|h|r",
-						["counts"] = {
-							2, -- [1]
-							12, -- [2]
-							nil, -- [3]
-							10, -- [4]
-							nil, -- [5]
-							7, -- [6]
-							nil, -- [7]
-							9, -- [8]
-							[14] = 8,
-							[12] = 10,
-						},
 						["size"] = 16,
 					},
 					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:562596480:66:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							25595, -- [1]
 							25539, -- [2]
@@ -4546,8 +2432,8 @@ DataStore_ContainersDB = {
 							22574, -- [15]
 							27671, -- [16]
 						},
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:562596480:66:0:0|h[Netherweave Bag]|h|r",
-						["size"] = 16,
+						["freeslots"] = 3,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -4566,11 +2452,13 @@ DataStore_ContainersDB = {
 							6, -- [15]
 							4, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 3,
+						["size"] = 16,
 					},
 					["Bag0"] = {
-						["size"] = 16,
+						["links"] = {
+							[6] = "|cff1eff00|Hitem:25301:0:0:0:0:0:-16:25493523:66:0:0|h[Shattering Dagger of Stamina]|h|r",
+							[10] = "|cff1eff00|Hitem:24835:0:0:0:0:0:-24:456327209:66:0:0|h[Nexus-Strider Legwraps of Intellect]|h|r",
+						},
 						["ids"] = {
 							25517, -- [1]
 							71634, -- [2]
@@ -4589,6 +2477,7 @@ DataStore_ContainersDB = {
 							27854, -- [15]
 							22785, -- [16]
 						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -4607,14 +2496,9 @@ DataStore_ContainersDB = {
 							14, -- [15]
 							20, -- [16]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							[6] = "|cff1eff00|Hitem:25301:0:0:0:0:0:-16:25493523:66:0:0|h[Shattering Dagger of Stamina]|h|r",
-							[10] = "|cff1eff00|Hitem:24835:0:0:0:0:0:-24:456327209:66:0:0|h[Nexus-Strider Legwraps of Intellect]|h|r",
-						},
+						["size"] = 16,
 					},
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1285235328:66:0:0|h[Netherweave Bag]|h|r",
 						["ids"] = {
 							38577, -- [1]
 							nil, -- [2]
@@ -4633,7 +2517,9 @@ DataStore_ContainersDB = {
 							52004, -- [15]
 							22786, -- [16]
 						},
-						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1285235328:66:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 4,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["counts"] = {
 							3, -- [1]
 							nil, -- [2]
@@ -4652,42 +2538,2149 @@ DataStore_ContainersDB = {
 							nil, -- [15]
 							13, -- [16]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-						["freeslots"] = 4,
+						["size"] = 16,
 					},
 					["Bag6"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1479292672:62:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							"|cff1eff00|Hitem:24601:0:0:0:0:0:-39:1250820136:62:0:0|h[Starfire Circlet of the Invoker]|h|r", -- [1]
+							"|cff1eff00|Hitem:25298:0:0:0:0:0:-8:2054422545:62:0:0|h[Combustion Dagger of the Whale]|h|r", -- [2]
+							"|cff1eff00|Hitem:24598:0:0:0:0:0:-36:1005781022:62:0:0|h[Starfire Sandals of the Sorcerer]|h|r", -- [3]
+							[11] = "|cff1eff00|Hitem:24599:0:0:0:0:0:-21:1095761960:62:0:0|h[Starfire Vest of Intellect]|h|r",
+							[5] = "|cff1eff00|Hitem:10156:0:0:0:0:0:-20:372834319:62:0:0|h[Mercurial Bracers of Power]|h|r",
+							[14] = "|cff1eff00|Hitem:24595:0:0:0:0:0:-9:2062024733:62:0:0|h[Fireheart Shoulderpads of the Owl]|h|r",
+						},
+						["counts"] = {
+							[7] = 3,
+						},
+						["freeslots"] = 5,
 						["ids"] = {
 							24601, -- [1]
 							25298, -- [2]
 							24598, -- [3]
 							[6] = 29926,
 							[7] = 23427,
-							[13] = 24710,
-							[9] = 63230,
+							[11] = 24599,
+							[5] = 10156,
 							[12] = 31657,
 							[14] = 24595,
-							[5] = 10156,
-							[11] = 24599,
-						},
-						["links"] = {
-							"|cff1eff00|Hitem:24601:0:0:0:0:0:-39:1250820136:62:0:0|h[Starfire Circlet of the Invoker]|h|r", -- [1]
-							"|cff1eff00|Hitem:25298:0:0:0:0:0:-8:2054422545:62:0:0|h[Combustion Dagger of the Whale]|h|r", -- [2]
-							"|cff1eff00|Hitem:24598:0:0:0:0:0:-36:1005781022:62:0:0|h[Starfire Sandals of the Sorcerer]|h|r", -- [3]
-							[11] = "|cff1eff00|Hitem:24599:0:0:0:0:0:-21:1095761960:62:0:0|h[Starfire Vest of Intellect]|h|r",
-							[14] = "|cff1eff00|Hitem:24595:0:0:0:0:0:-9:2062024733:62:0:0|h[Fireheart Shoulderpads of the Owl]|h|r",
-							[5] = "|cff1eff00|Hitem:10156:0:0:0:0:0:-20:372834319:62:0:0|h[Mercurial Bracers of Power]|h|r",
+							[9] = 63230,
+							[13] = 24710,
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
 						["size"] = 16,
-						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1479292672:62:0:0|h[Netherweave Bag]|h|r",
+					},
+				},
+				["numBagSlots"] = 80,
+				["numFreeBagSlots"] = 8,
+			},
+			["Default.Bloodhoof.Avessia"] = {
+				["numFreeBankSlots"] = 87,
+				["numBankSlots"] = 108,
+				["lastUpdate"] = 1375317819,
+				["numBagSlots"] = 112,
+				["Containers"] = {
+					["Bag8"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:89379472:90:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							79249, -- [1]
+							39354, -- [2]
+							nil, -- [3]
+							72234, -- [4]
+							79254, -- [5]
+							72988, -- [6]
+							[13] = 87208,
+							[14] = 88487,
+							[15] = 71634,
+							[9] = 87582,
+							[18] = 79255,
+							[19] = 79254,
+							[20] = 79254,
+							[11] = 79731,
+							[12] = 87209,
+							[17] = 79254,
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:46097024:90:0:0|h[Frostweave Bag]|h|r",
+						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["counts"] = {
-							[7] = 3,
+							11, -- [1]
+							46, -- [2]
+							nil, -- [3]
+							12, -- [4]
+							20, -- [5]
+							8, -- [6]
+							[11] = 20,
+							[13] = 4,
+							[17] = 20,
+							[18] = 20,
+							[12] = 4,
+							[14] = 5,
+							[19] = 20,
+							[20] = 20,
 						},
 						["freeslots"] = 5,
 					},
+					["Bag0"] = {
+						["ids"] = {
+							28631, -- [1]
+							31547, -- [2]
+							72235, -- [3]
+							72237, -- [4]
+							72235, -- [5]
+							2289, -- [6]
+							79010, -- [7]
+							79255, -- [8]
+							79254, -- [9]
+							nil, -- [10]
+							39469, -- [11]
+							29760, -- [12]
+							79011, -- [13]
+							1711, -- [14]
+							79102, -- [15]
+							80809, -- [16]
+						},
+						["freeslots"] = 1,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							19, -- [3]
+							13, -- [4]
+							3, -- [5]
+							3, -- [6]
+							7, -- [7]
+							8, -- [8]
+							19, -- [9]
+							nil, -- [10]
+							14, -- [11]
+							nil, -- [12]
+							20, -- [13]
+							2, -- [14]
+							9, -- [15]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag5"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1440943104:90:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 16,
+					},
+					["Bag4"] = {
+						["ids"] = {
+							22578, -- [1]
+							74252, -- [2]
+							nil, -- [3]
+							74249, -- [4]
+							74249, -- [5]
+							6218, -- [6]
+							74249, -- [7]
+							74249, -- [8]
+							11176, -- [9]
+							34055, -- [10]
+							34052, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							nil, -- [16]
+							52718, -- [17]
+							nil, -- [18]
+							34056, -- [19]
+							22450, -- [20]
+							74247, -- [21]
+							nil, -- [22]
+							nil, -- [23]
+							nil, -- [24]
+							nil, -- [25]
+							nil, -- [26]
+							74250, -- [27]
+							74249, -- [28]
+							74249, -- [29]
+							74249, -- [30]
+							74249, -- [31]
+							74249, -- [32]
+							74249, -- [33]
+							74249, -- [34]
+							22445, -- [35]
+							74248, -- [36]
+						},
+						["counts"] = {
+							10, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							15, -- [4]
+							20, -- [5]
+							nil, -- [6]
+							20, -- [7]
+							20, -- [8]
+							3, -- [9]
+							5, -- [10]
+							[33] = 20,
+							[35] = 18,
+							[27] = 9,
+							[28] = 20,
+							[29] = 20,
+							[30] = 20,
+							[31] = 20,
+							[32] = 20,
+							[34] = 20,
+							[36] = 10,
+							[20] = 3,
+							[21] = 2,
+							[19] = 3,
+							[17] = 5,
+						},
+						["size"] = 36,
+						["bagtype"] = 64,
+						["link"] = "|cff0070dd|Hitem:54445:0:0:0:0:0:0:1546609280:90:0:0|h[Otherworldly Bag]|h|r",
+						["icon"] = "Interface\\Icons\\inv_misc_bag_31",
+						["freeslots"] = 12,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							90378, -- [1]
+							nil, -- [2]
+							19362, -- [3]
+							nil, -- [4]
+							28671, -- [5]
+							32254, -- [6]
+							16948, -- [7]
+							16950, -- [8]
+							81105, -- [9]
+							90370, -- [10]
+							93585, -- [11]
+							64399, -- [12]
+							94233, -- [13]
+							88584, -- [14]
+							94233, -- [15]
+							3820, -- [16]
+							74837, -- [17]
+							74840, -- [18]
+							79253, -- [19]
+							74834, -- [20]
+							35279, -- [21]
+							95350, -- [22]
+							89682, -- [23]
+						},
+						["size"] = 28,
+						["counts"] = {
+							[18] = 10,
+							[16] = 2,
+							[17] = 6,
+							[20] = 11,
+						},
+						["freeslots"] = 7,
+					},
+					["Bag7"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:889032768:90:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1388584576:90:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["ids"] = {
+							79267, -- [1]
+							72238, -- [2]
+							89641, -- [3]
+							6948, -- [4]
+							2290, -- [5]
+							89640, -- [6]
+							43119, -- [7]
+							79264, -- [8]
+							95567, -- [9]
+							79731, -- [10]
+							38682, -- [11]
+							83726, -- [12]
+							76061, -- [13]
+							39505, -- [14]
+							89815, -- [15]
+							87358, -- [16]
+							17202, -- [17]
+							95866, -- [18]
+						},
+						["counts"] = {
+							nil, -- [1]
+							10, -- [2]
+							2, -- [3]
+							[6] = 4,
+							[7] = 3,
+							[10] = 6,
+							[11] = 3,
+							[17] = 18,
+							[5] = 3,
+							[13] = 2,
+						},
+						["freeslots"] = 2,
+					},
+					["Bag9"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:827797696:90:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							32242, -- [1]
+							32897, -- [2]
+							79254, -- [3]
+							95449, -- [4]
+							32262, -- [5]
+							98116, -- [6]
+							43123, -- [7]
+							32253, -- [8]
+							89112, -- [9]
+							21877, -- [10]
+							32528, -- [11]
+							21877, -- [12]
+							24679, -- [13]
+							32276, -- [14]
+							31022, -- [15]
+							76097, -- [16]
+							74840, -- [17]
+							79268, -- [18]
+							82467, -- [19]
+							79265, -- [20]
+						},
+						["links"] = {
+							[13] = "|cff1eff00|Hitem:24679:0:0:0:0:0:-15:630718519:90:0:0|h[Archmage Robe of Spirit]|h|r",
+						},
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							20, -- [3]
+							[6] = 3,
+							[7] = 4,
+							[10] = 20,
+							[12] = 7,
+							[9] = 3,
+							[17] = 19,
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:612623744:90:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+					},
+					["Bag6"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:497264480:90:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
 				},
-				["numFreeBagSlots"] = 8,
+				["numFreeBagSlots"] = 20,
+			},
+			["Default.Wyrmrest Accord.Roslyn"] = {
+				["numFreeBankSlots"] = 28,
+				["numBankSlots"] = 28,
+				["lastUpdate"] = 1366897548,
+				["numFreeBagSlots"] = 5,
+				["numBagSlots"] = 22,
+				["Containers"] = {
+					["Bag100"] = {
+						["freeslots"] = 28,
+						["size"] = 28,
+					},
+					["Bag0"] = {
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["ids"] = {
+							2447, -- [1]
+							765, -- [2]
+							2449, -- [3]
+							765, -- [4]
+							nil, -- [5]
+							2835, -- [6]
+							4306, -- [7]
+							4338, -- [8]
+							2835, -- [9]
+							51976, -- [10]
+							nil, -- [11]
+							6948, -- [12]
+							10301, -- [13]
+							2449, -- [14]
+						},
+						["freeslots"] = 4,
+						["counts"] = {
+							15, -- [1]
+							20, -- [2]
+							20, -- [3]
+							17, -- [4]
+							nil, -- [5]
+							20, -- [6]
+							8, -- [7]
+							13, -- [8]
+							11, -- [9]
+							[14] = 4,
+						},
+						["links"] = {
+							[10] = "|cff0070dd|Hitem:51976:0:0:0:0:0:-85:1459617811:44:0:0|h[Earthbound Shoulderguards of the Sorcerer]|h|r",
+						},
+					},
+					["Bag1"] = {
+						["ids"] = {
+							774, -- [1]
+							nil, -- [2]
+							2770, -- [3]
+							818, -- [4]
+							nil, -- [5]
+							1210, -- [6]
+						},
+						["links"] = {
+							[2] = "|cff1eff00|Hbattlepet:847:1:2:153:10:10:0x0000000000000000|h[Fishy]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 6,
+						["link"] = "|cffffffff|Hitem:57247:0:0:0:0:0:0:1489918208:44:0:0|h[Grape-Picking Sack]|h|r",
+						["counts"] = {
+							[3] = 2,
+						},
+						["freeslots"] = 1,
+					},
+				},
+			},
+			["Default.Maelstrom.Zalizia"] = {
+				["lastUpdate"] = 1366113029,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							22575, -- [1]
+							11143, -- [2]
+							24421, -- [3]
+							14047, -- [4]
+							64884, -- [5]
+						},
+						["link"] = "|cffffffff|Hitem:4499:0:0:0:0:0:0:0:67:0:0|h[Huge Brown Sack]|h|r",
+						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["counts"] = {
+							3, -- [1]
+							2, -- [2]
+							5, -- [3]
+							20, -- [4]
+						},
+						["freeslots"] = 7,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							6948, -- [1]
+							805, -- [2]
+							24402, -- [3]
+							60242, -- [4]
+							25412, -- [5]
+							27678, -- [6]
+							22406, -- [7]
+							25414, -- [8]
+							10843, -- [9]
+							23358, -- [10]
+							24507, -- [11]
+							27854, -- [12]
+							24865, -- [13]
+							24510, -- [14]
+							31193, -- [15]
+							25302, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							[5] = 9,
+							[6] = 7,
+							[12] = 2,
+							[11] = 2,
+						},
+						["links"] = {
+							[13] = "|cff1eff00|Hitem:24865:0:0:0:0:0:-40:1219624995:67:0:0|h[Blood Knight Gauntlets of the Bandit]|h|r",
+							[16] = "|cff1eff00|Hitem:25302:0:0:0:0:0:-6:479789075:67:0:0|h[Soul-Drain Dagger of the Eagle]|h|r",
+						},
+					},
+					["Bag1"] = {
+						["ids"] = {
+							24378, -- [1]
+							14047, -- [2]
+							30858, -- [3]
+							24743, -- [4]
+							31192, -- [5]
+							24069, -- [6]
+							51960, -- [7]
+							21877, -- [8]
+							21877, -- [9]
+							21877, -- [10]
+							24947, -- [11]
+							23424, -- [12]
+							14047, -- [13]
+							14047, -- [14]
+							28058, -- [15]
+							28399, -- [16]
+						},
+						["links"] = {
+							[5] = "|cff0070dd|Hitem:31192:0:0:0:0:0:-19:-1757937634:67:0:0|h[Crocolisk Hide Bindings of Intellect]|h|r",
+							[4] = "|cff1eff00|Hitem:24743:0:0:0:0:0:-40:1550188590:67:0:0|h[Ranger Jerkin of the Bandit]|h|r",
+							[11] = "|cff1eff00|Hitem:24947:0:0:0:0:0:-36:788791337:67:0:0|h[Bloodscale Legguards of the Sorcerer]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1498707840:67:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							nil, -- [1]
+							20, -- [2]
+							5, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							20, -- [8]
+							5, -- [9]
+							20, -- [10]
+							nil, -- [11]
+							5, -- [12]
+							20, -- [13]
+							14, -- [14]
+							nil, -- [15]
+							2, -- [16]
+						},
+						["size"] = 16,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							24819, -- [1]
+							21877, -- [2]
+							51960, -- [3]
+							51991, -- [4]
+							25539, -- [5]
+							29340, -- [6]
+							27411, -- [7]
+							24920, -- [8]
+							51995, -- [9]
+							22445, -- [10]
+							25433, -- [11]
+							24246, -- [12]
+							21877, -- [13]
+							nil, -- [14]
+							25729, -- [15]
+							26042, -- [16]
+						},
+						["links"] = {
+							"|cff1eff00|Hitem:24819:0:0:0:0:0:-13:-1710096346:67:0:0|h[Felstone Leggings of the Wolf]|h|r", -- [1]
+							[4] = "|cff0070dd|Hitem:51991:0:0:0:0:0:-91:1929838615:67:0:0|h[Turbulent Signet of the Marksman]|h|r",
+							[9] = "|cff0070dd|Hitem:51995:0:0:0:0:0:-92:609550357:67:0:0|h[Turbulent Necklace of the Squire]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:2130066816:67:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[11] = 8,
+							[2] = 20,
+							[10] = 2,
+							[12] = 4,
+							[16] = 14,
+							[13] = 20,
+						},
+						["freeslots"] = 1,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							21877, -- [1]
+							86143, -- [2]
+							90044, -- [3]
+							43626, -- [4]
+							90043, -- [5]
+							90058, -- [6]
+							43352, -- [7]
+							90057, -- [8]
+						},
+						["link"] = "|cffffffff|Hitem:4499:0:0:0:0:0:0:0:67:0:0|h[Huge Brown Sack]|h|r",
+						["size"] = 12,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["counts"] = {
+							20, -- [1]
+							9, -- [2]
+							3, -- [3]
+							3, -- [4]
+							[7] = 2,
+						},
+						["freeslots"] = 4,
+					},
+				},
+				["numFreeBagSlots"] = 12,
+				["numBagSlots"] = 72,
+			},
+			["Default.Bloodhoof.Cyralie"] = {
+				["numFreeBankSlots"] = 28,
+				["numBankSlots"] = 28,
+				["lastUpdate"] = 1365735086,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							51987, -- [1]
+							43184, -- [2]
+							40755, -- [3]
+							27420, -- [4]
+							42765, -- [5]
+							42768, -- [6]
+							38223, -- [7]
+							nil, -- [8]
+							38577, -- [9]
+							nil, -- [10]
+							44345, -- [11]
+							44369, -- [12]
+							65947, -- [13]
+							39680, -- [14]
+							nil, -- [15]
+							44362, -- [16]
+						},
+						["links"] = {
+							"|cff0070dd|Hitem:51987:0:0:0:0:0:-43:2038169628:80:0:0|h[Stalwart Grips of the Soldier]|h|r", -- [1]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1085298176:80:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[9] = 3,
+						},
+						["freeslots"] = 3,
+					},
+					["Bag100"] = {
+						["size"] = 28,
+						["freeslots"] = 28,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							38218, -- [1]
+							18376, -- [2]
+							44377, -- [3]
+							21877, -- [4]
+							87521, -- [5]
+							29944, -- [6]
+							51984, -- [7]
+						},
+						["links"] = {
+							[7] = "|cff0070dd|Hitem:51984:0:0:0:0:0:-68:1106575379:80:0:0|h[Stalwart Shoulderpads of the Bear]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_05",
+						["size"] = 8,
+						["link"] = "|cffffffff|Hitem:856:0:0:0:0:0:0:1557575936:80:0:0|h[Blue Leather Bag]|h|r",
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							20, -- [4]
+						},
+						["freeslots"] = 1,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1904082304:80:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[7] = "|cff0070dd|Hitem:51978:0:0:0:0:0:-75:1261568010:80:0:0|h[Earthbound Girdle of the Champion]|h|r",
+							[15] = "|cff0070dd|Hitem:51987:0:0:0:0:0:-43:708444188:80:0:0|h[Stalwart Grips of the Soldier]|h|r",
+						},
+						["counts"] = {
+							[3] = 7,
+						},
+						["size"] = 16,
+						["ids"] = {
+							43180, -- [1]
+							44361, -- [2]
+							4338, -- [3]
+							nil, -- [4]
+							43306, -- [5]
+							nil, -- [6]
+							51978, -- [7]
+							8144, -- [8]
+							nil, -- [9]
+							25717, -- [10]
+							14828, -- [11]
+							nil, -- [12]
+							44407, -- [13]
+							44412, -- [14]
+							51987, -- [15]
+							29337, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 4,
+					},
+					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1012144064:80:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							"|cff0070dd|Hitem:51995:0:0:0:0:0:-91:1191968789:80:0:0|h[Turbulent Necklace of the Marksman]|h|r", -- [1]
+							[14] = "|cff0070dd|Hitem:51991:0:0:0:0:0:-45:103677975:80:0:0|h[Turbulent Signet of the Champion]|h|r",
+							[15] = "|cff0070dd|Hitem:9388:0:0:0:0:0:-11:746651661:80:0:0|h[Revelosh's Armguards of the Falcon]|h|r",
+							[11] = "|cff0070dd|Hitem:51996:0:0:0:0:0:-84:2080833547:80:0:0|h[Tumultuous Necklace of Stamina]|h|r",
+						},
+						["counts"] = {
+							[7] = 4,
+							[13] = 5,
+						},
+						["size"] = 16,
+						["ids"] = {
+							51995, -- [1]
+							25714, -- [2]
+							24021, -- [3]
+							29329, -- [4]
+							51990, -- [5]
+							nil, -- [6]
+							21877, -- [7]
+							44370, -- [8]
+							33454, -- [9]
+							29336, -- [10]
+							51996, -- [11]
+							88293, -- [12]
+							33470, -- [13]
+							51991, -- [14]
+							9388, -- [15]
+							12997, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 1,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							6948, -- [1]
+							51990, -- [2]
+							44337, -- [3]
+							nil, -- [4]
+							43624, -- [5]
+							82884, -- [6]
+							9446, -- [7]
+							43174, -- [8]
+							65989, -- [9]
+							51980, -- [10]
+							60402, -- [11]
+							35630, -- [12]
+							nil, -- [13]
+							51992, -- [14]
+							65973, -- [15]
+							18383, -- [16]
+						},
+						["freeslots"] = 2,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							[14] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-84:-1784807410:80:0:0|h[Tumultuous Ring of Stamina]|h|r",
+						},
+					},
+				},
+				["numFreeBagSlots"] = 11,
+				["numBagSlots"] = 72,
+			},
+			["Default.Wyrmrest Accord.Abryn"] = {
+				["lastUpdate"] = 1363935608,
+				["numFreeBagSlots"] = 12,
+				["Containers"] = {
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:828:0:0:0:0:0:0:754067056:42:0:0|h[Small Blue Pouch]|h|r",
+						["ids"] = {
+							4306, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							4338, -- [5]
+							1708, -- [6]
+						},
+						["freeslots"] = 3,
+						["counts"] = {
+							8, -- [1]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Blue",
+						["size"] = 6,
+					},
+					["Bag0"] = {
+						["counts"] = {
+							[6] = 2,
+							[7] = 3,
+							[8] = 5,
+							[10] = 3,
+							[12] = 14,
+							[14] = 2,
+							[9] = 3,
+						},
+						["links"] = {
+							[2] = "|cff1eff00|Hitem:9764:0:0:0:0:0:-12:2009530369:42:0:0|h[Cadet Shield of the Boar]|h|r",
+							[13] = "|cff0070dd|Hitem:51964:0:0:0:0:0:-80:1808138250:42:0:0|h[Vigorous Belt of the Wild]|h|r",
+						},
+						["ids"] = {
+							6948, -- [1]
+							9764, -- [2]
+							17056, -- [3]
+							57935, -- [4]
+							58910, -- [5]
+							7228, -- [6]
+							780, -- [7]
+							56202, -- [8]
+							56201, -- [9]
+							56200, -- [10]
+							58364, -- [11]
+							2589, -- [12]
+							51964, -- [13]
+							5428, -- [14]
+						},
+						["freeslots"] = 2,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:57251:0:0:0:0:0:0:643592832:41:0:0|h[\"Collecting\" Bag]|h|r",
+						["freeslots"] = 6,
+						["ids"] = {
+							nil, -- [1]
+							1710, -- [2]
+							nil, -- [3]
+							55121, -- [4]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_11",
+						["size"] = 8,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:57247:0:0:0:0:0:0:273653632:41:0:0|h[Grape-Picking Sack]|h|r",
+						["ids"] = {
+							6889, -- [1]
+							nil, -- [2]
+							58906, -- [3]
+							57405, -- [4]
+							1017, -- [5]
+							4414, -- [6]
+						},
+						["freeslots"] = 1,
+						["counts"] = {
+							5, -- [1]
+							[5] = 2,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 6,
+					},
+				},
+				["numBagSlots"] = 36,
+			},
+			["Default.Bronzebeard.Cyralie"] = {
+				["lastUpdate"] = 1369739091,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							7068, -- [1]
+							88377, -- [2]
+							10111, -- [3]
+							8952, -- [4]
+							8754, -- [5]
+							7912, -- [6]
+							25409, -- [7]
+							10593, -- [8]
+							25411, -- [9]
+							88375, -- [10]
+							22832, -- [11]
+							76350, -- [12]
+							25307, -- [13]
+							25409, -- [14]
+							24680, -- [15]
+							89112, -- [16]
+							24682, -- [17]
+							71634, -- [18]
+							20815, -- [19]
+							6948, -- [20]
+						},
+						["links"] = {
+							[3] = "|cff1eff00|Hitem:10111:0:0:0:0:0:-9:454950937:86:0:0|h[Wanderer's Hat of the Owl]|h|r",
+							[13] = "|cff1eff00|Hitem:25307:0:0:0:0:0:-44:281804822:86:0:0|h[Shadow Dagger of the Elder]|h|r",
+							[17] = "|cff1eff00|Hitem:24682:0:0:0:0:0:-19:-1899233225:86:0:0|h[Archmage Pants of Intellect]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedRunecloth",
+						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:-231951232:86:0:0|h[Pit Lord's Satchel]|h|r",
+						["counts"] = {
+							3, -- [1]
+							[14] = 20,
+							[6] = 2,
+							[7] = 20,
+							[9] = 18,
+						},
+						["size"] = 20,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							25409, -- [1]
+							25411, -- [2]
+							76644, -- [3]
+							40042, -- [4]
+							81405, -- [5]
+							25400, -- [6]
+							81406, -- [7]
+							87216, -- [8]
+							76638, -- [9]
+							76140, -- [10]
+							58145, -- [11]
+							74843, -- [12]
+							35625, -- [13]
+							23447, -- [14]
+							2776, -- [15]
+							32897, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							18, -- [1]
+							18, -- [2]
+							[11] = 10,
+							[7] = 8,
+							[15] = 4,
+							[5] = 18,
+							[14] = 4,
+							[16] = 4,
+							[13] = 2,
+						},
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cffa335ee|Hitem:43345:0:0:0:0:0:0:-1456928768:86:0:0|h[Dragon Hide Bag]|h|r",
+						["ids"] = {
+							76061, -- [1]
+							81404, -- [2]
+							73410, -- [3]
+							2775, -- [4]
+							21882, -- [5]
+							21877, -- [6]
+							25409, -- [7]
+							25373, -- [8]
+							3576, -- [9]
+							2771, -- [10]
+							22578, -- [11]
+							35623, -- [12]
+							35622, -- [13]
+							36910, -- [14]
+							43013, -- [15]
+							43013, -- [16]
+							90407, -- [17]
+							43013, -- [18]
+							27678, -- [19]
+							81403, -- [20]
+							40199, -- [21]
+							43012, -- [22]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
+						["counts"] = {
+							2, -- [1]
+							3, -- [2]
+							nil, -- [3]
+							4, -- [4]
+							20, -- [5]
+							18, -- [6]
+							17, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							5, -- [10]
+							5, -- [11]
+							nil, -- [12]
+							3, -- [13]
+							4, -- [14]
+							2, -- [15]
+							20, -- [16]
+							19, -- [17]
+							20, -- [18]
+							8, -- [19]
+							2, -- [20]
+							10, -- [21]
+							2, -- [22]
+						},
+						["size"] = 22,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							12820, -- [1]
+							88370, -- [2]
+							40042, -- [3]
+							6596, -- [4]
+							40042, -- [5]
+							76098, -- [6]
+							40042, -- [7]
+							40042, -- [8]
+							62649, -- [9]
+							24671, -- [10]
+							40042, -- [11]
+							40042, -- [12]
+							40042, -- [13]
+							2901, -- [14]
+							4784, -- [15]
+							8150, -- [16]
+						},
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:6596:0:0:0:0:0:-81:1006764042:86:0:0|h[Battleforge Legguards of the Whale]|h|r",
+							[10] = "|cff1eff00|Hitem:24671:0:0:0:0:0:-6:960233525:86:0:0|h[Eldr'naan Jerkin of the Eagle]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:325622720:86:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							20, -- [3]
+							nil, -- [4]
+							17, -- [5]
+							2, -- [6]
+							20, -- [7]
+							20, -- [8]
+							4, -- [9]
+							nil, -- [10]
+							14, -- [11]
+							20, -- [12]
+							20, -- [13]
+							nil, -- [14]
+							5, -- [15]
+							13, -- [16]
+						},
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							11370, -- [1]
+							9262, -- [2]
+							7078, -- [3]
+							7077, -- [4]
+							7068, -- [5]
+							13824, -- [6]
+							10251, -- [7]
+							21840, -- [8]
+							7075, -- [9]
+							7076, -- [10]
+							17011, -- [11]
+							7068, -- [12]
+							7077, -- [13]
+							4787, -- [14]
+							82392, -- [15]
+							17010, -- [16]
+						},
+						["links"] = {
+							[7] = "|cff1eff00|Hitem:10251:0:0:0:0:0:-81:634257429:86:0:0|h[Master's Gloves of the Whale]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1628854912:86:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							6, -- [1]
+							nil, -- [2]
+							10, -- [3]
+							10, -- [4]
+							10, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							20, -- [8]
+							6, -- [9]
+							3, -- [10]
+							2, -- [11]
+							9, -- [12]
+							8, -- [13]
+							5, -- [14]
+							7, -- [15]
+						},
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 90,
+			},
+			["Default.Bloodhoof.Alythe"] = {
+				["numFreeBankSlots"] = 6,
+				["numBankSlots"] = 36,
+				["lastUpdate"] = 1375249810,
 				["numBagSlots"] = 80,
+				["Containers"] = {
+					["Bag5"] = {
+						["link"] = "|cffffffff|Hitem:60240:0:0:0:0:0:0:1718028160:90:0:0|h[Dream Carrier]|h|r",
+						["ids"] = {
+							20817, -- [1]
+							77589, -- [2]
+						},
+						["size"] = 8,
+						["counts"] = {
+							3, -- [1]
+							7, -- [2]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_03",
+						["freeslots"] = 6,
+					},
+					["Bag4"] = {
+						["ids"] = {
+							81061, -- [1]
+							89815, -- [2]
+							nil, -- [3]
+							94042, -- [4]
+							90354, -- [5]
+							82467, -- [6]
+							85179, -- [7]
+							27790, -- [8]
+							93624, -- [9]
+							93623, -- [10]
+							84079, -- [11]
+							94221, -- [12]
+							32512, -- [13]
+							nil, -- [14]
+							85225, -- [15]
+							27897, -- [16]
+						},
+						["links"] = {
+							[4] = "|cff1eff00|Hitem:94042:0:0:0:0:0:-139:1858470814:90:0:0|h[Forgotten Peacekeeper Shoulders of the Mercenary]|h|r",
+						},
+						["freeslots"] = 2,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1239894528:90:0:0|h[Netherweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							40755, -- [1]
+							65493, -- [2]
+							45574, -- [3]
+							28748, -- [4]
+							63878, -- [5]
+							26043, -- [6]
+							57268, -- [7]
+							2840, -- [8]
+							8529, -- [9]
+							63866, -- [10]
+							27884, -- [11]
+							63787, -- [12]
+							28055, -- [13]
+							29337, -- [14]
+							27840, -- [15]
+							2840, -- [16]
+							2840, -- [17]
+							74847, -- [18]
+							63861, -- [19]
+							27803, -- [20]
+							81055, -- [21]
+							61487, -- [22]
+							27447, -- [23]
+							2770, -- [24]
+							90388, -- [25]
+							72988, -- [26]
+							90382, -- [27]
+							87587, -- [28]
+						},
+						["counts"] = {
+							[6] = 6,
+							[17] = 20,
+							[21] = 4,
+							[24] = 10,
+							[16] = 20,
+							[26] = 9,
+							[9] = 13,
+							[8] = 20,
+						},
+						["size"] = 28,
+					},
+					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:42458112:90:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							30976, -- [1]
+							32471, -- [2]
+							30980, -- [3]
+							31090, -- [4]
+							31091, -- [5]
+							95454, -- [6]
+							72104, -- [7]
+							27855, -- [8]
+							72988, -- [9]
+							40643, -- [10]
+							87209, -- [11]
+							82441, -- [12]
+							28509, -- [13]
+							35280, -- [14]
+							72988, -- [15]
+							72988, -- [16]
+						},
+						["counts"] = {
+							[9] = 20,
+							[16] = 5,
+							[7] = 2,
+							[15] = 20,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							28503, -- [1]
+							94222, -- [2]
+							55053, -- [3]
+							31293, -- [4]
+							28505, -- [5]
+							97544, -- [6]
+							49908, -- [7]
+							82969, -- [8]
+							97545, -- [9]
+							nil, -- [10]
+							81414, -- [11]
+							27748, -- [12]
+							nil, -- [13]
+							31091, -- [14]
+							86583, -- [15]
+							6948, -- [16]
+						},
+						["links"] = {
+							[8] = "|cff0070dd|Hitem:82969:4993:0:0:0:0:0:747973248:90:0:451|h[Masterwork Spiritguard Shield]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 2,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:782833152:90:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[11] = 19,
+							[6] = 63,
+							[9] = 9,
+							[3] = 10,
+						},
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							24956, -- [1]
+							43348, -- [2]
+							28522, -- [3]
+							10128, -- [4]
+							95567, -- [5]
+							28771, -- [6]
+							71634, -- [7]
+							32255, -- [8]
+							28747, -- [9]
+							29761, -- [10]
+							nil, -- [11]
+							87649, -- [12]
+							41426, -- [13]
+							31103, -- [14]
+							76061, -- [15]
+							32082, -- [16]
+						},
+						["links"] = {
+							"|cff1eff00|Hitem:24956:0:0:0:0:0:-11:580452384:90:0:0|h[Bogslayer Pauldrons of the Falcon]|h|r", -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							"|cff1eff00|Hitem:10128:0:0:0:0:0:-14:1725562903:90:0:0|h[Revenant Chestplate of the Tiger]|h|r", -- [4]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["freeslots"] = 1,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:816012288:90:0:0|h[Netherweave Bag]|h|r",
+						["counts"] = {
+							[15] = 9,
+						},
+						["size"] = 16,
+					},
+					["Bag0"] = {
+						["size"] = 16,
+						["ids"] = {
+							97530, -- [1]
+							17202, -- [2]
+							30978, -- [3]
+							94577, -- [4]
+							5956, -- [5]
+							89640, -- [6]
+							94111, -- [7]
+							90910, -- [8]
+							82263, -- [9]
+							83730, -- [10]
+							32354, -- [11]
+							32333, -- [12]
+							34011, -- [13]
+							72096, -- [14]
+							89112, -- [15]
+							72096, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							2, -- [1]
+							12, -- [2]
+							[6] = 3,
+							[7] = 15,
+							[15] = 24,
+							[14] = 6,
+							[16] = 20,
+						},
+						["links"] = {
+							[9] = "|cff1eff00|Hitem:82263:0:0:0:0:0:-40:657589150:90:0:0|h[Vine Shoulders of the Bandit]|h|r",
+						},
+					},
+				},
+				["numFreeBagSlots"] = 5,
+			},
+			["Default.Bloodhoof.Vezeri"] = {
+				["numFreeBankSlots"] = 23,
+				["numBankSlots"] = 140,
+				["lastUpdate"] = 1374891141,
+				["numFreeBagSlots"] = 17,
+				["Containers"] = {
+					["Bag10"] = {
+						["ids"] = {
+							nil, -- [1]
+							3864, -- [2]
+							23440, -- [3]
+							1210, -- [4]
+							36926, -- [5]
+							52178, -- [6]
+							76565, -- [7]
+							52180, -- [8]
+							36927, -- [9]
+							55854, -- [10]
+							80433, -- [11]
+							nil, -- [12]
+							76131, -- [13]
+							1705, -- [14]
+							1529, -- [15]
+							32249, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1275635968:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							[5] = 4,
+							[11] = 3,
+							[4] = 13,
+							[8] = 3,
+						},
+						["freeslots"] = 2,
+					},
+					["Bag8"] = {
+						["ids"] = {
+							36905, -- [1]
+							2289, -- [2]
+							10558, -- [3]
+							4377, -- [4]
+							nil, -- [5]
+							17203, -- [6]
+							23781, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							88567, -- [13]
+							88567, -- [14]
+							88567, -- [15]
+							43007, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:525488256:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							20, -- [3]
+							8, -- [4]
+							[7] = 20,
+							[16] = 79,
+						},
+						["freeslots"] = 6,
+					},
+					["Bag100"] = {
+						["ids"] = {
+							34656, -- [1]
+							38147, -- [2]
+							34652, -- [3]
+							38632, -- [4]
+							34648, -- [5]
+							34651, -- [6]
+							34649, -- [7]
+							39327, -- [8]
+							34650, -- [9]
+							34655, -- [10]
+							13463, -- [11]
+							3358, -- [12]
+							39328, -- [13]
+							62039, -- [14]
+							4625, -- [15]
+							3818, -- [16]
+							95373, -- [17]
+							18562, -- [18]
+							64396, -- [19]
+							13067, -- [20]
+							44091, -- [21]
+							13013, -- [22]
+							63127, -- [23]
+							31952, -- [24]
+							39338, -- [25]
+							83064, -- [26]
+							21841, -- [27]
+							34664, -- [28]
+						},
+						["counts"] = {
+							[13] = 9,
+							[28] = 15,
+							[15] = 3,
+							[8] = 5,
+							[16] = 3,
+							[18] = 2,
+							[19] = 2,
+							[11] = 3,
+							[12] = 20,
+							[23] = 8,
+						},
+						["size"] = 28,
+					},
+					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:310029696:74:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							74708, -- [1]
+							32749, -- [2]
+							61980, -- [3]
+							21840, -- [4]
+							74700, -- [5]
+							37704, -- [6]
+							74712, -- [7]
+							10938, -- [8]
+							16202, -- [9]
+							37701, -- [10]
+							34055, -- [11]
+							34056, -- [12]
+							22447, -- [13]
+							22446, -- [14]
+							34053, -- [15]
+							21840, -- [16]
+						},
+						["counts"] = {
+							4, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							20, -- [4]
+							8, -- [5]
+							5, -- [6]
+							4, -- [7]
+							2, -- [8]
+							nil, -- [9]
+							4, -- [10]
+							9, -- [11]
+							2, -- [12]
+							4, -- [13]
+							2, -- [14]
+							nil, -- [15]
+							20, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:943970688:74:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							80588, -- [3]
+							76142, -- [4]
+							97827, -- [5]
+							10360, -- [6]
+							97832, -- [7]
+							42360, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							50452, -- [13]
+							74863, -- [14]
+							75014, -- [15]
+							21877, -- [16]
+						},
+						["freeslots"] = 6,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							13, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							2, -- [15]
+							14, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag5"] = {
+						["ids"] = {
+							23572, -- [1]
+							63128, -- [2]
+							87216, -- [3]
+							79869, -- [4]
+							40199, -- [5]
+							8183, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							22789, -- [12]
+							64397, -- [13]
+							3357, -- [14]
+							nil, -- [15]
+							13464, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:843833600:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							4, -- [1]
+							[13] = 2,
+							[4] = 3,
+							[12] = 6,
+							[14] = 5,
+							[16] = 7,
+							[5] = 6,
+						},
+						["freeslots"] = 6,
+					},
+					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:619763840:74:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							nil, -- [1]
+							37700, -- [2]
+							21840, -- [3]
+							24246, -- [4]
+							nil, -- [5]
+							72104, -- [6]
+							52385, -- [7]
+							10940, -- [8]
+							12695, -- [9]
+							21885, -- [10]
+							52761, -- [11]
+							74709, -- [12]
+							32749, -- [13]
+							6948, -- [14]
+							7971, -- [15]
+							21840, -- [16]
+						},
+						["freeslots"] = 2,
+						["counts"] = {
+							nil, -- [1]
+							5, -- [2]
+							20, -- [3]
+							3, -- [4]
+							nil, -- [5]
+							12, -- [6]
+							nil, -- [7]
+							14, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							2, -- [11]
+							4, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							20, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag0"] = {
+						["counts"] = {
+							5, -- [1]
+							9, -- [2]
+							3, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							14, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							6, -- [16]
+						},
+						["freeslots"] = 5,
+						["ids"] = {
+							72235, -- [1]
+							72237, -- [2]
+							72238, -- [3]
+							74838, -- [4]
+							74844, -- [5]
+							74833, -- [6]
+							nil, -- [7]
+							74250, -- [8]
+							nil, -- [9]
+							72988, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							88567, -- [14]
+							36428, -- [15]
+							38682, -- [16]
+						},
+						["size"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							[15] = "|cff1eff00|Hitem:36428:0:0:0:0:0:-41:781385784:74:0:0|h[Bouquet Ring of the Beast]|h|r",
+						},
+					},
+					["Bag7"] = {
+						["ids"] = {
+							nil, -- [1]
+							81410, -- [2]
+							24246, -- [3]
+							52984, -- [4]
+							16000, -- [5]
+							32897, -- [6]
+							13144, -- [7]
+							31918, -- [8]
+							86143, -- [9]
+							95410, -- [10]
+							95412, -- [11]
+							23781, -- [12]
+							79868, -- [13]
+							95412, -- [14]
+							10558, -- [15]
+							37118, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1313347584:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							[6] = 18,
+							[2] = 19,
+							[15] = 20,
+							[13] = 3,
+							[12] = 19,
+							[4] = 2,
+							[9] = 25,
+							[5] = 5,
+						},
+						["freeslots"] = 1,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1994257792:74:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[16] = "|cff0070dd|Hitem:44672:0:0:0:0:0:-91:1188757585:74:0:0|h[Seal-Fur Spaulders of the Marksman]|h|r",
+						},
+						["counts"] = {
+							5, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							5, -- [4]
+							nil, -- [5]
+							9, -- [6]
+							nil, -- [7]
+							59, -- [8]
+							[13] = 37,
+							[14] = 6,
+						},
+						["freeslots"] = 4,
+						["ids"] = {
+							21840, -- [1]
+							74839, -- [2]
+							86124, -- [3]
+							14048, -- [4]
+							nil, -- [5]
+							22446, -- [6]
+							nil, -- [7]
+							32897, -- [8]
+							30307, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							30306, -- [12]
+							74840, -- [13]
+							75016, -- [14]
+							2842, -- [15]
+							44672, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag9"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							7909, -- [5]
+							23439, -- [6]
+							32230, -- [7]
+							36917, -- [8]
+							52182, -- [9]
+							76141, -- [10]
+							36923, -- [11]
+							36929, -- [12]
+							[15] = 40110,
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1249100288:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							[9] = 2,
+						},
+						["freeslots"] = 7,
+					},
+					["Bag11"] = {
+						["ids"] = {
+							32227, -- [1]
+							3864, -- [2]
+							36932, -- [3]
+							52181, -- [4]
+							7910, -- [5]
+							36921, -- [6]
+							86574, -- [7]
+							64881, -- [8]
+							89684, -- [9]
+							89611, -- [10]
+							64904, -- [11]
+							62038, -- [12]
+							61935, -- [13]
+							62024, -- [14]
+							62023, -- [15]
+							69887, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:8807552:74:0:0|h[Netherweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag6"] = {
+						["ids"] = {
+							785, -- [1]
+							13465, -- [2]
+							2453, -- [3]
+							3821, -- [4]
+							41611, -- [5]
+							2452, -- [6]
+							2447, -- [7]
+							2449, -- [8]
+							75016, -- [9]
+							765, -- [10]
+							3358, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							3356, -- [14]
+							3358, -- [15]
+							10286, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1254121856:74:0:0|h[Netherweave Bag]|h|r",
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							17, -- [1]
+							10, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							4, -- [5]
+							4, -- [6]
+							3, -- [7]
+							2, -- [8]
+							5, -- [9]
+							nil, -- [10]
+							20, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							7, -- [14]
+							7, -- [15]
+							2, -- [16]
+						},
+						["freeslots"] = 2,
+					},
+				},
+				["numBagSlots"] = 80,
+			},
+			["Default.Bloodhoof.Sparkler"] = {
+				["lastUpdate"] = 1365734859,
+				["Containers"] = {
+					["Bag2"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							11081, -- [3]
+							11039, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							51994, -- [8]
+						},
+						["links"] = {
+							[8] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-71:1368260616:43:0:0|h[Tumultuous Cloak of the Bandit]|h|r",
+						},
+						["size"] = 8,
+						["link"] = "|cffffffff|Hitem:57549:0:0:0:0:0:0:783047936:43:0:0|h[]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 5,
+					},
+					["Bag0"] = {
+						["links"] = {
+							[16] = "|cff0070dd|Hitem:51973:0:0:0:0:0:-83:1203175439:43:0:0|h[Enumerated Handwraps of the Sun]|h|r",
+						},
+						["ids"] = {
+							6948, -- [1]
+							3798, -- [2]
+							57575, -- [3]
+							4306, -- [4]
+							9308, -- [5]
+							59, -- [6]
+							59044, -- [7]
+							71634, -- [8]
+							65963, -- [9]
+							59050, -- [10]
+							16310, -- [11]
+							3779, -- [12]
+							81055, -- [13]
+							1708, -- [14]
+							11134, -- [15]
+							51973, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["counts"] = {
+							[5] = 2,
+							[13] = 4,
+							[4] = 7,
+						},
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:59053:0:0:0:0:0:0:66776832:43:0:0|h[Airfield Courier Bag]|h|r",
+						["links"] = {
+							[2] = "|cff0070dd|Hitem:51992:0:0:0:0:0:-68:1262092302:43:0:0|h[Tumultuous Ring of the Bear]|h|r",
+						},
+						["counts"] = {
+							[4] = 8,
+						},
+						["size"] = 6,
+						["ids"] = {
+							9448, -- [1]
+							51992, -- [2]
+							5507, -- [3]
+							7069, -- [4]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+						["freeslots"] = 2,
+					},
+				},
+				["numFreeBagSlots"] = 7,
+				["numBagSlots"] = 30,
+			},
+			["Default.Bloodhoof.Eloisa"] = {
+				["lastUpdate"] = 1362711739,
+				["numFreeBagSlots"] = 13,
+				["Containers"] = {
+					["Bag0"] = {
+						["counts"] = {
+							[5] = 3,
+						},
+						["links"] = {
+							[2] = "|cff0070dd|Hitem:51994:0:0:0:0:0:-78:489685000:22:0:0|h[Tumultuous Cloak of the Monkey]|h|r",
+						},
+						["ids"] = {
+							6948, -- [1]
+							51994, -- [2]
+							[5] = 60497,
+						},
+						["freeslots"] = 13,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 16,
+			},
+			["Default.Bloodhoof.Flora"] = {
+				["numFreeBankSlots"] = 15,
+				["numBankSlots"] = 28,
+				["lastUpdate"] = 1373617797,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1562345344:87:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							71634, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							74833, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							89682, -- [14]
+							90338, -- [15]
+						},
+						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							[11] = 20,
+						},
+						["freeslots"] = 12,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							97619, -- [2]
+							86199, -- [3]
+							81200, -- [4]
+							81472, -- [5]
+							88580, -- [6]
+							79825, -- [7]
+							81194, -- [8]
+							89641, -- [9]
+							81203, -- [10]
+							82328, -- [11]
+							88388, -- [12]
+							97512, -- [13]
+							81495, -- [14]
+							28506, -- [15]
+							74833, -- [16]
+						},
+						["counts"] = {
+							[11] = 14,
+							[2] = 16,
+							[8] = 20,
+							[10] = 16,
+							[12] = 10,
+							[4] = 8,
+							[16] = 3,
+							[13] = 30,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1610262016:87:0:0|h[Netherweave Bag]|h|r",
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:82005:0:0:0:0:0:-5:892207483:87:0:0|h[Intricate Ring of the Monkey]|h|r",
+							[13] = "|cff1eff00|Hitem:81988:0:0:0:0:0:-5:1368326824:87:0:0|h[Saurok Vest of the Monkey]|h|r",
+							[3] = "|cff1eff00|Hitem:82119:0:0:0:0:0:-132:1820131699:87:0:0|h[Shamanic Scepter of the Wavecrest]|h|r",
+						},
+						["counts"] = {
+							[6] = 5,
+							[2] = 4,
+							[15] = 15,
+							[10] = 20,
+							[12] = 10,
+							[7] = 2,
+							[9] = 20,
+							[11] = 5,
+						},
+						["ids"] = {
+							88051, -- [1]
+							81404, -- [2]
+							82119, -- [3]
+							87608, -- [4]
+							87612, -- [5]
+							88532, -- [6]
+							81221, -- [7]
+							82005, -- [8]
+							72093, -- [9]
+							72120, -- [10]
+							72988, -- [11]
+							89112, -- [12]
+							81988, -- [13]
+							84281, -- [14]
+							97621, -- [15]
+							55186, -- [16]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1533191936:87:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							79268, -- [1]
+							89640, -- [2]
+							85688, -- [3]
+							74839, -- [4]
+							62040, -- [5]
+							66886, -- [6]
+							61958, -- [7]
+							62029, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							90377, -- [14]
+							nil, -- [15]
+							81403, -- [16]
+						},
+						["freeslots"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							5, -- [4]
+							[16] = 18,
+						},
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:675456384:87:0:0|h[Netherweave Bag]|h|r",
+						["ids"] = {
+							63881, -- [1]
+							[6] = 81202,
+							[10] = 88056,
+						},
+						["freeslots"] = 13,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["counts"] = {
+							[6] = 18,
+						},
+						["size"] = 16,
+					},
+					["Bag100"] = {
+						["links"] = {
+							[5] = "|cff1eff00|Hitem:15582:0:0:0:0:0:-69:260177936:86:0:0|h[Sparkleshell Legguards of the Eagle]|h|r",
+							[10] = "|cff0070dd|Hitem:51966:0:0:0:0:0:-71:2119827475:86:0:0|h[Vigorous Spaulders of the Bandit]|h|r",
+							[9] = "|cff1eff00|Hitem:14213:0:0:0:0:0:-81:1900478479:86:0:0|h[Vital Raiment of the Whale]|h|r",
+						},
+						["ids"] = {
+							56680, -- [1]
+							12662, -- [2]
+							nil, -- [3]
+							65924, -- [4]
+							15582, -- [5]
+							33448, -- [6]
+							33447, -- [7]
+							62275, -- [8]
+							14213, -- [9]
+							51966, -- [10]
+							68198, -- [11]
+							41427, -- [12]
+							40211, -- [13]
+							17058, -- [14]
+						},
+						["freeslots"] = 15,
+						["counts"] = {
+							[6] = 5,
+							[7] = 5,
+							[12] = 5,
+							[14] = 3,
+							[13] = 5,
+						},
+						["size"] = 28,
+					},
+				},
+				["numBagSlots"] = 80,
+				["numFreeBagSlots"] = 31,
+			},
+			["Default.Bronzebeard.Karielle"] = {
+				["lastUpdate"] = 1366112431,
+				["numFreeBagSlots"] = 65,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:67531:0:0:0:0:0:0:0:85:0:0|h[Stormwind Satchel]|h|r",
+						["freeslots"] = 14,
+						["ids"] = {
+							[2] = 40476,
+							[16] = 71332,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Blue",
+						["size"] = 16,
+					},
+					["Bag0"] = {
+						["freeslots"] = 13,
+						["ids"] = {
+							74725, -- [1]
+							[4] = 71083,
+							[8] = 10978,
+						},
+						["counts"] = {
+							4, -- [1]
+							[4] = 3,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:67530:0:0:0:0:0:0:0:85:0:0|h[Gnomeregan Satchel]|h|r",
+						["ids"] = {
+							[4] = 24579,
+						},
+						["freeslots"] = 15,
+						["counts"] = {
+							[4] = 3,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_21",
+						["size"] = 16,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:1131211520:85:0:0|h[Netherweave Bag]|h|r",
+						["freeslots"] = 9,
+						["ids"] = {
+							35723, -- [1]
+							[8] = 62768,
+							[4] = 52723,
+							[12] = 62483,
+							[14] = 6948,
+							[9] = 56003,
+							[15] = 66927,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+					},
+					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:67528:0:0:0:0:0:0:0:85:0:0|h[Ironforge Satchel]|h|r",
+						["freeslots"] = 14,
+						["ids"] = {
+							[11] = 71332,
+							[15] = 44789,
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_19",
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 80,
+			},
+			["Default.Wyrmrest Accord.Venerie"] = {
+				["lastUpdate"] = 1363933513,
+				["numFreeBagSlots"] = 9,
+				["Containers"] = {
+					["Bag0"] = {
+						["freeslots"] = 3,
+						["ids"] = {
+							6948, -- [1]
+							20980, -- [2]
+							117, -- [3]
+							57217, -- [4]
+							771, -- [5]
+							58235, -- [6]
+							57224, -- [7]
+							62391, -- [8]
+							2589, -- [9]
+							62328, -- [10]
+							57199, -- [11]
+							[13] = 774,
+							[14] = 2672,
+						},
+						["counts"] = {
+							[3] = 11,
+							[10] = 4,
+							[14] = 3,
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cffffffff|Hitem:57792:0:0:0:0:0:0:488324512:9:0:0|h[]|h|r",
+						["freeslots"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Green",
+						["size"] = 6,
+					},
+				},
+				["numBagSlots"] = 22,
+			},
+			["Default.Crushridge.Margot"] = {
+				["lastUpdate"] = 1367216792,
+				["numFreeBagSlots"] = 14,
+				["Containers"] = {
+					["Bag0"] = {
+						["freeslots"] = 14,
+						["ids"] = {
+							77272, -- [1]
+							6948, -- [2]
+						},
+						["counts"] = {
+							5, -- [1]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+				},
+				["numBagSlots"] = 16,
 			},
 		},
 		["Guilds"] = {
@@ -4780,15 +4773,18 @@ DataStore_ContainersDB = {
 							[69] = 12655,
 							[75] = 36916,
 							[77] = 52186,
-							[91] = 12359,
-							[81] = 36909,
 							[98] = 2772,
+							[81] = 36909,
+							[91] = 12359,
 						},
 						["ClientTime"] = 1374891083,
 						["visitedBy"] = "Vezeri",
 						["ClientHour"] = 19,
 						["ClientMinute"] = 11,
 						["name"] = "cooking and ore",
+						["icon"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
+						["ServerHour"] = 22,
+						["ServerMinute"] = 9,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
@@ -4871,13 +4867,10 @@ DataStore_ContainersDB = {
 							[69] = 8,
 							[75] = 18,
 							[77] = 20,
-							[91] = 20,
-							[81] = 4,
 							[98] = 20,
+							[81] = 4,
+							[91] = 20,
 						},
-						["ServerMinute"] = 9,
-						["ServerHour"] = 22,
-						["icon"] = "Interface\\Icons\\Ability_Hunter_BeastTraining",
 						["size"] = 98,
 					}, -- [1]
 					{
@@ -4929,7 +4922,7 @@ DataStore_ContainersDB = {
 							[64] = 11083,
 							[80] = 11178,
 							[96] = 10938,
-							[93] = 22448,
+							[95] = 14343,
 							[65] = 52555,
 							[41] = 4234,
 							[97] = 22446,
@@ -4944,37 +4937,40 @@ DataStore_ContainersDB = {
 							[81] = 11083,
 							[34] = 8170,
 							[84] = 16204,
-							[69] = 52379,
-							[45] = 52326,
 							[35] = 2318,
+							[89] = 14344,
+							[69] = 52379,
 							[85] = 22445,
 							[51] = 71635,
-							[37] = 71637,
+							[73] = 16202,
 							[70] = 12704,
 							[86] = 11084,
-							[83] = 34056,
-							[43] = 71637,
+							[36] = 71637,
+							[44] = 71637,
 							[71] = 22445,
 							[87] = 10998,
 							[91] = 16204,
 							[60] = 52749,
 							[72] = 10940,
 							[88] = 11082,
-							[44] = 71637,
-							[36] = 71637,
-							[73] = 16202,
-							[89] = 14344,
+							[43] = 71637,
+							[83] = 34056,
+							[37] = 71637,
+							[45] = 52326,
 							[53] = 52744,
 							[61] = 16048,
 							[74] = 16203,
 							[90] = 52720,
-							[95] = 14343,
+							[93] = 22448,
 						},
 						["ClientTime"] = 1374891097,
 						["visitedBy"] = "Vezeri",
 						["ClientHour"] = 19,
 						["ServerHour"] = 22,
 						["ServerMinute"] = 10,
+						["icon"] = "Interface\\Icons\\Achievement_Boss_Durumu",
+						["ClientMinute"] = 11,
+						["name"] = "cloth n chants",
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -5071,9 +5067,6 @@ DataStore_ContainersDB = {
 							[95] = 5,
 							[98] = 20,
 						},
-						["name"] = "cloth n chants",
-						["ClientMinute"] = 11,
-						["icon"] = "Interface\\Icons\\Achievement_Boss_Durumu",
 						["size"] = 98,
 					}, -- [2]
 					{
@@ -5183,6 +5176,9 @@ DataStore_ContainersDB = {
 						["ClientHour"] = 19,
 						["ServerHour"] = 22,
 						["name"] = "Pandaria Herbs",
+						["icon"] = "Interface\\Icons\\PandarenRacial_InnerPeace",
+						["ClientMinute"] = 11,
+						["ServerMinute"] = 10,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
@@ -5283,9 +5279,6 @@ DataStore_ContainersDB = {
 							20, -- [97]
 							20, -- [98]
 						},
-						["ServerMinute"] = 10,
-						["ClientMinute"] = 11,
-						["icon"] = "Interface\\Icons\\PandarenRacial_InnerPeace",
 						["size"] = 98,
 					}, -- [3]
 				},
@@ -5416,15 +5409,18 @@ DataStore_ContainersDB = {
 							[24] = "|cff1eff00|Hitem:24761:0:0:0:0:0:-14:624099377:41:0:0|h[Umbrafen Cap of the Tiger]|h|r",
 							[67] = "|cff1eff00|Hitem:36185:0:0:0:0:0:-37:1911226418:41:0:0|h[Garmaul Shoulderguards of the Seer]|h|r",
 							[27] = "|cff1eff00|Hitem:36439:0:0:0:0:0:-42:1061879858:41:0:0|h[Serpentine Chain of the Elder]|h|r",
-							[5] = "|cff1eff00|Hitem:25305:0:0:0:0:0:-19:418906133:41:0:0|h[Elemental Dagger of Intellect]|h|r",
+							[72] = "|cff1eff00|Hitem:36669:0:0:0:0:0:-9:1393164317:41:0:0|h[Eccentric Dagger of the Owl]|h|r",
 							[28] = "|cff1eff00|Hitem:36245:0:0:0:0:0:-17:757203034:41:0:0|h[Mammoth Chestpiece of Strength]|h|r",
 							[79] = "|cff1eff00|Hitem:43248:0:2699:0:0:0:0:0:41:0:0|h[Stoneguard Band]|h|r",
 							[13] = "|cff1eff00|Hitem:36371:0:0:0:0:0:-14:-1611399096:41:0:0|h[Kraken Girdle of the Tiger]|h|r",
-							[72] = "|cff1eff00|Hitem:36669:0:0:0:0:0:-9:1393164317:41:0:0|h[Eccentric Dagger of the Owl]|h|r",
+							[5] = "|cff1eff00|Hitem:25305:0:0:0:0:0:-19:418906133:41:0:0|h[Elemental Dagger of Intellect]|h|r",
 						},
-						["ClientMinute"] = 22,
 						["ServerHour"] = 14,
+						["ClientMinute"] = 22,
 						["ServerMinute"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["ClientHour"] = 14,
+						["name"] = "Tab 1",
 						["counts"] = {
 							[38] = 20,
 							[46] = 20,
@@ -5452,21 +5448,18 @@ DataStore_ContainersDB = {
 							[51] = 4,
 							[86] = 20,
 							[44] = 3,
-							[35] = 4,
+							[97] = 2,
 							[88] = 20,
 							[33] = 10,
-							[93] = 2,
-							[89] = 9,
-							[45] = 20,
-							[53] = 20,
-							[87] = 20,
 							[85] = 20,
+							[87] = 20,
+							[89] = 9,
+							[53] = 20,
+							[45] = 20,
+							[93] = 2,
 							[90] = 2,
-							[97] = 2,
+							[35] = 4,
 						},
-						["name"] = "Tab 1",
-						["ClientHour"] = 14,
-						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
 						["size"] = 98,
 					}, -- [1]
 				},
@@ -5581,15 +5574,12 @@ DataStore_ContainersDB = {
 							[27] = "|cff1eff00|Hitem:9756:0:0:0:0:0:-18:971759552:44:0:0|h[Gypsy Trousers of Agility]|h|r",
 							[25] = "|cff1eff00|Hitem:10062:0:0:0:0:0:-81:-1114716735:44:0:0|h[Duskwoven Gloves of the Whale]|h|r",
 							[26] = "|cff1eff00|Hitem:10112:0:0:0:0:0:-78:-1676556586:44:0:0|h[Wanderer's Leggings of the Monkey]|h|r",
-							[53] = "|cff1eff00|Hitem:12016:0:0:0:0:0:-13:848494417:44:0:0|h[Jungle Ring of the Wolf]|h|r",
 							[18] = "|cff1eff00|Hitem:10253:0:0:0:0:0:-9:1581907773:44:0:0|h[Master's Mantle of the Owl]|h|r",
+							[53] = "|cff1eff00|Hitem:12016:0:0:0:0:0:-13:848494417:44:0:0|h[Jungle Ring of the Wolf]|h|r",
 						},
-						["ServerHour"] = 23,
 						["ClientMinute"] = 4,
+						["ServerHour"] = 23,
 						["ServerMinute"] = 3,
-						["icon"] = "Interface\\Icons\\INV_BOX_01",
-						["ClientHour"] = 23,
-						["name"] = "Cloth and Mats",
 						["counts"] = {
 							nil, -- [1]
 							3, -- [2]
@@ -5619,24 +5609,27 @@ DataStore_ContainersDB = {
 							[11] = 5,
 							[13] = 2,
 							[22] = 20,
-							[43] = 3,
+							[83] = 7,
 							[30] = 10,
 							[36] = 20,
 							[44] = 14,
 							[52] = 2,
 							[65] = 2,
 							[72] = 9,
-							[51] = 2,
+							[79] = 2,
 							[82] = 9,
-							[55] = 4,
+							[78] = 20,
 							[73] = 6,
 							[81] = 4,
-							[78] = 20,
+							[55] = 4,
 							[61] = 9,
-							[79] = 2,
+							[51] = 2,
 							[23] = 5,
-							[83] = 7,
+							[43] = 3,
 						},
+						["name"] = "Cloth and Mats",
+						["ClientHour"] = 23,
+						["icon"] = "Interface\\Icons\\INV_BOX_01",
 						["size"] = 98,
 					}, -- [1]
 					{
@@ -5656,20 +5649,17 @@ DataStore_ContainersDB = {
 							[94] = 7048,
 							[36] = 1180,
 							[22] = 25304,
-							[95] = 7048,
 							[57] = 45761,
+							[95] = 7048,
 						},
 						["ClientTime"] = 1365833071,
 						["visitedBy"] = "Roslyn",
 						["links"] = {
 							[22] = "|cff1eff00|Hitem:25304:0:0:0:0:0:-8:1095237652:44:0:0|h[Destructo-Blade of the Whale]|h|r",
 						},
-						["ServerHour"] = 23,
 						["ClientMinute"] = 4,
+						["ServerHour"] = 23,
 						["name"] = "Armor and Weps",
-						["icon"] = "Interface\\Icons\\INV_BOX_01",
-						["ClientHour"] = 23,
-						["ServerMinute"] = 2,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
@@ -5679,9 +5669,12 @@ DataStore_ContainersDB = {
 							6, -- [6]
 							2, -- [7]
 							[57] = 2,
-							[71] = 20,
 							[36] = 6,
+							[71] = 20,
 						},
+						["ServerMinute"] = 2,
+						["ClientHour"] = 23,
+						["icon"] = "Interface\\Icons\\INV_BOX_01",
 						["size"] = 98,
 					}, -- [2]
 					{
@@ -5695,17 +5688,17 @@ DataStore_ContainersDB = {
 						},
 						["ClientTime"] = 1365833073,
 						["visitedBy"] = "Roslyn",
-						["ServerHour"] = 23,
 						["ClientMinute"] = 4,
+						["ServerHour"] = 23,
 						["name"] = "Profession",
-						["icon"] = "Interface\\Icons\\INV_BOX_01",
-						["ClientHour"] = 23,
-						["ServerMinute"] = 3,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
 							20, -- [3]
 						},
+						["ServerMinute"] = 3,
+						["ClientHour"] = 23,
+						["icon"] = "Interface\\Icons\\INV_BOX_01",
 						["size"] = 98,
 					}, -- [3]
 					{
@@ -5728,14 +5721,14 @@ DataStore_ContainersDB = {
 							[78] = 71716,
 							[58] = 21114,
 							[86] = 87216,
-							[93] = 87216,
+							[29] = 52753,
 							[94] = 87216,
 							[36] = 52745,
 							[87] = 87216,
-							[95] = 87216,
 							[57] = 20709,
+							[95] = 87216,
 							[59] = 21151,
-							[29] = 52753,
+							[93] = 87216,
 						},
 						["ClientTime"] = 1365833074,
 						["visitedBy"] = "Roslyn",
@@ -5749,18 +5742,18 @@ DataStore_ContainersDB = {
 							"|cff1eff00|Hitem:82013:0:0:0:0:0:-91:697499939:44:0:0|h[Polished Knuckles of the Marksman]|h|r", -- [7]
 							[11] = "|cff1eff00|Hitem:81995:0:0:0:0:0:-43:643629561:44:0:0|h[Wall Sabatons of the Soldier]|h|r",
 						},
-						["ServerHour"] = 23,
 						["ClientMinute"] = 4,
+						["ServerHour"] = 23,
 						["name"] = "Alt Preparation",
-						["icon"] = "Interface\\Icons\\INV_BOX_01",
-						["ClientHour"] = 23,
-						["ServerMinute"] = 3,
 						["counts"] = {
 							[58] = 5,
 							[36] = 9,
 							[29] = 2,
 							[57] = 6,
 						},
+						["ServerMinute"] = 3,
+						["ClientHour"] = 23,
+						["icon"] = "Interface\\Icons\\INV_BOX_01",
 						["size"] = 98,
 					}, -- [4]
 				},
@@ -5811,52 +5804,55 @@ DataStore_ContainersDB = {
 							[64] = 88532,
 							[80] = 40211,
 							[96] = 40212,
-							[67] = 76095,
+							[33] = 82800,
 							[65] = 59230,
 							[81] = 5997,
 							[49] = 88567,
-							[90] = 76097,
+							[23] = 39489,
 							[66] = 1710,
 							[82] = 46376,
 							[98] = 22832,
 							[29] = 82800,
-							[34] = 82800,
+							[67] = 76095,
 							[83] = 13443,
 							[50] = 88567,
 							[97] = 22829,
 							[68] = 76098,
 							[84] = 76090,
+							[85] = 929,
+							[22] = 39489,
 							[35] = 82800,
-							[86] = 9233,
-							[69] = 858,
 							[43] = 88567,
 							[51] = 88567,
-							[45] = 16884,
+							[89] = 2456,
 							[70] = 58146,
-							[22] = 39489,
-							[71] = 22824,
-							[30] = 82800,
+							[86] = 9233,
 							[36] = 82800,
+							[30] = 82800,
+							[71] = 22824,
 							[87] = 9154,
 							[52] = 4632,
-							[91] = 13444,
+							[44] = 5759,
 							[72] = 76076,
 							[88] = 3928,
 							[93] = 3827,
-							[44] = 5759,
+							[91] = 13444,
 							[73] = 13446,
-							[89] = 2456,
+							[45] = 16884,
 							[53] = 88165,
-							[85] = 929,
+							[69] = 858,
 							[74] = 22827,
-							[23] = 39489,
-							[33] = 82800,
+							[90] = 76097,
+							[34] = 82800,
 						},
 						["ClientTime"] = 1374325696,
 						["visitedBy"] = "Jyetie",
-						["ClientMinute"] = 8,
 						["ServerHour"] = 9,
+						["ClientMinute"] = 8,
 						["ServerMinute"] = 6,
+						["icon"] = "Interface\\Icons\\INV_ALCHEMY_ELIXIR_05",
+						["ClientHour"] = 6,
+						["name"] = "Bags Pots Pets",
 						["counts"] = {
 							[83] = 3,
 							[85] = 20,
@@ -5868,7 +5864,7 @@ DataStore_ContainersDB = {
 							[97] = 8,
 							[68] = 2,
 							[72] = 3,
-							[66] = 13,
+							[63] = 7,
 							[76] = 2,
 							[78] = 20,
 							[80] = 5,
@@ -5888,11 +5884,8 @@ DataStore_ContainersDB = {
 							[77] = 3,
 							[79] = 4,
 							[81] = 8,
-							[63] = 7,
+							[66] = 13,
 						},
-						["name"] = "Bags Pots Pets",
-						["ClientHour"] = 6,
-						["icon"] = "Interface\\Icons\\INV_ALCHEMY_ELIXIR_05",
 						["size"] = 98,
 					}, -- [1]
 					{
@@ -5988,20 +5981,21 @@ DataStore_ContainersDB = {
 							56477, -- [88]
 							85559, -- [89]
 							41601, -- [90]
-							nil, -- [91]
-							2304, -- [92]
-							nil, -- [93]
-							82442, -- [94]
-							3239, -- [95]
-							7965, -- [96]
-							3824, -- [97]
-							55057, -- [98]
+							[92] = 2304,
+							[94] = 82442,
+							[95] = 3239,
+							[96] = 7965,
+							[97] = 3824,
+							[98] = 55057,
 						},
 						["ClientTime"] = 1374325711,
 						["visitedBy"] = "Jyetie",
-						["ClientMinute"] = 8,
 						["ServerHour"] = 9,
+						["ClientMinute"] = 8,
 						["name"] = "Glyphs Enchants",
+						["icon"] = "Interface\\Icons\\INV_Inscription_MajorGlyph02",
+						["ClientHour"] = 6,
+						["ServerMinute"] = 6,
 						["counts"] = {
 							5, -- [1]
 							nil, -- [2]
@@ -6046,18 +6040,15 @@ DataStore_ContainersDB = {
 							[44] = 4,
 							[60] = 8,
 							[88] = 20,
-							[65] = 3,
+							[36] = 2,
 							[97] = 2,
 							[89] = 4,
-							[87] = 8,
-							[61] = 2,
 							[95] = 10,
+							[61] = 2,
+							[87] = 8,
 							[90] = 5,
-							[36] = 2,
+							[65] = 3,
 						},
-						["ServerMinute"] = 6,
-						["ClientHour"] = 6,
-						["icon"] = "Interface\\Icons\\INV_Inscription_MajorGlyph02",
 						["size"] = 98,
 					}, -- [2]
 					{
@@ -6163,9 +6154,12 @@ DataStore_ContainersDB = {
 						},
 						["ClientTime"] = 1374325723,
 						["visitedBy"] = "Jyetie",
-						["ClientMinute"] = 8,
 						["ServerHour"] = 9,
+						["ClientMinute"] = 8,
 						["name"] = "Recipes",
+						["icon"] = "Interface\\Icons\\inv_misc_emberweaveclothbolt",
+						["ClientHour"] = 6,
+						["ServerMinute"] = 6,
 						["counts"] = {
 							[50] = 20,
 							[85] = 20,
@@ -6174,14 +6168,11 @@ DataStore_ContainersDB = {
 							[79] = 20,
 							[98] = 2,
 							[87] = 17,
-							[81] = 20,
+							[95] = 9,
 							[80] = 20,
 							[84] = 3,
-							[95] = 9,
+							[81] = 20,
 						},
-						["ServerMinute"] = 6,
-						["ClientHour"] = 6,
-						["icon"] = "Interface\\Icons\\inv_misc_emberweaveclothbolt",
 						["size"] = 98,
 					}, -- [3]
 					{
@@ -6291,11 +6282,11 @@ DataStore_ContainersDB = {
 						["links"] = {
 							[73] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-9:290982976:90:0:0|h[Aquamarine Signet of the Owl]|h|r",
 							[75] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-12:560225664:90:0:0|h[Aquamarine Signet of the Boar]|h|r",
-							[82] = "|cff0070dd|Hitem:52316:0:0:0:0:0:-132:975503623:90:0:0|h[Hessonite Band of the Wavecrest]|h|r",
-							[74] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-13:190519072:90:0:0|h[Aquamarine Signet of the Wolf]|h|r",
-							[4] = "|cff0070dd|Hitem:31246:0:0:0:0:0:-37:1189937203:90:0:0|h[Nagahide Leggings of the Seer]|h|r",
-							[76] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-81:448493472:90:0:0|h[Aquamarine Signet of the Whale]|h|r",
 							[31] = "|cff0070dd|Hitem:44732:0:0:0:0:0:-89:2001272958:90:0:0|h[Azure Dragonleather Helm of the Thief]|h|r",
+							[4] = "|cff0070dd|Hitem:31246:0:0:0:0:0:-37:1189937203:90:0:0|h[Nagahide Leggings of the Seer]|h|r",
+							[74] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-13:190519072:90:0:0|h[Aquamarine Signet of the Wolf]|h|r",
+							[76] = "|cff0070dd|Hitem:20964:0:0:0:0:0:-81:448493472:90:0:0|h[Aquamarine Signet of the Whale]|h|r",
+							[82] = "|cff0070dd|Hitem:52316:0:0:0:0:0:-132:975503623:90:0:0|h[Hessonite Band of the Wavecrest]|h|r",
 						},
 						["ServerHour"] = 9,
 						["name"] = "Blue or better",
@@ -6409,12 +6400,9 @@ DataStore_ContainersDB = {
 						},
 						["ClientTime"] = 1374325791,
 						["visitedBy"] = "Jyetie",
-						["ServerHour"] = 9,
 						["ClientMinute"] = 9,
+						["ServerHour"] = 9,
 						["name"] = "Matts 1",
-						["icon"] = "Interface\\Icons\\inv_misc_emberweaveclothbolt_01",
-						["ClientHour"] = 6,
-						["ServerMinute"] = 8,
 						["counts"] = {
 							20, -- [1]
 							nil, -- [2]
@@ -6510,6 +6498,9 @@ DataStore_ContainersDB = {
 							[95] = 18,
 							[84] = 6,
 						},
+						["ServerMinute"] = 8,
+						["ClientHour"] = 6,
+						["icon"] = "Interface\\Icons\\inv_misc_emberweaveclothbolt_01",
 						["size"] = 98,
 					}, -- [5]
 					{
@@ -6616,12 +6607,9 @@ DataStore_ContainersDB = {
 						},
 						["ClientTime"] = 1374325799,
 						["visitedBy"] = "Jyetie",
-						["ServerHour"] = 9,
 						["ClientMinute"] = 9,
+						["ServerHour"] = 9,
 						["ServerMinute"] = 8,
-						["icon"] = "Interface\\Icons\\INV_Battery_02",
-						["ClientHour"] = 6,
-						["name"] = "Matts 2",
 						["counts"] = {
 							20, -- [1]
 							7, -- [2]
@@ -6718,6 +6706,9 @@ DataStore_ContainersDB = {
 							[95] = 4,
 							[90] = 5,
 						},
+						["name"] = "Matts 2",
+						["ClientHour"] = 6,
+						["icon"] = "Interface\\Icons\\INV_Battery_02",
 						["size"] = 98,
 					}, -- [6]
 					{
@@ -6835,12 +6826,9 @@ DataStore_ContainersDB = {
 							[16] = "|cff0070dd|Hitem:90492:0:0:0:0:0:-133:1494287430:90:0:0|h[Misthide Helm of the Stormblast]|h|r",
 							[17] = "|cff0070dd|Hitem:90497:0:0:0:0:0:-136:411632428:90:0:0|h[Misthide Belt of the Zephyr]|h|r",
 						},
-						["ServerHour"] = 9,
 						["ClientMinute"] = 10,
+						["ServerHour"] = 9,
 						["name"] = "Raiders",
-						["icon"] = "Interface\\Icons\\INV_BannerPVP_02",
-						["ClientHour"] = 6,
-						["ServerMinute"] = 8,
 						["counts"] = {
 							[83] = 20,
 							[85] = 4,
@@ -6855,20 +6843,23 @@ DataStore_ContainersDB = {
 							[82] = 20,
 							[86] = 4,
 							[45] = 5,
-							[42] = 4,
-							[47] = 2,
-							[71] = 12,
-							[65] = 2,
-							[79] = 20,
-							[51] = 2,
-							[52] = 2,
-							[53] = 4,
-							[49] = 2,
-							[40] = 2,
-							[56] = 2,
-							[81] = 2,
 							[39] = 3,
+							[47] = 2,
+							[52] = 2,
+							[65] = 2,
+							[56] = 2,
+							[51] = 2,
+							[71] = 12,
+							[53] = 4,
+							[40] = 2,
+							[49] = 2,
+							[79] = 20,
+							[81] = 2,
+							[42] = 4,
 						},
+						["ServerMinute"] = 8,
+						["ClientHour"] = 6,
+						["icon"] = "Interface\\Icons\\INV_BannerPVP_02",
 						["size"] = 98,
 					}, -- [7]
 				},

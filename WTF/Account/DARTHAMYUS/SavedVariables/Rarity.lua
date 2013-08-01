@@ -11,13 +11,13 @@ RarityDB = {
 		["Vezeri - Bloodhoof"] = "Default",
 		["Avessia - Bloodhoof"] = "Default",
 		["Amazy - Bloodhoof"] = "Default",
-		["Avelaine - Bloodhoof"] = "Default",
+		["Alythe - Bloodhoof"] = "Default",
 		["Zaeliana - Bronzebeard"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
 		["Greyjoy - Crushridge"] = "Default",
 		["Rhosie - Bloodhoof"] = "Default",
 		["Jyetie - Bloodhoof"] = "Default",
-		["Alythe - Bloodhoof"] = "Default",
+		["Avelaine - Bloodhoof"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -118,37 +118,37 @@ RarityDB = {
 								["time"] = 2,
 								["attempts"] = 4,
 							},
-							[20130528] = {
-								["time"] = 1,
-								["attempts"] = 6,
+							[20130619] = {
+								["attempts"] = 1,
 							},
 							[20130522] = {
 								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20130708] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20130510] = {
-								["attempts"] = 1,
-							},
-							[20130616] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20130601] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-							[20130512] = {
 								["attempts"] = 1,
 							},
 							[20130423] = {
 								["time"] = 1,
 								["attempts"] = 6,
 							},
-							[20130619] = {
+							[20130510] = {
+								["attempts"] = 1,
+							},
+							[20130601] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20130616] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+							[20130512] = {
+								["attempts"] = 1,
+							},
+							[20130528] = {
+								["time"] = 1,
+								["attempts"] = 6,
+							},
+							[20130708] = {
+								["time"] = 1,
 								["attempts"] = 1,
 							},
 						},
@@ -177,6 +177,31 @@ RarityDB = {
 					["Invincible's Reins"] = {
 						["attempts"] = 2,
 					},
+					["Reins of the Onyxian Drake"] = {
+						["attempts"] = 6,
+					},
+					["Reins of the Slate Primordial Direhorn"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20130429] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
+					},
+					["Reins of the Drake of the South Wind"] = {
+						["attempts"] = 1,
+					},
+					["Reins of the Grand Black War Mammoth Alliance"] = {
+						["attempts"] = 9,
+					},
+					["Son of Galleon's Saddle"] = {
+						["attempts"] = 6,
+					},
+					["Reins of the Blue Drake"] = {
+						["attempts"] = 10,
+					},
 					["Reins of the Drake of the North Wind"] = {
 						["time"] = 2,
 						["dates"] = {
@@ -191,25 +216,6 @@ RarityDB = {
 						},
 						["attempts"] = 2,
 					},
-					["Reins of the Slate Primordial Direhorn"] = {
-						["time"] = 1,
-						["dates"] = {
-							[20130429] = {
-								["time"] = 1,
-								["attempts"] = 1,
-							},
-						},
-						["attempts"] = 1,
-					},
-					["Reins of the Astral Cloud Serpent"] = {
-						["attempts"] = 1,
-					},
-					["Experiment 12-B"] = {
-						["attempts"] = 13,
-					},
-					["Son of Galleon's Saddle"] = {
-						["attempts"] = 6,
-					},
 					["Reins of the Jade Primordial Direhorn"] = {
 						["time"] = 347.0090000000055,
 						["dates"] = {
@@ -219,12 +225,6 @@ RarityDB = {
 							},
 						},
 						["attempts"] = 2,
-					},
-					["Reins of the Drake of the South Wind"] = {
-						["attempts"] = 1,
-					},
-					["Reins of the Blue Drake"] = {
-						["attempts"] = 10,
 					},
 					["Sea Turtle"] = {
 						["time"] = 1256.981999999996,
@@ -240,14 +240,14 @@ RarityDB = {
 						},
 						["attempts"] = 32,
 					},
-					["Reins of the Grand Black War Mammoth Alliance"] = {
-						["attempts"] = 9,
+					["Reins of the Astral Cloud Serpent"] = {
+						["attempts"] = 1,
 					},
 					["Reins of the Thundering Cobalt Cloud Serpent"] = {
 						["attempts"] = 6,
 					},
-					["Reins of the Onyxian Drake"] = {
-						["attempts"] = 6,
+					["Experiment 12-B"] = {
+						["attempts"] = 13,
 					},
 					["Red Qiraji Resonating Crystal"] = {
 						["lastAttempts"] = 7,
@@ -561,8 +561,9 @@ RarityDB = {
 						},
 						["attempts"] = 1,
 					},
-					["Ji-Kun Hatchling"] = {
-						["attempts"] = 6,
+					["Elementium Geode"] = {
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Toxic Wasteling"] = {
 						["enabled"] = false,
@@ -590,9 +591,18 @@ RarityDB = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Ice Chip"] = {
-						["enabled"] = false,
-						["found"] = true,
+					["Quivering Blob"] = {
+						["attempts"] = 2,
+					},
+					["Viscidus Globule"] = {
+						["time"] = 1,
+						["dates"] = {
+							[20130716] = {
+								["time"] = 1,
+								["attempts"] = 1,
+							},
+						},
+						["attempts"] = 1,
 					},
 					["Cat Carrier (Black Tabby)"] = {
 						["time"] = 1,
@@ -603,16 +613,6 @@ RarityDB = {
 							},
 						},
 						["attempts"] = 1,
-					},
-					["Fox Kit"] = {
-						["time"] = 451.820000000007,
-						["dates"] = {
-							[20130415] = {
-								["time"] = 451.820000000007,
-								["attempts"] = 13,
-							},
-						},
-						["attempts"] = 13,
 					},
 					["Blighted Spore"] = {
 						["time"] = 2,
@@ -683,26 +683,26 @@ RarityDB = {
 						},
 						["attempts"] = 39,
 					},
-					["Viscidus Globule"] = {
-						["time"] = 1,
+					["Fox Kit"] = {
+						["time"] = 451.820000000007,
 						["dates"] = {
-							[20130716] = {
-								["time"] = 1,
-								["attempts"] = 1,
+							[20130415] = {
+								["time"] = 451.820000000007,
+								["attempts"] = 13,
 							},
 						},
-						["attempts"] = 1,
+						["attempts"] = 13,
 					},
-					["Quivering Blob"] = {
-						["attempts"] = 2,
+					["Ice Chip"] = {
+						["enabled"] = false,
+						["found"] = true,
 					},
 					["Netherspace Portal-Stone"] = {
 						["enabled"] = false,
 						["found"] = true,
 					},
-					["Elementium Geode"] = {
-						["enabled"] = false,
-						["found"] = true,
+					["Ji-Kun Hatchling"] = {
+						["attempts"] = 6,
 					},
 					["Dusty Clutch of Eggs"] = {
 						["enabled"] = false,
@@ -713,6 +713,28 @@ RarityDB = {
 					["Mr. Pinchy"] = {
 						["enabled"] = false,
 						["found"] = true,
+					},
+					["Primal Egg"] = {
+						["time"] = 3431.144000000073,
+						["dates"] = {
+							[20130413] = {
+								["time"] = 1062.469999999987,
+								["attempts"] = 16,
+							},
+							[20130628] = {
+								["time"] = 333.2789999999804,
+								["attempts"] = 2,
+							},
+							[20130420] = {
+								["time"] = 1489.59300000011,
+								["attempts"] = 17,
+							},
+							[20130526] = {
+								["time"] = 545.801999999996,
+								["attempts"] = 6,
+							},
+						},
+						["attempts"] = 41,
 					},
 					["Skyshard"] = {
 						["dates"] = {
@@ -754,28 +776,6 @@ RarityDB = {
 						["time"] = 3008.950999999938,
 						["attempts"] = 90,
 					},
-					["Primal Egg"] = {
-						["time"] = 3431.144000000073,
-						["dates"] = {
-							[20130413] = {
-								["time"] = 1062.469999999987,
-								["attempts"] = 16,
-							},
-							[20130420] = {
-								["time"] = 1489.59300000011,
-								["attempts"] = 17,
-							},
-							[20130526] = {
-								["time"] = 545.801999999996,
-								["attempts"] = 6,
-							},
-							[20130628] = {
-								["time"] = 333.2789999999804,
-								["attempts"] = 2,
-							},
-						},
-						["attempts"] = 41,
-					},
 				},
 				["user"] = {
 					["Tome of Dinomancy"] = {
@@ -785,8 +785,8 @@ RarityDB = {
 						["lastAttempts"] = 33,
 						["realAttempts"] = 33,
 						["totalFinds"] = 1,
-						["attempts"] = 33,
-						["name"] = "Tome of Dinomancy",
+						["itemId"] = 94232,
+						["time"] = 1319.395999999979,
 						["finds"] = {
 							{
 								["num"] = 1,
@@ -797,7 +797,7 @@ RarityDB = {
 							}, -- [1]
 						},
 						["found"] = true,
-						["time"] = 1319.395999999979,
+						["name"] = "Tome of Dinomancy",
 						["npcs"] = {
 							69925, -- [1]
 						},
@@ -812,7 +812,7 @@ RarityDB = {
 							},
 						},
 						["lastTime"] = 1319.395999999979,
-						["itemId"] = 94232,
+						["attempts"] = 33,
 					},
 				},
 			},

@@ -7,8 +7,8 @@ FarmhandData = {
 	["Y"] = -153.6,
 	["X"] = 0,
 	["ShowStockTip"] = true,
-	["ShowVeggieIconsForSeeds"] = false,
+	["PrintScannerMessages"] = true,
 	["HideInCombat"] = true,
 	["ShowVeggieIconsForBags"] = false,
-	["PrintScannerMessages"] = true,
+	["ShowVeggieIconsForSeeds"] = false,
 }

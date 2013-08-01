@@ -6,11 +6,11 @@ INOTE_Settings = {
 		["itemlevel"] = true,
 		["note"] = true,
 	},
-	["version"] = 10,
 	["colors"] = {
 		["itemlevel"] = "f300dd",
 		["note"] = "f300dd",
 	},
+	["version"] = 10,
 	["order"] = {
 	},
 }

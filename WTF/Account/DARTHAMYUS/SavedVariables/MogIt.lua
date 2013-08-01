@@ -1,8 +1,5 @@
 
 MogItDB = {
-	["global"] = {
-		["version"] = "3.1.5",
-	},
 	["profileKeys"] = {
 		["Flora - Bloodhoof"] = "Default",
 		["Avelaine - Bloodhoof"] = "Default",
@@ -10,25 +7,28 @@ MogItDB = {
 		["Margot - Crushridge"] = "Default",
 		["Vendrelia - Earthen Ring"] = "Default",
 		["Brynnen - Bloodhoof"] = "Default",
-		["Renevie - Moon Guard"] = "Default",
+		["Zalizia - Maelstrom"] = "Default",
 		["Zaeliana - Bronzebeard"] = "Default",
 		["Alythe - Bloodhoof"] = "Default",
 		["Vezeri - Bloodhoof"] = "Default",
-		["Glitterglade - Bloodhoof"] = "Default",
-		["Karielle - Bronzebeard"] = "Default",
+		["Jyetie - Bloodhoof"] = "Default",
+		["Rhosie - Bloodhoof"] = "Default",
 		["Venerie - Wyrmrest Accord"] = "Default",
 		["Avessia - Bloodhoof"] = "Default",
 		["Cyralie - Bloodhoof"] = "Default",
 		["Eloisa - Bloodhoof"] = "Default",
 		["Tarley - Bloodhoof"] = "Default",
 		["Amazy - Bloodhoof"] = "Default",
-		["Sparkler - Bloodhoof"] = "Default",
 		["Abryn - Wyrmrest Accord"] = "Default",
+		["Sparkler - Bloodhoof"] = "Default",
 		["Cyralie - Bronzebeard"] = "Default",
 		["Greyjoy - Crushridge"] = "Default",
-		["Rhosie - Bloodhoof"] = "Default",
-		["Jyetie - Bloodhoof"] = "Default",
-		["Zalizia - Maelstrom"] = "Default",
+		["Karielle - Bronzebeard"] = "Default",
+		["Glitterglade - Bloodhoof"] = "Default",
+		["Renevie - Moon Guard"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.1.5",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -59,10 +59,10 @@ MogItDB = {
 					["w"] = 334.9999694824219,
 				}, -- [4]
 			},
-			["gridWidth"] = 1218.000366210938,
+			["gridHeight"] = 766.0001831054688,
 			["y"] = 0,
 			["x"] = 0,
-			["gridHeight"] = 766.0001831054688,
+			["gridWidth"] = 1218.000366210938,
 			["tooltipDress"] = true,
 		},
 	},
@@ -75,25 +75,25 @@ MogItWishlist = {
 		["Margot - Crushridge"] = "Margot - Crushridge",
 		["Vendrelia - Earthen Ring"] = "Vendrelia - Earthen Ring",
 		["Brynnen - Bloodhoof"] = "Brynnen - Bloodhoof",
-		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
+		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
 		["Zaeliana - Bronzebeard"] = "Zaeliana - Bronzebeard",
 		["Alythe - Bloodhoof"] = "Alythe - Bloodhoof",
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
-		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
+		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Venerie - Wyrmrest Accord"] = "Venerie - Wyrmrest Accord",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
 		["Eloisa - Bloodhoof"] = "Eloisa - Bloodhoof",
 		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
-		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 		["Abryn - Wyrmrest Accord"] = "Abryn - Wyrmrest Accord",
+		["Sparkler - Bloodhoof"] = "Sparkler - Bloodhoof",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
-		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Glitterglade - Bloodhoof"] = "Glitterglade - Bloodhoof",
+		["Renevie - Moon Guard"] = "Renevie - Moon Guard",
 	},
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
@@ -108,16 +108,7 @@ MogItWishlist = {
 		},
 		["Brynnen - Bloodhoof"] = {
 		},
-		["Renevie - Moon Guard"] = {
-			["items"] = {
-				52586, -- [1]
-				8245, -- [2]
-				17050, -- [3]
-				7332, -- [4]
-				14204, -- [5]
-				9508, -- [6]
-				26005, -- [7]
-			},
+		["Zalizia - Maelstrom"] = {
 		},
 		["Zaeliana - Bronzebeard"] = {
 		},
@@ -152,9 +143,64 @@ MogItWishlist = {
 		},
 		["Vezeri - Bloodhoof"] = {
 		},
-		["Glitterglade - Bloodhoof"] = {
+		["Jyetie - Bloodhoof"] = {
+			["items"] = {
+				90140, -- [1]
+				8245, -- [2]
+				22419, -- [3]
+				59901, -- [4]
+				59316, -- [5]
+				55062, -- [6]
+				30095, -- [7]
+				30910, -- [8]
+				50732, -- [9]
+				59333, -- [10]
+				28250, -- [11]
+				27738, -- [12]
+				27994, -- [13]
+				31059, -- [14]
+				45253, -- [15]
+				45272, -- [16]
+				21499, -- [17]
+				78201, -- [18]
+				45289, -- [19]
+				29990, -- [20]
+				31220, -- [21]
+				10025, -- [22]
+				45832, -- [23]
+				30079, -- [24]
+				30210, -- [25]
+				86796, -- [26]
+				18338, -- [27]
+				22254, -- [28]
+				37238, -- [29]
+				30878, -- [30]
+			},
+			["sets"] = {
+				{
+					["items"] = {
+						["TabardSlot"] = 31780,
+						["FeetSlot"] = 9776,
+						["HeadSlot"] = 65915,
+						["LegsSlot"] = 15065,
+						["ShoulderSlot"] = 27776,
+						["HandsSlot"] = 39013,
+					},
+					["name"] = "Ail",
+					["alternateItems"] = {
+					},
+				}, -- [1]
+				{
+					["items"] = {
+						["ChestSlot"] = 21499,
+					},
+					["name"] = "pink",
+					["alternateItems"] = {
+					},
+				}, -- [2]
+			},
 		},
-		["Karielle - Bronzebeard"] = {
+		["Rhosie - Bloodhoof"] = {
 		},
 		["Venerie - Wyrmrest Accord"] = {
 		},
@@ -277,8 +323,8 @@ MogItWishlist = {
 					["items"] = {
 						["ShoulderSlot"] = 43077,
 						["HandsSlot"] = 43078,
-						["ChestSlot"] = 43076,
 						["LegsSlot"] = 43079,
+						["ChestSlot"] = 43076,
 					},
 					["name"] = "Undead Slayer's Blessed Armor",
 					["alternateItems"] = {
@@ -287,13 +333,13 @@ MogItWishlist = {
 				{
 					["items"] = {
 						["ChestSlot"] = 22009,
-						["ShoulderSlot"] = 22008,
-						["WristSlot"] = 22004,
-						["HandsSlot"] = 22006,
-						["HeadSlot"] = 22005,
-						["LegsSlot"] = 22007,
-						["WaistSlot"] = 22002,
 						["FeetSlot"] = 22003,
+						["WristSlot"] = 22004,
+						["WaistSlot"] = 22002,
+						["ShoulderSlot"] = 22008,
+						["HandsSlot"] = 22006,
+						["LegsSlot"] = 22007,
+						["HeadSlot"] = 22005,
 					},
 					["name"] = "Darkmantle Armor",
 					["alternateItems"] = {
@@ -301,74 +347,28 @@ MogItWishlist = {
 				}, -- [2]
 			},
 		},
-		["Sparkler - Bloodhoof"] = {
-		},
 		["Abryn - Wyrmrest Accord"] = {
+		},
+		["Sparkler - Bloodhoof"] = {
 		},
 		["Cyralie - Bronzebeard"] = {
 		},
 		["Greyjoy - Crushridge"] = {
 		},
-		["Rhosie - Bloodhoof"] = {
+		["Karielle - Bronzebeard"] = {
 		},
-		["Jyetie - Bloodhoof"] = {
+		["Glitterglade - Bloodhoof"] = {
+		},
+		["Renevie - Moon Guard"] = {
 			["items"] = {
-				90140, -- [1]
+				52586, -- [1]
 				8245, -- [2]
-				22419, -- [3]
-				59901, -- [4]
-				59316, -- [5]
-				55062, -- [6]
-				30095, -- [7]
-				30910, -- [8]
-				50732, -- [9]
-				59333, -- [10]
-				28250, -- [11]
-				27738, -- [12]
-				27994, -- [13]
-				31059, -- [14]
-				45253, -- [15]
-				45272, -- [16]
-				21499, -- [17]
-				78201, -- [18]
-				45289, -- [19]
-				29990, -- [20]
-				31220, -- [21]
-				10025, -- [22]
-				45832, -- [23]
-				30079, -- [24]
-				30210, -- [25]
-				86796, -- [26]
-				18338, -- [27]
-				22254, -- [28]
-				37238, -- [29]
-				30878, -- [30]
+				17050, -- [3]
+				7332, -- [4]
+				14204, -- [5]
+				9508, -- [6]
+				26005, -- [7]
 			},
-			["sets"] = {
-				{
-					["items"] = {
-						["TabardSlot"] = 31780,
-						["FeetSlot"] = 9776,
-						["HeadSlot"] = 65915,
-						["LegsSlot"] = 15065,
-						["HandsSlot"] = 39013,
-						["ShoulderSlot"] = 27776,
-					},
-					["name"] = "Ail",
-					["alternateItems"] = {
-					},
-				}, -- [1]
-				{
-					["items"] = {
-						["ChestSlot"] = 21499,
-					},
-					["name"] = "pink",
-					["alternateItems"] = {
-					},
-				}, -- [2]
-			},
-		},
-		["Zalizia - Maelstrom"] = {
 		},
 	},
 }

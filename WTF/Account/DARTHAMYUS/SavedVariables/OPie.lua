@@ -10,35 +10,35 @@ OneRing_Config = {
 			["Bindings"] = {
 				["hapeshifts"] = "F1",
 				["hel"] = "F1",
-				["Fire"] = "F2",
+				["Earth"] = false,
 				["MageCombat"] = false,
 				["TRAPS"] = "F2",
-				["WorldMarkers"] = "PAGEUP",
-				["poisons"] = "F2",
+				["OPieTracking"] = false,
+				["buffs"] = "F1",
 				["Water"] = false,
 				["OTHERSHIT"] = "F1",
-				["therfucker"] = "F4",
-				["OPieTracking"] = false,
+				["profs2"] = "F1",
+				["WorldMarkers"] = "PAGEUP",
 				["MageTravel"] = "F2",
 				["OPieAutoQuest"] = "F10",
 				["profs"] = "F5",
 				["HunterAspects"] = "F12",
 				["Air"] = false,
 				["WarlockDemons"] = "F2",
-				["FOOD"] = "F3",
+				["CommonTrades"] = "F11",
 				["PETS"] = "F1",
 				["MageTools"] = false,
 				["utilities"] = "F1",
-				["buffs1"] = "F1",
-				["portals"] = "F3",
 				["cialmounts"] = "I",
-				["CommonTrades"] = "F11",
+				["portals"] = "F3",
+				["buffs1"] = "F1",
+				["FOOD"] = "F3",
 				["SLIKEAFAIL"] = "F3",
 				["micromenu"] = "F12",
-				["profs2"] = "F1",
-				["buffs"] = "F1",
+				["therfucker"] = "F4",
+				["Fire"] = "F2",
 				["OPieTrinkets"] = false,
-				["Earth"] = false,
+				["poisons"] = "F2",
 			},
 			["CenterAction"] = true,
 			["RingAtMouse"] = true,
@@ -46,30 +46,22 @@ OneRing_Config = {
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
-			["totems"] = {
+			["hapeshifts"] = {
 				{
-					"ring", -- [1]
-					"Earth", -- [2]
-					["sliceToken"] = "ABuwMc5UPE9",
+					["id"] = 1066,
+					["sliceToken"] = "ABuwMVx4Gby",
 				}, -- [1]
 				{
-					"ring", -- [1]
-					"Fire", -- [2]
-					["sliceToken"] = "ABuwMc5UPES",
+					["id"] = 5487,
+					["sliceToken"] = "ABuwMVx4Gbu",
 				}, -- [2]
 				{
-					"ring", -- [1]
-					"Air", -- [2]
-					["sliceToken"] = "ABuwMc5UPED",
+					["id"] = 768,
+					["sliceToken"] = "ABuwMVx4Gbi",
 				}, -- [3]
-				{
-					"ring", -- [1]
-					"Water", -- [2]
-					["sliceToken"] = "ABuwMc5UPEF",
-				}, -- [4]
 				["save"] = true,
-				["name"] = "totems",
-				["limit"] = "Avessia",
+				["name"] = "shapeshifts",
+				["limit"] = "Flora",
 			},
 			["hel"] = {
 				{
@@ -93,8 +85,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuwMYL2DOg",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "Avelaine",
 				["name"] = "heal",
+				["limit"] = "Avelaine",
 			},
 			["OPieFlagStore"] = {
 				["FlushedDefaultColors"] = true,
@@ -121,29 +113,18 @@ OneRing_Config = {
 					["sliceToken"] = "ABuwMlMsj4Q",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "Tarley",
 				["name"] = "TRAPS!",
+				["limit"] = "Tarley",
 			},
-			["profs2"] = {
+			["FOOD"] = {
 				{
-					["id"] = 31252,
-					["sliceToken"] = "ABuwMzoEf11",
+					"item", -- [1]
+					81400, -- [2]
+					["sliceToken"] = "ABuwMWAtXPt",
 				}, -- [1]
-				{
-					["id"] = 131474,
-					["sliceToken"] = "ABuwMzoEf1t",
-				}, -- [2]
-				{
-					["id"] = 25230,
-					["sliceToken"] = "ABuwM54WDa1",
-				}, -- [3]
-				{
-					["id"] = 110396,
-					["sliceToken"] = "ABuwM54WDat",
-				}, -- [4]
 				["save"] = true,
-				["limit"] = "Alythe",
-				["name"] = "profs",
+				["name"] = "FOOD",
+				["limit"] = "Amazy",
 			},
 			["PROFS"] = {
 				{
@@ -163,22 +144,26 @@ OneRing_Config = {
 					["sliceToken"] = "ABuwMlMsj4O",
 				}, -- [4]
 				["save"] = true,
-				["limit"] = "Tarley",
 				["name"] = "PROFS!",
+				["limit"] = "Tarley",
 			},
-			["Water"] = {
+			["Earth"] = {
 				{
-					["id"] = 5394,
-					["sliceToken"] = "ABuwMzSS6Mz",
+					["id"] = 2484,
+					["sliceToken"] = "ABuwMzSS6My",
 				}, -- [1]
 				{
-					["id"] = 108280,
-					["sliceToken"] = "ABuwMzSS6M5",
+					["id"] = 2062,
+					["sliceToken"] = "ABuwMzSS6Mu",
 				}, -- [2]
-				["limit"] = "Avessia",
+				{
+					["id"] = 8143,
+					["sliceToken"] = "ABuwMzSS6Mi",
+				}, -- [3]
+				["name"] = "Earth",
 				["save"] = true,
-				["hotkey"] = "F2",
-				["name"] = "Water",
+				["hotkey"] = "F4",
+				["limit"] = "Avessia",
 			},
 			["OTHERSHIT"] = {
 				{
@@ -221,45 +206,49 @@ OneRing_Config = {
 					["id"] = 1490,
 					["sliceToken"] = "ABuwMS1qvvu",
 				}, -- [10]
-				["limit"] = "Renevie",
+				["name"] = "OTHER SHIT",
 				["save"] = true,
 				["hotkey"] = "F1",
-				["name"] = "OTHER SHIT",
+				["limit"] = "Renevie",
 			},
-			["hapeshifts"] = {
+			["totems"] = {
 				{
-					["id"] = 1066,
-					["sliceToken"] = "ABuwMVx4Gby",
+					"ring", -- [1]
+					"Earth", -- [2]
+					["sliceToken"] = "ABuwMc5UPE9",
 				}, -- [1]
 				{
-					["id"] = 5487,
-					["sliceToken"] = "ABuwMVx4Gbu",
+					"ring", -- [1]
+					"Fire", -- [2]
+					["sliceToken"] = "ABuwMc5UPES",
 				}, -- [2]
 				{
-					["id"] = 768,
-					["sliceToken"] = "ABuwMVx4Gbi",
+					"ring", -- [1]
+					"Air", -- [2]
+					["sliceToken"] = "ABuwMc5UPED",
 				}, -- [3]
-				["save"] = true,
-				["limit"] = "Flora",
-				["name"] = "shapeshifts",
-			},
-			["Earth"] = {
 				{
-					["id"] = 2484,
-					["sliceToken"] = "ABuwMzSS6My",
-				}, -- [1]
-				{
-					["id"] = 2062,
-					["sliceToken"] = "ABuwMzSS6Mu",
-				}, -- [2]
-				{
-					["id"] = 8143,
-					["sliceToken"] = "ABuwMzSS6Mi",
-				}, -- [3]
+					"ring", -- [1]
+					"Water", -- [2]
+					["sliceToken"] = "ABuwMc5UPEF",
+				}, -- [4]
 				["limit"] = "Avessia",
 				["save"] = true,
-				["hotkey"] = "F4",
-				["name"] = "Earth",
+				["name"] = "totems",
+			},
+			["Water"] = {
+				{
+					["id"] = 5394,
+					["sliceToken"] = "ABuwMzSS6Mz",
+				}, -- [1]
+				{
+					["id"] = 108280,
+					["sliceToken"] = "ABuwMzSS6M5",
+				}, -- [2]
+				["name"] = "Water",
+				["save"] = true,
+				["hotkey"] = "F2",
+				["limit"] = "Avessia",
 			},
 			["MageTravel"] = {
 				{
@@ -322,10 +311,10 @@ OneRing_Config = {
 					["id"] = 120145,
 					["sliceToken"] = "ABuwMYPx4tr",
 				}, -- [15]
-				["name"] = "Portals and Teleports",
+				["limit"] = "MAGE",
 				["save"] = true,
 				["hotkey"] = "ALT-G",
-				["limit"] = "MAGE",
+				["name"] = "Portals and Teleports",
 			},
 			["SLIKEAFAIL"] = {
 				{
@@ -356,10 +345,10 @@ OneRing_Config = {
 					["id"] = 53271,
 					["sliceToken"] = "ABuwM7p=wHn",
 				}, -- [7]
-				["name"] = "COOLDOWNS LIKE A FAIL",
+				["limit"] = "Tarley",
 				["save"] = true,
 				["hotkey"] = "F3",
-				["limit"] = "Tarley",
+				["name"] = "COOLDOWNS LIKE A FAIL",
 			},
 			["profs"] = {
 				{
@@ -390,9 +379,9 @@ OneRing_Config = {
 					["id"] = 818,
 					["sliceToken"] = "ABuwMlBVwan",
 				}, -- [7]
-				["limit"] = "Jyetie",
 				["save"] = true,
 				["name"] = "profs",
+				["limit"] = "Jyetie",
 			},
 			["poisons"] = {
 				{
@@ -415,10 +404,10 @@ OneRing_Config = {
 					["id"] = 108211,
 					["sliceToken"] = "ABuwM5rDdHr",
 				}, -- [5]
-				["name"] = "poisons",
+				["limit"] = "Amazy",
 				["save"] = true,
 				["hotkey"] = "F2",
-				["limit"] = "Amazy",
+				["name"] = "poisons",
 			},
 			["Air"] = {
 				{
@@ -433,9 +422,9 @@ OneRing_Config = {
 					["id"] = 120668,
 					["sliceToken"] = "ABuwMzSS6Mn",
 				}, -- [3]
+				["limit"] = "Avessia",
 				["save"] = true,
 				["name"] = "Air",
-				["limit"] = "Avessia",
 			},
 			["WarlockDemons"] = {
 				{
@@ -458,35 +447,31 @@ OneRing_Config = {
 					["id"] = 691,
 					["sliceToken"] = "OPCLDh",
 				}, -- [5]
-				["name"] = "Warlock Demons",
+				["limit"] = "WARLOCK",
 				["save"] = true,
 				["hotkey"] = "F1",
-				["limit"] = "WARLOCK",
+				["name"] = "Warlock Demons",
 			},
-			["therfucker"] = {
+			["profs2"] = {
 				{
-					["id"] = 1462,
-					["sliceToken"] = "ABuwM7p=wHI",
+					["id"] = 31252,
+					["sliceToken"] = "ABuwMzoEf11",
 				}, -- [1]
 				{
-					["id"] = 2641,
-					["sliceToken"] = "ABuwM7p=wHO",
+					["id"] = 131474,
+					["sliceToken"] = "ABuwMzoEf1t",
 				}, -- [2]
 				{
-					["id"] = 136,
-					["sliceToken"] = "ABuwM7p=wHP",
+					["id"] = 25230,
+					["sliceToken"] = "ABuwM54WDa1",
 				}, -- [3]
 				{
-					["id"] = 982,
-					["sliceToken"] = "ABuwM7p=wHA",
+					["id"] = 110396,
+					["sliceToken"] = "ABuwM54WDat",
 				}, -- [4]
-				{
-					["id"] = 1515,
-					["sliceToken"] = "ABuwM7p=wH9",
-				}, -- [5]
 				["save"] = true,
-				["name"] = "fucking pet control mother fucker.",
-				["limit"] = "Tarley",
+				["name"] = "profs",
+				["limit"] = "Alythe",
 			},
 			["PETS"] = {
 				{
@@ -514,8 +499,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuwMmz6BZy",
 				}, -- [6]
 				["save"] = true,
-				["name"] = "PETS!",
 				["limit"] = "Tarley",
+				["name"] = "PETS!",
 			},
 			["CommonTrades"] = {
 				{
@@ -582,6 +567,28 @@ OneRing_Config = {
 				["save"] = true,
 				["hotkey"] = "ALT-T",
 			},
+			["hamanbuffs"] = {
+				{
+					["id"] = 30823,
+					["sliceToken"] = "ABuwMzSS6MP",
+				}, -- [1]
+				{
+					["id"] = 8024,
+					["sliceToken"] = "ABuwMzSS6MA",
+				}, -- [2]
+				{
+					["id"] = 324,
+					["sliceToken"] = "ABuwMzSS6M9",
+				}, -- [3]
+				{
+					["id"] = 32182,
+					["sliceToken"] = "ABuwMzSS6MS",
+				}, -- [4]
+				["limit"] = "Avessia",
+				["save"] = true,
+				["hotkey"] = "F12",
+				["name"] = "Shaman buffs",
+			},
 			["utilities"] = {
 				{
 					["id"] = 31224,
@@ -620,32 +627,10 @@ OneRing_Config = {
 					94154, -- [2]
 					["sliceToken"] = "ABuwM517Knr",
 				}, -- [9]
-				["name"] = "utilities",
+				["limit"] = "Amazy",
 				["save"] = true,
 				["hotkey"] = "F1",
-				["limit"] = "Amazy",
-			},
-			["hamanbuffs"] = {
-				{
-					["id"] = 30823,
-					["sliceToken"] = "ABuwMzSS6MP",
-				}, -- [1]
-				{
-					["id"] = 8024,
-					["sliceToken"] = "ABuwMzSS6MA",
-				}, -- [2]
-				{
-					["id"] = 324,
-					["sliceToken"] = "ABuwMzSS6M9",
-				}, -- [3]
-				{
-					["id"] = 32182,
-					["sliceToken"] = "ABuwMzSS6MS",
-				}, -- [4]
-				["name"] = "Shaman buffs",
-				["save"] = true,
-				["hotkey"] = "F12",
-				["limit"] = "Avessia",
+				["name"] = "utilities",
 			},
 			["portals"] = {
 				{
@@ -684,10 +669,10 @@ OneRing_Config = {
 					["id"] = 132620,
 					["sliceToken"] = "ABuwMlk8AWrA",
 				}, -- [9]
-				["limit"] = "Jyetie",
+				["name"] = "portals",
 				["save"] = true,
 				["hotkey"] = "F3",
-				["name"] = "portals",
+				["limit"] = "Jyetie",
 			},
 			["cialmounts"] = {
 				{
@@ -739,9 +724,9 @@ OneRing_Config = {
 					["id"] = 8024,
 					["sliceToken"] = "ABuwMc5UPEY",
 				}, -- [8]
+				["name"] = "buffs",
 				["save"] = true,
 				["limit"] = "Avessia",
-				["name"] = "buffs",
 			},
 			["tingplaces"] = {
 				{
@@ -759,9 +744,9 @@ OneRing_Config = {
 					64488, -- [2]
 					["sliceToken"] = "ABuwMbcN9Py",
 				}, -- [3]
-				["limit"] = "Jyetie",
 				["save"] = true,
 				["name"] = "getting places",
+				["limit"] = "Jyetie",
 			},
 			["micromenu"] = {
 				{
@@ -798,33 +783,30 @@ OneRing_Config = {
 				["save"] = true,
 				["hotkey"] = "F12",
 			},
-			["FOOD"] = {
+			["therfucker"] = {
 				{
-					"item", -- [1]
-					81400, -- [2]
-					["sliceToken"] = "ABuwMWAtXPt",
-				}, -- [1]
-				["save"] = true,
-				["limit"] = "Amazy",
-				["name"] = "FOOD",
-			},
-			["Fire"] = {
-				{
-					["id"] = 3599,
-					["sliceToken"] = "ABuwMzSS6M4",
+					["id"] = 1462,
+					["sliceToken"] = "ABuwM7p=wHI",
 				}, -- [1]
 				{
-					["id"] = 8190,
-					["sliceToken"] = "ABuwMzSS6Mj",
+					["id"] = 2641,
+					["sliceToken"] = "ABuwM7p=wHO",
 				}, -- [2]
 				{
-					["id"] = 2894,
-					["sliceToken"] = "ABuwMzSS6Mk",
+					["id"] = 136,
+					["sliceToken"] = "ABuwM7p=wHP",
 				}, -- [3]
-				["limit"] = "Avessia",
+				{
+					["id"] = 982,
+					["sliceToken"] = "ABuwM7p=wHA",
+				}, -- [4]
+				{
+					["id"] = 1515,
+					["sliceToken"] = "ABuwM7p=wH9",
+				}, -- [5]
 				["save"] = true,
-				["hotkey"] = "F1",
-				["name"] = "Fire",
+				["limit"] = "Tarley",
+				["name"] = "fucking pet control mother fucker.",
 			},
 			["buffs"] = {
 				{
@@ -873,10 +855,28 @@ OneRing_Config = {
 					["id"] = 31687,
 					["sliceToken"] = "ABuwMlk8AWwf",
 				}, -- [11]
-				["name"] = "buffs",
+				["limit"] = "Jyetie",
 				["save"] = true,
 				["hotkey"] = "F1",
-				["limit"] = "Jyetie",
+				["name"] = "buffs",
+			},
+			["Fire"] = {
+				{
+					["id"] = 3599,
+					["sliceToken"] = "ABuwMzSS6M4",
+				}, -- [1]
+				{
+					["id"] = 8190,
+					["sliceToken"] = "ABuwMzSS6Mj",
+				}, -- [2]
+				{
+					["id"] = 2894,
+					["sliceToken"] = "ABuwMzSS6Mk",
+				}, -- [3]
+				["name"] = "Fire",
+				["save"] = true,
+				["hotkey"] = "F1",
+				["limit"] = "Avessia",
 			},
 		},
 	},

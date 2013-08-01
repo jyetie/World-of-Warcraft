@@ -11,15 +11,15 @@ PasteDB = {
 		["Vezeri - Bloodhoof"] = "Vezeri - Bloodhoof",
 		["Avessia - Bloodhoof"] = "Avessia - Bloodhoof",
 		["Cyralie - Bloodhoof"] = "Cyralie - Bloodhoof",
-		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
+		["Roslyn - Wyrmrest Accord"] = "Roslyn - Wyrmrest Accord",
 		["Amazy - Bloodhoof"] = "Amazy - Bloodhoof",
 		["Zalizia - Maelstrom"] = "Zalizia - Maelstrom",
-		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
+		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
 		["Cyralie - Bronzebeard"] = "Cyralie - Bronzebeard",
 		["Greyjoy - Crushridge"] = "Greyjoy - Crushridge",
-		["Rhosie - Bloodhoof"] = "Rhosie - Bloodhoof",
+		["Tarley - Bloodhoof"] = "Tarley - Bloodhoof",
 		["Jyetie - Bloodhoof"] = "Jyetie - Bloodhoof",
-		["Roslyn - Wyrmrest Accord"] = "Roslyn - Wyrmrest Accord",
+		["Karielle - Bronzebeard"] = "Karielle - Bronzebeard",
 	},
 	["profiles"] = {
 		["Flora - Bloodhoof"] = {
@@ -55,13 +55,22 @@ PasteDB = {
 		["Cyralie - Bloodhoof"] = {
 			["loaded"] = true,
 		},
-		["Karielle - Bronzebeard"] = {
+		["Roslyn - Wyrmrest Accord"] = {
 			["loaded"] = true,
 		},
 		["Amazy - Bloodhoof"] = {
 			["loaded"] = true,
 		},
 		["Zalizia - Maelstrom"] = {
+			["loaded"] = true,
+		},
+		["Rhosie - Bloodhoof"] = {
+			["loaded"] = true,
+		},
+		["Cyralie - Bronzebeard"] = {
+			["loaded"] = true,
+		},
+		["Greyjoy - Crushridge"] = {
 			["loaded"] = true,
 		},
 		["Tarley - Bloodhoof"] = {
@@ -71,23 +80,14 @@ PasteDB = {
 			["pos"] = {
 			},
 		},
-		["Cyralie - Bronzebeard"] = {
-			["loaded"] = true,
-		},
-		["Greyjoy - Crushridge"] = {
-			["loaded"] = true,
-		},
-		["Rhosie - Bloodhoof"] = {
-			["loaded"] = true,
-		},
 		["Jyetie - Bloodhoof"] = {
 			["whispertarget"] = "",
-			["where"] = "Default",
 			["loaded"] = true,
+			["where"] = "Default",
 			["pos"] = {
 			},
 		},
-		["Roslyn - Wyrmrest Accord"] = {
+		["Karielle - Bronzebeard"] = {
 			["loaded"] = true,
 		},
 	},
