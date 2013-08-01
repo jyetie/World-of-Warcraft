@@ -1,0 +1,4 @@
+
+hfLootLogDB = {
+	["version"] = 2,
+}
