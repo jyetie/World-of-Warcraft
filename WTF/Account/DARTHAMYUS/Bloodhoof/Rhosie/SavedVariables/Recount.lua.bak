@@ -1,0 +1,7274 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Zhian"] = {
+			["GUID"] = "0x0200000006B48271",
+			["LastEventHealth"] = {
+				"300 (94%)", -- [1]
+				"295 (93%)", -- [2]
+				"295 (93%)", -- [3]
+				"295 (93%)", -- [4]
+				"295 (93%)", -- [5]
+				"295 (93%)", -- [6]
+				"295 (93%)", -- [7]
+				"279 (88%)", -- [8]
+				"274 (86%)", -- [9]
+				"274 (86%)", -- [10]
+				"282 (89%)", -- [11]
+				"254 (80%)", -- [12]
+				"287 (90%)", -- [13]
+				"254 (80%)", -- [14]
+				"287 (90%)", -- [15]
+				"254 (80%)", -- [16]
+				"226 (71%)", -- [17]
+				"2028 (100%)", -- [18]
+				"2028 (100%)", -- [19]
+				"2028 (100%)", -- [20]
+				"2028 (100%)", -- [21]
+				"2028 (100%)", -- [22]
+				"2028 (100%)", -- [23]
+				"2028 (100%)", -- [24]
+				"2028 (100%)", -- [25]
+				"2028 (100%)", -- [26]
+				"2028 (100%)", -- [27]
+				"338 (100%)", -- [28]
+				"338 (100%)", -- [29]
+				"332 (98%)", -- [30]
+				"311 (98%)", -- [31]
+				"311 (98%)", -- [32]
+				"316 (100%)", -- [33]
+				"316 (100%)", -- [34]
+				"316 (100%)", -- [35]
+				"311 (98%)", -- [36]
+				"308 (97%)", -- [37]
+				"308 (97%)", -- [38]
+				"308 (97%)", -- [39]
+				"308 (97%)", -- [40]
+				"308 (97%)", -- [41]
+				"301 (95%)", -- [42]
+				"301 (95%)", -- [43]
+				"301 (95%)", -- [44]
+				"300 (94%)", -- [45]
+				"315 (99%)", -- [46]
+				"316 (100%)", -- [47]
+				"311 (98%)", -- [48]
+				"306 (96%)", -- [49]
+				"300 (94%)", -- [50]
+			},
+			["LastAttackedBy"] = "Fe-Feng Hozen",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Overhealing"] = {
+					718, -- [1]
+				},
+				["ActiveTime"] = {
+					201.19, -- [1]
+				},
+				["TimeDamage"] = {
+					201.19, -- [1]
+				},
+				["DamageTaken"] = {
+					648, -- [1]
+				},
+				["Damage"] = {
+					4077, -- [1]
+				},
+			},
+			["enClass"] = "SHAMAN",
+			["unit"] = "Zhian",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 25,
+			["LastEventNum"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				1.582278481012658, -- [5]
+				1.89873417721519, -- [6]
+				1.582278481012658, -- [7]
+				1.582278481012658, -- [8]
+				nil, -- [9]
+				1.89873417721519, -- [10]
+				10.75949367088608, -- [11]
+				8.860759493670885, -- [12]
+				8.544303797468354, -- [13]
+				10.44303797468355, -- [14]
+				8.227848101265822, -- [15]
+				10.44303797468355, -- [16]
+				8.860759493670885, -- [17]
+				[23] = 35.4043392504931,
+				[28] = 110.9467455621302,
+				[29] = 1.775147928994083,
+				[30] = 1.775147928994083,
+				[35] = 1.582278481012658,
+				[36] = 0.9493670886075949,
+				[40] = 1.582278481012658,
+				[42] = 0.6329113924050633,
+				[45] = 0.3164556962025317,
+				[46] = 0.3164556962025317,
+				[47] = 1.582278481012658,
+				[48] = 1.582278481012658,
+				[49] = 1.89873417721519,
+				[50] = 1.582278481012658,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 6,
+			["TimeLast"] = {
+				["Overhealing"] = 1363416199,
+				["ActiveTime"] = 1363416219,
+				["TimeDamage"] = 1363416219,
+				["OVERALL"] = 1363416331,
+				["DamageTaken"] = 1363416331,
+				["Damage"] = 1363416217,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 679474.583,
+			["NextEventNum"] = 31,
+			["LastEventHealthNum"] = {
+				94.9367088607595, -- [1]
+				93.35443037974683, -- [2]
+				93.35443037974683, -- [3]
+				93.35443037974683, -- [4]
+				93.35443037974683, -- [5]
+				93.35443037974683, -- [6]
+				93.35443037974683, -- [7]
+				88.29113924050633, -- [8]
+				86.70886075949368, -- [9]
+				86.70886075949368, -- [10]
+				89.24050632911393, -- [11]
+				80.37974683544304, -- [12]
+				90.82278481012658, -- [13]
+				80.37974683544304, -- [14]
+				90.82278481012658, -- [15]
+				80.37974683544304, -- [16]
+				71.51898734177215, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				98.22485207100591, -- [30]
+				98.41772151898734, -- [31]
+				98.41772151898734, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				98.41772151898734, -- [36]
+				97.46835443037975, -- [37]
+				97.46835443037975, -- [38]
+				97.46835443037975, -- [39]
+				97.46835443037975, -- [40]
+				97.46835443037975, -- [41]
+				95.25316455696202, -- [42]
+				95.25316455696202, -- [43]
+				95.25316455696202, -- [44]
+				94.9367088607595, -- [45]
+				99.68354430379746, -- [46]
+				100, -- [47]
+				98.41772151898734, -- [48]
+				96.83544303797468, -- [49]
+				94.9367088607595, -- [50]
+			},
+			["LastEvents"] = {
+				"Fe-Feng Brewthief Melee Zhian Miss", -- [1]
+				"Fe-Feng Brewthief Melee Zhian Miss", -- [2]
+				"Fe-Feng Hozen Impale Zhian Miss (Physical)", -- [3]
+				"Fe-Feng Brewthief Melee Zhian Miss", -- [4]
+				"Fe-Feng Brewthief Melee Zhian Hit -5 (Physical)", -- [5]
+				"Fe-Feng Brewthief Melee Zhian Hit -6 (Physical)", -- [6]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [7]
+				"Fe-Feng Brewthief Melee Zhian Hit -5 (Physical)", -- [8]
+				"Fe-Feng Brewthief Melee Zhian Miss", -- [9]
+				"Fe-Feng Brewthief Melee Zhian Hit -6 (Physical)", -- [10]
+				"No One Flame Spout Zhian Hit -34 (Fire)", -- [11]
+				"No One Flame Spout Zhian Hit -28 (Fire)", -- [12]
+				"No One Flame Spout Zhian Hit -27 (Fire)", -- [13]
+				"No One Flame Spout Zhian Hit -33 (Fire)", -- [14]
+				"No One Flame Spout Zhian Hit -26 (Fire)", -- [15]
+				"No One Flame Spout Zhian Hit -33 (Fire)", -- [16]
+				"No One Flame Spout Zhian Hit -28 (Fire)", -- [17]
+				"Zhian Earth Shock Master Li Fei Hit -394 (Nature)", -- [18]
+				"Zhian Lightning Bolt Master Li Fei Miss (Nature)", -- [19]
+				"Zhian Lightning Bolt Master Li Fei Miss (Nature)", -- [20]
+				"Zhian Lightning Bolt Master Li Fei Hit -198 (Nature)", -- [21]
+				"Zhian Earth Shock Master Li Fei Hit -425 (Nature)", -- [22]
+				"Zhian Healing Surge Zhian Crit +718 (718 overheal)", -- [23]
+				"Zhian Earth Shock Master Li Fei Hit -406 (Nature)", -- [24]
+				"Zhian Lightning Bolt Master Li Fei Hit -198 (Nature)", -- [25]
+				"Zhian Lightning Bolt Master Li Fei Hit -205 (Nature)", -- [26]
+				"Zhian Lightning Bolt Master Li Fei Miss (Nature)", -- [27]
+				"Zhian Healing Surge Zhian Hit +375 (375 overheal)", -- [28]
+				"Fe-Feng Hozen Melee Zhian Hit -6 (Physical)", -- [29]
+				"Fe-Feng Hozen Melee Zhian Hit -6 (Physical)", -- [30]
+				"Zhian Melee Fe-Feng Hozen Hit -14 (Physical)", -- [31]
+				"Zhian Primal Strike Fe-Feng Hozen Hit -35 (Physical)", -- [32]
+				"Zhian Earth Shock Living Air Hit -66 (Nature)", -- [33]
+				"Fe-Feng Hozen Melee Zhian Miss", -- [34]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [35]
+				"Fe-Feng Hozen Melee Zhian Hit -3 (Physical)", -- [36]
+				"Zhian Melee Fe-Feng Hozen Hit -13 (Physical)", -- [37]
+				"Zhian Primal Strike Fe-Feng Hozen Hit -33 (Physical)", -- [38]
+				"Zhian Earth Shock Fe-Feng Hozen Hit -71 (Nature)", -- [39]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [40]
+				"Zhian Melee Fe-Feng Hozen Hit -14 (Physical)", -- [41]
+				"Fe-Feng Hozen Impale (DoT) Zhian Tick -2 (Physical)", -- [42]
+				"Fe-Feng Hozen Melee Zhian Miss", -- [43]
+				"Zhian Lightning Bolt Fe-Feng Hozen Hit -32 (Nature)", -- [44]
+				"Fe-Feng Hozen Impale (DoT) Zhian Tick -1 (Physical)", -- [45]
+				"Fe-Feng Hozen Impale (DoT) Zhian Tick -1 (Physical)", -- [46]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [47]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [48]
+				"Fe-Feng Hozen Melee Zhian Hit -6 (Physical)", -- [49]
+				"Fe-Feng Hozen Melee Zhian Hit -5 (Physical)", -- [50]
+			},
+			["Name"] = "Zhian",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				679273.371, -- [1]
+				679273.993, -- [2]
+				679274.148, -- [3]
+				679274.7000000001, -- [4]
+				679275.365, -- [5]
+				679276.088, -- [6]
+				679276.088, -- [7]
+				679276.688, -- [8]
+				679277.336, -- [9]
+				679281.002, -- [10]
+				679303.164, -- [11]
+				679303.873, -- [12]
+				679304.7660000001, -- [13]
+				679305.9230000001, -- [14]
+				679307.139, -- [15]
+				679307.5430000001, -- [16]
+				679308.002, -- [17]
+				679390.8860000001, -- [18]
+				679394.3960000001, -- [19]
+				679396.095, -- [20]
+				679397.6950000001, -- [21]
+				679398.061, -- [22]
+				679454.961, -- [23]
+				679461.199, -- [24]
+				679470.669, -- [25]
+				679472.4720000001, -- [26]
+				679474.583, -- [27]
+				679508.6360000001, -- [28]
+				679584.317, -- [29]
+				679586.9030000001, -- [30]
+				679042.068, -- [31]
+				679042.33, -- [32]
+				679058.841, -- [33]
+				679127.316, -- [34]
+				679129.269, -- [35]
+				679131.258, -- [36]
+				679131.85, -- [37]
+				679132.066, -- [38]
+				679133.742, -- [39]
+				679133.742, -- [40]
+				679134.46, -- [41]
+				679134.726, -- [42]
+				679135.746, -- [43]
+				679136.639, -- [44]
+				679137.7270000001, -- [45]
+				679140.684, -- [46]
+				679266.7070000001, -- [47]
+				679268.6950000001, -- [48]
+				679270.7710000001, -- [49]
+				679272.77, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 1826,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 1826,
+					},
+					["PartialAbsorb"] = {
+						["Flame Spout"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 601,
+								},
+								["Earth Shock"] = {
+									["count"] = 1225,
+								},
+							},
+							["amount"] = 1826,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["No One"] = {
+							["Details"] = {
+								["Flame Spout"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Flame Spout"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Healing Surge"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 718,
+									["min"] = 718,
+									["count"] = 1,
+									["amount"] = 718,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 718,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 718,
+					["TimeSpent"] = {
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.21,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.37,
+								},
+							},
+							["amount"] = 21.58,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 21.58,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 205,
+									["min"] = 198,
+									["count"] = 3,
+									["amount"] = 601,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 601,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 425,
+									["min"] = 394,
+									["count"] = 3,
+									["amount"] = 1225,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1225,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 21.58,
+					["TimeDamaging"] = {
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.21,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.37,
+								},
+							},
+							["amount"] = 21.58,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Primal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 48,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 48,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+								["Impale (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 16,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 13,
+						["Physical"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 163,
+					["ElementTakenBlock"] = {
+						["Melee"] = 1,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 33,
+						["Melee"] = 27,
+						["Nature"] = 103,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 33,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 32,
+								},
+								["Melee"] = {
+									["count"] = 27,
+								},
+								["Earth Shock"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 163,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 1,
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+								["Impale (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0.22,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 2.18,
+								},
+								["Melee"] = {
+									["count"] = 4.22,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.68,
+								},
+							},
+							["amount"] = 8.300000000000001,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.300000000000001,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Primal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 13,
+									["count"] = 2,
+									["amount"] = 27,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 27,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 71,
+									["min"] = 71,
+									["count"] = 1,
+									["amount"] = 71,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 71,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.300000000000001,
+					["TimeDamaging"] = {
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0.22,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 2.18,
+								},
+								["Melee"] = {
+									["count"] = 4.22,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.68,
+								},
+							},
+							["amount"] = 8.300000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 12,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 12,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Primal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 12,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 12,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Primal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 1,
+									["min"] = 1,
+									["count"] = 5,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 5,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.17,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 16.3,
+								},
+							},
+							["amount"] = 22.47,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 3.22,
+								},
+								["Melee"] = {
+									["count"] = 7.2,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 30.6,
+								},
+								["Earth Shock"] = {
+									["count"] = 2.09,
+								},
+							},
+							["amount"] = 43.10999999999999,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 21.1,
+								},
+							},
+							["amount"] = 21.1,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 4.35,
+								},
+								["Melee"] = {
+									["count"] = 22.87,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 11.41,
+								},
+							},
+							["amount"] = 38.63,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 11.49,
+								},
+							},
+							["amount"] = 11.49,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.21,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.37,
+								},
+							},
+							["amount"] = 21.58,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 15.04,
+								},
+							},
+							["amount"] = 15.04,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 1.04,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 14.34,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 9.93,
+								},
+							},
+							["amount"] = 9.93,
+						},
+					},
+					["DamageTaken"] = 648,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 123,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 123,
+							["amount"] = 0,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Impale"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Flame Spout"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 123,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 123,
+							["amount"] = 0,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Impale"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Flame Spout"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 201.19,
+					["ElementTaken"] = {
+						["Fire"] = 209,
+						["Physical"] = 49,
+						["Melee"] = 370,
+						["Nature"] = 20,
+					},
+					["Damage"] = 4077,
+					["OverHeals"] = {
+						["Healing Surge"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 718,
+									["min"] = 718,
+									["count"] = 1,
+									["amount"] = 718,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 718,
+						},
+					},
+					["Overhealing"] = 718,
+					["ElementTakenBlock"] = {
+						["Melee"] = 5,
+					},
+					["ElementDone"] = {
+						["Physical"] = 269,
+						["Melee"] = 195,
+						["Nature"] = 3613,
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 108,
+								},
+							},
+							["amount"] = 123,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 200,
+								},
+							},
+							["amount"] = 220,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 133,
+								},
+								["Melee"] = {
+									["count"] = 54,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 380,
+								},
+								["Earth Shock"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 709,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 270,
+								},
+							},
+							["amount"] = 270,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 69,
+								},
+								["Melee"] = {
+									["count"] = 106,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 149,
+								},
+							},
+							["amount"] = 324,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 137,
+								},
+							},
+							["amount"] = 137,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 601,
+								},
+								["Earth Shock"] = {
+									["count"] = 1225,
+								},
+							},
+							["amount"] = 1826,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 184,
+								},
+							},
+							["amount"] = 184,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 67,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 117,
+								},
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 199,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 142,
+						},
+					},
+					["TimeDamage"] = 201.19,
+					["TimeDamaging"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6.17,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 16.3,
+								},
+							},
+							["amount"] = 22.47,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 3.22,
+								},
+								["Melee"] = {
+									["count"] = 7.2,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 30.6,
+								},
+								["Earth Shock"] = {
+									["count"] = 2.09,
+								},
+							},
+							["amount"] = 43.10999999999999,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 21.1,
+								},
+							},
+							["amount"] = 21.1,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 4.35,
+								},
+								["Melee"] = {
+									["count"] = 22.87,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 11.41,
+								},
+							},
+							["amount"] = 38.63,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 11.49,
+								},
+							},
+							["amount"] = 11.49,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.21,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.37,
+								},
+							},
+							["amount"] = 21.58,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 15.04,
+								},
+							},
+							["amount"] = 15.04,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Primal Strike"] = {
+									["count"] = 1.04,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 9.800000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 14.34,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 9.93,
+								},
+							},
+							["amount"] = 9.93,
+						},
+					},
+					["Attacks"] = {
+						["Primal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 31,
+									["count"] = 8,
+									["amount"] = 269,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 269,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 25,
+									["min"] = 25,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 9,
+									["count"] = 13,
+									["amount"] = 170,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 195,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 60,
+									["min"] = 49,
+									["count"] = 3,
+									["amount"] = 163,
+								},
+								["Hit"] = {
+									["max"] = 205,
+									["min"] = 24,
+									["count"] = 52,
+									["amount"] = 2017,
+								},
+							},
+							["count"] = 59,
+							["amount"] = 2180,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 425,
+									["min"] = 66,
+									["count"] = 6,
+									["amount"] = 1433,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1433,
+						},
+					},
+					["WhoDamaged"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+						["No One"] = {
+							["Details"] = {
+								["Flame Spout"] = {
+									["count"] = 209,
+								},
+							},
+							["amount"] = 209,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+								["Jab"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 22,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 95,
+								},
+								["Impale (DoT)"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 99,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Take this!"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 23,
+								},
+								["Blackout Kick"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 58,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1363414856,
+			["LastActive"] = 1363416331,
+		},
+		["Rhosie"] = {
+			["GUID"] = "0x0200000006B4830B",
+			["LastEventHealth"] = {
+				"1908 (100%)", -- [1]
+				"1908 (100%)", -- [2]
+				"1884 (98%)", -- [3]
+				"1908 (100%)", -- [4]
+				"1908 (100%)", -- [5]
+				"1908 (100%)", -- [6]
+				"1908 (100%)", -- [7]
+				"1908 (100%)", -- [8]
+				"1908 (100%)", -- [9]
+				"1890 (99%)", -- [10]
+				"1890 (99%)", -- [11]
+				"1872 (98%)", -- [12]
+				"1872 (98%)", -- [13]
+				"1855 (97%)", -- [14]
+				"1891 (99%)", -- [15]
+				"1874 (98%)", -- [16]
+				"1874 (98%)", -- [17]
+				"1874 (98%)", -- [18]
+				"1874 (98%)", -- [19]
+				"1908 (100%)", -- [20]
+				"1888 (98%)", -- [21]
+				"1908 (100%)", -- [22]
+				"1908 (100%)", -- [23]
+				"1884 (98%)", -- [24]
+				"1908 (100%)", -- [25]
+				"1908 (100%)", -- [26]
+				"1908 (100%)", -- [27]
+				"1908 (100%)", -- [28]
+				"1883 (98%)", -- [29]
+				"1883 (98%)", -- [30]
+				"1868 (97%)", -- [31]
+				"1852 (97%)", -- [32]
+				"1837 (96%)", -- [33]
+				"1908 (100%)", -- [34]
+				"1893 (99%)", -- [35]
+				"1893 (99%)", -- [36]
+				"1877 (98%)", -- [37]
+				"1877 (98%)", -- [38]
+				"1861 (97%)", -- [39]
+				"1861 (97%)", -- [40]
+				"1908 (100%)", -- [41]
+				"1886 (98%)", -- [42]
+				"1886 (98%)", -- [43]
+				"315 (99%)", -- [44]
+				"1891 (99%)", -- [45]
+				"1891 (99%)", -- [46]
+				"1873 (98%)", -- [47]
+				"1873 (98%)", -- [48]
+				"1855 (97%)", -- [49]
+				"1908 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					431.7799999999998, -- [1]
+				},
+				["Damage"] = {
+					12501, -- [1]
+				},
+				["DamageTaken"] = {
+					1815, -- [1]
+				},
+				["ActiveTime"] = {
+					431.7799999999998, -- [1]
+				},
+			},
+			["enClass"] = "MONK",
+			["unit"] = "Rhosie",
+			["level"] = 1,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 25,
+			["LastEventNum"] = {
+				[15] = 0.8909853249475891,
+				[4] = 1.310272536687631,
+				[31] = 0.7861635220125787,
+				[16] = 0.8909853249475891,
+				[32] = 0.8385744234800838,
+				[33] = 0.7861635220125787,
+				[35] = 0.7861635220125787,
+				[37] = 0.8385744234800838,
+				[10] = 0.9433962264150944,
+				[20] = 1.048218029350105,
+				[40] = 1.153039832285115,
+				[43] = 1.205450733752621,
+				[44] = 0.9433962264150944,
+				[6] = 1.10062893081761,
+				[12] = 0.9433962264150944,
+				[47] = 0.9433962264150944,
+				[49] = 0.9433962264150944,
+				[50] = 1.257861635220126,
+				[14] = 0.8909853249475891,
+				[28] = 1.310272536687631,
+				[39] = 0.8385744234800838,
+				[45] = 0.8909853249475891,
+				[23] = 1.257861635220126,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 3,
+			["TimeLast"] = {
+				["ActiveTime"] = 1363416219,
+				["TimeDamage"] = 1363416219,
+				["OVERALL"] = 1363416296,
+				["DamageTaken"] = 1363416296,
+				["Damage"] = 1363416219,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 679474.382,
+			["NextEventNum"] = 45,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				98.74213836477988, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				99.05660377358491, -- [10]
+				99.05660377358491, -- [11]
+				98.11320754716981, -- [12]
+				98.11320754716981, -- [13]
+				97.22222222222223, -- [14]
+				99.10901467505241, -- [15]
+				98.21802935010483, -- [16]
+				98.21802935010483, -- [17]
+				98.21802935010483, -- [18]
+				98.21802935010483, -- [19]
+				100, -- [20]
+				98.95178197064989, -- [21]
+				100, -- [22]
+				100, -- [23]
+				98.74213836477988, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				98.68972746331237, -- [29]
+				98.68972746331237, -- [30]
+				97.90356394129979, -- [31]
+				97.06498951781971, -- [32]
+				96.27882599580713, -- [33]
+				100, -- [34]
+				99.21383647798743, -- [35]
+				99.21383647798743, -- [36]
+				98.37526205450733, -- [37]
+				98.37526205450733, -- [38]
+				97.53668763102725, -- [39]
+				97.53668763102725, -- [40]
+				100, -- [41]
+				98.84696016771488, -- [42]
+				98.84696016771488, -- [43]
+				99.05660377358491, -- [44]
+				99.10901467505241, -- [45]
+				99.10901467505241, -- [46]
+				98.16561844863732, -- [47]
+				98.16561844863732, -- [48]
+				97.22222222222223, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Rhosie Melee Master Li Fei Glancing -98 (Physical)", -- [1]
+				"Rhosie Blackout Kick Master Li Fei Hit -210 (Physical)", -- [2]
+				"Rhosie Jab Master Li Fei Hit -47 (Physical)", -- [3]
+				"Master Li Fei Melee Rhosie Hit -25 (Physical)", -- [4]
+				"Rhosie Melee Master Li Fei Glancing -88 (Physical)", -- [5]
+				"Master Li Fei Melee Rhosie Hit -21 (Physical)", -- [6]
+				"Rhosie Jab Master Li Fei Hit -47 (Physical)", -- [7]
+				"Rhosie Melee Master Li Fei Glancing -74 (Physical)", -- [8]
+				"Rhosie Blackout Kick Master Li Fei Hit -147 (Physical)", -- [9]
+				"Master Li Fei Feet of Fury Rhosie Hit -18 (Physical)", -- [10]
+				"Rhosie Blackout Kick Master Li Fei Hit -223 (Physical)", -- [11]
+				"Master Li Fei Feet of Fury Rhosie Hit -18 (Physical)", -- [12]
+				"Rhosie Melee Master Li Fei Hit -126 (Physical)", -- [13]
+				"Master Li Fei Feet of Fury Rhosie Hit -17 (Physical)", -- [14]
+				"Master Li Fei Feet of Fury Rhosie Hit -17 (Physical)", -- [15]
+				"Master Li Fei Feet of Fury Rhosie Hit -17 (Physical)", -- [16]
+				"Rhosie Jab Master Li Fei Hit -42 (Physical)", -- [17]
+				"Master Li Fei Feet of Fury Rhosie Dodge (Physical)", -- [18]
+				"Rhosie Melee Master Li Fei Hit -118 (Physical)", -- [19]
+				"Master Li Fei Melee Rhosie Hit -20 (Physical)", -- [20]
+				"Rhosie Blackout Kick Master Li Fei Crit -394 (Physical)", -- [21]
+				"Rhosie Melee Master Li Fei Parry", -- [22]
+				"Master Li Fei Melee Rhosie Hit -24 (Physical)", -- [23]
+				"Rhosie Jab Master Li Fei Hit -41 (Physical)", -- [24]
+				"Master Li Fei Melee Rhosie Dodge", -- [25]
+				"Rhosie Melee Master Li Fei Glancing -88 (Physical)", -- [26]
+				"Rhosie Blackout Kick Master Li Fei Hit -223 (Physical)", -- [27]
+				"Master Li Fei Melee Rhosie Hit -25 (Physical)", -- [28]
+				"Rhosie Melee Master Li Fei Glancing -95 (Physical)", -- [29]
+				"Rhosie Jab Master Li Fei Hit -42 (Physical)", -- [30]
+				"Master Li Fei Feet of Fury Rhosie Hit -15 (Physical)", -- [31]
+				"Master Li Fei Feet of Fury Rhosie Hit -16 (Physical)", -- [32]
+				"Master Li Fei Feet of Fury Rhosie Hit -15 (Physical)", -- [33]
+				"Rhosie Blackout Kick Master Li Fei Hit -210 (Physical)", -- [34]
+				"Master Li Fei Feet of Fury Rhosie Hit -15 (Physical)", -- [35]
+				"Rhosie Melee Master Li Fei Hit -122 (Physical)", -- [36]
+				"Master Li Fei Feet of Fury Rhosie Hit -16 (Physical)", -- [37]
+				"Rhosie Jab Master Li Fei Hit -44 (Physical)", -- [38]
+				"Master Li Fei Feet of Fury Rhosie Hit -16 (Physical)", -- [39]
+				"Master Li Fei Melee Rhosie Hit -22 (Physical)", -- [40]
+				"Rhosie Blackout Kick Master Li Fei Hit -210 (Physical)", -- [41]
+				"Rhosie Melee Master Li Fei Crit -233 (Physical)", -- [42]
+				"Master Li Fei Melee Rhosie Hit -23 (Physical)", -- [43]
+				"Environment Falling Rhosie Hit -3 (Physical)", -- [44]
+				"Master Li Fei Feet of Fury Rhosie Hit -17 (Physical)", -- [45]
+				"Rhosie Melee Master Li Fei Glancing -82 (Physical)", -- [46]
+				"Master Li Fei Feet of Fury Rhosie Hit -18 (Physical)", -- [47]
+				"Rhosie Jab Master Li Fei Hit -47 (Physical)", -- [48]
+				"Master Li Fei Feet of Fury Rhosie Hit -18 (Physical)", -- [49]
+				"Master Li Fei Melee Rhosie Hit -24 (Physical)", -- [50]
+			},
+			["Name"] = "Rhosie",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				679451.5380000001, -- [1]
+				679451.971, -- [2]
+				679452.7760000001, -- [3]
+				679453.4990000001, -- [4]
+				679453.975, -- [5]
+				679455.596, -- [6]
+				679455.981, -- [7]
+				679456.37, -- [8]
+				679457.203, -- [9]
+				679457.983, -- [10]
+				679457.983, -- [11]
+				679458.409, -- [12]
+				679458.6950000001, -- [13]
+				679458.802, -- [14]
+				679459.589, -- [15]
+				679459.947, -- [16]
+				679459.947, -- [17]
+				679460.198, -- [18]
+				679461.056, -- [19]
+				679461.608, -- [20]
+				679462.014, -- [21]
+				679463.4130000001, -- [22]
+				679463.6240000001, -- [23]
+				679464.053, -- [24]
+				679467.122, -- [25]
+				679467.2390000001, -- [26]
+				679468.03, -- [27]
+				679469.121, -- [28]
+				679469.656, -- [29]
+				679470.076, -- [30]
+				679470.076, -- [31]
+				679470.4790000001, -- [32]
+				679470.844, -- [33]
+				679471.267, -- [34]
+				679471.676, -- [35]
+				679471.9570000001, -- [36]
+				679472.079, -- [37]
+				679472.079, -- [38]
+				679472.4720000001, -- [39]
+				679473.1360000001, -- [40]
+				679473.296, -- [41]
+				679474.382, -- [42]
+				679475.105, -- [43]
+				679551.422, -- [44]
+				679447.561, -- [45]
+				679447.676, -- [46]
+				679447.949, -- [47]
+				679447.949, -- [48]
+				679448.38, -- [49]
+				679451.5380000001, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 18,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 18,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 152,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 67,
+						["Physical"] = 85,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Jab"] = {
+									["count"] = 23,
+								},
+								["Tiger Palm"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 152,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Take this!"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.22,
+								},
+								["Jab"] = {
+									["count"] = 2.17,
+								},
+								["Tiger Palm"] = {
+									["count"] = 3.25,
+								},
+							},
+							["amount"] = 9.640000000000001,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 9.640000000000001,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 67,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 23,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 23,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 62,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 9.640000000000001,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.22,
+								},
+								["Jab"] = {
+									["count"] = 2.17,
+								},
+								["Tiger Palm"] = {
+									["count"] = 3.25,
+								},
+							},
+							["amount"] = 9.640000000000001,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 32,
+						["Physical"] = 63,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 40,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Feet of Fury"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Feet of Fury"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 28,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 223,
+									["min"] = 197,
+									["count"] = 17,
+									["amount"] = 3569,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 147,
+									["min"] = 147,
+									["count"] = 1,
+									["amount"] = 147,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 394,
+									["min"] = 394,
+									["count"] = 1,
+									["amount"] = 394,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 4110,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 113,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 963,
+								},
+								["Hit"] = {
+									["max"] = 131,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 1708,
+								},
+								["Glancing (Blocked)"] = {
+									["max"] = 74,
+									["min"] = 74,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 233,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 233,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 2978,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 941,
+								},
+								["Crit"] = {
+									["max"] = 83,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 83,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 1024,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 21.05,
+								},
+								["Jab"] = {
+									["count"] = 23.23,
+								},
+								["Melee"] = {
+									["count"] = 41.37000000000001,
+								},
+							},
+							["amount"] = 85.64999999999999,
+						},
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 1252,
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 596,
+								},
+								["Feet of Fury"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 1252,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Take this!"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2978,
+						["Physical"] = 5134,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 39,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 4110,
+								},
+								["Jab"] = {
+									["count"] = 1024,
+								},
+								["Melee"] = {
+									["count"] = 2978,
+								},
+							},
+							["amount"] = 8112,
+						},
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 85.64999999999999,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 21.05,
+								},
+								["Jab"] = {
+									["count"] = 23.23,
+								},
+								["Melee"] = {
+									["count"] = 41.37000000000001,
+								},
+							},
+							["amount"] = 85.64999999999999,
+						},
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 656,
+						["Melee"] = 596,
+						["Nature"] = 0,
+					},
+					["ActiveTime"] = 85.64999999999999,
+					["Damage"] = 8112,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Baby Elephant Takes a Bath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hawk Diving to Earth"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro <Jaomin Ro>"] = {
+							["Details"] = {
+								["Hawk Diving to Earth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Baby Elephant Takes a Bath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Baby Elephant Takes a Bath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hawk Diving to Earth"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 11,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 11,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 149,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 67,
+						["Physical"] = 82,
+					},
+					["PartialAbsorb"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 67,
+								},
+								["Jab"] = {
+									["count"] = 22,
+								},
+								["Tiger Palm"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 149,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Impale (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Take this!"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Impale"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.640000000000001,
+								},
+								["Jab"] = {
+									["count"] = 1.09,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.78,
+								},
+							},
+							["amount"] = 8.510000000000002,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 8.510000000000002,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 67,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 14,
+									["min"] = 14,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 22,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 8.510000000000002,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Tiger Palm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.640000000000001,
+								},
+								["Jab"] = {
+									["count"] = 1.09,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.78,
+								},
+							},
+							["amount"] = 8.510000000000002,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Jab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 21,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 18,
+						["Physical"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 149,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 64,
+						["Physical"] = 85,
+					},
+					["PartialAbsorb"] = {
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 64,
+								},
+								["Jab"] = {
+									["count"] = 22,
+								},
+								["Tiger Palm"] = {
+									["count"] = 63,
+								},
+							},
+							["amount"] = 149,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Impale (DoT)"] = {
+									["count"] = 3,
+								},
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.16,
+								},
+								["Jab"] = {
+									["count"] = 2.65,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 9.809999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 9.809999999999999,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 64,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 64,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 8,
+									["min"] = 7,
+									["count"] = 3,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 22,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 15,
+									["count"] = 2,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 63,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 9.809999999999999,
+					["TimeDamaging"] = {
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.16,
+								},
+								["Jab"] = {
+									["count"] = 2.65,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 9.809999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 32,
+						["Physical"] = 63,
+					},
+					["Attacks"] = {
+						["Blackout Kick"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 223,
+									["min"] = 197,
+									["count"] = 17,
+									["amount"] = 3569,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 147,
+									["min"] = 147,
+									["count"] = 1,
+									["amount"] = 147,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 394,
+									["min"] = 394,
+									["count"] = 1,
+									["amount"] = 394,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 4110,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 113,
+									["min"] = 15,
+									["count"] = 14,
+									["amount"] = 1029,
+								},
+								["Glancing (Blocked)"] = {
+									["max"] = 74,
+									["min"] = 74,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+								["Hit"] = {
+									["max"] = 131,
+									["min"] = 15,
+									["count"] = 122,
+									["amount"] = 3870,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 233,
+									["min"] = 34,
+									["count"] = 16,
+									["amount"] = 832,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 160,
+							["amount"] = 5805,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 47,
+									["min"] = 5,
+									["count"] = 107,
+									["amount"] = 1534,
+								},
+								["Crit"] = {
+									["max"] = 83,
+									["min"] = 12,
+									["count"] = 11,
+									["amount"] = 223,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 121,
+							["amount"] = 1757,
+						},
+						["Tiger Palm"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 32,
+									["min"] = 27,
+									["count"] = 2,
+									["amount"] = 59,
+								},
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 13,
+									["count"] = 52,
+									["amount"] = 770,
+								},
+							},
+							["count"] = 54,
+							["amount"] = 829,
+						},
+					},
+					["WhoDamaged"] = {
+						["Jaomin Ro <Jaomin Ro>"] = {
+							["Details"] = {
+								["Hawk Diving to Earth"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 85,
+								},
+								["Impale (DoT)"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 93,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 25,
+								},
+								["Blackout Kick"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 93,
+								},
+							},
+							["amount"] = 93,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 596,
+								},
+								["Feet of Fury"] = {
+									["count"] = 656,
+								},
+							},
+							["amount"] = 1252,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 96,
+								},
+								["Take this!"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 156,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Jab"] = {
+									["count"] = 18,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Baby Elephant Takes a Bath"] = {
+									["count"] = 5,
+								},
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Feet of Fury"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 0,
+						},
+						["Baby Elephant Takes a Bath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Impale"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Hawk Diving to Earth"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 167,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 167,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 50,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 118,
+								},
+								["Dodge"] = {
+									["count"] = 16,
+								},
+								["Miss"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 167,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.96,
+								},
+								["Jab"] = {
+									["count"] = 10.57,
+								},
+							},
+							["amount"] = 31.52999999999999,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27.84,
+								},
+								["Jab"] = {
+									["count"] = 14.8,
+								},
+								["Tiger Palm"] = {
+									["count"] = 17.35,
+								},
+							},
+							["amount"] = 59.99,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.11,
+								},
+								["Jab"] = {
+									["count"] = 2.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 3.09,
+								},
+							},
+							["amount"] = 10.61,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17.52,
+								},
+								["Jab"] = {
+									["count"] = 10.76,
+								},
+							},
+							["amount"] = 28.28,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.65999999999999,
+								},
+								["Jab"] = {
+									["count"] = 15.55,
+								},
+								["Tiger Palm"] = {
+									["count"] = 13.58,
+								},
+							},
+							["amount"] = 72.78999999999999,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 21.05,
+								},
+								["Jab"] = {
+									["count"] = 23.23,
+								},
+								["Melee"] = {
+									["count"] = 41.37000000000001,
+								},
+							},
+							["amount"] = 85.64999999999999,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.33,
+								},
+								["Jab"] = {
+									["count"] = 7.710000000000001,
+								},
+							},
+							["amount"] = 28.04,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.500000000000001,
+								},
+								["Jab"] = {
+									["count"] = 6.79,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 17.2,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.699999999999999,
+								},
+								["Jab"] = {
+									["count"] = 7.24,
+								},
+								["Tiger Palm"] = {
+									["count"] = 7.41,
+								},
+							},
+							["amount"] = 24.35,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.93,
+								},
+								["Jab"] = {
+									["count"] = 17.1,
+								},
+							},
+							["amount"] = 58.02999999999999,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.24,
+								},
+								["Jab"] = {
+									["count"] = 4.07,
+								},
+							},
+							["amount"] = 15.31,
+						},
+					},
+					["DamageTaken"] = 1815,
+					["PartialResist"] = {
+						["Feet of Fury"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 0,
+						},
+						["Baby Elephant Takes a Bath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Jab"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Impale (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Blackout Kick"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Take this!"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Impale"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Hawk Diving to Earth"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 167,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 167,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 5805,
+						["Physical"] = 6696,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 122,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 160,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 177,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Parry"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 200,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 186,
+								},
+								["Jab"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 234,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 508,
+								},
+								["Jab"] = {
+									["count"] = 126,
+								},
+								["Tiger Palm"] = {
+									["count"] = 352,
+								},
+							},
+							["amount"] = 986,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 85,
+								},
+								["Jab"] = {
+									["count"] = 22,
+								},
+								["Tiger Palm"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 166,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 220,
+								},
+								["Jab"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 280,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 650,
+								},
+								["Jab"] = {
+									["count"] = 152,
+								},
+								["Tiger Palm"] = {
+									["count"] = 178,
+								},
+							},
+							["amount"] = 980,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 4110,
+								},
+								["Jab"] = {
+									["count"] = 1024,
+								},
+								["Melee"] = {
+									["count"] = 2978,
+								},
+							},
+							["amount"] = 8112,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 242,
+								},
+								["Jab"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 291,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 156,
+								},
+								["Jab"] = {
+									["count"] = 49,
+								},
+								["Tiger Palm"] = {
+									["count"] = 89,
+								},
+							},
+							["amount"] = 294,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 170,
+								},
+								["Jab"] = {
+									["count"] = 50,
+								},
+								["Tiger Palm"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 371,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 485,
+								},
+								["Jab"] = {
+									["count"] = 147,
+								},
+							},
+							["amount"] = 632,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 125,
+								},
+								["Jab"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 155,
+						},
+					},
+					["TimeDamage"] = 431.7799999999998,
+					["TimeDamaging"] = {
+						["Training Target"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.96,
+								},
+								["Jab"] = {
+									["count"] = 10.57,
+								},
+							},
+							["amount"] = 31.52999999999999,
+						},
+						["Fe-Feng Hozen"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27.84,
+								},
+								["Jab"] = {
+									["count"] = 14.8,
+								},
+								["Tiger Palm"] = {
+									["count"] = 17.35,
+								},
+							},
+							["amount"] = 59.99,
+						},
+						["Living Air"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.11,
+								},
+								["Jab"] = {
+									["count"] = 2.41,
+								},
+								["Tiger Palm"] = {
+									["count"] = 3.09,
+								},
+							},
+							["amount"] = 10.61,
+						},
+						["Tushui Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17.52,
+								},
+								["Jab"] = {
+									["count"] = 10.76,
+								},
+							},
+							["amount"] = 28.28,
+						},
+						["Amberleaf Troublemaker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 43.65999999999999,
+								},
+								["Jab"] = {
+									["count"] = 15.55,
+								},
+								["Tiger Palm"] = {
+									["count"] = 13.58,
+								},
+							},
+							["amount"] = 72.78999999999999,
+						},
+						["Master Li Fei"] = {
+							["Details"] = {
+								["Blackout Kick"] = {
+									["count"] = 21.05,
+								},
+								["Jab"] = {
+									["count"] = 23.23,
+								},
+								["Melee"] = {
+									["count"] = 41.37000000000001,
+								},
+							},
+							["amount"] = 85.64999999999999,
+						},
+						["Huojin Trainee"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 20.33,
+								},
+								["Jab"] = {
+									["count"] = 7.710000000000001,
+								},
+							},
+							["amount"] = 28.04,
+						},
+						["Fe-Feng Leaper"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.500000000000001,
+								},
+								["Jab"] = {
+									["count"] = 6.79,
+								},
+								["Tiger Palm"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 17.2,
+						},
+						["Fe-Feng Brewthief"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.699999999999999,
+								},
+								["Jab"] = {
+									["count"] = 7.24,
+								},
+								["Tiger Palm"] = {
+									["count"] = 7.41,
+								},
+							},
+							["amount"] = 24.35,
+						},
+						["Amberleaf Scamp"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40.93,
+								},
+								["Jab"] = {
+									["count"] = 17.1,
+								},
+							},
+							["amount"] = 58.02999999999999,
+						},
+						["Jaomin Ro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.24,
+								},
+								["Jab"] = {
+									["count"] = 4.07,
+								},
+							},
+							["amount"] = 15.31,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 746,
+						["Melee"] = 998,
+						["Nature"] = 71,
+					},
+					["ActiveTime"] = 431.7799999999998,
+					["Damage"] = 12501,
+				},
+			},
+			["UnitLockout"] = 1363414850,
+			["LastActive"] = 1363416296,
+		},
+		["Jaomin Ro"] = {
+			["GUID"] = "0xF130D55300000131",
+			["type"] = "Nontrivial",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Jaomin Ro"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF150E1960002C067",
+					},
+				},
+				["Unknown"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF150E1960002C03C",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "MOB",
+			["Name"] = "Jaomin Ro",
+			["Pet"] = {
+				"Unknown <Jaomin Ro>", -- [1]
+				"Jaomin Ro <Jaomin Ro>", -- [2]
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1363415101,
+			["LastFightIn"] = 2,
+		},
+	},
+	["FightNum"] = 26,
+	["CombatTimes"] = {
+		{
+			1363414850, -- [1]
+			1363414925, -- [2]
+			"23:20:51", -- [3]
+			"23:22:05", -- [4]
+			"Training Target", -- [5]
+		}, -- [1]
+		{
+			1363414926, -- [1]
+			1363414989, -- [2]
+			"23:22:06", -- [3]
+			"23:23:09", -- [4]
+			"Huojin Trainee", -- [5]
+		}, -- [2]
+		{
+			1363415087, -- [1]
+			1363415103, -- [2]
+			"23:24:48", -- [3]
+			"23:25:03", -- [4]
+			"Jaomin Ro", -- [5]
+		}, -- [3]
+		{
+			1363415200, -- [1]
+			1363415208, -- [2]
+			"23:26:40", -- [3]
+			"23:26:48", -- [4]
+			"Amberleaf Scamp", -- [5]
+		}, -- [4]
+		{
+			1363415220, -- [1]
+			1363415229, -- [2]
+			"23:27:00", -- [3]
+			"23:27:09", -- [4]
+			"Amberleaf Scamp", -- [5]
+		}, -- [5]
+		{
+			1363415229, -- [1]
+			1363415245, -- [2]
+			"23:27:09", -- [3]
+			"23:27:25", -- [4]
+			"Amberleaf Scamp", -- [5]
+		}, -- [6]
+		{
+			1363415254, -- [1]
+			1363415263, -- [2]
+			"23:27:34", -- [3]
+			"23:27:43", -- [4]
+			"Amberleaf Scamp", -- [5]
+		}, -- [7]
+		{
+			1363415268, -- [1]
+			1363415277, -- [2]
+			"23:27:48", -- [3]
+			"23:27:57", -- [4]
+			"Amberleaf Scamp", -- [5]
+		}, -- [8]
+		{
+			1363415376, -- [1]
+			1363415459, -- [2]
+			"23:29:36", -- [3]
+			"23:30:59", -- [4]
+			"Amberleaf Troublemaker", -- [5]
+		}, -- [9]
+		{
+			1363415597, -- [1]
+			1363415604, -- [2]
+			"23:33:17", -- [3]
+			"23:33:24", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [10]
+		{
+			1363415609, -- [1]
+			1363415617, -- [2]
+			"23:33:30", -- [3]
+			"23:33:37", -- [4]
+			"Fe-Feng Brewthief", -- [5]
+		}, -- [11]
+		{
+			1363415619, -- [1]
+			1363415627, -- [2]
+			"23:33:40", -- [3]
+			"23:33:47", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [12]
+		{
+			1363415629, -- [1]
+			1363415643, -- [2]
+			"23:33:50", -- [3]
+			"23:34:03", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [13]
+		{
+			1363415645, -- [1]
+			1363415653, -- [2]
+			"23:34:05", -- [3]
+			"23:34:13", -- [4]
+			"Fe-Feng Leaper", -- [5]
+		}, -- [14]
+		{
+			1363415661, -- [1]
+			1363415667, -- [2]
+			"23:34:22", -- [3]
+			"23:34:27", -- [4]
+			"Fe-Feng Brewthief", -- [5]
+		}, -- [15]
+		{
+			1363415672, -- [1]
+			1363415683, -- [2]
+			"23:34:32", -- [3]
+			"23:34:43", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [16]
+		{
+			1363415701, -- [1]
+			1363415709, -- [2]
+			"23:35:02", -- [3]
+			"23:35:09", -- [4]
+			"Fe-Feng Brewthief", -- [5]
+		}, -- [17]
+		{
+			1363415711, -- [1]
+			1363415718, -- [2]
+			"23:35:11", -- [3]
+			"23:35:18", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [18]
+		{
+			1363415768, -- [1]
+			1363415774, -- [2]
+			"23:36:08", -- [3]
+			"23:36:14", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [19]
+		{
+			1363415783, -- [1]
+			1363415788, -- [2]
+			"23:36:23", -- [3]
+			"23:36:28", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [20]
+		{
+			1363415796, -- [1]
+			1363415806, -- [2]
+			"23:36:37", -- [3]
+			"23:36:46", -- [4]
+			"Living Air", -- [5]
+		}, -- [21]
+		{
+			1363415815, -- [1]
+			1363415823, -- [2]
+			"23:36:55", -- [3]
+			"23:37:03", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [22]
+		{
+			1363415871, -- [1]
+			1363415883, -- [2]
+			"23:37:52", -- [3]
+			"23:38:03", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [23]
+		{
+			1363416011, -- [1]
+			1363416032, -- [2]
+			"23:40:11", -- [3]
+			"23:40:32", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [24]
+		{
+			1363416135, -- [1]
+			1363416229, -- [2]
+			"23:42:15", -- [3]
+			"23:43:49", -- [4]
+			"Master Li Fei", -- [5]
+		}, -- [25]
+		{
+			1363416328, -- [1]
+			1363416341, -- [2]
+			"23:45:29", -- [3]
+			"23:45:41", -- [4]
+			"Fe-Feng Hozen", -- [5]
+		}, -- [26]
+	},
+	["FoughtWho"] = {
+		"Fe-Feng Hozen 23:45:29-23:45:41", -- [1]
+		"Master Li Fei 23:42:15-23:43:49", -- [2]
+		"Fe-Feng Hozen 23:40:11-23:40:32", -- [3]
+		"Fe-Feng Hozen 23:37:52-23:38:03", -- [4]
+		"Fe-Feng Hozen 23:36:55-23:37:03", -- [5]
+	},
+}

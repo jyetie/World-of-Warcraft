@@ -1,0 +1,20 @@
+
+EveryQuestDBPC = nil
+EQ2DBPC = {
+	["namespaces"] = {
+		["QuestGivers"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jyetie - Bloodhoof"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["posx"] = 0,
+			["zonegroup"] = "World Events",
+			["posy"] = 796,
+			["dbversion"] = 4,
+			["zoneid"] = -1007,
+		},
+	},
+}

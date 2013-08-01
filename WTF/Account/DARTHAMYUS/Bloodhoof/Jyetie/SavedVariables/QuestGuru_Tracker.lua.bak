@@ -1,0 +1,64 @@
+
+QGT_WatchList = {
+	["Heroic Deeds"] = {
+		["Watched"] = true,
+	},
+}
+QGT_WatchHeaders = {
+	["QGT_SCENARIO_HEADER"] = true,
+	["Scenario"] = true,
+}
+QGT_WatchQuests = {
+}
+QGT_WatchAchievements = {
+}
+QGT_Settings = {
+	["ColorizeObjZero"] = {
+		["b"] = 0.8,
+		["g"] = 0.2,
+		["r"] = 0.8,
+	},
+	["Lines"] = 30,
+	["ColorizeObjFull"] = {
+		["b"] = 1,
+		["g"] = 0.8,
+		["r"] = 0.3,
+	},
+	["Scale"] = 0.9,
+	["HideDuringCombat"] = false,
+	["QuestWatchSort"] = 0,
+	["ShowQuestTooltips"] = true,
+	["QuestWatch"] = {
+		["Minimized"] = false,
+		["Bottom"] = 574.8889770507813,
+		["AutoMinimize"] = false,
+		["Left"] = 1434.666870117188,
+		["Top"] = 646.8888549804688,
+	},
+	["ShowBorder"] = true,
+	["ShowQuestPercent"] = true,
+	["QuestItemIcons"] = true,
+	["HideBlizzardTracker"] = true,
+	["BothTrackers"] = false,
+	["LastTracker"] = "Q",
+	["Bullet"] = "-",
+	["ShowPartyTooltips"] = true,
+	["ShowHeaders"] = true,
+	["Alpha"] = 0.7,
+	["AchievementWatch"] = {
+		["Minimized"] = false,
+		["AutoMinimize"] = false,
+	},
+	["ColorizeObjComplete"] = {
+		["b"] = 1,
+		["g"] = 0.9,
+		["r"] = 0.1,
+	},
+	["AutoUnTrack"] = false,
+	["ClickThrough"] = false,
+	["ColorizeObj"] = false,
+	["ShowCompletedObj"] = true,
+	["Pin"] = false,
+	["Anchor"] = "TOP",
+	["ShowLevels"] = true,
+}
